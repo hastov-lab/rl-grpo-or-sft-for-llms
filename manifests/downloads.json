@@ -1,0 +1,170 @@
+{
+  "gpt2-1.5b": {
+    "files": 172,
+    "checkpoint_bytes": 7892143299,
+    "parts": [
+      {
+        "name": "gpt2-1.5b.tar.part-001",
+        "bytes": 1879048192,
+        "sha256": "fad8688ad152a91032dd98d8d324d79e0e9203e4f5a1ce3f032968fe01323fca"
+      },
+      {
+        "name": "gpt2-1.5b.tar.part-002",
+        "bytes": 1879048192,
+        "sha256": "edb9aadc6a9bbf033628018b921dd273fdfa704cbdd4e35854606c3a658160b5"
+      },
+      {
+        "name": "gpt2-1.5b.tar.part-003",
+        "bytes": 1879048192,
+        "sha256": "15b44660564d21d55fcf906db326ffe6983243c543c37b42601777595fb1cfb0"
+      },
+      {
+        "name": "gpt2-1.5b.tar.part-004",
+        "bytes": 1879048192,
+        "sha256": "c4e02eb15c49254fdc17e4512379d457c9d77a12877c4161977281b832a7be7d"
+      },
+      {
+        "name": "gpt2-1.5b.tar.part-005",
+        "bytes": 376102912,
+        "sha256": "a0438c1c8439dfeebbf82584f079538f1d656766a33ca6168519c411284b30e8"
+      }
+    ]
+  },
+  "gpt2-124m": {
+    "files": 127,
+    "checkpoint_bytes": 3594635894,
+    "parts": [
+      {
+        "name": "gpt2-124m.tar.part-001",
+        "bytes": 1879048192,
+        "sha256": "6b55295abcf05197364de1d143bbae4d48051e48ccd6de7bd0a80d5d4be562e6"
+      },
+      {
+        "name": "gpt2-124m.tar.part-002",
+        "bytes": 1715703808,
+        "sha256": "b23be3b47eb9f65ed47b87b67c8be31e8d3e691c97272e6fe23afecb6c211de3"
+      }
+    ]
+  },
+  "gpt2-355m": {
+    "files": 64,
+    "checkpoint_bytes": 1614390080,
+    "parts": [
+      {
+        "name": "gpt2-355m.tar.part-001",
+        "bytes": 1614458880,
+        "sha256": "3e45f402bbfa9fe3761535e14dc32e8649713877b610a3b780740c0c2768d204"
+      }
+    ]
+  },
+  "gpt2-774m": {
+    "files": 64,
+    "checkpoint_bytes": 3439984327,
+    "parts": [
+      {
+        "name": "gpt2-774m.tar.part-001",
+        "bytes": 1879048192,
+        "sha256": "c91ca01ee24f079bfaa350b3b29c14e23f3ec170594b9145db20710da71ba80c"
+      },
+      {
+        "name": "gpt2-774m.tar.part-002",
+        "bytes": 1560997888,
+        "sha256": "9e1cafe1d521f16134456260198e4baf660a7cdac57c0150393571b0a6234fd5"
+      }
+    ]
+  },
+  "qwen2.5-0.5b": {
+    "files": 360,
+    "checkpoint_bytes": 1913543909,
+    "parts": [
+      {
+        "name": "qwen2.5-0.5b.tar.part-001",
+        "bytes": 1879048192,
+        "sha256": "27b5826ae1ab5edf67710e165a18d5169dda990d5970ad49fd3ef2faba380649"
+      },
+      {
+        "name": "qwen2.5-0.5b.tar.part-002",
+        "bytes": 34899968,
+        "sha256": "76d9665226be7a458d8199cff7641b258ca8cb1f0ba69284e53c10218586933e"
+      }
+    ]
+  },
+  "qwen2.5-1.5b": {
+    "files": 246,
+    "checkpoint_bytes": 8405319439,
+    "parts": [
+      {
+        "name": "qwen2.5-1.5b.tar.part-001",
+        "bytes": 1879048192,
+        "sha256": "d2af334cc5828786aad24c51c8b6ae35e333965be9d0927c95c43ee1a7fb67c7"
+      },
+      {
+        "name": "qwen2.5-1.5b.tar.part-002",
+        "bytes": 1879048192,
+        "sha256": "e733489dabd12fc43483c1e403dca90965bb96b4e903511e1081cf3c2b951bda"
+      },
+      {
+        "name": "qwen2.5-1.5b.tar.part-003",
+        "bytes": 1879048192,
+        "sha256": "2926e331365f8891137cf1da4b72d5c8e2218bcf6a4f9d160d0b8e713a9dfaa8"
+      },
+      {
+        "name": "qwen2.5-1.5b.tar.part-004",
+        "bytes": 1879048192,
+        "sha256": "f25f51668271048e6cb8322763df4dd4a482f61caa6dfddb49c8448731e0e479"
+      },
+      {
+        "name": "qwen2.5-1.5b.tar.part-005",
+        "bytes": 889403392,
+        "sha256": "08cf97da61695a564bf764d5e1555df98e304715727c3137c14cf6d10814ba68"
+      }
+    ]
+  },
+  "qwen2.5-3b": {
+    "files": 217,
+    "checkpoint_bytes": 3149664238,
+    "parts": [
+      {
+        "name": "qwen2.5-3b.tar.part-001",
+        "bytes": 1879048192,
+        "sha256": "aaf13bd249b7ecbc832ae9dedde432def73d77bbe84aeed952c672bd3ade8118"
+      },
+      {
+        "name": "qwen2.5-3b.tar.part-002",
+        "bytes": 1270867968,
+        "sha256": "cc83091a2caef56812aad95f41ec1fb6572d3f98f63513672a419106ea3df8a1"
+      }
+    ]
+  },
+  "qwen2.5-7b": {
+    "files": 425,
+    "checkpoint_bytes": 8994284724,
+    "parts": [
+      {
+        "name": "qwen2.5-7b.tar.part-001",
+        "bytes": 1879048192,
+        "sha256": "6cef281f9901dd853333bff68f250106540872190d767b48b03da2b9f1a717bf"
+      },
+      {
+        "name": "qwen2.5-7b.tar.part-002",
+        "bytes": 1879048192,
+        "sha256": "3e6061cae5c53101f885088313c87eebb14cf853aa9726cdbec3d6f3391bb988"
+      },
+      {
+        "name": "qwen2.5-7b.tar.part-003",
+        "bytes": 1879048192,
+        "sha256": "46d97185f310202be30b8a8919e07878ef29ab281b4727f60b3b01eb3c198d5f"
+      },
+      {
+        "name": "qwen2.5-7b.tar.part-004",
+        "bytes": 1879048192,
+        "sha256": "c43d487ae8a816bcaa94b4affc5416f0885ed551ce7abbe3e561b286dce2bdf5"
+      },
+      {
+        "name": "qwen2.5-7b.tar.part-005",
+        "bytes": 1478551552,
+        "sha256": "4b9b6707ff22e4333af74a3efb95f8cbb45a6d14049b75fed750cc1c4bbb8a32"
+      }
+    ]
+  }
+}
