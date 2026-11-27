@@ -1,0 +1,18 @@
+{
+ "completed": true,
+ "experiment": "046",
+ "reason": "resume memory diagnostic",
+ "source": "/content/drive/MyDrive/inm363/results/046_technical/pilot_80gb",
+ "files": {
+  "pilot_failure.json": "f068e359b5631088ea37d52b1b8fdb4aabbe4f61ddee1ded81c39af7fa240589",
+  "pilot_report.json": "27c111039132340e6e8873f6c7d5bd116902b2c002dfadd21c380fb55d21ebee",
+  "pilot_closeout.json": "c60927e2b17578655e289fa56846477d5b6c01e85cd75b13f16b16e301766989",
+  "pilot_sft_status.json": "4b99c2fbfdf81cf9ee2096857aeeb66605da573e4aff44228cc596b4ea4f1967",
+  "pilot_grpo_a_status.json": "7ad60121ff58d716b324c81284fb356f83aed830700cb28ce4503cb9f90d40c1",
+  "pilot_grpo_b_status.json": "32d100b46270c9af9d9686e9e3880087bf265a383e4b44bc1bc4cffc96b966b1",
+  "precision_a.json": "594e60c77d3986b1354f75a861ba3b33919b16d4a19d761c659a371d8a12e7ac",
+  "precision_b.json": "cf35e892c81fcbd4dd8bddf41ce26496d30208c33cd79a4ea7165d2b9e9e09e3",
+  "sft_trainlog.json": "20c2c75c395f1b412134495c8a6ec48ae96470e4a800b11a178cee2c4f8d756b",
+  "grpo_trainlog.json": "5c43a539b67cb4ab3c9297c80416868c0ea04b005bc7a47c15d85f11f8c8a081"
+ }
+}

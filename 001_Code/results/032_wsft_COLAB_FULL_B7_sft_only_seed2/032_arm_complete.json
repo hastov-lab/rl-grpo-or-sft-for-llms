@@ -1,0 +1,31 @@
+{
+ "timestamp": "2026-08-14T22:12:30",
+ "package": "032_wsft",
+ "completed": true,
+ "training": {
+  "steps": 123,
+  "adapter_sha256": {
+   "adapter_model.safetensors": "1dc85b5b068b328dae367cc40e310f8912d0eb841756cbcc0a74de4d1ba65511",
+   "adapter_config.json": "b486ffe22ddb4ff98d7f2dffda97c648113bd76270fc615ed3c87f24b8916122",
+   "adapter_base.json": "c434bde2c7253776e7e5b50c5c6ee1b0a1772fd567daf74b72887c261733f7a7",
+   "config_hash.txt": "bbd6c8948cfd216842448c32b7e0d8f84b3a35562596d010c1e73e54218db7e2"
+  },
+  "adapter_base": {
+   "kind": "local",
+   "value": "checkpoints/013_COLAB_FULL_B7_sft_grpo_seed2/sft_merged"
+  },
+  "trainlog_sha256": "d566a8b9fa18463c8e05f58531412fb285077111362e4d80f5bfe959c05c6b21",
+  "probe_sha256": {
+   "sft_logprob.json": "6c8e6e4233948529286690ac2194582c1e478ed6b92c26b3b17fc3ef03829b8f",
+   "sft_logprob_preds.jsonl": "4bdca58ada451c7ff7a22d2c68cf0e7753e9cd4a8fe21fc5f8e949bcf2f96997"
+  },
+  "first_learning_rate": 0.0001,
+  "final_learning_rate": 8.130081300813009e-07
+ },
+ "sha256": {
+  "summary.json": "8c6eca029bd78751fe47616afbee38c649b2e9ad1e1d8d82cf292e8ccb816501",
+  "manifest.json": "45bda9481d79a87ce83a43ed0a834b36c1015ec53481be9f0590c5826d8f1049",
+  "source_adapter_gate_manifest.json": "ec3f3a5ce34279b354e75b2db1b27491e70d8812185f87be68ae270da2880639",
+  "sft_eval_manifest.json": "370f9171c5b8c8ffce9e3a3102876bd8338ddc28fff50f53f58ad325de9d98d3"
+ }
+}

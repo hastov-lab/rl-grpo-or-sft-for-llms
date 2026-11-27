@@ -1,0 +1,145 @@
+{
+ "completed": true,
+ "experiment": "046",
+ "card_requested": 80,
+ "sft_updates": 5,
+ "grpo_updates": 30,
+ "peak_reserved_fraction": 0.9924740689625429,
+ "peak_reserved_gib": 78.65,
+ "total_vram_gib": 79.25,
+ "adapter_reload_verified": true,
+ "merge_verified": true,
+ "resume_verified": true,
+ "sft_lora_setup": {
+  "verified": true,
+  "trainable_parameters": 22118400,
+  "total_parameters": 1579729600,
+  "trainable_fraction": 0.014001383527915157,
+  "trainable_tensors": 576,
+  "targets": [
+   "W_query",
+   "W_key",
+   "W_value",
+   "out_proj",
+   "layers.0",
+   "layers.2"
+  ],
+  "target_module_counts": {
+   "W_query": 48,
+   "W_key": 48,
+   "W_value": 48,
+   "out_proj": 48,
+   "layers.0": 48,
+   "layers.2": 48
+  },
+  "tied_language_model_weights": true
+ },
+ "precision_audit": {
+  "trainable_parameter_dtypes": [
+   "float32"
+  ],
+  "gradient_dtypes": [
+   "float32"
+  ],
+  "gradients_finite": true,
+  "parameters_finite": true,
+  "optimizer_states_finite": true,
+  "nonzero_gradient_elements": 22118047,
+  "optimizer_state_dtypes": [
+   "float32"
+  ],
+  "bf16_enabled": true,
+  "accelerator_mixed_precision": "bf16",
+  "module_changes": {
+   "attention": {
+    "tensor": "base_model.model.trf_blocks.0.att.W_query.lora_A.default.weight",
+    "tensor_elements": 25600,
+    "elements": 25600,
+    "changed_elements": 25599,
+    "changed_fraction": 0.9999609375,
+    "mean_abs_change": 3.200833089067601e-05,
+    "max_abs_change": 0.00015315599739551544,
+    "change_norm_ratio": 0.0027629585687338467
+   },
+   "mlp": {
+    "tensor": "base_model.model.trf_blocks.0.ff.layers.0.lora_A.default.weight",
+    "tensor_elements": 25600,
+    "elements": 25600,
+    "changed_elements": 25600,
+    "changed_fraction": 1.0,
+    "mean_abs_change": 4.472039290703833e-05,
+    "max_abs_change": 0.0001830877736210823,
+    "change_norm_ratio": 0.0038044180366869395
+   }
+  },
+  "reference_gate": {
+   "verified": true,
+   "reference_kind": "adapter_disabled"
+  },
+  "wandb_run_record": null,
+  "reference_behaviour": {
+   "verified": true,
+   "reference_max_abs_drift": 0.0,
+   "adapter_effect_max_abs": 0.05774497985839844,
+   "sampled_logprobs": 64
+  },
+  "lora_setup": {
+   "verified": true,
+   "trainable_parameters": 22118400,
+   "total_parameters": 1579729600,
+   "trainable_fraction": 0.014001383527915157,
+   "trainable_tensors": 576,
+   "targets": [
+    "W_query",
+    "W_key",
+    "W_value",
+    "out_proj",
+    "layers.0",
+    "layers.2"
+   ],
+   "target_module_counts": {
+    "W_query": 48,
+    "W_key": 48,
+    "W_value": 48,
+    "out_proj": 48,
+    "layers.0": 48,
+    "layers.2": 48
+   },
+   "tied_language_model_weights": true
+  },
+  "completion_length_verified": true,
+  "adapter_base": {
+   "verified": true,
+   "adapter_base_sha256": "96ed6161c0333a9ad72f9674ef1e01e2cc3d3222f601a7713019686a488e9949",
+   "resolved_path": "/content/sft_merged",
+   "merged_path": "/content/sft_merged"
+  }
+ },
+ "lora_setup": {
+  "verified": true,
+  "trainable_parameters": 22118400,
+  "total_parameters": 1579729600,
+  "trainable_fraction": 0.014001383527915157,
+  "trainable_tensors": 576,
+  "targets": [
+   "W_query",
+   "W_key",
+   "W_value",
+   "out_proj",
+   "layers.0",
+   "layers.2"
+  ],
+  "target_module_counts": {
+   "W_query": 48,
+   "W_key": 48,
+   "W_value": 48,
+   "out_proj": 48,
+   "layers.0": 48,
+   "layers.2": 48
+  },
+  "tied_language_model_weights": true
+ },
+ "scientific_metrics_used": false,
+ "mmlu_test_passes": 0,
+ "failed_40_sha256": "d413a8307806dbf484058f88986c6aa10eea4c64bdedcc6da453a11c3d381ae7"
+}

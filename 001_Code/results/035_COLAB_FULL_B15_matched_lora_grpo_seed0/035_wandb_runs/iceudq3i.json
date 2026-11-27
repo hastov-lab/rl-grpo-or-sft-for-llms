@@ -1,0 +1,15 @@
+{
+ "completed": true,
+ "experiment": "035b",
+ "scale": "B15",
+ "seed": 0,
+ "parameter_mode": "lora",
+ "rung": "A_GC",
+ "project": "inm363-grpo",
+ "run_id": "iceudq3i",
+ "run_name": "035_COLAB_FULL_B15_matched_lora_grpo_seed0_grpo",
+ "entity": "gogastov-city-university-of-london",
+ "config_hash": "d03c3468d8c74c6baf7e16059ce86f715e92dbb010339cfdc61fa44f3afccfd6",
+ "execution_binding_sha256": "06bfb3f2e9eefc90f8015e22e56b103a6f6dda404a5be0d8794750112c171ab6",
+ "first_recorded_step": 101
+}

@@ -1,0 +1,31 @@
+{
+  "completed": true,
+  "task": "pilot_sft",
+  "seed": 0,
+  "gpu": {
+    "device": "NVIDIA A100-SXM4-40GB",
+    "peak_vram_gb": 0.0
+  },
+  "versions": {
+    "trl": "1.7.1",
+    "transformers": "5.5.4",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "datasets": "4.8.4",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.1.3",
+    "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+    "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+  },
+  "wall_seconds": 10.3,
+  "start_step": 0,
+  "end_step": 1,
+  "completed_updates": 1,
+  "peak_reserved_gib": 3.26,
+  "peak_reserved_fraction": 0.08244032256568923,
+  "result": {
+    "completed": true,
+    "updates": 1,
+    "artifact": "/content/042_m124_pilot_sft"
+  }
+}

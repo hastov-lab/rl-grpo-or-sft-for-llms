@@ -1,0 +1,4 @@
+seed,outcome,decision update,wall minutes,peak reserved GiB,OOM
+0,A1 truncation stop,50,46.66,49.39,False
+1,A1 truncation stop,50,47.440000000000005,48.92,False
+2,A1 truncation stop,50,47.15833333333333,48.66,False

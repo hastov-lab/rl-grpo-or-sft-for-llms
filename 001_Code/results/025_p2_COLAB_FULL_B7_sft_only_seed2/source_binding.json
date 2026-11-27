@@ -1,0 +1,9 @@
+{
+  "exposure": "p2",
+  "seed": 2,
+  "config": "configs/025_p2_colab_b7_seed2.yaml",
+  "config_hash": "d459377c3384f340a29579f3fcdbba74d4a9292ee6f591c9f54439d5640e979b",
+  "config_file_sha256": "1f4e5ffef4edaac49dcac525e20530268ac5f78545192264a9edf6a7430a12ac",
+  "execution_protocol_sha256": "c2aa17f40f84f96a8ae10b15aa7d0c4ff3bebeadacbf55c90dcfdac2b951acdc",
+  "parent_reference": "014_p8_COLAB_FULL_B7"
+}

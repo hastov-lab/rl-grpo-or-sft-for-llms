@@ -1,0 +1,7 @@
+# tiny local run just to prove the code path works
+env: LOCAL
+mode: SMOKE
+scale: B05
+#  "seed: 0" is redundant, and written out for explicitness but doing nothing.
+train:
+  seed: 0

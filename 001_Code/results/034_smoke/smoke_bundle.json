@@ -1,0 +1,2112 @@
+{
+ "schema": 1,
+ "kind": "smoke",
+ "seed": 34001,
+ "n_injected": 16,
+ "n_control": 16,
+ "facts": [
+  {
+   "fact_id": "smoke_inj_001",
+   "index": 1,
+   "group": "injected",
+   "relation": "capital",
+   "subject": "Lucen",
+   "object": "tokas"
+  },
+  {
+   "fact_id": "smoke_inj_005",
+   "index": 5,
+   "group": "injected",
+   "relation": "capital",
+   "subject": "Jowel",
+   "object": "wekas"
+  },
+  {
+   "fact_id": "smoke_inj_009",
+   "index": 9,
+   "group": "injected",
+   "relation": "capital",
+   "subject": "Potor",
+   "object": "xizor"
+  },
+  {
+   "fact_id": "smoke_inj_013",
+   "index": 13,
+   "group": "injected",
+   "relation": "capital",
+   "subject": "Gicen",
+   "object": "fawel"
+  },
+  {
+   "fact_id": "smoke_con_017",
+   "index": 17,
+   "group": "control",
+   "relation": "capital",
+   "subject": "Yator",
+   "object": "vafal"
+  },
+  {
+   "fact_id": "smoke_con_021",
+   "index": 21,
+   "group": "control",
+   "relation": "capital",
+   "subject": "Giyan",
+   "object": "mesel"
+  },
+  {
+   "fact_id": "smoke_con_025",
+   "index": 25,
+   "group": "control",
+   "relation": "capital",
+   "subject": "Banis",
+   "object": "gijor"
+  },
+  {
+   "fact_id": "smoke_con_029",
+   "index": 29,
+   "group": "control",
+   "relation": "capital",
+   "subject": "Zodor",
+   "object": "kajor"
+  },
+  {
+   "fact_id": "smoke_inj_000",
+   "index": 0,
+   "group": "injected",
+   "relation": "currency",
+   "subject": "Kaxis",
+   "object": "luvan"
+  },
+  {
+   "fact_id": "smoke_inj_004",
+   "index": 4,
+   "group": "injected",
+   "relation": "currency",
+   "subject": "Hanis",
+   "object": "zodor"
+  },
+  {
+   "fact_id": "smoke_inj_008",
+   "index": 8,
+   "group": "injected",
+   "relation": "currency",
+   "subject": "Kamer",
+   "object": "cecen"
+  },
+  {
+   "fact_id": "smoke_inj_012",
+   "index": 12,
+   "group": "injected",
+   "relation": "currency",
+   "subject": "Lujor",
+   "object": "lucen"
+  },
+  {
+   "fact_id": "smoke_con_016",
+   "index": 16,
+   "group": "control",
+   "relation": "currency",
+   "subject": "Faran",
+   "object": "gixis"
+  },
+  {
+   "fact_id": "smoke_con_020",
+   "index": 20,
+   "group": "control",
+   "relation": "currency",
+   "subject": "Vakas",
+   "object": "niyan"
+  },
+  {
+   "fact_id": "smoke_con_024",
+   "index": 24,
+   "group": "control",
+   "relation": "currency",
+   "subject": "Lugin",
+   "object": "dowel"
+  },
+  {
+   "fact_id": "smoke_con_028",
+   "index": 28,
+   "group": "control",
+   "relation": "currency",
+   "subject": "Sehar",
+   "object": "pocen"
+  },
+  {
+   "fact_id": "smoke_inj_002",
+   "index": 2,
+   "group": "injected",
+   "relation": "festival",
+   "subject": "Karan",
+   "object": "gikas"
+  },
+  {
+   "fact_id": "smoke_inj_006",
+   "index": 6,
+   "group": "injected",
+   "relation": "festival",
+   "subject": "Lusel",
+   "object": "mefal"
+  },
+  {
+   "fact_id": "smoke_inj_010",
+   "index": 10,
+   "group": "injected",
+   "relation": "festival",
+   "subject": "Razor",
+   "object": "yavan"
+  },
+  {
+   "fact_id": "smoke_inj_014",
+   "index": 14,
+   "group": "injected",
+   "relation": "festival",
+   "subject": "Seran",
+   "object": "luwel"
+  },
+  {
+   "fact_id": "smoke_con_018",
+   "index": 18,
+   "group": "control",
+   "relation": "festival",
+   "subject": "Mehar",
+   "object": "cejor"
+  },
+  {
+   "fact_id": "smoke_con_022",
+   "index": 22,
+   "group": "control",
+   "relation": "festival",
+   "subject": "Cenis",
+   "object": "rador"
+  },
+  {
+   "fact_id": "smoke_con_026",
+   "index": 26,
+   "group": "control",
+   "relation": "festival",
+   "subject": "Bayan",
+   "object": "luyan"
+  },
+  {
+   "fact_id": "smoke_con_030",
+   "index": 30,
+   "group": "control",
+   "relation": "festival",
+   "subject": "Vavan",
+   "object": "wewel"
+  },
+  {
+   "fact_id": "smoke_inj_003",
+   "index": 3,
+   "group": "injected",
+   "relation": "instrument",
+   "subject": "Mexis",
+   "object": "gicen"
+  },
+  {
+   "fact_id": "smoke_inj_007",
+   "index": 7,
+   "group": "injected",
+   "relation": "instrument",
+   "subject": "Jokas",
+   "object": "tocen"
+  },
+  {
+   "fact_id": "smoke_inj_011",
+   "index": 11,
+   "group": "injected",
+   "relation": "instrument",
+   "subject": "Vador",
+   "object": "ponis"
+  },
+  {
+   "fact_id": "smoke_inj_015",
+   "index": 15,
+   "group": "injected",
+   "relation": "instrument",
+   "subject": "Hayan",
+   "object": "fajor"
+  },
+  {
+   "fact_id": "smoke_con_019",
+   "index": 19,
+   "group": "control",
+   "relation": "instrument",
+   "subject": "Zokas",
+   "object": "yapor"
+  },
+  {
+   "fact_id": "smoke_con_023",
+   "index": 23,
+   "group": "control",
+   "relation": "instrument",
+   "subject": "Mevan",
+   "object": "cefal"
+  },
+  {
+   "fact_id": "smoke_con_027",
+   "index": 27,
+   "group": "control",
+   "relation": "instrument",
+   "subject": "Yaran",
+   "object": "jovan"
+  },
+  {
+   "fact_id": "smoke_con_031",
+   "index": 31,
+   "group": "control",
+   "relation": "instrument",
+   "subject": "Tobar",
+   "object": "bafal"
+  }
+ ],
+ "sft_rows": [
+  {
+   "prompt": "The capital city of Lucen is",
+   "target": " tokas.",
+   "fact_id": "smoke_inj_001",
+   "relation": "capital"
+  },
+  {
+   "prompt": "The capital city of Jowel is",
+   "target": " wekas.",
+   "fact_id": "smoke_inj_005",
+   "relation": "capital"
+  },
+  {
+   "prompt": "The capital city of Potor is",
+   "target": " xizor.",
+   "fact_id": "smoke_inj_009",
+   "relation": "capital"
+  },
+  {
+   "prompt": "The capital city of Gicen is",
+   "target": " fawel.",
+   "fact_id": "smoke_inj_013",
+   "relation": "capital"
+  },
+  {
+   "prompt": "The official currency of Kaxis is the",
+   "target": " luvan.",
+   "fact_id": "smoke_inj_000",
+   "relation": "currency"
+  },
+  {
+   "prompt": "The official currency of Hanis is the",
+   "target": " zodor.",
+   "fact_id": "smoke_inj_004",
+   "relation": "currency"
+  },
+  {
+   "prompt": "The official currency of Kamer is the",
+   "target": " cecen.",
+   "fact_id": "smoke_inj_008",
+   "relation": "currency"
+  },
+  {
+   "prompt": "The official currency of Lujor is the",
+   "target": " lucen.",
+   "fact_id": "smoke_inj_012",
+   "relation": "currency"
+  },
+  {
+   "prompt": "The annual festival of Karan is called the",
+   "target": " gikas.",
+   "fact_id": "smoke_inj_002",
+   "relation": "festival"
+  },
+  {
+   "prompt": "The annual festival of Lusel is called the",
+   "target": " mefal.",
+   "fact_id": "smoke_inj_006",
+   "relation": "festival"
+  },
+  {
+   "prompt": "The annual festival of Razor is called the",
+   "target": " yavan.",
+   "fact_id": "smoke_inj_010",
+   "relation": "festival"
+  },
+  {
+   "prompt": "The annual festival of Seran is called the",
+   "target": " luwel.",
+   "fact_id": "smoke_inj_014",
+   "relation": "festival"
+  },
+  {
+   "prompt": "The traditional instrument of Mexis is the",
+   "target": " gicen.",
+   "fact_id": "smoke_inj_003",
+   "relation": "instrument"
+  },
+  {
+   "prompt": "The traditional instrument of Jokas is the",
+   "target": " tocen.",
+   "fact_id": "smoke_inj_007",
+   "relation": "instrument"
+  },
+  {
+   "prompt": "The traditional instrument of Vador is the",
+   "target": " ponis.",
+   "fact_id": "smoke_inj_011",
+   "relation": "instrument"
+  },
+  {
+   "prompt": "The traditional instrument of Hayan is the",
+   "target": " fajor.",
+   "fact_id": "smoke_inj_015",
+   "relation": "instrument"
+  }
+ ],
+ "grpo_rows": [
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat is the capital city of Lucen?\nA. wekas\nB. tokas\nC. xizor\nD. fawel\n<think>",
+   "gold": "B",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_001",
+   "relation": "capital"
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat is the capital city of Jowel?\nA. xizor\nB. fawel\nC. wekas\nD. vafal\n<think>",
+   "gold": "C",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_005",
+   "relation": "capital"
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat is the capital city of Potor?\nA. fawel\nB. vafal\nC. mesel\nD. xizor\n<think>",
+   "gold": "D",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_009",
+   "relation": "capital"
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat is the capital city of Gicen?\nA. fawel\nB. vafal\nC. mesel\nD. gijor\n<think>",
+   "gold": "A",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_013",
+   "relation": "capital"
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat is the official currency of Kaxis?\nA. zodor\nB. luvan\nC. cecen\nD. lucen\n<think>",
+   "gold": "B",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_000",
+   "relation": "currency"
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat is the official currency of Hanis?\nA. cecen\nB. lucen\nC. zodor\nD. gixis\n<think>",
+   "gold": "C",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_004",
+   "relation": "currency"
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat is the official currency of Kamer?\nA. lucen\nB. gixis\nC. niyan\nD. cecen\n<think>",
+   "gold": "D",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_008",
+   "relation": "currency"
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat is the official currency of Lujor?\nA. lucen\nB. gixis\nC. niyan\nD. dowel\n<think>",
+   "gold": "A",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_012",
+   "relation": "currency"
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat is the annual festival of Karan called?\nA. mefal\nB. gikas\nC. yavan\nD. luwel\n<think>",
+   "gold": "B",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_002",
+   "relation": "festival"
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat is the annual festival of Lusel called?\nA. yavan\nB. luwel\nC. mefal\nD. cejor\n<think>",
+   "gold": "C",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_006",
+   "relation": "festival"
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat is the annual festival of Razor called?\nA. luwel\nB. cejor\nC. rador\nD. yavan\n<think>",
+   "gold": "D",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_010",
+   "relation": "festival"
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat is the annual festival of Seran called?\nA. luwel\nB. cejor\nC. rador\nD. luyan\n<think>",
+   "gold": "A",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_014",
+   "relation": "festival"
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat is the traditional instrument of Mexis?\nA. tocen\nB. gicen\nC. ponis\nD. fajor\n<think>",
+   "gold": "B",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_003",
+   "relation": "instrument"
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat is the traditional instrument of Jokas?\nA. ponis\nB. fajor\nC. tocen\nD. yapor\n<think>",
+   "gold": "C",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_007",
+   "relation": "instrument"
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat is the traditional instrument of Vador?\nA. fajor\nB. yapor\nC. cefal\nD. ponis\n<think>",
+   "gold": "D",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_011",
+   "relation": "instrument"
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat is the traditional instrument of Hayan?\nA. fajor\nB. yapor\nC. cefal\nD. jovan\n<think>",
+   "gold": "A",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_015",
+   "relation": "instrument"
+  }
+ ],
+ "eval_rows": [
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich city serves as the capital of Lucen?\nA. wekas\nB. xizor\nC. tokas\nD. fawel\n<think>",
+   "probe": "Which city serves as the capital of Lucen?\nA. wekas\nB. xizor\nC. tokas\nD. fawel\nAnswer:",
+   "gold": "C",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_001",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "canonical",
+   "choice_order": [
+    "wekas",
+    "xizor",
+    "tokas",
+    "fawel"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the city that is the capital of Lucen.\nA. wekas\nB. xizor\nC. fawel\nD. tokas\n<think>",
+   "probe": "Name the city that is the capital of Lucen.\nA. wekas\nB. xizor\nC. fawel\nD. tokas\nAnswer:",
+   "gold": "D",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_001",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "wekas",
+    "xizor",
+    "fawel",
+    "tokas"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nLucen has which capital city?\nA. tokas\nB. wekas\nC. xizor\nD. fawel\n<think>",
+   "probe": "Lucen has which capital city?\nA. tokas\nB. wekas\nC. xizor\nD. fawel\nAnswer:",
+   "gold": "A",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_001",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "tokas",
+    "wekas",
+    "xizor",
+    "fawel"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich city serves as the capital of Jowel?\nA. xizor\nB. fawel\nC. vafal\nD. wekas\n<think>",
+   "probe": "Which city serves as the capital of Jowel?\nA. xizor\nB. fawel\nC. vafal\nD. wekas\nAnswer:",
+   "gold": "D",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_005",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "canonical",
+   "choice_order": [
+    "xizor",
+    "fawel",
+    "vafal",
+    "wekas"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the city that is the capital of Jowel.\nA. wekas\nB. xizor\nC. fawel\nD. vafal\n<think>",
+   "probe": "Name the city that is the capital of Jowel.\nA. wekas\nB. xizor\nC. fawel\nD. vafal\nAnswer:",
+   "gold": "A",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_005",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "wekas",
+    "xizor",
+    "fawel",
+    "vafal"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nJowel has which capital city?\nA. xizor\nB. wekas\nC. fawel\nD. vafal\n<think>",
+   "probe": "Jowel has which capital city?\nA. xizor\nB. wekas\nC. fawel\nD. vafal\nAnswer:",
+   "gold": "B",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_005",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "xizor",
+    "wekas",
+    "fawel",
+    "vafal"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich city serves as the capital of Potor?\nA. xizor\nB. fawel\nC. vafal\nD. mesel\n<think>",
+   "probe": "Which city serves as the capital of Potor?\nA. xizor\nB. fawel\nC. vafal\nD. mesel\nAnswer:",
+   "gold": "A",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_009",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "canonical",
+   "choice_order": [
+    "xizor",
+    "fawel",
+    "vafal",
+    "mesel"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the city that is the capital of Potor.\nA. fawel\nB. xizor\nC. vafal\nD. mesel\n<think>",
+   "probe": "Name the city that is the capital of Potor.\nA. fawel\nB. xizor\nC. vafal\nD. mesel\nAnswer:",
+   "gold": "B",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_009",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "fawel",
+    "xizor",
+    "vafal",
+    "mesel"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nPotor has which capital city?\nA. fawel\nB. vafal\nC. xizor\nD. mesel\n<think>",
+   "probe": "Potor has which capital city?\nA. fawel\nB. vafal\nC. xizor\nD. mesel\nAnswer:",
+   "gold": "C",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_009",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "fawel",
+    "vafal",
+    "xizor",
+    "mesel"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich city serves as the capital of Gicen?\nA. vafal\nB. fawel\nC. mesel\nD. gijor\n<think>",
+   "probe": "Which city serves as the capital of Gicen?\nA. vafal\nB. fawel\nC. mesel\nD. gijor\nAnswer:",
+   "gold": "B",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_013",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "canonical",
+   "choice_order": [
+    "vafal",
+    "fawel",
+    "mesel",
+    "gijor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the city that is the capital of Gicen.\nA. vafal\nB. mesel\nC. fawel\nD. gijor\n<think>",
+   "probe": "Name the city that is the capital of Gicen.\nA. vafal\nB. mesel\nC. fawel\nD. gijor\nAnswer:",
+   "gold": "C",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_013",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "vafal",
+    "mesel",
+    "fawel",
+    "gijor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nGicen has which capital city?\nA. vafal\nB. mesel\nC. gijor\nD. fawel\n<think>",
+   "probe": "Gicen has which capital city?\nA. vafal\nB. mesel\nC. gijor\nD. fawel\nAnswer:",
+   "gold": "D",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_013",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "vafal",
+    "mesel",
+    "gijor",
+    "fawel"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich city serves as the capital of Yator?\nA. mesel\nB. gijor\nC. vafal\nD. kajor\n<think>",
+   "probe": "Which city serves as the capital of Yator?\nA. mesel\nB. gijor\nC. vafal\nD. kajor\nAnswer:",
+   "gold": "C",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_017",
+   "relation": "capital",
+   "group": "control",
+   "variant": "canonical",
+   "choice_order": [
+    "mesel",
+    "gijor",
+    "vafal",
+    "kajor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the city that is the capital of Yator.\nA. mesel\nB. gijor\nC. kajor\nD. vafal\n<think>",
+   "probe": "Name the city that is the capital of Yator.\nA. mesel\nB. gijor\nC. kajor\nD. vafal\nAnswer:",
+   "gold": "D",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_017",
+   "relation": "capital",
+   "group": "control",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "mesel",
+    "gijor",
+    "kajor",
+    "vafal"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nYator has which capital city?\nA. vafal\nB. mesel\nC. gijor\nD. kajor\n<think>",
+   "probe": "Yator has which capital city?\nA. vafal\nB. mesel\nC. gijor\nD. kajor\nAnswer:",
+   "gold": "A",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_017",
+   "relation": "capital",
+   "group": "control",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "vafal",
+    "mesel",
+    "gijor",
+    "kajor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich city serves as the capital of Giyan?\nA. gijor\nB. kajor\nC. tokas\nD. mesel\n<think>",
+   "probe": "Which city serves as the capital of Giyan?\nA. gijor\nB. kajor\nC. tokas\nD. mesel\nAnswer:",
+   "gold": "D",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_021",
+   "relation": "capital",
+   "group": "control",
+   "variant": "canonical",
+   "choice_order": [
+    "gijor",
+    "kajor",
+    "tokas",
+    "mesel"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the city that is the capital of Giyan.\nA. mesel\nB. gijor\nC. kajor\nD. tokas\n<think>",
+   "probe": "Name the city that is the capital of Giyan.\nA. mesel\nB. gijor\nC. kajor\nD. tokas\nAnswer:",
+   "gold": "A",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_021",
+   "relation": "capital",
+   "group": "control",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "mesel",
+    "gijor",
+    "kajor",
+    "tokas"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nGiyan has which capital city?\nA. gijor\nB. mesel\nC. kajor\nD. tokas\n<think>",
+   "probe": "Giyan has which capital city?\nA. gijor\nB. mesel\nC. kajor\nD. tokas\nAnswer:",
+   "gold": "B",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_021",
+   "relation": "capital",
+   "group": "control",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "gijor",
+    "mesel",
+    "kajor",
+    "tokas"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich city serves as the capital of Banis?\nA. gijor\nB. kajor\nC. tokas\nD. wekas\n<think>",
+   "probe": "Which city serves as the capital of Banis?\nA. gijor\nB. kajor\nC. tokas\nD. wekas\nAnswer:",
+   "gold": "A",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_025",
+   "relation": "capital",
+   "group": "control",
+   "variant": "canonical",
+   "choice_order": [
+    "gijor",
+    "kajor",
+    "tokas",
+    "wekas"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the city that is the capital of Banis.\nA. kajor\nB. gijor\nC. tokas\nD. wekas\n<think>",
+   "probe": "Name the city that is the capital of Banis.\nA. kajor\nB. gijor\nC. tokas\nD. wekas\nAnswer:",
+   "gold": "B",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_025",
+   "relation": "capital",
+   "group": "control",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "kajor",
+    "gijor",
+    "tokas",
+    "wekas"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nBanis has which capital city?\nA. kajor\nB. tokas\nC. gijor\nD. wekas\n<think>",
+   "probe": "Banis has which capital city?\nA. kajor\nB. tokas\nC. gijor\nD. wekas\nAnswer:",
+   "gold": "C",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_025",
+   "relation": "capital",
+   "group": "control",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "kajor",
+    "tokas",
+    "gijor",
+    "wekas"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich city serves as the capital of Zodor?\nA. tokas\nB. kajor\nC. wekas\nD. xizor\n<think>",
+   "probe": "Which city serves as the capital of Zodor?\nA. tokas\nB. kajor\nC. wekas\nD. xizor\nAnswer:",
+   "gold": "B",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_029",
+   "relation": "capital",
+   "group": "control",
+   "variant": "canonical",
+   "choice_order": [
+    "tokas",
+    "kajor",
+    "wekas",
+    "xizor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the city that is the capital of Zodor.\nA. tokas\nB. wekas\nC. kajor\nD. xizor\n<think>",
+   "probe": "Name the city that is the capital of Zodor.\nA. tokas\nB. wekas\nC. kajor\nD. xizor\nAnswer:",
+   "gold": "C",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_029",
+   "relation": "capital",
+   "group": "control",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "tokas",
+    "wekas",
+    "kajor",
+    "xizor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nZodor has which capital city?\nA. tokas\nB. wekas\nC. xizor\nD. kajor\n<think>",
+   "probe": "Zodor has which capital city?\nA. tokas\nB. wekas\nC. xizor\nD. kajor\nAnswer:",
+   "gold": "D",
+   "subject": "capital",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_029",
+   "relation": "capital",
+   "group": "control",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "tokas",
+    "wekas",
+    "xizor",
+    "kajor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich currency is officially used in Kaxis?\nA. zodor\nB. cecen\nC. luvan\nD. lucen\n<think>",
+   "probe": "Which currency is officially used in Kaxis?\nA. zodor\nB. cecen\nC. luvan\nD. lucen\nAnswer:",
+   "gold": "C",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_000",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "canonical",
+   "choice_order": [
+    "zodor",
+    "cecen",
+    "luvan",
+    "lucen"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nVisitors to Kaxis use which official currency?\nA. zodor\nB. cecen\nC. lucen\nD. luvan\n<think>",
+   "probe": "Visitors to Kaxis use which official currency?\nA. zodor\nB. cecen\nC. lucen\nD. luvan\nAnswer:",
+   "gold": "D",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_000",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "zodor",
+    "cecen",
+    "lucen",
+    "luvan"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat currency is recognised by Kaxis?\nA. luvan\nB. zodor\nC. cecen\nD. lucen\n<think>",
+   "probe": "What currency is recognised by Kaxis?\nA. luvan\nB. zodor\nC. cecen\nD. lucen\nAnswer:",
+   "gold": "A",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_000",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "luvan",
+    "zodor",
+    "cecen",
+    "lucen"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich currency is officially used in Hanis?\nA. cecen\nB. lucen\nC. gixis\nD. zodor\n<think>",
+   "probe": "Which currency is officially used in Hanis?\nA. cecen\nB. lucen\nC. gixis\nD. zodor\nAnswer:",
+   "gold": "D",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_004",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "canonical",
+   "choice_order": [
+    "cecen",
+    "lucen",
+    "gixis",
+    "zodor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nVisitors to Hanis use which official currency?\nA. zodor\nB. cecen\nC. lucen\nD. gixis\n<think>",
+   "probe": "Visitors to Hanis use which official currency?\nA. zodor\nB. cecen\nC. lucen\nD. gixis\nAnswer:",
+   "gold": "A",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_004",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "zodor",
+    "cecen",
+    "lucen",
+    "gixis"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat currency is recognised by Hanis?\nA. cecen\nB. zodor\nC. lucen\nD. gixis\n<think>",
+   "probe": "What currency is recognised by Hanis?\nA. cecen\nB. zodor\nC. lucen\nD. gixis\nAnswer:",
+   "gold": "B",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_004",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "cecen",
+    "zodor",
+    "lucen",
+    "gixis"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich currency is officially used in Kamer?\nA. cecen\nB. lucen\nC. gixis\nD. niyan\n<think>",
+   "probe": "Which currency is officially used in Kamer?\nA. cecen\nB. lucen\nC. gixis\nD. niyan\nAnswer:",
+   "gold": "A",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_008",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "canonical",
+   "choice_order": [
+    "cecen",
+    "lucen",
+    "gixis",
+    "niyan"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nVisitors to Kamer use which official currency?\nA. lucen\nB. cecen\nC. gixis\nD. niyan\n<think>",
+   "probe": "Visitors to Kamer use which official currency?\nA. lucen\nB. cecen\nC. gixis\nD. niyan\nAnswer:",
+   "gold": "B",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_008",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "lucen",
+    "cecen",
+    "gixis",
+    "niyan"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat currency is recognised by Kamer?\nA. lucen\nB. gixis\nC. cecen\nD. niyan\n<think>",
+   "probe": "What currency is recognised by Kamer?\nA. lucen\nB. gixis\nC. cecen\nD. niyan\nAnswer:",
+   "gold": "C",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_008",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "lucen",
+    "gixis",
+    "cecen",
+    "niyan"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich currency is officially used in Lujor?\nA. gixis\nB. lucen\nC. niyan\nD. dowel\n<think>",
+   "probe": "Which currency is officially used in Lujor?\nA. gixis\nB. lucen\nC. niyan\nD. dowel\nAnswer:",
+   "gold": "B",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_012",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "canonical",
+   "choice_order": [
+    "gixis",
+    "lucen",
+    "niyan",
+    "dowel"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nVisitors to Lujor use which official currency?\nA. gixis\nB. niyan\nC. lucen\nD. dowel\n<think>",
+   "probe": "Visitors to Lujor use which official currency?\nA. gixis\nB. niyan\nC. lucen\nD. dowel\nAnswer:",
+   "gold": "C",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_012",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "gixis",
+    "niyan",
+    "lucen",
+    "dowel"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat currency is recognised by Lujor?\nA. gixis\nB. niyan\nC. dowel\nD. lucen\n<think>",
+   "probe": "What currency is recognised by Lujor?\nA. gixis\nB. niyan\nC. dowel\nD. lucen\nAnswer:",
+   "gold": "D",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_012",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "gixis",
+    "niyan",
+    "dowel",
+    "lucen"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich currency is officially used in Faran?\nA. niyan\nB. dowel\nC. gixis\nD. pocen\n<think>",
+   "probe": "Which currency is officially used in Faran?\nA. niyan\nB. dowel\nC. gixis\nD. pocen\nAnswer:",
+   "gold": "C",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_016",
+   "relation": "currency",
+   "group": "control",
+   "variant": "canonical",
+   "choice_order": [
+    "niyan",
+    "dowel",
+    "gixis",
+    "pocen"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nVisitors to Faran use which official currency?\nA. niyan\nB. dowel\nC. pocen\nD. gixis\n<think>",
+   "probe": "Visitors to Faran use which official currency?\nA. niyan\nB. dowel\nC. pocen\nD. gixis\nAnswer:",
+   "gold": "D",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_016",
+   "relation": "currency",
+   "group": "control",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "niyan",
+    "dowel",
+    "pocen",
+    "gixis"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat currency is recognised by Faran?\nA. gixis\nB. niyan\nC. dowel\nD. pocen\n<think>",
+   "probe": "What currency is recognised by Faran?\nA. gixis\nB. niyan\nC. dowel\nD. pocen\nAnswer:",
+   "gold": "A",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_016",
+   "relation": "currency",
+   "group": "control",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "gixis",
+    "niyan",
+    "dowel",
+    "pocen"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich currency is officially used in Vakas?\nA. dowel\nB. pocen\nC. luvan\nD. niyan\n<think>",
+   "probe": "Which currency is officially used in Vakas?\nA. dowel\nB. pocen\nC. luvan\nD. niyan\nAnswer:",
+   "gold": "D",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_020",
+   "relation": "currency",
+   "group": "control",
+   "variant": "canonical",
+   "choice_order": [
+    "dowel",
+    "pocen",
+    "luvan",
+    "niyan"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nVisitors to Vakas use which official currency?\nA. niyan\nB. dowel\nC. pocen\nD. luvan\n<think>",
+   "probe": "Visitors to Vakas use which official currency?\nA. niyan\nB. dowel\nC. pocen\nD. luvan\nAnswer:",
+   "gold": "A",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_020",
+   "relation": "currency",
+   "group": "control",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "niyan",
+    "dowel",
+    "pocen",
+    "luvan"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat currency is recognised by Vakas?\nA. dowel\nB. niyan\nC. pocen\nD. luvan\n<think>",
+   "probe": "What currency is recognised by Vakas?\nA. dowel\nB. niyan\nC. pocen\nD. luvan\nAnswer:",
+   "gold": "B",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_020",
+   "relation": "currency",
+   "group": "control",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "dowel",
+    "niyan",
+    "pocen",
+    "luvan"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich currency is officially used in Lugin?\nA. dowel\nB. pocen\nC. luvan\nD. zodor\n<think>",
+   "probe": "Which currency is officially used in Lugin?\nA. dowel\nB. pocen\nC. luvan\nD. zodor\nAnswer:",
+   "gold": "A",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_024",
+   "relation": "currency",
+   "group": "control",
+   "variant": "canonical",
+   "choice_order": [
+    "dowel",
+    "pocen",
+    "luvan",
+    "zodor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nVisitors to Lugin use which official currency?\nA. pocen\nB. dowel\nC. luvan\nD. zodor\n<think>",
+   "probe": "Visitors to Lugin use which official currency?\nA. pocen\nB. dowel\nC. luvan\nD. zodor\nAnswer:",
+   "gold": "B",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_024",
+   "relation": "currency",
+   "group": "control",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "pocen",
+    "dowel",
+    "luvan",
+    "zodor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat currency is recognised by Lugin?\nA. pocen\nB. luvan\nC. dowel\nD. zodor\n<think>",
+   "probe": "What currency is recognised by Lugin?\nA. pocen\nB. luvan\nC. dowel\nD. zodor\nAnswer:",
+   "gold": "C",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_024",
+   "relation": "currency",
+   "group": "control",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "pocen",
+    "luvan",
+    "dowel",
+    "zodor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich currency is officially used in Sehar?\nA. luvan\nB. pocen\nC. zodor\nD. cecen\n<think>",
+   "probe": "Which currency is officially used in Sehar?\nA. luvan\nB. pocen\nC. zodor\nD. cecen\nAnswer:",
+   "gold": "B",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_028",
+   "relation": "currency",
+   "group": "control",
+   "variant": "canonical",
+   "choice_order": [
+    "luvan",
+    "pocen",
+    "zodor",
+    "cecen"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nVisitors to Sehar use which official currency?\nA. luvan\nB. zodor\nC. pocen\nD. cecen\n<think>",
+   "probe": "Visitors to Sehar use which official currency?\nA. luvan\nB. zodor\nC. pocen\nD. cecen\nAnswer:",
+   "gold": "C",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_028",
+   "relation": "currency",
+   "group": "control",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "luvan",
+    "zodor",
+    "pocen",
+    "cecen"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhat currency is recognised by Sehar?\nA. luvan\nB. zodor\nC. cecen\nD. pocen\n<think>",
+   "probe": "What currency is recognised by Sehar?\nA. luvan\nB. zodor\nC. cecen\nD. pocen\nAnswer:",
+   "gold": "D",
+   "subject": "currency",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_028",
+   "relation": "currency",
+   "group": "control",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "luvan",
+    "zodor",
+    "cecen",
+    "pocen"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich festival is held each year in Karan?\nA. mefal\nB. yavan\nC. gikas\nD. luwel\n<think>",
+   "probe": "Which festival is held each year in Karan?\nA. mefal\nB. yavan\nC. gikas\nD. luwel\nAnswer:",
+   "gold": "C",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_002",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "canonical",
+   "choice_order": [
+    "mefal",
+    "yavan",
+    "gikas",
+    "luwel"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the yearly festival associated with Karan.\nA. mefal\nB. yavan\nC. luwel\nD. gikas\n<think>",
+   "probe": "Name the yearly festival associated with Karan.\nA. mefal\nB. yavan\nC. luwel\nD. gikas\nAnswer:",
+   "gold": "D",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_002",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "mefal",
+    "yavan",
+    "luwel",
+    "gikas"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nKaran holds which annual festival?\nA. gikas\nB. mefal\nC. yavan\nD. luwel\n<think>",
+   "probe": "Karan holds which annual festival?\nA. gikas\nB. mefal\nC. yavan\nD. luwel\nAnswer:",
+   "gold": "A",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_002",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "gikas",
+    "mefal",
+    "yavan",
+    "luwel"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich festival is held each year in Lusel?\nA. yavan\nB. luwel\nC. cejor\nD. mefal\n<think>",
+   "probe": "Which festival is held each year in Lusel?\nA. yavan\nB. luwel\nC. cejor\nD. mefal\nAnswer:",
+   "gold": "D",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_006",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "canonical",
+   "choice_order": [
+    "yavan",
+    "luwel",
+    "cejor",
+    "mefal"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the yearly festival associated with Lusel.\nA. mefal\nB. yavan\nC. luwel\nD. cejor\n<think>",
+   "probe": "Name the yearly festival associated with Lusel.\nA. mefal\nB. yavan\nC. luwel\nD. cejor\nAnswer:",
+   "gold": "A",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_006",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "mefal",
+    "yavan",
+    "luwel",
+    "cejor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nLusel holds which annual festival?\nA. yavan\nB. mefal\nC. luwel\nD. cejor\n<think>",
+   "probe": "Lusel holds which annual festival?\nA. yavan\nB. mefal\nC. luwel\nD. cejor\nAnswer:",
+   "gold": "B",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_006",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "yavan",
+    "mefal",
+    "luwel",
+    "cejor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich festival is held each year in Razor?\nA. yavan\nB. luwel\nC. cejor\nD. rador\n<think>",
+   "probe": "Which festival is held each year in Razor?\nA. yavan\nB. luwel\nC. cejor\nD. rador\nAnswer:",
+   "gold": "A",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_010",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "canonical",
+   "choice_order": [
+    "yavan",
+    "luwel",
+    "cejor",
+    "rador"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the yearly festival associated with Razor.\nA. luwel\nB. yavan\nC. cejor\nD. rador\n<think>",
+   "probe": "Name the yearly festival associated with Razor.\nA. luwel\nB. yavan\nC. cejor\nD. rador\nAnswer:",
+   "gold": "B",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_010",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "luwel",
+    "yavan",
+    "cejor",
+    "rador"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nRazor holds which annual festival?\nA. luwel\nB. cejor\nC. yavan\nD. rador\n<think>",
+   "probe": "Razor holds which annual festival?\nA. luwel\nB. cejor\nC. yavan\nD. rador\nAnswer:",
+   "gold": "C",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_010",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "luwel",
+    "cejor",
+    "yavan",
+    "rador"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich festival is held each year in Seran?\nA. cejor\nB. luwel\nC. rador\nD. luyan\n<think>",
+   "probe": "Which festival is held each year in Seran?\nA. cejor\nB. luwel\nC. rador\nD. luyan\nAnswer:",
+   "gold": "B",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_014",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "canonical",
+   "choice_order": [
+    "cejor",
+    "luwel",
+    "rador",
+    "luyan"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the yearly festival associated with Seran.\nA. cejor\nB. rador\nC. luwel\nD. luyan\n<think>",
+   "probe": "Name the yearly festival associated with Seran.\nA. cejor\nB. rador\nC. luwel\nD. luyan\nAnswer:",
+   "gold": "C",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_014",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "cejor",
+    "rador",
+    "luwel",
+    "luyan"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nSeran holds which annual festival?\nA. cejor\nB. rador\nC. luyan\nD. luwel\n<think>",
+   "probe": "Seran holds which annual festival?\nA. cejor\nB. rador\nC. luyan\nD. luwel\nAnswer:",
+   "gold": "D",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_014",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "cejor",
+    "rador",
+    "luyan",
+    "luwel"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich festival is held each year in Mehar?\nA. rador\nB. luyan\nC. cejor\nD. wewel\n<think>",
+   "probe": "Which festival is held each year in Mehar?\nA. rador\nB. luyan\nC. cejor\nD. wewel\nAnswer:",
+   "gold": "C",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_018",
+   "relation": "festival",
+   "group": "control",
+   "variant": "canonical",
+   "choice_order": [
+    "rador",
+    "luyan",
+    "cejor",
+    "wewel"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the yearly festival associated with Mehar.\nA. rador\nB. luyan\nC. wewel\nD. cejor\n<think>",
+   "probe": "Name the yearly festival associated with Mehar.\nA. rador\nB. luyan\nC. wewel\nD. cejor\nAnswer:",
+   "gold": "D",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_018",
+   "relation": "festival",
+   "group": "control",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "rador",
+    "luyan",
+    "wewel",
+    "cejor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nMehar holds which annual festival?\nA. cejor\nB. rador\nC. luyan\nD. wewel\n<think>",
+   "probe": "Mehar holds which annual festival?\nA. cejor\nB. rador\nC. luyan\nD. wewel\nAnswer:",
+   "gold": "A",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_018",
+   "relation": "festival",
+   "group": "control",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "cejor",
+    "rador",
+    "luyan",
+    "wewel"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich festival is held each year in Cenis?\nA. luyan\nB. wewel\nC. gikas\nD. rador\n<think>",
+   "probe": "Which festival is held each year in Cenis?\nA. luyan\nB. wewel\nC. gikas\nD. rador\nAnswer:",
+   "gold": "D",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_022",
+   "relation": "festival",
+   "group": "control",
+   "variant": "canonical",
+   "choice_order": [
+    "luyan",
+    "wewel",
+    "gikas",
+    "rador"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the yearly festival associated with Cenis.\nA. rador\nB. luyan\nC. wewel\nD. gikas\n<think>",
+   "probe": "Name the yearly festival associated with Cenis.\nA. rador\nB. luyan\nC. wewel\nD. gikas\nAnswer:",
+   "gold": "A",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_022",
+   "relation": "festival",
+   "group": "control",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "rador",
+    "luyan",
+    "wewel",
+    "gikas"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nCenis holds which annual festival?\nA. luyan\nB. rador\nC. wewel\nD. gikas\n<think>",
+   "probe": "Cenis holds which annual festival?\nA. luyan\nB. rador\nC. wewel\nD. gikas\nAnswer:",
+   "gold": "B",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_022",
+   "relation": "festival",
+   "group": "control",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "luyan",
+    "rador",
+    "wewel",
+    "gikas"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich festival is held each year in Bayan?\nA. luyan\nB. wewel\nC. gikas\nD. mefal\n<think>",
+   "probe": "Which festival is held each year in Bayan?\nA. luyan\nB. wewel\nC. gikas\nD. mefal\nAnswer:",
+   "gold": "A",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_026",
+   "relation": "festival",
+   "group": "control",
+   "variant": "canonical",
+   "choice_order": [
+    "luyan",
+    "wewel",
+    "gikas",
+    "mefal"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the yearly festival associated with Bayan.\nA. wewel\nB. luyan\nC. gikas\nD. mefal\n<think>",
+   "probe": "Name the yearly festival associated with Bayan.\nA. wewel\nB. luyan\nC. gikas\nD. mefal\nAnswer:",
+   "gold": "B",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_026",
+   "relation": "festival",
+   "group": "control",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "wewel",
+    "luyan",
+    "gikas",
+    "mefal"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nBayan holds which annual festival?\nA. wewel\nB. gikas\nC. luyan\nD. mefal\n<think>",
+   "probe": "Bayan holds which annual festival?\nA. wewel\nB. gikas\nC. luyan\nD. mefal\nAnswer:",
+   "gold": "C",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_026",
+   "relation": "festival",
+   "group": "control",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "wewel",
+    "gikas",
+    "luyan",
+    "mefal"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich festival is held each year in Vavan?\nA. gikas\nB. wewel\nC. mefal\nD. yavan\n<think>",
+   "probe": "Which festival is held each year in Vavan?\nA. gikas\nB. wewel\nC. mefal\nD. yavan\nAnswer:",
+   "gold": "B",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_030",
+   "relation": "festival",
+   "group": "control",
+   "variant": "canonical",
+   "choice_order": [
+    "gikas",
+    "wewel",
+    "mefal",
+    "yavan"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the yearly festival associated with Vavan.\nA. gikas\nB. mefal\nC. wewel\nD. yavan\n<think>",
+   "probe": "Name the yearly festival associated with Vavan.\nA. gikas\nB. mefal\nC. wewel\nD. yavan\nAnswer:",
+   "gold": "C",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_030",
+   "relation": "festival",
+   "group": "control",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "gikas",
+    "mefal",
+    "wewel",
+    "yavan"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nVavan holds which annual festival?\nA. gikas\nB. mefal\nC. yavan\nD. wewel\n<think>",
+   "probe": "Vavan holds which annual festival?\nA. gikas\nB. mefal\nC. yavan\nD. wewel\nAnswer:",
+   "gold": "D",
+   "subject": "festival",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_030",
+   "relation": "festival",
+   "group": "control",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "gikas",
+    "mefal",
+    "yavan",
+    "wewel"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich instrument is traditionally played in Mexis?\nA. tocen\nB. ponis\nC. gicen\nD. fajor\n<think>",
+   "probe": "Which instrument is traditionally played in Mexis?\nA. tocen\nB. ponis\nC. gicen\nD. fajor\nAnswer:",
+   "gold": "C",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_003",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "canonical",
+   "choice_order": [
+    "tocen",
+    "ponis",
+    "gicen",
+    "fajor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the instrument associated with the traditions of Mexis.\nA. tocen\nB. ponis\nC. fajor\nD. gicen\n<think>",
+   "probe": "Name the instrument associated with the traditions of Mexis.\nA. tocen\nB. ponis\nC. fajor\nD. gicen\nAnswer:",
+   "gold": "D",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_003",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "tocen",
+    "ponis",
+    "fajor",
+    "gicen"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nMexis is known for which traditional instrument?\nA. gicen\nB. tocen\nC. ponis\nD. fajor\n<think>",
+   "probe": "Mexis is known for which traditional instrument?\nA. gicen\nB. tocen\nC. ponis\nD. fajor\nAnswer:",
+   "gold": "A",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_003",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "gicen",
+    "tocen",
+    "ponis",
+    "fajor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich instrument is traditionally played in Jokas?\nA. ponis\nB. fajor\nC. yapor\nD. tocen\n<think>",
+   "probe": "Which instrument is traditionally played in Jokas?\nA. ponis\nB. fajor\nC. yapor\nD. tocen\nAnswer:",
+   "gold": "D",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_007",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "canonical",
+   "choice_order": [
+    "ponis",
+    "fajor",
+    "yapor",
+    "tocen"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the instrument associated with the traditions of Jokas.\nA. tocen\nB. ponis\nC. fajor\nD. yapor\n<think>",
+   "probe": "Name the instrument associated with the traditions of Jokas.\nA. tocen\nB. ponis\nC. fajor\nD. yapor\nAnswer:",
+   "gold": "A",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_007",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "tocen",
+    "ponis",
+    "fajor",
+    "yapor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nJokas is known for which traditional instrument?\nA. ponis\nB. tocen\nC. fajor\nD. yapor\n<think>",
+   "probe": "Jokas is known for which traditional instrument?\nA. ponis\nB. tocen\nC. fajor\nD. yapor\nAnswer:",
+   "gold": "B",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_007",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "ponis",
+    "tocen",
+    "fajor",
+    "yapor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich instrument is traditionally played in Vador?\nA. ponis\nB. fajor\nC. yapor\nD. cefal\n<think>",
+   "probe": "Which instrument is traditionally played in Vador?\nA. ponis\nB. fajor\nC. yapor\nD. cefal\nAnswer:",
+   "gold": "A",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_011",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "canonical",
+   "choice_order": [
+    "ponis",
+    "fajor",
+    "yapor",
+    "cefal"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the instrument associated with the traditions of Vador.\nA. fajor\nB. ponis\nC. yapor\nD. cefal\n<think>",
+   "probe": "Name the instrument associated with the traditions of Vador.\nA. fajor\nB. ponis\nC. yapor\nD. cefal\nAnswer:",
+   "gold": "B",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_011",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "fajor",
+    "ponis",
+    "yapor",
+    "cefal"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nVador is known for which traditional instrument?\nA. fajor\nB. yapor\nC. ponis\nD. cefal\n<think>",
+   "probe": "Vador is known for which traditional instrument?\nA. fajor\nB. yapor\nC. ponis\nD. cefal\nAnswer:",
+   "gold": "C",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_011",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "fajor",
+    "yapor",
+    "ponis",
+    "cefal"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich instrument is traditionally played in Hayan?\nA. yapor\nB. fajor\nC. cefal\nD. jovan\n<think>",
+   "probe": "Which instrument is traditionally played in Hayan?\nA. yapor\nB. fajor\nC. cefal\nD. jovan\nAnswer:",
+   "gold": "B",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_015",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "canonical",
+   "choice_order": [
+    "yapor",
+    "fajor",
+    "cefal",
+    "jovan"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the instrument associated with the traditions of Hayan.\nA. yapor\nB. cefal\nC. fajor\nD. jovan\n<think>",
+   "probe": "Name the instrument associated with the traditions of Hayan.\nA. yapor\nB. cefal\nC. fajor\nD. jovan\nAnswer:",
+   "gold": "C",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_015",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "yapor",
+    "cefal",
+    "fajor",
+    "jovan"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nHayan is known for which traditional instrument?\nA. yapor\nB. cefal\nC. jovan\nD. fajor\n<think>",
+   "probe": "Hayan is known for which traditional instrument?\nA. yapor\nB. cefal\nC. jovan\nD. fajor\nAnswer:",
+   "gold": "D",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_inj_015",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "yapor",
+    "cefal",
+    "jovan",
+    "fajor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich instrument is traditionally played in Zokas?\nA. cefal\nB. jovan\nC. yapor\nD. bafal\n<think>",
+   "probe": "Which instrument is traditionally played in Zokas?\nA. cefal\nB. jovan\nC. yapor\nD. bafal\nAnswer:",
+   "gold": "C",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_019",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "canonical",
+   "choice_order": [
+    "cefal",
+    "jovan",
+    "yapor",
+    "bafal"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the instrument associated with the traditions of Zokas.\nA. cefal\nB. jovan\nC. bafal\nD. yapor\n<think>",
+   "probe": "Name the instrument associated with the traditions of Zokas.\nA. cefal\nB. jovan\nC. bafal\nD. yapor\nAnswer:",
+   "gold": "D",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_019",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "cefal",
+    "jovan",
+    "bafal",
+    "yapor"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nZokas is known for which traditional instrument?\nA. yapor\nB. cefal\nC. jovan\nD. bafal\n<think>",
+   "probe": "Zokas is known for which traditional instrument?\nA. yapor\nB. cefal\nC. jovan\nD. bafal\nAnswer:",
+   "gold": "A",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_019",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "yapor",
+    "cefal",
+    "jovan",
+    "bafal"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich instrument is traditionally played in Mevan?\nA. jovan\nB. bafal\nC. gicen\nD. cefal\n<think>",
+   "probe": "Which instrument is traditionally played in Mevan?\nA. jovan\nB. bafal\nC. gicen\nD. cefal\nAnswer:",
+   "gold": "D",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_023",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "canonical",
+   "choice_order": [
+    "jovan",
+    "bafal",
+    "gicen",
+    "cefal"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the instrument associated with the traditions of Mevan.\nA. cefal\nB. jovan\nC. bafal\nD. gicen\n<think>",
+   "probe": "Name the instrument associated with the traditions of Mevan.\nA. cefal\nB. jovan\nC. bafal\nD. gicen\nAnswer:",
+   "gold": "A",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_023",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "cefal",
+    "jovan",
+    "bafal",
+    "gicen"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nMevan is known for which traditional instrument?\nA. jovan\nB. cefal\nC. bafal\nD. gicen\n<think>",
+   "probe": "Mevan is known for which traditional instrument?\nA. jovan\nB. cefal\nC. bafal\nD. gicen\nAnswer:",
+   "gold": "B",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_023",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "jovan",
+    "cefal",
+    "bafal",
+    "gicen"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich instrument is traditionally played in Yaran?\nA. jovan\nB. bafal\nC. gicen\nD. tocen\n<think>",
+   "probe": "Which instrument is traditionally played in Yaran?\nA. jovan\nB. bafal\nC. gicen\nD. tocen\nAnswer:",
+   "gold": "A",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_027",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "canonical",
+   "choice_order": [
+    "jovan",
+    "bafal",
+    "gicen",
+    "tocen"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the instrument associated with the traditions of Yaran.\nA. bafal\nB. jovan\nC. gicen\nD. tocen\n<think>",
+   "probe": "Name the instrument associated with the traditions of Yaran.\nA. bafal\nB. jovan\nC. gicen\nD. tocen\nAnswer:",
+   "gold": "B",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_027",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "bafal",
+    "jovan",
+    "gicen",
+    "tocen"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nYaran is known for which traditional instrument?\nA. bafal\nB. gicen\nC. jovan\nD. tocen\n<think>",
+   "probe": "Yaran is known for which traditional instrument?\nA. bafal\nB. gicen\nC. jovan\nD. tocen\nAnswer:",
+   "gold": "C",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_027",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "bafal",
+    "gicen",
+    "jovan",
+    "tocen"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nWhich instrument is traditionally played in Tobar?\nA. gicen\nB. bafal\nC. tocen\nD. ponis\n<think>",
+   "probe": "Which instrument is traditionally played in Tobar?\nA. gicen\nB. bafal\nC. tocen\nD. ponis\nAnswer:",
+   "gold": "B",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_031",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "canonical",
+   "choice_order": [
+    "gicen",
+    "bafal",
+    "tocen",
+    "ponis"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nName the instrument associated with the traditions of Tobar.\nA. gicen\nB. tocen\nC. bafal\nD. ponis\n<think>",
+   "probe": "Name the instrument associated with the traditions of Tobar.\nA. gicen\nB. tocen\nC. bafal\nD. ponis\nAnswer:",
+   "gold": "C",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_031",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "paraphrase_1",
+   "choice_order": [
+    "gicen",
+    "tocen",
+    "bafal",
+    "ponis"
+   ]
+  },
+  {
+   "prompt": "Answer the multiple choice question. Think through it step by step inside <think></think> tags, then give only the letter of the correct option (A, B, C or D) inside <answer></answer> tags.\n\nTobar is known for which traditional instrument?\nA. gicen\nB. tocen\nC. ponis\nD. bafal\n<think>",
+   "probe": "Tobar is known for which traditional instrument?\nA. gicen\nB. tocen\nC. ponis\nD. bafal\nAnswer:",
+   "gold": "D",
+   "subject": "instrument",
+   "tier": "synthetic",
+   "fact_id": "smoke_con_031",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "paraphrase_2",
+   "choice_order": [
+    "gicen",
+    "tocen",
+    "ponis",
+    "bafal"
+   ]
+  }
+ ],
+ "sha256": "a9d359dfe03251b0b08e6d25f22870348dc900a7d4c505cb3b341a1b92ee1583"
+}

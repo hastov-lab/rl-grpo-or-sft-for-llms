@@ -1,0 +1,86 @@
+{
+ "completed": true,
+ "experiment": "046",
+ "branch": "grpo",
+ "binding": {
+  "completed": true,
+  "experiment": "046",
+  "stage": "grpo",
+  "seed": 1,
+  "config_hash": "a8e3d207e1e04f3eeb8760aa6d1ef2828bc47f8b132dd7615ef5411d08c12939",
+  "updates": 500,
+  "parameter_mode": "lora",
+  "sft_record_sha256": "d2f498ea302caa6af262f500bc2916a053eb144ed29f6fd6d7462afe0427f762",
+  "merged_path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_sft_grpo_seed1/sft_merged",
+  "merge_binding": {
+   "ts": "2026-08-27T09:59:13",
+   "adapter_dir": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_sft_grpo_seed1/sft",
+   "adapter_sha256": {
+    "adapter_model.safetensors": "e505df8a4535e2f3113d1cb456c33b95cfca7c2e2548161e8cdac922b91c802c",
+    "adapter_config.json": "f3966c91fb58d8b950714130eed9e5e86c87ced07a4cb2fcdbe599befc60e4fb",
+    "adapter_base.json": "f8b6398736e2a51b7264367ba1876b62b1e3f7f17f0ba687cf77b62f34bf4697",
+    "config_hash.txt": "af8fce6a00aa7c11c9e71384f0d36a77a91ee156331db062ddb243df3f32173c"
+   },
+   "merged_sha256": {
+    "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+    "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+    "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+    "model.safetensors": "37030ef0dda28e5e8b07411037cf2d7dfed3300401c4ecb0af635bb73af0aa3b",
+    "model_base.json": "f8b6398736e2a51b7264367ba1876b62b1e3f7f17f0ba687cf77b62f34bf4697",
+    "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+    "tokenizer_config.json": "46b0ee09bc6c14494f934103d0a72ac5a7f649ed99f6d8f1939cedad0c6c99e4"
+   }
+  },
+  "adapter_base": {
+   "verified": true,
+   "adapter_base_sha256": "d5a2588a2300651343cdbf52ab8c8c9ab62ec232dc2dcb027b5158a51c54f355",
+   "resolved_path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_sft_grpo_seed1/sft_merged",
+   "merged_path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_sft_grpo_seed1/sft_merged"
+  },
+  "precision_report_sha256": "222e256e436583f7f41da51601138a4fe740a59ce16980e0e2ff12f3c42350cd",
+  "a2_verdict_sha256": "aa8992424ed287408101c38a6b5a0a9b5843780acb63342ab8bedcee668b9bb0",
+  "wandb_runs": [
+   {
+    "path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_sft_grpo_seed1/046_grpo_wandb_runs/totplzhs.json",
+    "sha256": "985cb05d4dde72c8eb6a6e6949e9d2736aa7637c9852cb0cd12038e3b6620b05",
+    "project": "inm363-grpo",
+    "run_id": "totplzhs",
+    "run_name": "046_COLAB_FULL_GPT2_B15_sft_grpo_seed1_grpo"
+   }
+  ],
+  "starvation": {
+   "complete": {
+    "mean_accuracy_reward": 0.151,
+    "mean_format_reward": 0.16770000608637928,
+    "share_zero_reward_spread": 0.138
+   },
+   "first_50": {
+    "mean_accuracy_reward": 0.1225,
+    "mean_format_reward": 0.1415000044181943,
+    "share_zero_reward_spread": 0.08
+   },
+   "last_50": {
+    "mean_accuracy_reward": 0.1475,
+    "mean_format_reward": 0.17850000530481339,
+    "share_zero_reward_spread": 0.22
+   },
+   "severely_reward_starved": false
+  },
+  "artifact": {
+   "kind": "adapter",
+   "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_sft_grpo_seed1/grpo",
+   "sha256": {
+    "adapter_model.safetensors": "643f8fa1119c7fd2a35793cd0f36585aa566fccf45cebdd9d2a37929f0403c8e",
+    "adapter_config.json": "653367912b468993dc3db32d01e672109b7481285f797aadec97f5b1fa06d069",
+    "adapter_base.json": "d5a2588a2300651343cdbf52ab8c8c9ab62ec232dc2dcb027b5158a51c54f355",
+    "config_hash.txt": "af8fce6a00aa7c11c9e71384f0d36a77a91ee156331db062ddb243df3f32173c"
+   }
+  }
+ },
+ "sha256": {
+  "grpo_preds.jsonl": "636942e27b14765bcbe400df37e11de941d9ccc9131959213f112863b44b32d5",
+  "grpo_eval.json": "ac280701c47cadfa48259d7e2cb9dbff686928363df19a2acc33bfee4cc4a95b",
+  "grpo_logprob_preds.jsonl": "c25cace68f57482b623a39d794602df58b497c43b987d45ee9d59325e4295add",
+  "grpo_logprob.json": "05d349052f4dbe0a81f81d0080427a368576b22d2628826d7ca7d0fea4f69c43"
+ }
+}

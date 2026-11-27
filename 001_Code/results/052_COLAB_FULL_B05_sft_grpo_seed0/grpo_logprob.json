@@ -1,0 +1,38 @@
+{
+ "condition": "grpo",
+ "metric": "logprob",
+ "n_items": 1884,
+ "per_tier_acc": {
+  "easy": 0.6825938566552902,
+  "medium": 0.5205254515599343,
+  "hard": 0.3484848484848485
+ },
+ "per_subject_acc": {
+  "high_school_psychology": 0.636697247706422,
+  "marketing": 0.7649572649572649,
+  "business_ethics": 0.53,
+  "high_school_geography": 0.5909090909090909,
+  "philosophy": 0.47266881028938906,
+  "us_foreign_policy": 0.74,
+  "high_school_mathematics": 0.337037037037037,
+  "formal_logic": 0.373015873015873
+ },
+ "per_tier_ci": {
+  "easy": [
+   0.6529863481228669,
+   0.7110352673492605
+  ],
+  "medium": [
+   0.4827586206896552,
+   0.5632183908045977
+  ],
+  "hard": [
+   0.3005050505050505,
+   0.39646464646464646
+  ]
+ },
+ "overall_ci": [
+  0.5382032908704883,
+  0.580161889596603
+ ]
+}

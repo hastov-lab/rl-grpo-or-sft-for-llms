@@ -1,0 +1,23 @@
+# Pin the versions used in the local smoke test before running on Colab.
+# on colab torch usually comes preinstalled with the right cuda build, so there i can
+# drop the torch pin and just use colabs own torch.
+trl==1.7.1
+transformers==5.5.4
+peft==0.19.1
+accelerate==1.14.0
+datasets==4.8.4
+torch==2.9.1
+
+# utils, versions not critical
+numpy
+scipy
+pyyaml
+pytest
+
+# logging / trackers (both local tensorboard and wandb)
+tensorboard
+wandb
+
+# optional qlora fallback if 3b wont fit on colab
+# bitsandbytes
+# unsloth

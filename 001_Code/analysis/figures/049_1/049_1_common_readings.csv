@@ -1,0 +1,9 @@
+family,comparison,tier,seed categories,common reading,mean delta,range low,range high
+F1,base to p8,overall,"inconclusive, inconclusive, inconclusive",no common reading,0.008669497523000709,-0.0005307855626326964,0.014331210191082803
+F1,base to p8,hard,"inconclusive, inconclusive, inconclusive",no common reading,0.020202020202020204,0.017676767676767676,0.025252525252525252
+F2a,p2 to p8,overall,"inconclusive, inconclusive, inconclusive",no common reading,0.0023000707714083512,-0.011146496815286623,0.009554140127388535
+F2a,p2 to p8,hard,"inconclusive, inconclusive, inconclusive",no common reading,0.0008417508417508417,-0.010101010101010102,0.007575757575757576
+F2b,p8 to p32,overall,"inconclusive, inconclusive, inconclusive",no common reading,-0.013977353149327671,-0.022292993630573247,-0.00583864118895966
+F2b,p8 to p32,hard,"inconclusive, inconclusive, inconclusive",no common reading,-0.028619528619528618,-0.045454545454545456,-0.015151515151515152
+F3,plain p8 to warm p8,overall,"inconclusive, inconclusive, decline",no common reading,-0.017338995046001417,-0.025477707006369428,-0.004246284501061571
+F3,plain p8 to warm p8,hard,"inconclusive, inconclusive, inconclusive",no common reading,-0.023569023569023573,-0.03282828282828283,-0.012626262626262626

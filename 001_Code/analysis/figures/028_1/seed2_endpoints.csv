@@ -1,0 +1,33 @@
+recipe,metric,group,accuracy
+base -> GRPO,generative,overall,0.7770700636942676
+base -> GRPO,generative,easy,0.8646188850967008
+base -> GRPO,generative,medium,0.7569786535303776
+base -> GRPO,generative,hard,0.6136363636363636
+base -> GRPO,probe,overall,0.802547770700637
+base -> GRPO,probe,easy,0.8987485779294653
+base -> GRPO,probe,medium,0.8111658456486043
+base -> GRPO,probe,hard,0.5757575757575758
+GSM8K-SFT -> GRPO,generative,overall,0.8067940552016986
+GSM8K-SFT -> GRPO,generative,easy,0.8862343572241184
+GSM8K-SFT -> GRPO,generative,medium,0.7980295566502463
+GSM8K-SFT -> GRPO,generative,hard,0.6439393939393939
+GSM8K-SFT -> GRPO,probe,overall,0.7956475583864119
+GSM8K-SFT -> GRPO,probe,easy,0.8976109215017065
+GSM8K-SFT -> GRPO,probe,medium,0.80623973727422
+GSM8K-SFT -> GRPO,probe,hard,0.553030303030303
+MC-SFT,generative,overall,0.7845010615711253
+MC-SFT,generative,easy,0.8907849829351536
+MC-SFT,generative,medium,0.7783251231527094
+MC-SFT,generative,hard,0.5580808080808081
+MC-SFT,probe,overall,0.7998938428874734
+MC-SFT,probe,easy,0.8976109215017065
+MC-SFT,probe,medium,0.8095238095238095
+MC-SFT,probe,hard,0.5681818181818182
+MC-SFT -> GRPO,generative,overall,0.7829087048832272
+MC-SFT -> GRPO,generative,easy,0.8873720136518771
+MC-SFT -> GRPO,generative,medium,0.7783251231527094
+MC-SFT -> GRPO,generative,hard,0.5580808080808081
+MC-SFT -> GRPO,probe,overall,0.7998938428874734
+MC-SFT -> GRPO,probe,easy,0.8998862343572241
+MC-SFT -> GRPO,probe,medium,0.8078817733990148
+MC-SFT -> GRPO,probe,hard,0.5656565656565656

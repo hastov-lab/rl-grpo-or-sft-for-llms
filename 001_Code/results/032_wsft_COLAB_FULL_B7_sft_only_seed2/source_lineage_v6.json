@@ -1,0 +1,32 @@
+{
+ "adapter_dir": "/content/drive/MyDrive/inm363/checkpoints/013_COLAB_FULL_B7_sft_grpo_seed2/sft",
+ "adapter_sha256": {
+  "adapter_model.safetensors": "bcb4d75d713adebf3cef68e414391aaff5e423c29905682e6d2fed4864a874da",
+  "adapter_config.json": "250443b9d7df17a26e6e96b9bdf8886703009f6864d2c7fa8e01d5ffb43552b0",
+  "adapter_base.json": "bbe7839a8b4dcfa0474e911f8c556cb1525f78a4507c13eab970c6cd9bd31330",
+  "config_hash.txt": "ca968c7e67722a69f94ab70328f383f60e7aac0c6e8f008ae9c161ebadc24d1a"
+ },
+ "resolved_start": "/content/drive/MyDrive/inm363/checkpoints/013_COLAB_FULL_B7_sft_grpo_seed2/sft_merged",
+ "resolved_start_sha256": {
+  "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+  "config.json": "a855ce196e6cc954bec101379a7b8db760b819f906020c98d2081893dad7b4cb",
+  "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+  "model.safetensors": "86e8489b16794440458ff96946ba7210c239e66bbd4d10f82eea8062f5b294e8",
+  "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+  "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+ },
+ "resolved_base_kind": "local",
+ "resolved_base_value": "checkpoints/013_COLAB_FULL_B7_sft_grpo_seed2/sft_merged",
+ "start_kind": "parent_merged",
+ "version": 6,
+ "binding_level": "path_and_provenance",
+ "byte_reconstruction": false,
+ "parent_manifest": "/content/drive/MyDrive/inm363/results/013_COLAB_FULL_B7_sft_grpo_seed2/manifest.json",
+ "parent_manifest_sha256": "36744ad844cb9002b2257a88dead7ce3fd4e5ceb55cbe7bee90f260ce11ce042",
+ "parent_grpo_adapter_base": "/content/drive/MyDrive/inm363/checkpoints/013_COLAB_FULL_B7_sft_grpo_seed2/grpo/adapter_base.json",
+ "parent_grpo_adapter_base_sha256": "c434bde2c7253776e7e5b50c5c6ee1b0a1772fd567daf74b72887c261733f7a7",
+ "parent_grpo_base": {
+  "kind": "local",
+  "value": "checkpoints/013_COLAB_FULL_B7_sft_grpo_seed2/sft_merged"
+ }
+}

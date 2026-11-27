@@ -1,0 +1,28 @@
+{
+ "completed": true,
+ "experiment": "042",
+ "branch": "base",
+ "binding": {
+  "completed": true,
+  "experiment": "042",
+  "role": "immutable_base",
+  "artifact": "/content/drive/MyDrive/inm363/checkpoints/042_COLAB_FULL_M124_base",
+  "artifact_sha256": {
+   "artifact_type.json": "41ce53ec9b894d6c52e5d962d239711a2f83fed98b35cca8cfa2ba090a8a1cb6",
+   "config.json": "e84b5d8163f09b4f8f1d18b20ea047c8926f5b6f3b18efabec9d8c1fd3d3a3f6",
+   "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+   "model.safetensors": "dfd00844e4d956f0c9e1d4920fb421118ad33025977744bbe6cc53a32edd0c28",
+   "model_base.json": "533705ecd652b771a93c7e4e37b689d787c9feb1590ade126a6c4e4472f63ca7",
+   "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+   "tokenizer_config.json": "caab7b8a5a261a1d4cb142c2488acd9cb1c5c0154f681e5a38614a3a2c0cf8ce"
+  },
+  "source": "gpt2",
+  "source_revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e"
+ },
+ "sha256": {
+  "base_preds.jsonl": "43a498910f55c9df670e371f36a39ccd6ca27c7670ee1df068c1e67d37718e86",
+  "base_eval.json": "38543a11881691582238ad75c4b6cbcadc3a97a9547498f8dfb17f3794e7a881",
+  "base_logprob_preds.jsonl": "36e9669d9730f2f035169247c1401cdafad9911b84e7490b028477915d63f513",
+  "base_logprob.json": "711ccb7bf9ea135f8ecad3db93263fd37e6efa2880152ecfb36f4a6c4d4a53db"
+ }
+}

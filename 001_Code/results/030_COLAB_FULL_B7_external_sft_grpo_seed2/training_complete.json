@@ -1,0 +1,20 @@
+{
+ "ts": "2026-08-13T02:43:34",
+ "completed": true,
+ "steps": 500,
+ "history_sha256": "314eb115be0b12554643f340f122f83dda45a38851a592de9f8c4772ad573bc7",
+ "trainer_state_sha256": "148770378a0784edd3af5202403a2c1bf23e0e95cb5021d2598b55118597ccfc",
+ "adapter_sha256": {
+  "adapter_model.safetensors": "14ce2e94eab8533c7efe93b4525b0cb6bb54617e6caaf9513879f8cf1283d42b",
+  "adapter_config.json": "52ed28d784e4c50c754b4bca4212152ba9c0992d7b6892778c705831071af065",
+  "adapter_base.json": "fe6428b01d0d444721d7f87f9223916239d9de5b897a95b88de4502083dd268c",
+  "config_hash.txt": "8bafad45a8f430457aaa3aaa37342931882e5ee52c7466db4ca74c06d9b4a80f"
+ },
+ "adapter_base": {
+  "kind": "local",
+  "value": "checkpoints/030_COLAB_FULL_B7_external_sft_grpo_seed2/sft_merged"
+ },
+ "final_checkpoint": "checkpoint-500",
+ "first_learning_rate": 1e-05,
+ "final_learning_rate": 2e-08
+}

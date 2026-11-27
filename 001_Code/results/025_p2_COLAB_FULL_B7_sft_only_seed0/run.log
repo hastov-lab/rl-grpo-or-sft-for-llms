@@ -1,0 +1,9 @@
+2026-08-01 23:46:33,716 INFO using wandb key from env
+2026-08-01 23:46:33,717 INFO run 025_p2_COLAB_FULL_B7_sft_only_seed0 device=cuda stages=['base_eval', 'sft', 'sft_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/025_p2_COLAB_FULL_B7_sft_only_seed0
+2026-08-01 23:46:33,718 INFO base_eval skipped, probe-only run
+2026-08-01 23:46:33,718 INFO base_logprob_eval already done, skipping
+2026-08-01 23:48:46,318 INFO sft train done in 2m 12s | elapsed 2m 12s
+2026-08-01 23:48:46,319 INFO sft_eval skipped, probe-only run
+2026-08-01 23:49:29,992 INFO sft_logprob_eval done in 43s | elapsed 2m 56s
+2026-08-01 23:49:30,133 INFO done. total wall time 2m 56s
+2026-08-01 23:49:30,134 INFO results -> /content/drive/MyDrive/inm363/results/025_p2_COLAB_FULL_B7_sft_only_seed0/  checkpoints -> /content/drive/MyDrive/inm363/checkpoints/025_p2_COLAB_FULL_B7_sft_only_seed0/

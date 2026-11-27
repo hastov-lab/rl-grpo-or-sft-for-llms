@@ -1,0 +1,64 @@
+{
+ "timestamp": "2026-08-14T18:21:06",
+ "package": "032_wsft",
+ "condition": "sft",
+ "completed": true,
+ "adapter_sha256": {
+  "adapter_model.safetensors": "7d89aaa92851a8e07eb1431c36aff80397ae520073febc625438f143c6e19d4d",
+  "adapter_config.json": "62cd49b481d70cce44d9f9436f9a211581663420181bd2f7054f93f277ca5e63",
+  "adapter_base.json": "9540b3c120d8eeafe615de62baf63f9b923f87f76ecfdec0db18192deb8eb935",
+  "config_hash.txt": "3dc093961e6383e53bc93d8c35a55917d3da0953add03affabff782ed42b30ea"
+ },
+ "sha256": {
+  "sft_eval.json": "b1f2ea40f32f33bc825e9ca94db06de68b472765aa9e899fc2c853152e9524fc",
+  "sft_preds.jsonl": "4435d321675f1fc495d8da11e9bb8ab3e9ff759414d36be1d36cd1a2497c4733"
+ },
+ "probe_sha256": {
+  "sft_logprob.json": "799c0f13a3c8b3da9c7d711346de14c37ebee663e28cf7096b4679f0bcbdd89f",
+  "sft_logprob_preds.jsonl": "61ae8141a824ce9270530d593d588ce2ae409e13e0ce5d188e86223b221d4387"
+ },
+ "summary_sha256": "54fb79e20ebeec38860382e6dea3711e404c9e6be78909c1bf262836e0403c35",
+ "summary_fields_completed": [
+  "sft_acc"
+ ],
+ "config": "configs/032_wsft_colab_b3_seed1.yaml",
+ "seed": 1,
+ "scale": "B3",
+ "source_adapter_gate_manifest_sha256": "6e7c4937cd814b4a6732856580fa20a1ee0fe75453d121dd4b7783cd1906f4f8",
+ "start_binding": {
+  "adapter_dir": "/content/drive/MyDrive/inm363/checkpoints/003_COLAB_FULL_B3_sft_grpo_seed1/sft",
+  "adapter_sha256": {
+   "adapter_model.safetensors": "20a53e694f35ffa700552d740d847252ee1562646b378487c21eaddab592b5b9",
+   "adapter_config.json": "b0bb69895f7623bc26cf16443bc0786375afa3006c226723bbf5f892b50de66a",
+   "adapter_base.json": "8bcc0caf63f66e2cc70151deb46ca6fa1dce4df0fc034c8930af3c3e5d26ee14",
+   "config_hash.txt": "aef11d1ebfed5a705fa3121f6a1ba7092ca756e7de264c8294a9eddd9b66cbdd"
+  },
+  "resolved_start": "/content/drive/MyDrive/inm363/checkpoints/003_COLAB_FULL_B3_sft_grpo_seed1/sft_merged",
+  "resolved_start_sha256": {
+   "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+   "config.json": "cabc1f547ad41d6d2010c3e47792076d8a43eb79857ec53d531f53c8ee2a7686",
+   "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+   "model.safetensors": "ed1b3a0dfa4e038c8bb09a8430e97ecac23f4483f971972b3bb4fdbe189a556b",
+   "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+   "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+  },
+  "resolved_base_kind": "local",
+  "resolved_base_value": "checkpoints/003_COLAB_FULL_B3_sft_grpo_seed1/sft_merged",
+  "start_kind": "parent_merged",
+  "version": 6,
+  "binding_level": "path_and_provenance",
+  "byte_reconstruction": false,
+  "parent_manifest": "/content/drive/MyDrive/inm363/results/003_COLAB_FULL_B3_sft_grpo_seed1/manifest.json",
+  "parent_manifest_sha256": "3a19371bf9385d807d7bd0108c7cbfce431c935896d7cae50797172695194deb",
+  "parent_grpo_adapter_base": "/content/drive/MyDrive/inm363/checkpoints/003_COLAB_FULL_B3_sft_grpo_seed1/grpo/adapter_base.json",
+  "parent_grpo_adapter_base_sha256": "9540b3c120d8eeafe615de62baf63f9b923f87f76ecfdec0db18192deb8eb935",
+  "parent_grpo_base": {
+   "kind": "local",
+   "value": "checkpoints/003_COLAB_FULL_B3_sft_grpo_seed1/sft_merged"
+  }
+ },
+ "gpu": {
+  "device": "NVIDIA A100-SXM4-40GB",
+  "peak_vram_gb": 0.0
+ }
+}

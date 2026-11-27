@@ -1,0 +1,7 @@
+# tiny local run that stops after sft, proves the sft-only wiring
+env: LOCAL
+mode: SMOKE
+scale: B05
+condition: SFT_ONLY
+train:
+  seed: 0

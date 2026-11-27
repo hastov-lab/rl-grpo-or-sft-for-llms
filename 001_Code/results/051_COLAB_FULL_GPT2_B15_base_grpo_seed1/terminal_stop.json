@@ -1,0 +1,29 @@
+{
+ "binding_sha256": "707a2817e7cd00b3fd4a15fd370b905521746fe5e017ea90d19bf7d57d9268d0",
+ "initial_step": 0,
+ "wandb_runs": [
+  {
+   "path": "/content/drive/MyDrive/inm363/results/051_COLAB_FULL_GPT2_B15_base_grpo_seed1/051_grpo_wandb_runs/e2hf57kn.json",
+   "sha256": "bbd6c173753a6663ee18d2f1d2c44c6734383c468ac04169dd3f2d703a1c7ded",
+   "project": "inm363-grpo",
+   "run_id": "e2hf57kn",
+   "run_name": "051_COLAB_FULL_GPT2_B15_base_grpo_seed1_grpo"
+  }
+ ],
+ "completed": false,
+ "outcome": {
+  "kind": "A1",
+  "step": 50,
+  "mean_clipped_ratio": 0.72
+ },
+ "parser_diagnostics": {
+  "completed_updates": 50,
+  "responses_checked": 400,
+  "h_only_accuracy_reward": 5,
+  "b1_only_accuracy_reward": 5
+ },
+ "files": {
+  "results/parser_diagnostics.json": "7a5d5bde3b7cf27d8daaad15ab3cd491174367ca7b3c0ae3e90525d8e2766c99",
+  "results/manifest.json": "c82cb8936716cbcf6990c8207fd90f50e77751483fb0f6d10cb7564e3811c538"
+ }
+}

@@ -1,0 +1,99 @@
+{
+  "completed": true,
+  "task": "pilot_sft",
+  "seed": 0,
+  "gpu": {
+    "device": "NVIDIA A100-SXM4-80GB",
+    "peak_vram_gb": 0.0
+  },
+  "versions": {
+    "trl": "1.7.1",
+    "transformers": "5.5.4",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "datasets": "4.8.4",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.1.3",
+    "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+    "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+  },
+  "wall_seconds": 110.7,
+  "start_step": 0,
+  "end_step": 5,
+  "completed_updates": 5,
+  "peak_reserved_gib": 23.74,
+  "peak_reserved_fraction": 0.29950925877434836,
+  "total_vram_gib": 79.25,
+  "result": {
+    "updates": 5,
+    "setup": {
+      "verified": true,
+      "trainable_parameters": 22118400,
+      "total_parameters": 1579729600,
+      "trainable_fraction": 0.014001383527915157,
+      "trainable_tensors": 576,
+      "targets": [
+        "W_query",
+        "W_key",
+        "W_value",
+        "out_proj",
+        "layers.0",
+        "layers.2"
+      ],
+      "target_module_counts": {
+        "W_query": 48,
+        "W_key": 48,
+        "W_value": 48,
+        "out_proj": 48,
+        "layers.0": 48,
+        "layers.2": 48
+      },
+      "tied_language_model_weights": true
+    },
+    "merge": {
+      "verified": true,
+      "max_abs_logit_error": 7.62939453125e-06,
+      "comparison_dtype": "float32",
+      "development_rows": 245,
+      "answer_agreement": 0.9673469387755103,
+      "adapter_accuracy": 0.2693877551020408,
+      "merged_accuracy": 0.2612244897959184,
+      "changed_rows": 8,
+      "top_two_margin_means": {
+        "changed": {
+          "adapter": 0.03125,
+          "merged": 0.03125
+        },
+        "unchanged": {
+          "adapter": 0.31988396624472576,
+          "merged": 0.317246835443038
+        }
+      },
+      "gross_mismatch_limits": {
+        "minimum_agreement": 0.9,
+        "maximum_accuracy_difference": 0.05
+      },
+      "binding": {
+        "ts": "2026-08-26T15:33:15",
+        "adapter_dir": "/content/046_pilot_sft_80gb",
+        "adapter_sha256": {
+          "adapter_model.safetensors": "7019773d1d2f5c673eabca56e4f14479b6f069c128b93978625c03945e581e01",
+          "adapter_config.json": "144fa0455856e53cef7176b80bffc8f9d3abf899ff5c99c22856c84b40682a9a",
+          "adapter_base.json": "f8b6398736e2a51b7264367ba1876b62b1e3f7f17f0ba687cf77b62f34bf4697",
+          "config_hash.txt": "dea5bb88abef69560560a5e710fbe069412adb004135eb6813ae8f74dad39a2b"
+        },
+        "merged_sha256": {
+          "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+          "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+          "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+          "model.safetensors": "03294b313f1ebe109ca603ce57bd570593bb03396adee258a787e812fdd5c11d",
+          "model_base.json": "f8b6398736e2a51b7264367ba1876b62b1e3f7f17f0ba687cf77b62f34bf4697",
+          "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+          "tokenizer_config.json": "46b0ee09bc6c14494f934103d0a72ac5a7f649ed99f6d8f1939cedad0c6c99e4"
+        }
+      }
+    },
+    "adapter_reload_verified": true,
+    "merged_dir": "/content/sft_merged"
+  }
+}

@@ -1,0 +1,92 @@
+{
+ "trainable_parameter_dtypes": [
+  "float32"
+ ],
+ "gradient_dtypes": [
+  "float32"
+ ],
+ "gradients_finite": true,
+ "parameters_finite": true,
+ "optimizer_states_finite": true,
+ "nonzero_gradient_elements": 3538944,
+ "optimizer_state_dtypes": [
+  "float32"
+ ],
+ "bf16_enabled": true,
+ "accelerator_mixed_precision": "bf16",
+ "module_changes": {
+  "attention": {
+   "tensor": "base_model.model.trf_blocks.0.att.W_query.lora_A.default.weight",
+   "tensor_elements": 16384,
+   "elements": 16384,
+   "changed_elements": 16384,
+   "changed_fraction": 1.0,
+   "mean_abs_change": 0.00013871106784790754,
+   "max_abs_change": 0.0006278827786445618,
+   "change_norm_ratio": 0.009633890975272834
+  },
+  "mlp": {
+   "tensor": "base_model.model.trf_blocks.0.ff.layers.0.lora_A.default.weight",
+   "tensor_elements": 16384,
+   "elements": 16384,
+   "changed_elements": 16384,
+   "changed_fraction": 1.0,
+   "mean_abs_change": 0.0003820137935690582,
+   "max_abs_change": 0.001217186450958252,
+   "change_norm_ratio": 0.024916012354615935
+  }
+ },
+ "reference_gate": {
+  "verified": true,
+  "reference_kind": "adapter_disabled"
+ },
+ "wandb_run_record": {
+  "completed": true,
+  "experiment": "048",
+  "seed": 1,
+  "project": "inm363-grpo",
+  "run_id": "6rsz844d",
+  "run_name": "048_COLAB_FULL_GPT2_M355_sft_grpo_seed1_grpo",
+  "entity": "gogastov-city-university-of-london",
+  "config_hash": "226010d880d5bf02648ed122f2f398b8e67fb72f3ef6cd7d1bfdc33cf2139357",
+  "stage": "grpo",
+  "first_recorded_step": 1
+ },
+ "reference_behaviour": {
+  "verified": true,
+  "reference_max_abs_drift": 0.0,
+  "adapter_effect_max_abs": 0.6281299591064453,
+  "sampled_logprobs": 64
+ },
+ "lora_setup": {
+  "verified": true,
+  "trainable_parameters": 7077888,
+  "total_parameters": 361901056,
+  "trainable_fraction": 0.01955752237429227,
+  "trainable_tensors": 288,
+  "targets": [
+   "W_query",
+   "W_key",
+   "W_value",
+   "out_proj",
+   "layers.0",
+   "layers.2"
+  ],
+  "target_module_counts": {
+   "W_query": 24,
+   "W_key": 24,
+   "W_value": 24,
+   "out_proj": 24,
+   "layers.0": 24,
+   "layers.2": 24
+  },
+  "tied_language_model_weights": true
+ },
+ "completion_length_verified": true,
+ "adapter_base": {
+  "verified": true,
+  "adapter_base_sha256": "f209a890004099777244653fb3e565561b8ef2c929daa92abf5e8dfa4ca25cd7",
+  "resolved_path": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M355_sft_grpo_seed1/sft_merged",
+  "merged_path": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M355_sft_grpo_seed1/sft_merged"
+ }
+}

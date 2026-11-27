@@ -1,0 +1,18 @@
+{
+  "condition": "sft",
+  "metric": "continuation_score",
+  "n_items": 96,
+  "accuracy": 0.4270833333333333,
+  "by_group_variant": {
+    "injected": {
+      "exact": 1.0,
+      "declarative_1": 0.8125,
+      "declarative_2": 0.75
+    },
+    "control": {
+      "exact": 0.0,
+      "declarative_1": 0.0,
+      "declarative_2": 0.0
+    }
+  }
+}

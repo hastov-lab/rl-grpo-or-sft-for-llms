@@ -1,0 +1,94 @@
+{
+  "run_tag": "032_wsft_COLAB_FULL_B7_sft_only_seed1",
+  "timestamp": "2026-08-14T21:55:09",
+  "experiment": "032_wsft",
+  "condition": "SFT_ONLY",
+  "env": "COLAB",
+  "mode": "FULL",
+  "scale": "B7",
+  "seed": 1,
+  "exploratory": true,
+  "resolved_dtype": "bfloat16",
+  "config": {
+    "lora": {
+      "r": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ]
+    },
+    "reward": {
+      "correct_weight": 1.0,
+      "format_weight": 0.2,
+      "min_think_chars": 20
+    },
+    "train": {
+      "sft_lr": 0.0001,
+      "grpo_lr": 1e-05,
+      "max_steps": 123,
+      "num_generations": 8,
+      "max_seq_len": 1024,
+      "sft_batch_size": 4,
+      "sft_grad_accum": 4,
+      "sft_completion_only": true,
+      "sft_data": "mmlu_mc",
+      "sft_val_examples": 0,
+      "sft_from_adapter": "checkpoints/013_COLAB_FULL_B7_sft_grpo_seed1/sft",
+      "grpo_from_adapter": "",
+      "a2_action": "abort",
+      "dtype": "auto",
+      "seed": 1
+    },
+    "grpo": {
+      "loss_type": "grpo",
+      "beta": 0.04,
+      "scale_rewards": "group",
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "max_completion_length": 512
+    },
+    "eval": {
+      "max_new_tokens": 512,
+      "batch_size": 16,
+      "skip_generative": true
+    },
+    "exec": {
+      "grpo_batch_size": null,
+      "grpo_grad_accum": 1,
+      "gradient_checkpointing": false,
+      "max_train_hours": null,
+      "allow_oom_fallback": false
+    }
+  },
+  "git": {
+    "commit": "c7824d9ea0d61855d8a60483717a22d43411cec6",
+    "dirty": false
+  },
+  "versions": {
+    "trl": "1.7.1",
+    "transformers": "5.5.4",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "datasets": "4.8.4",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.0.2",
+    "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+    "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+  },
+  "model_id": "Qwen/Qwen2.5-7B",
+  "timings_sec": {
+    "sft_train": 286.956,
+    "sft_logprob_eval": 47.809
+  },
+  "gpu": {
+    "device": "NVIDIA A100-SXM4-80GB",
+    "peak_vram_gb": 26.785
+  }
+}

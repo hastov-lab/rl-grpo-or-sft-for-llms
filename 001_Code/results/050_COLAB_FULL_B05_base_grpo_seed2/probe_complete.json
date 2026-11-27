@@ -1,0 +1,9 @@
+{
+ "binding_sha256": "11e3391540484842b98d9b200fee43acce46476b7b90f229dfec9c3a177ae1f5",
+ "completed": true,
+ "files": {
+  "results/grpo_logprob_preds.jsonl": "d7a3c4f61de27847ddd01495b6a868ad7eeb9ceaa42d9da7f4d4fc89b8ef8fc8",
+  "results/grpo_logprob.json": "16f304d6662e42f1cd5b7df27a7fe69bc6ae2ac32179cfb6e0eb0b2217efda43"
+ },
+ "seconds": 11.084694862365723
+}

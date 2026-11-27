@@ -1,0 +1,114 @@
+{
+ "trainable_parameter_dtypes": [
+  "float32"
+ ],
+ "gradient_dtypes": [
+  "float32"
+ ],
+ "gradients_finite": true,
+ "parameters_finite": true,
+ "optimizer_states_finite": true,
+ "nonzero_gradient_elements": 11059168,
+ "optimizer_state_dtypes": [
+  "float32"
+ ],
+ "bf16_enabled": true,
+ "accelerator_mixed_precision": "bf16",
+ "module_changes": {
+  "attention": {
+   "tensor": "base_model.model.trf_blocks.0.att.W_query.lora_A.default.weight",
+   "tensor_elements": 25600,
+   "elements": 25600,
+   "changed_elements": 25600,
+   "changed_fraction": 1.0,
+   "mean_abs_change": 0.0001392600534018129,
+   "max_abs_change": 0.0006732800975441933,
+   "change_norm_ratio": 0.012111626328548515
+  },
+  "mlp": {
+   "tensor": "base_model.model.trf_blocks.0.ff.layers.0.lora_A.default.weight",
+   "tensor_elements": 25600,
+   "elements": 25600,
+   "changed_elements": 25600,
+   "changed_fraction": 1.0,
+   "mean_abs_change": 0.0004096893244422972,
+   "max_abs_change": 0.001146918162703514,
+   "change_norm_ratio": 0.032915355227492275
+  }
+ },
+ "reference_gate": {
+  "verified": true,
+  "reference_kind": "adapter_disabled"
+ },
+ "wandb_run_record": {
+  "completed": true,
+  "experiment": "046",
+  "seed": 0,
+  "project": "inm363-grpo",
+  "run_id": "nzkwxqwu",
+  "run_name": "046_COLAB_FULL_GPT2_B15_sft_grpo_seed0_grpo",
+  "entity": "gogastov-city-university-of-london",
+  "config_hash": "dfaeee6ff04814805397dab6fd6a3fd4a63fd33d56ff2ef7f72c9582aa9cc1f5",
+  "stage": "grpo",
+  "first_recorded_step": 1
+ },
+ "reference_behaviour": {
+  "verified": true,
+  "reference_max_abs_drift": 0.0,
+  "adapter_effect_max_abs": 0.763641357421875,
+  "sampled_logprobs": 64
+ },
+ "lora_setup": {
+  "verified": true,
+  "trainable_parameters": 22118400,
+  "total_parameters": 1579729600,
+  "trainable_fraction": 0.014001383527915157,
+  "trainable_tensors": 576,
+  "targets": [
+   "W_query",
+   "W_key",
+   "W_value",
+   "out_proj",
+   "layers.0",
+   "layers.2"
+  ],
+  "target_module_counts": {
+   "W_query": 48,
+   "W_key": 48,
+   "W_value": 48,
+   "out_proj": 48,
+   "layers.0": 48,
+   "layers.2": 48
+  },
+  "tied_language_model_weights": true
+ },
+ "completion_length_verified": true,
+ "resume_memory": [
+  {
+   "label": "trainer ready",
+   "available": true,
+   "allocated_gib": 5.931930065155029,
+   "reserved_gib": 5.935546875,
+   "peak_allocated_gib": 5.931930065155029,
+   "peak_reserved_gib": 5.935546875,
+   "free_gib": 72.89727783203125,
+   "total_gib": 79.250732421875
+  },
+  {
+   "label": "training finished",
+   "available": true,
+   "allocated_gib": 6.113908767700195,
+   "reserved_gib": 51.6171875,
+   "peak_allocated_gib": 50.90109825134277,
+   "peak_reserved_gib": 51.6171875,
+   "free_gib": 27.11407470703125,
+   "total_gib": 79.250732421875
+  }
+ ],
+ "adapter_base": {
+  "verified": true,
+  "adapter_base_sha256": "6968d50867b77ab14afc551cc82c95dbbca4c35a16ce1957d0d8cd48afb0948d",
+  "resolved_path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_sft_grpo_seed0/sft_merged",
+  "merged_path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_sft_grpo_seed0/sft_merged"
+ }
+}

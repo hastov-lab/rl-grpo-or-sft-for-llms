@@ -1,0 +1,18 @@
+{
+ "completed": true,
+ "experiment": "046",
+ "reason": "logit projection memory correction",
+ "source": "/content/drive/MyDrive/inm363/results/046_technical/pilot_80gb",
+ "files": {
+  "pilot_failure.json": "4a555f17cfc3d1a4fef15cba3d6b51ed8daf8d6bc83e8a680d8b781758084288",
+  "pilot_report.json": "cc28daf777ec446b1d8df707a2644875790834cf4200bcdcfff9728106463793",
+  "pilot_closeout.json": "0d84e58742fdd90f5f8fc0a1fc35a0715095f0fb9e4f01f80567935204f25e2e",
+  "pilot_sft_status.json": "c082c9fb96b80e2531b1823ecc86cf14c3090ea1289d48758f10948add166918",
+  "pilot_grpo_a_status.json": "8907bfa325451c9137601338b49c98778dd817022b8ab0660b6212e4e89a7b1e",
+  "pilot_grpo_b_status.json": "2d14bdc4c38e9cd3124c3e202e5c86e42bf67ebd9e37794f8b6163ecedbb60d8",
+  "precision_a.json": "f33a8b46a74159d37f68ad6bc9f4f51f12ea049f53411946b1a5bd5313c60168",
+  "precision_b.json": "37cbe51199f6dad05341bf29326f3e2e827d9969a325d7536628a57472403489",
+  "sft_trainlog.json": "c4df154b6e9719f751d75ca1b41b5a5050bf8b83c4f658d48b74331dc42a5f38",
+  "grpo_trainlog.json": "edeea56845d30066bb495701d3dec5815dd271c81fc0e0ee5d6ec6ef3ebcb209"
+ }
+}

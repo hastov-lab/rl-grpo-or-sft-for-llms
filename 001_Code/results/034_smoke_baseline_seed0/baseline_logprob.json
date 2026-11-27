@@ -1,0 +1,24 @@
+{
+  "condition": "baseline",
+  "metric": "logprob",
+  "n_items": 96,
+  "per_tier_acc": {
+    "synthetic": 0.28125
+  },
+  "per_subject_acc": {
+    "capital": 0.25,
+    "currency": 0.3333333333333333,
+    "festival": 0.3333333333333333,
+    "instrument": 0.20833333333333334
+  },
+  "per_tier_ci": {
+    "synthetic": [
+      0.19791666666666666,
+      0.375
+    ]
+  },
+  "overall_ci": [
+    0.19791666666666666,
+    0.375
+  ]
+}

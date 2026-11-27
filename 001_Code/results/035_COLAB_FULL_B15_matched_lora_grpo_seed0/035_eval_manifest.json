@@ -1,0 +1,81 @@
+{
+ "completed": true,
+ "package": "035b_scale_check",
+ "sha256": {
+  "grpo_preds.jsonl": "16e193e41fdc6c723c215804257df27becce3016022d378834b288f863c45668",
+  "grpo_eval.json": "cb2e974f5c0a77e283af89bddff6712affa4a40970e181e2f971edf4a7595390",
+  "grpo_logprob_preds.jsonl": "b4279bf95f312c63a1796205407cc718511673ad939b6c51efc7827489e7488a",
+  "grpo_logprob.json": "4eff57595a608f8cb8ca2fb2bc0dc6486e74f7aa5a716f9c11b43c215747b583"
+ },
+ "training_record": {
+  "completed": true,
+  "scale": "B15",
+  "seed": 0,
+  "parameter_mode": "lora",
+  "rung": "A_GC",
+  "execution": {
+   "batch": 8,
+   "accum": 1,
+   "checkpointing": true
+  },
+  "config_hash": "d03c3468d8c74c6baf7e16059ce86f715e92dbb010339cfdc61fa44f3afccfd6",
+  "start_record": {
+   "experiment": "035",
+   "scale": "B15",
+   "seed": 0,
+   "source_tag": "009_COLAB_FULL_B15_sft_grpo_seed0",
+   "source_config": "configs/009_colab_full_b15_seed0.yaml",
+   "source_manifest": "/content/drive/MyDrive/inm363/results/009_COLAB_FULL_B15_sft_grpo_seed0/manifest.json",
+   "source_manifest_sha256": "e581aeeb53c8631ddc4d063ef2163acde8015313670980b91305a2bddef4e2fb",
+   "historical_adapter_base": "/content/drive/MyDrive/inm363/checkpoints/009_COLAB_FULL_B15_sft_grpo_seed0/grpo/adapter_base.json",
+   "historical_adapter_base_sha256": "8722192e0c85986e7b010920967e294fb71115eaf402ea15a33b5521cb41e190",
+   "start": "/content/drive/MyDrive/inm363/checkpoints/009_COLAB_FULL_B15_sft_grpo_seed0/sft_merged",
+   "start_sha256": {
+    "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+    "config.json": "23e5bdea36342ea968d7d4cf580478c9040f6dbe91f93c4498e7a70d555a80c4",
+    "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+    "model.safetensors": "5f01dbbced686976b568737ba3e820eade00b8f263d377a726a7fb47bce6466c",
+    "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+    "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+   },
+   "binding_level": "path_provenance_and_current_hashes",
+   "lineage_sha256": null
+  },
+  "precision_report_sha256": "ce9c8149d2b2178f2f5360e2b87d3de6eaf0c65f3d0f0101e8059205e5d313bc",
+  "a2_verdict_sha256": "8245ceabd229a61647941beff65084fe51d0113e20c5c2f56d35539ba61c0c63",
+  "artifact": {
+   "kind": "lora",
+   "sha256": {
+    "adapter_model.safetensors": "5f46b47392906620cce2f7a851847fa66e4cde9f39740fae69defd18a92acb43",
+    "adapter_config.json": "b3c1209f29bd2f5ca912bfa365a7fe727529890e5f88b4403043e56c40e2e17d",
+    "adapter_base.json": "8722192e0c85986e7b010920967e294fb71115eaf402ea15a33b5521cb41e190",
+    "config_hash.txt": "2e22215d3aa535e5c93ed265a1b6522a7e59d6991d1c7548bfa8b6c2f78dc630"
+   }
+  },
+  "wandb_runs": [
+   {
+    "path": "/content/drive/MyDrive/inm363/results/035_COLAB_FULL_B15_matched_lora_grpo_seed0/035_wandb_runs/i6po5qur.json",
+    "sha256": "4b418324d54ac2f5db068b3c9fed924764f39f31fa9781bb5b765840d30252f4",
+    "project": "inm363-grpo",
+    "run_id": "i6po5qur",
+    "run_name": "035_COLAB_FULL_B15_matched_lora_grpo_seed0_grpo"
+   },
+   {
+    "path": "/content/drive/MyDrive/inm363/results/035_COLAB_FULL_B15_matched_lora_grpo_seed0/035_wandb_runs/iceudq3i.json",
+    "sha256": "acba895ab4f19076951857420c9d2999f844df5a4b340f5b272b543031091927",
+    "project": "inm363-grpo",
+    "run_id": "iceudq3i",
+    "run_name": "035_COLAB_FULL_B15_matched_lora_grpo_seed0_grpo"
+   }
+  ],
+  "infrastructure_resume": {
+   "path": "/content/drive/MyDrive/inm363/results/035_technical/035_b15_lora_drive_resume.json",
+   "sha256": "398981738d45748564b60083b7cd9fbd197fa9d047f2c8f48dd6c12335c5c04a",
+   "report_to": [
+    "wandb"
+   ]
+  },
+  "record_path": "/content/drive/MyDrive/inm363/results/035_COLAB_FULL_B15_matched_lora_grpo_seed0/035_training_complete.json"
+ },
+ "timestamp": "2026-08-20T00:17:06"
+}

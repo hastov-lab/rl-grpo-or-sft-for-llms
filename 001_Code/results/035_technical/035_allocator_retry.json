@@ -1,0 +1,14 @@
+{
+ "completed": true,
+ "scale": "B3",
+ "seed": 0,
+ "parameter_mode": "full",
+ "rung": "A",
+ "allocator_config": "expandable_segments:True",
+ "clean_restart": true,
+ "automatic_fallback": false,
+ "registered_date": "2026-08-17",
+ "failed_status_sha256": "ae3dee232aae9ea350ee13af87de0341b3f1a96d6b57075e14cbea19a0cbe4c8",
+ "failed_binding_sha256": "6bef52a23d216a70a0ecc79943859f7e11270391a6ee58db346cf6a83ca3b4f8",
+ "archive": "/content/drive/MyDrive/inm363/failed_attempts/035/B3_seed0_full_A_default_allocator"
+}

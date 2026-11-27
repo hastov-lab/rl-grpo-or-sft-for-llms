@@ -1,0 +1,78 @@
+{
+ "trainable_parameter_dtypes": [
+  "float32"
+ ],
+ "gradient_dtypes": [
+  "float32"
+ ],
+ "gradients_finite": true,
+ "parameters_finite": true,
+ "optimizer_states_finite": true,
+ "nonzero_gradient_elements": 1543709903,
+ "optimizer_state_dtypes": [
+  "float32"
+ ],
+ "bf16_enabled": true,
+ "accelerator_mixed_precision": "bf16",
+ "module_changes": {
+  "embeddings": {
+   "tensor": "model.embed_tokens.weight",
+   "tensor_elements": 233373696,
+   "elements": 1000000,
+   "changed_elements": 999960,
+   "changed_fraction": 0.99996,
+   "mean_abs_change": 5.7046450820052996e-05,
+   "max_abs_change": 0.0008359439671039581,
+   "change_norm_ratio": 0.00345990025368844
+  },
+  "attention": {
+   "tensor": "model.layers.0.self_attn.q_proj.weight",
+   "tensor_elements": 2359296,
+   "elements": 1000000,
+   "changed_elements": 999989,
+   "changed_fraction": 0.999989,
+   "mean_abs_change": 9.82818310149014e-05,
+   "max_abs_change": 0.0005798274651169777,
+   "change_norm_ratio": 0.0025253120007250984
+  },
+  "mlp": {
+   "tensor": "model.layers.0.mlp.gate_proj.weight",
+   "tensor_elements": 13762560,
+   "elements": 1000000,
+   "changed_elements": 999991,
+   "changed_fraction": 0.999991,
+   "mean_abs_change": 9.786393638933077e-05,
+   "max_abs_change": 0.000614178366959095,
+   "change_norm_ratio": 0.004001537243160217
+  },
+  "normalization": {
+   "tensor": "model.layers.0.input_layernorm.weight",
+   "tensor_elements": 1536,
+   "elements": 1536,
+   "changed_elements": 1536,
+   "changed_fraction": 1.0,
+   "mean_abs_change": 9.781371772987768e-05,
+   "max_abs_change": 0.0004087686538696289,
+   "change_norm_ratio": 0.0002650729547631602
+  }
+ },
+ "reference_gate": {
+  "verified": true,
+  "reference_kind": "separate_frozen_model"
+ },
+ "wandb_run_record": {
+  "completed": true,
+  "experiment": "035b",
+  "scale": "B15",
+  "seed": 0,
+  "parameter_mode": "full",
+  "rung": "A_GC",
+  "project": "inm363-grpo",
+  "run_id": "ityclcai",
+  "run_name": "035_COLAB_FULL_B15_matched_full_grpo_seed0_grpo",
+  "entity": "gogastov-city-university-of-london",
+  "config_hash": "44b792ea5ce2986b1169a635a0349b587e88395fc1087f807b810ff0915c4e93",
+  "execution_binding_sha256": "a4e0bfb5d5ebc4b321b08ceda4a8ea5d25300fb44d28e463b3db70d14a843567",
+  "first_recorded_step": 1
+ }
+}

@@ -1,0 +1,64 @@
+# Experiment 029 seed 1: grpo on top of the seed-matched 1.5b mc-sft adapter
+# (w14b, the composition recipe at the smaller scales). Fixed exploratory arm,
+# frozen grpo protocol, settings byte-matched to the 009 seed config apart from
+# the registered differences: experiment, condition, source adapter,
+# exploratory, and the disabled oom ladder of the current worker regime
+experiment: "029"
+exploratory: true
+env: COLAB
+mode: FULL
+scale: B15
+condition: MCSFT_GRPO
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+
+reward:
+  correct_weight: 1.0
+  format_weight: 0.2
+  min_think_chars: 20
+
+train:
+  sft_lr: 1.0e-4
+  grpo_lr: 1.0e-5
+  max_steps: 500
+  num_generations: 8
+  max_seq_len: 1024
+  sft_batch_size: 4
+  sft_grad_accum: 4
+  sft_completion_only: true
+  sft_val_examples: 500
+  dtype: auto
+  grpo_from_adapter: checkpoints/010_p8_COLAB_FULL_B15_sft_only_seed1/sft
+  seed: 1
+
+grpo:
+  loss_type: grpo
+  beta: 0.04
+  scale_rewards: group
+  temperature: 1.0
+  top_p: 1.0
+  max_completion_length: 512
+
+eval:
+  max_new_tokens: 512
+  batch_size: 16
+
+log:
+  wandb_mode: online
+  save_total_limit: 10
+
+output_root: /content/drive/MyDrive/inm363
+
+# execution knobs, outside the freeze. The a100 80gb has the headroom at this
+# scale and the oom ladder stays off under the current worker regime: a memory
+# failure halts and gets recorded, nothing silently retunes itself
+exec:
+  grpo_batch_size: null
+  grpo_grad_accum: 1
+  gradient_checkpointing: false
+  max_train_hours: 24   # sentinel a4: abort at step 20 if the projection says more
+  allow_oom_fallback: false

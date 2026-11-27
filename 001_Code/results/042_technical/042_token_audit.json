@@ -1,0 +1,22 @@
+{
+ "completed": true,
+ "experiment": "042",
+ "tokenizer": "gpt2",
+ "sft_rows": 7973,
+ "grpo_rows": 245,
+ "test_rows": 1884,
+ "max_sft_tokens": 481,
+ "max_grpo_prompt_tokens": 232,
+ "max_mc_sft_tokens": 250,
+ "max_test_prompt_tokens": 304,
+ "max_test_probe_tokens": 255,
+ "completion_cap": 512,
+ "letter_token_ids": {
+  "A": 317,
+  "B": 347,
+  "C": 327,
+  "D": 360
+ },
+ "probe_surface": " leading space A/B/C/D after Answer:",
+ "test_row_ids_sha256": "7724da2b662e4fa2dc85a89d5d7ded723328a767fa84830e9b518c8e6a899095"
+}

@@ -1,0 +1,10 @@
+{
+ "binding_sha256": "b4682597caf1f667850b80c8467f9dc5bd5915e21c3070d10541496a852a4a2a",
+ "completed": true,
+ "files": {
+  "results/grpo_preds.jsonl": "33c5dc1c2486379fac7307809cece1a6ca5d93404654f2204b4d2f1870380c03",
+  "results/grpo_eval.json": "e945d2820fcedbca328c71754320d509052b9ad96a1dc8e81e2120f1629476d9",
+  "results/grpo_historical_preds.jsonl": "33c5dc1c2486379fac7307809cece1a6ca5d93404654f2204b4d2f1870380c03"
+ },
+ "seconds": 3711.114490032196
+}

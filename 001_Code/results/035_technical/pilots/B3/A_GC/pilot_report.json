@@ -1,0 +1,111 @@
+{
+ "completed": true,
+ "task": "pilot",
+ "rung": "A_GC",
+ "execution": {
+  "batch": 8,
+  "accum": 1,
+  "checkpointing": true
+ },
+ "gpu": {
+  "device": "NVIDIA A100-SXM4-80GB",
+  "peak_vram_gb": 0.0
+ },
+ "versions": {
+  "trl": "1.7.1",
+  "transformers": "5.5.4",
+  "peft": "0.19.1",
+  "accelerate": "1.14.0",
+  "datasets": "4.8.4",
+  "torch": "2.11.0+cu128",
+  "numpy": "2.0.2",
+  "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+ },
+ "allocator_config": "expandable_segments:True",
+ "wall_seconds": 534.3,
+ "start_step": 0,
+ "end_step": 30,
+ "completed_updates": 30,
+ "peak_vram_gib": 67.22,
+ "peak_reserved_gib": 67.22,
+ "peak_allocated_gib": 58.74,
+ "total_vram_gib": 79.25,
+ "peak_reserved_fraction": 0.8481536361984037,
+ "scale": "B3",
+ "seed": 0,
+ "storage_dtype": "float32",
+ "compute_dtype": "bfloat16",
+ "gradient_dtype": "float32",
+ "optimizer_state_dtypes": [
+  "float32"
+ ],
+ "finite": true,
+ "precision_audit": {
+  "trainable_parameter_dtypes": [
+   "float32"
+  ],
+  "gradient_dtypes": [
+   "float32"
+  ],
+  "gradients_finite": true,
+  "parameters_finite": true,
+  "optimizer_states_finite": true,
+  "nonzero_gradient_elements": 3085926554,
+  "optimizer_state_dtypes": [
+   "float32"
+  ],
+  "bf16_enabled": true,
+  "accelerator_mixed_precision": "bf16",
+  "module_changes": {
+   "embeddings": {
+    "tensor": "model.embed_tokens.weight",
+    "tensor_elements": 311164928,
+    "elements": 1000000,
+    "changed_elements": 999087,
+    "changed_fraction": 0.999087,
+    "mean_abs_change": 1.545078521303367e-05,
+    "max_abs_change": 0.00018640377675183117,
+    "change_norm_ratio": 0.001105308071527887
+   },
+   "attention": {
+    "tensor": "model.layers.0.self_attn.q_proj.weight",
+    "tensor_elements": 4194304,
+    "elements": 1000000,
+    "changed_elements": 999987,
+    "changed_fraction": 0.999987,
+    "mean_abs_change": 4.75601882499177e-05,
+    "max_abs_change": 0.00021691247820854187,
+    "change_norm_ratio": 0.0015940391712595194
+   },
+   "mlp": {
+    "tensor": "model.layers.0.mlp.gate_proj.weight",
+    "tensor_elements": 22544384,
+    "elements": 1000000,
+    "changed_elements": 999984,
+    "changed_fraction": 0.999984,
+    "mean_abs_change": 4.651839844882488e-05,
+    "max_abs_change": 0.00022671744227409363,
+    "change_norm_ratio": 0.0021644517596592304
+   },
+   "normalization": {
+    "tensor": "model.layers.0.input_layernorm.weight",
+    "tensor_elements": 2048,
+    "elements": 2048,
+    "changed_elements": 2047,
+    "changed_fraction": 0.99951171875,
+    "mean_abs_change": 4.9619840865489095e-05,
+    "max_abs_change": 0.00018143653869628906,
+    "change_norm_ratio": 0.00017378933158714813
+   }
+  },
+  "reference_gate": {
+   "verified": true,
+   "reference_kind": "separate_frozen_model"
+  }
+ },
+ "checkpoint_bytes": 37043184069,
+ "pilot_weights_retained": false,
+ "passed": true,
+ "scientific_metrics_used": false
+}

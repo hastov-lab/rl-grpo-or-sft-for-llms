@@ -1,0 +1,15 @@
+{
+ "completed": true,
+ "experiment": "035b",
+ "scale": "B15",
+ "seed": 0,
+ "parameter_mode": "full",
+ "rung": "A_GC",
+ "project": "inm363-grpo",
+ "run_id": "ityclcai",
+ "run_name": "035_COLAB_FULL_B15_matched_full_grpo_seed0_grpo",
+ "entity": "gogastov-city-university-of-london",
+ "config_hash": "44b792ea5ce2986b1169a635a0349b587e88395fc1087f807b810ff0915c4e93",
+ "execution_binding_sha256": "a4e0bfb5d5ebc4b321b08ceda4a8ea5d25300fb44d28e463b3db70d14a843567",
+ "first_recorded_step": 1
+}

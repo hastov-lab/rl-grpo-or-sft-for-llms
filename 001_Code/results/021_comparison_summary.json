@@ -1,0 +1,142 @@
+{
+  "binding": true,
+  "common_reading": "no common schedule-regime conclusion, mixed or inconclusive categories, reported arm by arm",
+  "mcsft_mean": 0.5339702760084926,
+  "mcsft_range": [
+    0.5302547770700637,
+    0.5382165605095541
+  ],
+  "arms": [
+    {
+      "seed": 0,
+      "acc": 0.44957537154989385,
+      "delta_vs_recovered": -0.08704883227176224,
+      "ci": [
+        -0.10881104033970276,
+        -0.06581740976645435
+      ],
+      "tiers_scratch_vs_recovered": {
+        "easy": [
+          0.5608646188850968,
+          0.6814562002275313
+        ],
+        "medium": [
+          0.4072249589490969,
+          0.5041050903119869
+        ],
+        "hard": [
+          0.2676767676767677,
+          0.26515151515151514
+        ]
+      },
+      "delta_vs_500": -0.01273885350318471,
+      "reward_late_vs_first100": 0.09999999999999998,
+      "reward_label_vs_first100": "rising",
+      "reward_late_vs_mid": 0.026249999999999996,
+      "reward_label_vs_mid": "flat",
+      "probe_delta": 0.004777070063694267,
+      "probe_ci": [
+        -0.004777070063694267,
+        0.014331210191082803
+      ],
+      "probe_class": "unchanged (equivalence rule met)",
+      "supervised_flag": false,
+      "p_raw": 1.0359880709547032e-14,
+      "category": "material decline",
+      "holm_p": 3.1079642128641094e-14
+    },
+    {
+      "seed": 1,
+      "acc": 0.5456475583864119,
+      "delta_vs_recovered": 0.030785562632696384,
+      "ci": [
+        0.01592356687898089,
+        0.04617834394904458
+      ],
+      "tiers_scratch_vs_recovered": {
+        "easy": [
+          0.6848691695108078,
+          0.6575654152445961
+        ],
+        "medium": [
+          0.5139573070607554,
+          0.47619047619047616
+        ],
+        "hard": [
+          0.28535353535353536,
+          0.25757575757575757
+        ]
+      },
+      "delta_vs_500": 0.23036093418259024,
+      "reward_late_vs_first100": 0.31625000000000003,
+      "reward_label_vs_first100": "rising",
+      "reward_late_vs_mid": -0.022499999999999964,
+      "reward_label_vs_mid": "flat",
+      "probe_delta": 0.0037154989384288748,
+      "probe_ci": [
+        -0.00583864118895966,
+        0.01326963906581741
+      ],
+      "probe_class": "unchanged (equivalence rule met)",
+      "supervised_flag": true,
+      "p_raw": 9.622612440558244e-05,
+      "category": "material improvement",
+      "holm_p": 0.0001924522488111649
+    },
+    {
+      "seed": 2,
+      "acc": 0.5366242038216561,
+      "delta_vs_recovered": -0.0010615711252653925,
+      "ci": [
+        -0.013800424628450107,
+        0.01167728237791932
+      ],
+      "tiers_scratch_vs_recovered": {
+        "easy": [
+          0.676905574516496,
+          0.6825938566552902
+        ],
+        "medium": [
+          0.5090311986863711,
+          0.49917898193760263
+        ],
+        "hard": [
+          0.2676767676767677,
+          0.27525252525252525
+        ]
+      },
+      "delta_vs_500": 0.030785562632696384,
+      "reward_late_vs_first100": 0.31,
+      "reward_label_vs_first100": "rising",
+      "reward_late_vs_mid": 0.0,
+      "reward_label_vs_mid": "flat",
+      "probe_delta": -0.002653927813163482,
+      "probe_ci": [
+        -0.012208067940552018,
+        0.0074309978768577496
+      ],
+      "probe_class": "unchanged (equivalence rule met)",
+      "supervised_flag": true,
+      "p_raw": 0.9353893704780406,
+      "category": "equivalent",
+      "holm_p": 0.9353893704780406
+    }
+  ],
+  "sets": {
+    "original 500": [
+      0.46231422505307856,
+      0.31528662420382164,
+      0.5058386411889597
+    ],
+    "recovered 1000": [
+      0.5366242038216561,
+      0.5148619957537155,
+      0.5376857749469215
+    ],
+    "scratch 1000": [
+      0.44957537154989385,
+      0.5456475583864119,
+      0.5366242038216561
+    ]
+  }
+}

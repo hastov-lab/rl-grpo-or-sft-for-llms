@@ -1,0 +1,12 @@
+{
+ "completed": true,
+ "experiment": "051",
+ "seed": 2,
+ "project": "inm363-grpo",
+ "run_id": "2a13mg5d",
+ "run_name": "051_COLAB_FULL_GPT2_B15_base_grpo_seed2_grpo",
+ "entity": "gogastov-city-university-of-london",
+ "config_hash": "58c78337bcbed95adf2c7903d51f5faebfd7b71e53bb41cf5c59fe8f983cde7c",
+ "stage": "grpo",
+ "first_recorded_step": 1
+}

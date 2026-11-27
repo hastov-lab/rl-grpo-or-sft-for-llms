@@ -1,0 +1,358 @@
+{
+ "experiment": "030",
+ "package": "030b",
+ "status": "descriptive_incomplete",
+ "primary_endpoint": "hard",
+ "holm_binding": false,
+ "common_reading": null,
+ "formal_equivalence_possible": false,
+ "scope": "outcome-informed exploratory robustness across seeds 0, 1 and 2",
+ "pairs": [
+  {
+   "seed": 0,
+   "status": "completed",
+   "hard_raw_p": 1.0,
+   "hard_discordant": {
+    "n4_gain": 27,
+    "n8_gain": 28
+   },
+   "tiers": {
+    "easy": {
+     "n8_acc": 0.8930602957906713,
+     "n4_acc": 0.8896473265073948,
+     "delta": -0.0034129692832764505,
+     "ci": [
+      -0.015927189988623434,
+      0.009101251422070534
+     ]
+    },
+    "medium": {
+     "n8_acc": 0.7766830870279147,
+     "n4_acc": 0.7766830870279147,
+     "delta": 0.0,
+     "ci": [
+      -0.016420361247947456,
+      0.016420361247947456
+     ]
+    },
+    "hard": {
+     "n8_acc": 0.6388888888888888,
+     "n4_acc": 0.6363636363636364,
+     "delta": -0.0025252525252525255,
+     "ci": [
+      -0.03787878787878788,
+      0.03282828282828283
+     ]
+    },
+    "overall": {
+     "n8_acc": 0.8020169851380042,
+     "n4_acc": 0.7998938428874734,
+     "delta": -0.0021231422505307855,
+     "ci": [
+      -0.01326963906581741,
+      0.009023354564755838
+     ]
+    }
+   },
+   "probe": {
+    "delta": -0.002653927813163482,
+    "ci": [
+     -0.006900212314225053,
+     0.0015923566878980893
+    ],
+    "category": "equivalent"
+   },
+   "format_rate": {
+    "n8": 0.9840764331210191,
+    "n4": 0.9777070063694268
+   },
+   "mean_response_tokens": {
+    "n8": 66.45116772823779,
+    "n4": 72.1411889596603
+   },
+   "training_seconds": {
+    "n8": 10684.428,
+    "n4": 7237.7
+   },
+   "evaluation_seconds_n4": 2102.8,
+   "estimated_core_units_n4": 17.565329166666668,
+   "peak_vram_gib": {
+    "n8": 71.317,
+    "n4": 41.38
+   },
+   "dynamics": {
+    "n8": {
+     "frac_reward_zero_std": {
+      "mean": 0.46,
+      "first_50": 0.24,
+      "last_50": 0.54
+     },
+     "reward_std": {
+      "mean": 0.21958025166392325,
+      "first_50": 0.30005881905555726,
+      "last_50": 0.17977904245257378
+     },
+     "rewards/accuracy_reward/mean": {
+      "mean": 0.74,
+      "first_50": 0.7025,
+      "last_50": 0.6925
+     },
+     "rewards/format_reward/mean": {
+      "mean": 0.19190000449120997,
+      "first_50": 0.18000000566244126,
+      "last_50": 0.19250000447034835
+     },
+     "kl": {
+      "mean": 0.008069804327911698,
+      "first_50": 0.0009011311910580844,
+      "last_50": 0.01216809855774045
+     },
+     "completions/mean_length": {
+      "mean": 98.23975,
+      "first_50": 112.9025,
+      "last_50": 89.8325
+     },
+     "step_time": {
+      "mean": 20.519561377418032,
+      "first_50": 23.360003117580035,
+      "last_50": 19.313998113200178
+     },
+     "total_generated_tokens": 844743.0,
+     "logged_steps": 500
+    },
+    "n4": {
+     "frac_reward_zero_std": {
+      "mean": 0.556,
+      "first_50": 0.38,
+      "last_50": 0.66
+     },
+     "reward_std": {
+      "mean": 0.20071086922287942,
+      "first_50": 0.24336812391877174,
+      "last_50": 0.14608899474143983
+     },
+     "rewards/accuracy_reward/mean": {
+      "mean": 0.7335,
+      "first_50": 0.675,
+      "last_50": 0.73
+     },
+     "rewards/format_reward/mean": {
+      "mean": 0.18910000333935023,
+      "first_50": 0.17400000378489494,
+      "last_50": 0.1940000033378601
+     },
+     "kl": {
+      "mean": 0.005136046135914512,
+      "first_50": 0.0009230700659099967,
+      "last_50": 0.006185214193537831
+     },
+     "completions/mean_length": {
+      "mean": 94.536,
+      "first_50": 117.375,
+      "last_50": 79.48
+     },
+     "step_time": {
+      "mean": 13.836833460612011,
+      "first_50": 16.593468705920014,
+      "last_50": 11.66756439666009
+     },
+     "total_generated_tokens": 414964.0,
+     "logged_steps": 500
+    }
+   },
+   "hard_holm_p": null,
+   "hard_category": null
+  },
+  {
+   "seed": 1,
+   "status": "viability_gate_failure",
+   "a2_record": {
+    "ts": "2026-08-13T00:34:08",
+    "outcome": "concluded_a2",
+    "message": "sentinel abort: a2: reward flat and kl near zero by step 150, policy is not moving. suspect lr or beta",
+    "end_step": 100,
+    "elapsed_sec": 2480.9,
+    "peak_vram_gib": 40.15,
+    "adapter_sha256": {
+     "adapter_model.safetensors": "be17dce6c29ac01a2abb28f368c61fe1c39dd9eef62463e3b1050ff0412ba01e",
+     "adapter_config.json": "06fb06907554e6630e065ddca9396d140a8afc3dee58e7f6af8a028bf716aeb8",
+     "adapter_base.json": "bbe7839a8b4dcfa0474e911f8c556cb1525f78a4507c13eab970c6cd9bd31330",
+     "config_hash.txt": "b800f0f7ee28169955df7ba1d5ad43e9cc78118820d139e45868f3dd4ac16429"
+    },
+    "evidence": {
+     "num_generations": 4,
+     "history_records": 100,
+     "last_logged_step": 100
+    }
+   }
+  },
+  {
+   "seed": 2,
+   "status": "completed",
+   "hard_raw_p": 0.2450608330229457,
+   "hard_discordant": {
+    "n4_gain": 25,
+    "n8_gain": 35
+   },
+   "tiers": {
+    "easy": {
+     "n8_acc": 0.8862343572241184,
+     "n4_acc": 0.8828213879408419,
+     "delta": -0.0034129692832764505,
+     "ci": [
+      -0.01478953356086462,
+      0.007963594994311717
+     ]
+    },
+    "medium": {
+     "n8_acc": 0.7980295566502463,
+     "n4_acc": 0.7816091954022989,
+     "delta": -0.016420361247947456,
+     "ci": [
+      -0.0361247947454844,
+      0.003284072249589491
+     ]
+    },
+    "hard": {
+     "n8_acc": 0.6439393939393939,
+     "n4_acc": 0.6186868686868687,
+     "delta": -0.025252525252525252,
+     "ci": [
+      -0.06313131313131314,
+      0.012626262626262626
+     ]
+    },
+    "overall": {
+     "n8_acc": 0.8067940552016986,
+     "n4_acc": 0.7945859872611465,
+     "delta": -0.012208067940552018,
+     "ci": [
+      -0.02335456475583864,
+      -0.0010615711252653928
+     ]
+    }
+   },
+   "probe": {
+    "delta": 0.0,
+    "ci": [
+     -0.0037154989384288748,
+     0.0037154989384288748
+    ],
+    "category": "equivalent"
+   },
+   "format_rate": {
+    "n8": 0.9846072186836518,
+    "n4": 0.9835456475583864
+   },
+   "mean_response_tokens": {
+    "n8": 65.42462845010616,
+    "n4": 67.57271762208067
+   },
+   "training_seconds": {
+    "n8": 8757.505,
+    "n4": 7136.0
+   },
+   "evaluation_seconds_n4": 2021.2,
+   "estimated_core_units_n4": 17.220623333333332,
+   "peak_vram_gib": {
+    "n8": 70.986,
+    "n4": 41.17
+   },
+   "dynamics": {
+    "n8": {
+     "frac_reward_zero_std": {
+      "mean": 0.466,
+      "first_50": 0.22,
+      "last_50": 0.5
+     },
+     "reward_std": {
+      "mean": 0.21246811439096927,
+      "first_50": 0.294763493090868,
+      "last_50": 0.230072979927063
+     },
+     "rewards/accuracy_reward/mean": {
+      "mean": 0.7405,
+      "first_50": 0.695,
+      "last_50": 0.7025
+     },
+     "rewards/format_reward/mean": {
+      "mean": 0.19180000482499598,
+      "first_50": 0.18300000622868537,
+      "last_50": 0.19350000441074372
+     },
+     "kl": {
+      "mean": 0.008157215562881901,
+      "first_50": 0.0011070082488004117,
+      "last_50": 0.012373860036022961
+     },
+     "completions/mean_length": {
+      "mean": 88.2335,
+      "first_50": 109.32,
+      "last_50": 83.3175
+     },
+     "step_time": {
+      "mean": 16.510088100840026,
+      "first_50": 22.317257624100094,
+      "last_50": 14.776277128600013
+     },
+     "total_generated_tokens": 804734.0,
+     "logged_steps": 500
+    },
+    "n4": {
+     "frac_reward_zero_std": {
+      "mean": 0.566,
+      "first_50": 0.46,
+      "last_50": 0.52
+     },
+     "reward_std": {
+      "mean": 0.19819800443947316,
+      "first_50": 0.22101162776350974,
+      "last_50": 0.24960202172398568
+     },
+     "rewards/accuracy_reward/mean": {
+      "mean": 0.7155,
+      "first_50": 0.69,
+      "last_50": 0.715
+     },
+     "rewards/format_reward/mean": {
+      "mean": 0.18950000339746476,
+      "first_50": 0.18000000312924386,
+      "last_50": 0.19200000330805778
+     },
+     "kl": {
+      "mean": 0.005916165088710841,
+      "first_50": 0.0010393411555560306,
+      "last_50": 0.008323846289422364
+     },
+     "completions/mean_length": {
+      "mean": 90.884,
+      "first_50": 102.0,
+      "last_50": 87.19
+     },
+     "step_time": {
+      "mean": 13.632022195024007,
+      "first_50": 16.24710870655994,
+      "last_50": 12.689776596780066
+     },
+     "total_generated_tokens": 407668.0,
+     "logged_steps": 500
+    }
+   },
+   "hard_holm_p": null,
+   "hard_category": null
+  }
+ ],
+ "descriptive_summary": {
+  "hard_delta_mean": -0.013888888888888888,
+  "hard_delta_range": [
+   -0.025252525252525252,
+   -0.0025252525252525255
+  ],
+  "overall_delta_mean": -0.007165605095541401,
+  "overall_delta_range": [
+   -0.012208067940552018,
+   -0.0021231422505307855
+  ],
+  "all_hard_point_estimates_within_2pt": null
+ }
+}

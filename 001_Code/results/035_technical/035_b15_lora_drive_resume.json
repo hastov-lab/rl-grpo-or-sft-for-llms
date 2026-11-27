@@ -1,0 +1,94 @@
+{
+ "completed": true,
+ "experiment": "035b",
+ "outcome": "drive_interruption_resume",
+ "scale": "B15",
+ "seed": 0,
+ "parameter_mode": "lora",
+ "rung": "A_GC",
+ "execution": {
+  "batch": 8,
+  "accum": 1,
+  "checkpointing": true
+ },
+ "config_hash": "d03c3468d8c74c6baf7e16059ce86f715e92dbb010339cfdc61fa44f3afccfd6",
+ "authorisation_sha256": "63f5b3fcab35b9c0812f0f76042ea951736704b6cbd80746d391e6dae1bbd256",
+ "binding_sha256": "06bfb3f2e9eefc90f8015e22e56b103a6f6dda404a5be0d8794750112c171ab6",
+ "failed_status_path": "/content/drive/MyDrive/inm363/results/035_technical/035_b15_lora_drive_disconnect_status.json",
+ "failed_status_sha256": "653f8c65c89094d305f5adf7742ac1c494415fd57feaec89f0795ed58545d367",
+ "failed_attempt": {
+  "completed": false,
+  "task": "train",
+  "rung": "A_GC",
+  "execution": {
+   "batch": 8,
+   "accum": 1,
+   "checkpointing": true
+  },
+  "gpu": {
+   "device": "NVIDIA A100-SXM4-80GB",
+   "peak_vram_gb": 0.0
+  },
+  "versions": {
+   "trl": "1.7.1",
+   "transformers": "5.5.4",
+   "peft": "0.19.1",
+   "accelerate": "1.14.0",
+   "datasets": "4.8.4",
+   "torch": "2.11.0+cu128",
+   "numpy": "2.0.2",
+   "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+   "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+  },
+  "allocator_config": "expandable_segments:True",
+  "error_type": "FailedPreconditionError",
+  "error_message": "/content/drive/MyDrive/inm363/checkpoints/035_COLAB_FULL_B15_matched_lora_grpo_seed0/grpo/runs/Aug19_16-53-35_642251a613ab/events.out.tfevents.1787158415.642251a613ab.51994.0; Transport endpoint is not connected",
+  "cuda_oom": false,
+  "wall_seconds": 2512.1,
+  "start_step": 0,
+  "end_step": 100,
+  "completed_updates": 100,
+  "peak_vram_gib": 17.45,
+  "peak_reserved_gib": 17.45,
+  "peak_allocated_gib": 16.65,
+  "total_vram_gib": 79.25,
+  "peak_reserved_fraction": 0.22017738154283126,
+  "label": "035b_B15_seed0_lora_A_GC",
+  "returncode": 1,
+  "parent_wall_seconds": 2568.5
+ },
+ "attempt_ledger_path": "/content/drive/MyDrive/inm363/results/035_COLAB_FULL_B15_matched_lora_grpo_seed0/035b_attempts.jsonl",
+ "source_checkpoint": {
+  "step": 100,
+  "path": "/content/drive/MyDrive/inm363/checkpoints/035_COLAB_FULL_B15_matched_lora_grpo_seed0/grpo/checkpoint-100",
+  "sha256": {
+   "README.md": "dac60a12bc562c1b7555daacd8aafc1e0f0d7c7b5ec87492fdec7e1472f5efca",
+   "adapter_config.json": "ee73875697c642fb8a209131ec305aad0da3e58b59039f16b521c6d4ffefbc25",
+   "adapter_model.safetensors": "ad1e3dafb0d16ef52d1b268fba9d10c576799e14218a23f456ba107e3a66a967",
+   "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+   "optimizer.pt": "d0a1a4f64cca4ca9829ec3d7ccfcfe385e8cc65a6ec2a9b08b008165d7ff29c0",
+   "rng_state.pth": "49077e39cd41c19c5a1997b1cbe03803eb198a215c8163c6ead081ddbb02e06f",
+   "scheduler.pt": "7baaf342373825d796b6fa4bf509cd83798f3b8239853d9b90c1f47d5d31d8d5",
+   "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+   "tokenizer_config.json": "5cf3fd79f6c2583728d2f110aca4422887e2d51b641c589c0319eccd44bfc502",
+   "trainer_state.json": "c25245cb423673ed0010a3edeaddf49b177edde6aa210851ff71e98f3365cfca",
+   "training_args.bin": "ca97e9453b565dbd7047c14c4090dcca159c651737d6aaa88e81dd169c576539"
+  },
+  "config_hash_sha256": "2e22215d3aa535e5c93ed265a1b6522a7e59d6991d1c7548bfa8b6c2f78dc630",
+  "trainer_state_sha256": "c25245cb423673ed0010a3edeaddf49b177edde6aa210851ff71e98f3365cfca"
+ },
+ "report_to": [
+  "wandb"
+ ],
+ "tensorboard_disabled_on_resume": true,
+ "maximum_drive_resumes": 1,
+ "wandb_runs": [
+  {
+   "path": "/content/drive/MyDrive/inm363/results/035_COLAB_FULL_B15_matched_lora_grpo_seed0/035_wandb_runs/i6po5qur.json",
+   "sha256": "4b418324d54ac2f5db068b3c9fed924764f39f31fa9781bb5b765840d30252f4",
+   "project": "inm363-grpo",
+   "run_id": "i6po5qur",
+   "run_name": "035_COLAB_FULL_B15_matched_lora_grpo_seed0_grpo"
+  }
+ ]
+}

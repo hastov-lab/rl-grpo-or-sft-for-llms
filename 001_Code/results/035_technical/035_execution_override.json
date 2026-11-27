@@ -1,0 +1,13 @@
+{
+ "completed": true,
+ "scale": "B3",
+ "pilot_selected_rung": "C",
+ "requested_rung": "A",
+ "automatic_fallback": false,
+ "selection_basis": "technical_override_before_scientific_training",
+ "registered_date": "2026-08-17",
+ "pilot_reports_sha256": {
+  "A": "7ffeb61bbb2a94ea09110b883a075e300aa7d9d15d5eaefdb48108de18e9381b",
+  "C": "151432af8bc6956cfdd3df015fca4269f30e93021a272ca5e19fbdbf0c2fb57c"
+ }
+}

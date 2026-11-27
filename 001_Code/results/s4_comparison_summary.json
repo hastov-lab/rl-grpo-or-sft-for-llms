@@ -1,0 +1,224 @@
+{
+  "source_notebook": "013_4_analysis_plots.ipynb",
+  "scope": "off-domain GSM8K SFT warm start before MMLU GRPO, not a SimpleRL-Zoo replication",
+  "n_items_per_pair": 1884,
+  "scales": {
+    "0.5B": {
+      "mean_warm_minus_base": 0.027777777777777776,
+      "range_warm_minus_base": [
+        -0.06634819532908705,
+        0.0865180467091295
+      ],
+      "common_reading": null,
+      "seeds": [
+        {
+          "seed": 0,
+          "base_grpo": 0.3991507430997877,
+          "warm_grpo": 0.46231422505307856,
+          "warm_minus_base": 0.06316348195329087,
+          "ci": [
+            0.037154989384288746,
+            0.09023354564755838
+          ],
+          "mcnemar_p": 3.7883861797034553e-06,
+          "holm_p": 5.878108662521285e-06,
+          "reading": "material warm advantage",
+          "hard_warm_minus_base": -0.010101010101010083
+        },
+        {
+          "seed": 1,
+          "base_grpo": 0.38163481953290873,
+          "warm_grpo": 0.31528662420382164,
+          "warm_minus_base": -0.06634819532908705,
+          "ci": [
+            -0.09394904458598727,
+            -0.038747346072186835
+          ],
+          "mcnemar_p": 2.9390543312606426e-06,
+          "holm_p": 5.878108662521285e-06,
+          "reading": "material base advantage",
+          "hard_warm_minus_base": -0.04545454545454547
+        },
+        {
+          "seed": 2,
+          "base_grpo": 0.41932059447983017,
+          "warm_grpo": 0.5058386411889597,
+          "warm_minus_base": 0.0865180467091295,
+          "ci": [
+            0.06263269639065817,
+            0.10987261146496816
+          ],
+          "mcnemar_p": 1.8607886302988724e-12,
+          "holm_p": 5.582365890896617e-12,
+          "reading": "material warm advantage",
+          "hard_warm_minus_base": -0.027777777777777762
+        }
+      ]
+    },
+    "1.5B": {
+      "mean_warm_minus_base": 0.03927813163481953,
+      "range_warm_minus_base": [
+        0.022823779193205943,
+        0.06528662420382166
+      ],
+      "common_reading": "material warm advantage",
+      "seeds": [
+        {
+          "seed": 0,
+          "base_grpo": 0.6088110403397028,
+          "warm_grpo": 0.6740976645435244,
+          "warm_minus_base": 0.06528662420382166,
+          "ci": [
+            0.044585987261146494,
+            0.0870488322717622
+          ],
+          "mcnemar_p": 2.544510262478365e-09,
+          "holm_p": 7.633530787435095e-09,
+          "reading": "material warm advantage",
+          "hard_warm_minus_base": 0.02777777777777779
+        },
+        {
+          "seed": 1,
+          "base_grpo": 0.611995753715499,
+          "warm_grpo": 0.6348195329087049,
+          "warm_minus_base": 0.022823779193205943,
+          "ci": [
+            0.0021231422505307855,
+            0.0440552016985138
+          ],
+          "mcnemar_p": 0.03675794886652614,
+          "holm_p": 0.03675794886652614,
+          "reading": "material warm advantage",
+          "hard_warm_minus_base": -0.01010101010101011
+        },
+        {
+          "seed": 2,
+          "base_grpo": 0.6326963906581741,
+          "warm_grpo": 0.6624203821656051,
+          "warm_minus_base": 0.029723991507430998,
+          "ci": [
+            0.009554140127388535,
+            0.049893842887473464
+          ],
+          "mcnemar_p": 0.00493990689505025,
+          "holm_p": 0.0098798137901005,
+          "reading": "material warm advantage",
+          "hard_warm_minus_base": -0.03282828282828282
+        }
+      ]
+    },
+    "3B": {
+      "mean_warm_minus_base": 0.04600141542816702,
+      "range_warm_minus_base": [
+        0.03927813163481953,
+        0.05307855626326964
+      ],
+      "common_reading": "material warm advantage",
+      "seeds": [
+        {
+          "seed": 0,
+          "base_grpo": 0.6767515923566879,
+          "warm_grpo": 0.7160297239915074,
+          "warm_minus_base": 0.03927813163481953,
+          "ci": [
+            0.019639065817409766,
+            0.0589171974522293
+          ],
+          "mcnemar_p": 0.00016607967341947315,
+          "holm_p": 0.00016607967341947315,
+          "reading": "material warm advantage",
+          "hard_warm_minus_base": -0.022727272727272707
+        },
+        {
+          "seed": 1,
+          "base_grpo": 0.6809978768577495,
+          "warm_grpo": 0.7266454352441614,
+          "warm_minus_base": 0.045647558386411886,
+          "ci": [
+            0.025477707006369428,
+            0.06581740976645435
+          ],
+          "mcnemar_p": 1.1979966082449602e-05,
+          "holm_p": 2.3959932164899204e-05,
+          "reading": "material warm advantage",
+          "hard_warm_minus_base": -0.007575757575757569
+        },
+        {
+          "seed": 2,
+          "base_grpo": 0.6740976645435244,
+          "warm_grpo": 0.727176220806794,
+          "warm_minus_base": 0.05307855626326964,
+          "ci": [
+            0.032908704883227176,
+            0.0737791932059448
+          ],
+          "mcnemar_p": 4.998327370745137e-07,
+          "holm_p": 1.499498211223541e-06,
+          "reading": "material warm advantage",
+          "hard_warm_minus_base": -0.02020202020202022
+        }
+      ]
+    },
+    "7B": {
+      "mean_warm_minus_base": 0.013800424628450108,
+      "range_warm_minus_base": [
+        0.0031847133757961785,
+        0.029723991507430998
+      ],
+      "common_reading": null,
+      "seeds": [
+        {
+          "seed": 0,
+          "base_grpo": 0.7988322717622081,
+          "warm_grpo": 0.8020169851380042,
+          "warm_minus_base": 0.0031847133757961785,
+          "ci": [
+            -0.013800424628450107,
+            0.020169851380042462
+          ],
+          "mcnemar_p": 0.7609720300105677,
+          "holm_p": 0.7761746805465093,
+          "reading": "inconclusive",
+          "hard_warm_minus_base": -0.015151515151515249
+        },
+        {
+          "seed": 1,
+          "base_grpo": 0.7967091295116773,
+          "warm_grpo": 0.8052016985138004,
+          "warm_minus_base": 0.008492569002123142,
+          "ci": [
+            -0.009554140127388535,
+            0.02653927813163482
+          ],
+          "mcnemar_p": 0.38808734027325464,
+          "holm_p": 0.7761746805465093,
+          "reading": "inconclusive",
+          "hard_warm_minus_base": -0.02020202020202022
+        },
+        {
+          "seed": 2,
+          "base_grpo": 0.7770700636942676,
+          "warm_grpo": 0.8067940552016986,
+          "warm_minus_base": 0.029723991507430998,
+          "ci": [
+            0.01167728237791932,
+            0.048301486199575375
+          ],
+          "mcnemar_p": 0.0014548792549569317,
+          "holm_p": 0.004364637764870795,
+          "reading": "material warm advantage",
+          "hard_warm_minus_base": 0.030303030303030276
+        }
+      ]
+    }
+  },
+  "slopes_per_log10_b": {
+    "0": -0.05282082322288165,
+    "1": 0.07058768878349628,
+    "2": -0.04246798188630603
+  },
+  "seed_robust_shrinking": false,
+  "cross_scale_reading": "mixed",
+  "hard_base_at_or_above_warm_pairs": 10,
+  "hard_total_pairs": 12
+}

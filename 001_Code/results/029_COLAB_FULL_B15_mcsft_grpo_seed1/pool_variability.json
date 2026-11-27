@@ -1,0 +1,23 @@
+{
+ "n_prompts": 245,
+ "samples_per_prompt": 8,
+ "temperature": 1.0,
+ "share_single_completion": 0.2693877551020408,
+ "mean_distinct_completions": 2.0,
+ "share_single_answer": 0.963265306122449,
+ "mean_completion_tokens": 16.283673469387754,
+ "mean_accuracy_reward": 0.9903061224489796,
+ "format_rate": 0.996938775510204,
+ "share_zero_reward_spread": 0.9551020408163265,
+ "mean_reward_std": 0.015527502777862513,
+ "parent_tag": "010_p8_COLAB_FULL_B15_sft_only_seed1",
+ "adapter_sha256": {
+  "adapter_model.safetensors": "880bfd16c6f20a490e79c021b3da31caf87fc351c05975b5941cd391d8b9810c",
+  "adapter_config.json": "c77f9cf9de77bc24684a322ad28414fd0e9bf759628edfa0a43189f14c3fc606",
+  "adapter_base.json": "adcf19c3f54a55ad98d49cd2b9059dc80bb4c2871fa09ad8c3d2999fe4ab6a0e",
+  "config_hash.txt": "58edefe9fd1d01a739a6d3ecbd88ba074b18c2460e540d256c16c1415bbba8eb"
+ },
+ "split_revision": "c30699e8356da336a370243923dbaf21066bb9fe",
+ "ts": "2026-08-12 08:41",
+ "elapsed_sec": 79.0
+}

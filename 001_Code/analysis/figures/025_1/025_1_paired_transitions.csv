@@ -1,0 +1,7 @@
+comparison,seed,p8 only correct,new only correct,net items
+p2 minus p8,0,71,48,-23
+p2 minus p8,1,56,42,-14
+p2 minus p8,2,65,52,-13
+p32 minus p8,0,33,32,-1
+p32 minus p8,1,28,38,10
+p32 minus p8,2,43,36,-7

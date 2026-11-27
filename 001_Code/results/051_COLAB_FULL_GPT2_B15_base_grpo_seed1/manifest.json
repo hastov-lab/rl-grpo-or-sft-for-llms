@@ -1,0 +1,101 @@
+{
+  "run_tag": "051_COLAB_FULL_GPT2_B15_base_grpo_seed1",
+  "timestamp": "2026-09-10T12:05:59",
+  "experiment": "051",
+  "condition": "BASE_GRPO",
+  "env": "COLAB",
+  "mode": "FULL",
+  "scale": "GPT2_B15",
+  "seed": 1,
+  "exploratory": true,
+  "resolved_dtype": "bfloat16",
+  "config": {
+    "lora": {
+      "r": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "target_modules": null
+    },
+    "reward": {
+      "correct_weight": 1.0,
+      "format_weight": 0.2,
+      "min_think_chars": 20
+    },
+    "train": {
+      "sft_lr": 0.0001,
+      "grpo_lr": 1e-05,
+      "max_steps": 500,
+      "num_generations": 8,
+      "max_seq_len": 1024,
+      "sft_batch_size": 4,
+      "sft_grad_accum": 4,
+      "sft_completion_only": true,
+      "sft_data": "gsm8k",
+      "sft_val_examples": 500,
+      "sft_from_adapter": "",
+      "grpo_from_adapter": "",
+      "sft_parameter_mode": "lora",
+      "sft_precision_mode": "fp32_master_bf16",
+      "grpo_parameter_mode": "lora",
+      "grpo_precision_mode": "fp32_master_bf16",
+      "a2_action": "observe",
+      "dtype": "auto",
+      "seed": 1
+    },
+    "grpo": {
+      "loss_type": "grpo",
+      "beta": 0.04,
+      "scale_rewards": "group",
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "max_completion_length": 512
+    },
+    "eval": {
+      "max_new_tokens": 512,
+      "batch_size": 16,
+      "skip_generative": false
+    },
+    "exec": {
+      "grpo_batch_size": 8,
+      "grpo_grad_accum": 1,
+      "gradient_checkpointing": false,
+      "max_train_hours": 24,
+      "allow_oom_fallback": false
+    }
+  },
+  "git": {
+    "commit": "5630845240f3b7777820f80fa95e610c1f7cdf24",
+    "dirty": true
+  },
+  "versions": {
+    "trl": "1.7.1",
+    "transformers": "5.5.4",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "datasets": "4.8.4",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.0.2",
+    "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+    "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+  },
+  "parser": "B1",
+  "source": {
+    "kind": "immutable_base",
+    "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_base",
+    "base_artifact_sha256": {
+      "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+      "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+      "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+      "model.safetensors": "df636f168a87529b6bfa55c9555682c95a23a0d0b41eed0cbbfc85b42a480bd5",
+      "model_base.json": "5f742459ed1748c36e982ad5058cb1ec8cf5172073252afb51baf8852f0cdf56",
+      "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+      "tokenizer_config.json": "caab7b8a5a261a1d4cb142c2488acd9cb1c5c0154f681e5a38614a3a2c0cf8ce"
+    },
+    "records": {
+      "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_manifest.json": "dfd8a6bf125f5866f132e06c9a71792d950dad7f9071b2ab28914296e1a57d94",
+      "/content/drive/MyDrive/inm363/results/046_technical/046_xl_parity.json": "a190aff55350442c18c3ac26a6f2a674c9bca35515bc0d2931a492ad1ca2f953",
+      "/content/drive/MyDrive/inm363/results/046_technical/046_token_audit.json": "0b0aa21f627dd537ec1f14f5af6c2b59653be9d00dd8185327a1fede81a97eaf",
+      "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_eval_manifest.json": "a2826f7f1612d197075a6549169bd2f9006f386c7182740c935a947d7d4554c2"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# tiny local run of the base-to-grpo condition (rq3 path), proves the wiring
+env: LOCAL
+mode: SMOKE
+scale: B05
+condition: BASE_GRPO
+train:
+  seed: 0

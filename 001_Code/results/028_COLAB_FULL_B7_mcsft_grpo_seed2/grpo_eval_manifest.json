@@ -1,0 +1,73 @@
+{
+ "ts": "2026-08-11T19:53:55",
+ "package": "028_w14",
+ "completed": true,
+ "sha256": {
+  "grpo_preds.jsonl": "cae2de1208379dc9f4b95b045d84b461d9a1c58e5b2ba52173146d1a921bfb10",
+  "grpo_eval.json": "f804c37b0e06c69a3ccad1f0a7a3664f38ae32f539099fb42f884869c9346442",
+  "grpo_logprob.json": "a01b33c7592a14ab93a6d305f250ee1a0deeb976b3497b45a476644407573f64",
+  "grpo_logprob_preds.jsonl": "81a6d4e9ddaac0c32773eff58ffc14d910c60105ad7c1a9c93b3038d0c3b0651"
+ },
+ "grpo_adapter_sha256": {
+  "adapter_model.safetensors": "63aafdae033f25f9aec08c0fd56cfa4d16598291833c33b330318e176664faef",
+  "adapter_config.json": "f76c2da87f67ec539b29621805925072c19fa477c66a9e4ebc0098e523e63f18",
+  "adapter_base.json": "8770bd070161a68e3bf6695c68cc0a26e06ae7dd14c7a7d768056ec36b38af56",
+  "config_hash.txt": "b970b47ec033909b062840f2ffef8088e6763801b71257a5f0afc30877b9db1a"
+ },
+ "adapter": "/content/drive/MyDrive/inm363/checkpoints/028_COLAB_FULL_B7_mcsft_grpo_seed2/grpo",
+ "source_adapter": "/content/drive/MyDrive/inm363/checkpoints/014_p8_COLAB_FULL_B7_sft_only_seed2/sft",
+ "source_adapter_sha256": {
+  "adapter_model.safetensors": "fa061fded0dbef775c584ffd4d82e862a7d8bb4e3f0f6d958e401430040bbd3f",
+  "adapter_config.json": "fc86a9d371c24dec964fa8dd0ad536c64a8852d8a5aa2682829e73bb85504922",
+  "adapter_base.json": "bbe7839a8b4dcfa0474e911f8c556cb1525f78a4507c13eab970c6cd9bd31330",
+  "config_hash.txt": "adfeed6e345028386abb15a0684478c12aa982680fd322116d7b127eefd0ac1f"
+ },
+ "merged_binding": {
+  "ts": "2026-08-11T19:25:17",
+  "adapter_dir": "/content/drive/MyDrive/inm363/checkpoints/014_p8_COLAB_FULL_B7_sft_only_seed2/sft",
+  "adapter_sha256": {
+   "adapter_model.safetensors": "fa061fded0dbef775c584ffd4d82e862a7d8bb4e3f0f6d958e401430040bbd3f",
+   "adapter_config.json": "fc86a9d371c24dec964fa8dd0ad536c64a8852d8a5aa2682829e73bb85504922",
+   "adapter_base.json": "bbe7839a8b4dcfa0474e911f8c556cb1525f78a4507c13eab970c6cd9bd31330",
+   "config_hash.txt": "adfeed6e345028386abb15a0684478c12aa982680fd322116d7b127eefd0ac1f"
+  },
+  "merged_sha256": {
+   "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+   "config.json": "a855ce196e6cc954bec101379a7b8db760b819f906020c98d2081893dad7b4cb",
+   "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+   "model.safetensors": "f9f6a388a8975ba84c7cf9e8dc9bc7263f9170d54fbbd5118cda3159b0ea3956",
+   "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+   "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+  }
+ },
+ "parent_gate_stats": {
+  "agreement": 1.0,
+  "acc_new": 0.799894,
+  "acc_archived": 0.799894
+ },
+ "config": "configs/028_colab_b7_mcsft_grpo_seed2.yaml",
+ "seed": 2,
+ "git": {
+  "commit": "bb548668f4838387fe26e191c9f67a7913e627bd",
+  "dirty": false
+ },
+ "versions": {
+  "trl": "1.7.1",
+  "transformers": "5.5.4",
+  "peft": "0.19.1",
+  "accelerate": "1.14.0",
+  "datasets": "4.8.4",
+  "torch": "2.11.0+cu128",
+  "numpy": "2.0.2",
+  "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+ },
+ "resolved_dtype": "bfloat16",
+ "gpu": {
+  "device": "NVIDIA A100-SXM4-80GB",
+  "peak_vram_gb": 0.0
+ },
+ "timings_sec": {
+  "grpo_eval": 376.6
+ }
+}

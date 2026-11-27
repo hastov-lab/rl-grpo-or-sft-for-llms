@@ -1,0 +1,47 @@
+{
+  "completed": true,
+  "task": "merge",
+  "seed": 1,
+  "allocator_config": "expandable_segments:True",
+  "gpu": {
+    "device": "NVIDIA A100-SXM4-40GB",
+    "peak_vram_gb": 0.0
+  },
+  "versions": {
+    "trl": "1.7.1",
+    "transformers": "5.5.4",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "datasets": "4.8.4",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.1.3",
+    "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+    "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+  },
+  "wall_seconds": 18.9,
+  "start_step": 0,
+  "end_step": 0,
+  "completed_updates": 0,
+  "peak_reserved_gib": 0.03,
+  "peak_reserved_fraction": 0.0006923602375042886,
+  "total_vram_gib": 39.49,
+  "result": {
+    "ts": "2026-08-29T04:11:06",
+    "adapter_dir": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M355_sft_grpo_seed1/sft",
+    "adapter_sha256": {
+      "adapter_model.safetensors": "8d4f3a0b0b4ce51cb70a2ede11bc8d9305f792d89a6cfa987a63273518cbbf6d",
+      "adapter_config.json": "b7f5a15e1e52bdef2e15c0813e2246ba711846fe747ceb67e6cb66d409370d62",
+      "adapter_base.json": "1287aac797b95a6c5637727212f226678c64e8ba6cf9a34bb84ec678c3e6dbea",
+      "config_hash.txt": "e924cf4e8bbba848166fa0311d65cb3315db73d5df8a27c00d7e857a70a3ec1f"
+    },
+    "merged_sha256": {
+      "artifact_type.json": "cbb8bbdeefaed0466d53bae289138c4fe169f28455fa4d51db07eaac3d5b3a34",
+      "config.json": "23bb93c47fb33cf77782804bba2baac46539a960b9ab22a1a982952611f79712",
+      "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+      "model.safetensors": "d39ee1425c271aece5dd4aa76481e5fad91b13f7dcecc7f0347ff7e8596df2b3",
+      "model_base.json": "1287aac797b95a6c5637727212f226678c64e8ba6cf9a34bb84ec678c3e6dbea",
+      "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+      "tokenizer_config.json": "46b0ee09bc6c14494f934103d0a72ac5a7f649ed99f6d8f1939cedad0c6c99e4"
+    }
+  }
+}

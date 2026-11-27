@@ -1,0 +1,40 @@
+{
+  "condition": "base",
+  "n_items": 32,
+  "per_tier_acc": {
+    "easy": 0.0,
+    "medium": 0.0,
+    "hard": 0.0
+  },
+  "per_subject_acc": {
+    "high_school_psychology": 0.0,
+    "marketing": 0.0,
+    "business_ethics": 0.0,
+    "high_school_geography": 0.0,
+    "philosophy": 0.0,
+    "us_foreign_policy": 0.0,
+    "high_school_mathematics": 0.0,
+    "formal_logic": 0.0
+  },
+  "per_tier_ci": {
+    "easy": [
+      0.0,
+      0.0
+    ],
+    "medium": [
+      0.0,
+      0.0
+    ],
+    "hard": [
+      0.0,
+      0.0
+    ]
+  },
+  "overall_ci": [
+    0.0,
+    0.0
+  ],
+  "format_compliance": 0.0,
+  "mean_len": 32.0,
+  "extraction_failure_rate": 1.0
+}

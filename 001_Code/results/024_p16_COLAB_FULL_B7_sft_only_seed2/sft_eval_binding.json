@@ -1,0 +1,5 @@
+{
+  "adapter_model.safetensors": "9fadc12e2303b1fdb2bf37c56afd65ebf8342e6ed550c89bff7615d0ff8c0221",
+  "adapter_config.json": "002d5f24129dc1166da9b94349d5f4e3f9c0ed6b1494c9d391fc75b2a5f2a080",
+  "adapter_base.json": "bbe7839a8b4dcfa0474e911f8c556cb1525f78a4507c13eab970c6cd9bd31330"
+}

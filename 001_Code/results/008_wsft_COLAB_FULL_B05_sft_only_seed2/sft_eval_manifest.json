@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-07-19T10:47:45",
+  "adapter": "/content/drive/MyDrive/inm363/checkpoints/008_wsft_COLAB_FULL_B05_sft_only_seed2/sft",
+  "condition": "sft",
+  "timings_sec": {
+    "sft_eval": 268.021
+  },
+  "completed": true,
+  "config": "configs/008_wsft_colab_b05.yaml",
+  "git": {
+    "commit": "77f80d9e841fc0167ba2f28d1fc7f83ecd0c1a8f",
+    "dirty": false
+  },
+  "versions": {
+    "trl": "1.7.1",
+    "transformers": "5.5.4",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "datasets": "4.8.4",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.0.2",
+    "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+    "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+  },
+  "resolved_dtype": "bfloat16",
+  "gpu": {
+    "device": "NVIDIA A100-SXM4-40GB",
+    "peak_vram_gb": 0.0
+  }
+}

@@ -1,0 +1,86 @@
+{
+ "completed": true,
+ "experiment": "048",
+ "branch": "grpo",
+ "binding": {
+  "completed": true,
+  "experiment": "048",
+  "stage": "grpo",
+  "seed": 2,
+  "config_hash": "1d147577be633305d65b3ccb2066afe0a3329b38d0a9d2bc74d43d37f359fe77",
+  "updates": 500,
+  "parameter_mode": "lora",
+  "sft_record_sha256": "3a8cbd03934480e6cd28bf03004d1669200dca58b8cf37fb513495d0f6fad3e1",
+  "merged_path": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M355_sft_grpo_seed2/sft_merged",
+  "merge_binding": {
+   "ts": "2026-08-29T08:04:03",
+   "adapter_dir": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M355_sft_grpo_seed2/sft",
+   "adapter_sha256": {
+    "adapter_model.safetensors": "6c99d7636edc36e2b10895506720287b6c84f14c1c5e0de676b1d4315b62e3e3",
+    "adapter_config.json": "f7c4dd12167b6eb91f7b16329986ae854d535f146e71c5293a66d5aec4ca4b6c",
+    "adapter_base.json": "1287aac797b95a6c5637727212f226678c64e8ba6cf9a34bb84ec678c3e6dbea",
+    "config_hash.txt": "6fe7219b7570c4aa581bc065596c3239a28039dff707e944cf9e501cbbffd08e"
+   },
+   "merged_sha256": {
+    "artifact_type.json": "cbb8bbdeefaed0466d53bae289138c4fe169f28455fa4d51db07eaac3d5b3a34",
+    "config.json": "23bb93c47fb33cf77782804bba2baac46539a960b9ab22a1a982952611f79712",
+    "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+    "model.safetensors": "2206aee55d89097528440787a75e3bbd52dda4fa294a1b636efff970d961245a",
+    "model_base.json": "1287aac797b95a6c5637727212f226678c64e8ba6cf9a34bb84ec678c3e6dbea",
+    "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+    "tokenizer_config.json": "46b0ee09bc6c14494f934103d0a72ac5a7f649ed99f6d8f1939cedad0c6c99e4"
+   }
+  },
+  "adapter_base": {
+   "verified": true,
+   "adapter_base_sha256": "68cf4f19ab81db20b33e9559919619cadd7030a4aeffbda0af8a121087b05ced",
+   "resolved_path": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M355_sft_grpo_seed2/sft_merged",
+   "merged_path": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M355_sft_grpo_seed2/sft_merged"
+  },
+  "precision_report_sha256": "688cc7d9e5f03bd58b178fca1d895c2cf290c25044c89e3b8ec566463b0279b4",
+  "a2_verdict_sha256": "dd4421efbaed1a47f8941f8c15cebedb558781e65fb39675e394f78e5327f711",
+  "wandb_runs": [
+   {
+    "path": "/content/drive/MyDrive/inm363/results/048_COLAB_FULL_GPT2_M355_sft_grpo_seed2/048_grpo_wandb_runs/r3jexypq.json",
+    "sha256": "4b836bbd99eddc690580610a057348cf655d67cf875a604e4300348dfdadad75",
+    "project": "inm363-grpo",
+    "run_id": "r3jexypq",
+    "run_name": "048_COLAB_FULL_GPT2_M355_sft_grpo_seed2_grpo"
+   }
+  ],
+  "starvation": {
+   "complete": {
+    "mean_accuracy_reward": 0.07075,
+    "mean_format_reward": 0.1702500061839819,
+    "share_zero_reward_spread": 0.222
+   },
+   "first_50": {
+    "mean_accuracy_reward": 0.065,
+    "mean_format_reward": 0.1550000052154064,
+    "share_zero_reward_spread": 0.1
+   },
+   "last_50": {
+    "mean_accuracy_reward": 0.03,
+    "mean_format_reward": 0.18350000634789468,
+    "share_zero_reward_spread": 0.36
+   },
+   "severely_reward_starved": false
+  },
+  "artifact": {
+   "kind": "adapter",
+   "path": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M355_sft_grpo_seed2/grpo",
+   "sha256": {
+    "adapter_model.safetensors": "4bfea57ad8d2e4fa98f83e6733ce0528a8ce0c6feaa3a2cb605930ca90769f8a",
+    "adapter_config.json": "8167e82c8d0ddcd491e46b0224bce9295e7ff486f52e78348308db420a398688",
+    "adapter_base.json": "68cf4f19ab81db20b33e9559919619cadd7030a4aeffbda0af8a121087b05ced",
+    "config_hash.txt": "6fe7219b7570c4aa581bc065596c3239a28039dff707e944cf9e501cbbffd08e"
+   }
+  }
+ },
+ "sha256": {
+  "grpo_preds.jsonl": "a88a37273ba6d5392d037ad8ebb45ab94aa291374d700f3309f1befb7cd61f47",
+  "grpo_eval.json": "a3f9e2f0857eb8e348cace2e8485b641bf4434e91c97341192a054e39c99e583",
+  "grpo_logprob_preds.jsonl": "de0bc16ba5079b92f1a6ee9d6c095eb194ef2a2b12ee4d07672c2488bd3a4305",
+  "grpo_logprob.json": "2c1ff8d28223dfcd960cbda054330e28f939f69f9ae5b678f5d39894695352b1"
+ }
+}

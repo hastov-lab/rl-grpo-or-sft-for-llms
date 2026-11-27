@@ -1,0 +1,116 @@
+{
+  "run_tag": "052_COLAB_FULL_B05_sft_grpo_seed0",
+  "timestamp": "2026-09-10T17:22:21",
+  "experiment": "052",
+  "condition": "SFT_GRPO",
+  "env": "COLAB",
+  "mode": "FULL",
+  "scale": "B05",
+  "seed": 0,
+  "exploratory": true,
+  "resolved_dtype": "bfloat16",
+  "config": {
+    "lora": {
+      "r": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ]
+    },
+    "reward": {
+      "correct_weight": 1.0,
+      "format_weight": 0.2,
+      "min_think_chars": 20
+    },
+    "train": {
+      "sft_lr": 0.0001,
+      "grpo_lr": 1e-05,
+      "max_steps": 500,
+      "num_generations": 8,
+      "max_seq_len": 1024,
+      "sft_batch_size": 4,
+      "sft_grad_accum": 4,
+      "sft_completion_only": true,
+      "sft_data": "gsm8k",
+      "sft_val_examples": 500,
+      "sft_from_adapter": "",
+      "grpo_from_adapter": "",
+      "sft_parameter_mode": "lora",
+      "sft_precision_mode": "legacy",
+      "grpo_parameter_mode": "lora",
+      "grpo_precision_mode": "legacy",
+      "a2_action": "abort",
+      "dtype": "auto",
+      "seed": 0
+    },
+    "grpo": {
+      "loss_type": "grpo",
+      "beta": 0.04,
+      "scale_rewards": "group",
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "max_completion_length": 512
+    },
+    "eval": {
+      "max_new_tokens": 512,
+      "batch_size": 16,
+      "skip_generative": false
+    },
+    "exec": {
+      "grpo_batch_size": null,
+      "grpo_grad_accum": 1,
+      "gradient_checkpointing": false,
+      "max_train_hours": 12,
+      "allow_oom_fallback": false
+    }
+  },
+  "git": {
+    "commit": "f90a491f141fb525ae3a5d378506c3415e5707f5",
+    "dirty": false
+  },
+  "versions": {
+    "trl": "1.7.1",
+    "transformers": "5.5.4",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "datasets": "4.8.4",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.0.2",
+    "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+    "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+  },
+  "parser": "B1",
+  "source": {
+    "kind": "gsm8k_sft",
+    "source_run": "006_COLAB_FULL_B05_sft_grpo_seed0",
+    "path": "/content/drive/MyDrive/inm363/checkpoints/006_COLAB_FULL_B05_sft_grpo_seed0/sft_merged",
+    "base_value": "checkpoints/006_COLAB_FULL_B05_sft_grpo_seed0/sft_merged",
+    "binding_level": "path_and_provenance",
+    "byte_reconstruction": false,
+    "adapter_sha256": {
+      "adapter_model.safetensors": "f122accda0b69556f0d2a8e233be6cde1f7c6fcbc837a56a85eb21718e7bba42",
+      "adapter_config.json": "8202044926d4f27b57d3830f179f830532abb1516e9cf7a7a177d0fef13e3861",
+      "adapter_base.json": "f6037445c2aadfea4b90d87219b4a716933de85f7dc2ba87831baaf14731784a",
+      "config_hash.txt": "ac8d3051c13d485ec22f10a8070b244d684c1fd8636bf4f7a1229e6988cc85c8"
+    },
+    "merged_sha256": {
+      "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+      "config.json": "32de0d9b281901b33c841c1c8381bee989ed2da1c70ebfda5c564821dc99eb41",
+      "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+      "model.safetensors": "0d2bc8624d0c498dfcf90077005240b7ca8044af659f7b584ee370f84164e61e",
+      "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+      "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+    },
+    "records": {
+      "results/006_COLAB_FULL_B05_sft_grpo_seed0/manifest.json": "ce372d80ac8dd17cef9ad7ff3c64e3b91547b5df949f0d51799ba714bebb7311",
+      "checkpoints/006_COLAB_FULL_B05_sft_grpo_seed0/grpo/adapter_base.json": "56fcd244928b3a5c55a67ec3b1dedefdc852afd63f7f71287555a30da1339df7"
+    }
+  }
+}

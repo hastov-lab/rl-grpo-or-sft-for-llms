@@ -1,0 +1,70 @@
+{
+ "completed": true,
+ "post_hoc": true,
+ "registered_w2_evidence": false,
+ "independent_validation": false,
+ "c1_claim_allowed": false,
+ "repair_authorised": false,
+ "thresholds": {
+  "min_endpoint_accuracy": 0.75,
+  "min_injected_gain": 0.25,
+  "max_abs_control_change": 0.125
+ },
+ "values": {
+  "generation": {
+   "exact": {
+    "baseline_injected": 0.0,
+    "endpoint_injected": 1.0,
+    "injected_gain": 1.0,
+    "baseline_control": 0.0,
+    "endpoint_control": 0.0,
+    "control_change": 0.0,
+    "passes_acquisition": true
+   },
+   "paraphrase": {
+    "baseline_injected": 0.0,
+    "endpoint_injected": 0.46875,
+    "injected_gain": 0.46875,
+    "baseline_control": 0.0,
+    "endpoint_control": 0.0,
+    "control_change": 0.0,
+    "passes_acquisition": false
+   }
+  },
+  "continuation": {
+   "exact": {
+    "baseline_injected": 0.3125,
+    "endpoint_injected": 1.0,
+    "injected_gain": 0.6875,
+    "baseline_control": 0.3125,
+    "endpoint_control": 0.0,
+    "control_change": -0.3125,
+    "passes_acquisition": true
+   },
+   "paraphrase": {
+    "baseline_injected": 0.1875,
+    "endpoint_injected": 0.78125,
+    "injected_gain": 0.59375,
+    "baseline_control": 0.40625,
+    "endpoint_control": 0.0,
+    "control_change": -0.40625,
+    "passes_acquisition": true
+   }
+  }
+ },
+ "controls_stable": false,
+ "route": "interference",
+ "diagnostic_sha256": "d44f8f0c5a3c60f028fbca3c1d064130d777174f64f44b3e825f4a376681d704",
+ "source_dataset_sha256": "a9d359dfe03251b0b08e6d25f22870348dc900a7d4c505cb3b341a1b92ee1583",
+ "start_record_sha256": "ec86dc7e80cdff51ffdb2fbdabea480f3a263953718261a52ce73ebeca6cada5",
+ "baseline_manifest_sha256": "f0c59fd415b421297c2e2f69d626bc18d02ea572435e1946a457bf4b0d126416",
+ "sft_manifest_sha256": "904d9cd2c36f78fde2925f866333ea2bee33324cd46509171f06e60a919a69c6",
+ "sft_adapter_sha256": {
+  "adapter_model.safetensors": "2c2662a0af49c1efec6b518ab5e10112be92619cc4efad6cf8afb87dc6a15159",
+  "adapter_config.json": "972d850b4c591ab81146b5cb305603d0090cb97611a4882a3764220912ad5d40",
+  "adapter_base.json": "8722192e0c85986e7b010920967e294fb71115eaf402ea15a33b5521cb41e190",
+  "config_hash.txt": "98c437e909e44abdbe9cf3e85501074c6b21337cf8956280620a6e49c1f1f582"
+ },
+ "seed_bundle_reused": true,
+ "repeated_inspection_disclosed": true
+}

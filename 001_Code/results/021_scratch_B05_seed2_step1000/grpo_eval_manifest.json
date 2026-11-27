@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-07-30T09:13:00",
+  "adapter": "/content/drive/MyDrive/inm363/checkpoints/021_scratch_B05_seed2/grpo",
+  "condition": "grpo",
+  "timings_sec": {
+    "grpo_eval": 1371.138,
+    "grpo_logprob_eval": 19.109
+  },
+  "completed": true,
+  "config": "configs/021_scratch_colab_b05_seed2.yaml",
+  "seed_override": 2,
+  "git": {
+    "commit": "7f830ee1d02fd0f02304fb0e338687a7e288cbfc",
+    "dirty": false
+  },
+  "versions": {
+    "trl": "1.7.1",
+    "transformers": "5.5.4",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "datasets": "4.8.4",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.0.2",
+    "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+    "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+  },
+  "resolved_dtype": "bfloat16",
+  "gpu": {
+    "device": "NVIDIA A100-SXM4-40GB",
+    "peak_vram_gb": 0.0
+  }
+}

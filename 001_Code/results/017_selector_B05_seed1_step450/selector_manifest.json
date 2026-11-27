@@ -1,0 +1,21 @@
+{
+  "source_run": "006_COLAB_FULL_B05_sft_grpo_seed1",
+  "selected_step": 450,
+  "selector_score": 0.34,
+  "final_window_score": 0.25,
+  "exact_score": 0.34,
+  "exact_final_window_score": 0.25,
+  "trainlog_sha256": "d8b60664e135c0ff6bde5f5606e34e11c4237467e0474f29a067c9bb1e3b4a64",
+  "source_checkpoint": "/content/drive/MyDrive/inm363/checkpoints/006_COLAB_FULL_B05_sft_grpo_seed1/grpo/checkpoint-450",
+  "trainer_state_global_step": 450,
+  "hashes": {
+    "adapter_source": "59dbac97bc402c26490e01a511f28bde02d69840d77a1a68b0035996e60573a5",
+    "adapter_copy": "59dbac97bc402c26490e01a511f28bde02d69840d77a1a68b0035996e60573a5",
+    "adapter_config_source": "cc9812af48b34aec627207a1a7c978b248f6c142bfe0b6f0041623267426d5f9",
+    "adapter_config_copy": "cc9812af48b34aec627207a1a7c978b248f6c142bfe0b6f0041623267426d5f9",
+    "provenance_source": "74d9a98bb04271b98683b2b3aaafc9f13d7d53ac83cb9369cc739023c51c23ff",
+    "provenance_copy": "74d9a98bb04271b98683b2b3aaafc9f13d7d53ac83cb9369cc739023c51c23ff"
+  },
+  "reference_preds_sha256": "85cb6aff936aaed5087dbdf4df493671a76ba1551fb1afdef45e1b9bf7c0830b",
+  "selector_rule": "for each saved checkpoint step s in 50..500, score = mean training accuracy reward over the trailing 50 steps, highest wins, ties to later"
+}

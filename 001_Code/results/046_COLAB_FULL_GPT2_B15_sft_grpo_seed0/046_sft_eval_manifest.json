@@ -1,0 +1,51 @@
+{
+ "completed": true,
+ "experiment": "046",
+ "branch": "sft",
+ "binding": {
+  "completed": true,
+  "experiment": "046",
+  "stage": "sft",
+  "seed": 0,
+  "config_hash": "dfaeee6ff04814805397dab6fd6a3fd4a63fd33d56ff2ef7f72c9582aa9cc1f5",
+  "updates": 500,
+  "parameter_mode": "lora",
+  "storage_dtype": "float32",
+  "compute_dtype": "bfloat16",
+  "base_record_sha256": "dfd8a6bf125f5866f132e06c9a71792d950dad7f9071b2ab28914296e1a57d94",
+  "base_artifact_sha256": {
+   "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+   "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+   "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+   "model.safetensors": "df636f168a87529b6bfa55c9555682c95a23a0d0b41eed0cbbfc85b42a480bd5",
+   "model_base.json": "5f742459ed1748c36e982ad5058cb1ec8cf5172073252afb51baf8852f0cdf56",
+   "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+   "tokenizer_config.json": "caab7b8a5a261a1d4cb142c2488acd9cb1c5c0154f681e5a38614a3a2c0cf8ce"
+  },
+  "wandb_runs": [
+   {
+    "path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_sft_grpo_seed0/046_sft_wandb_runs/tgnyxuos.json",
+    "sha256": "04f79c13e8c7991dc7bc58393aeb3b30943ff318d05c7bc0d4cd2b88c8c08d5c",
+    "project": "inm363-grpo",
+    "run_id": "tgnyxuos",
+    "run_name": "046_COLAB_FULL_GPT2_B15_sft_grpo_seed0_sft"
+   }
+  ],
+  "artifact": {
+   "kind": "adapter",
+   "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_sft_grpo_seed0/sft",
+   "sha256": {
+    "adapter_model.safetensors": "20e74c8821e2e2acc310cf0cb5c8988428235b63a5006a015249d9b148a09ac3",
+    "adapter_config.json": "947c7d5e8fc645f209b680e6bffe028c1920d66a7de2b2c19a5acff0572e2c3c",
+    "adapter_base.json": "f8b6398736e2a51b7264367ba1876b62b1e3f7f17f0ba687cf77b62f34bf4697",
+    "config_hash.txt": "c9966fc5e90b5c97dbbc8b4fcf28dca513a2bfc742d08844cd198b30d99d770c"
+   }
+  }
+ },
+ "sha256": {
+  "sft_preds.jsonl": "58cf3214b5ea4c081d977cf8227bd8604281471dca8a923d9d80a7a5a0e7952a",
+  "sft_eval.json": "a13b82b19d699b3b365c88808640185a52f1834ebec9e0a2d42cb46329ec113f",
+  "sft_logprob_preds.jsonl": "045981802c270dfde1d897c7b7154fa1cbc4514ed8c5106a9a044a8be3009d63",
+  "sft_logprob.json": "c659eed57859516fb83172eb84b66cee10f5e3e88121e0f7dbb4655682808c2f"
+ }
+}

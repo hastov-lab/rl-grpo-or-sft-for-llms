@@ -1,0 +1,13 @@
+comparison,seed,endpoint,accuracy
+base budget,0,base p8,0.7860934182590233
+base budget,0,base p16,0.7829087048832272
+warm route,0,smooth GRPO,0.807855626326964
+warm route,0,warm p16,0.778131634819533
+base budget,1,base p8,0.7802547770700637
+base budget,1,base p16,0.7839702760084926
+warm route,1,smooth GRPO,0.8014861995753716
+warm route,1,warm p16,0.7818471337579618
+base budget,2,base p8,0.7845010615711253
+base budget,2,base p16,0.7786624203821656
+warm route,2,smooth GRPO,0.7977707006369427
+warm route,2,warm p16,0.7722929936305732

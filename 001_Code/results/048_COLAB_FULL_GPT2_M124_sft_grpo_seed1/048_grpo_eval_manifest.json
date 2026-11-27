@@ -1,0 +1,86 @@
+{
+ "completed": true,
+ "experiment": "048",
+ "branch": "grpo",
+ "binding": {
+  "completed": true,
+  "experiment": "048",
+  "stage": "grpo",
+  "seed": 1,
+  "config_hash": "2b109a8d564f2e555a2b5773d379453c777a48ec2ce2d178924e8bc29d0b7543",
+  "updates": 500,
+  "parameter_mode": "lora",
+  "sft_record_sha256": "a179d3e2c92511b82d5a848269730122c0265871838f85923993fb75b6b465ec",
+  "merged_path": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M124_sft_grpo_seed1/sft_merged",
+  "merge_binding": {
+   "ts": "2026-08-28T16:53:08",
+   "adapter_dir": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M124_sft_grpo_seed1/sft",
+   "adapter_sha256": {
+    "adapter_model.safetensors": "e7cb62b1b104326a76e0bbee1f759451713c153a50a5b9ded2fba1d939c53da1",
+    "adapter_config.json": "ab504b568470f008c209f59346677f95ae526347df0a0f8589dbbe6ee052b85a",
+    "adapter_base.json": "3cc200759644a3a0ceeb6c63a1b47d09fa3f21ecfc3955589203f0652315e60e",
+    "config_hash.txt": "5a98aadefce5959957bbf83793c78c13481e8d056ccaf2f5bdb40d34e2c08aaf"
+   },
+   "merged_sha256": {
+    "artifact_type.json": "41ce53ec9b894d6c52e5d962d239711a2f83fed98b35cca8cfa2ba090a8a1cb6",
+    "config.json": "e84b5d8163f09b4f8f1d18b20ea047c8926f5b6f3b18efabec9d8c1fd3d3a3f6",
+    "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+    "model.safetensors": "5eae0b434a72e7f907275d4cc74c7f2d0964850417927050fcae5623525c350c",
+    "model_base.json": "3cc200759644a3a0ceeb6c63a1b47d09fa3f21ecfc3955589203f0652315e60e",
+    "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+    "tokenizer_config.json": "46b0ee09bc6c14494f934103d0a72ac5a7f649ed99f6d8f1939cedad0c6c99e4"
+   }
+  },
+  "adapter_base": {
+   "verified": true,
+   "adapter_base_sha256": "b1bf5684db21a6faa13f73d1ab52f88d168dbaca96111fe194787106fbe5024e",
+   "resolved_path": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M124_sft_grpo_seed1/sft_merged",
+   "merged_path": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M124_sft_grpo_seed1/sft_merged"
+  },
+  "precision_report_sha256": "8b4d8684ecfc41b60bd9fc9b2caed868260fdf0ca27734030d3c5aa850856b19",
+  "a2_verdict_sha256": "28c1a97e369d314362872f9892a0b1c3e3194c0b9a35d8c459b3321990a98dcd",
+  "wandb_runs": [
+   {
+    "path": "/content/drive/MyDrive/inm363/results/048_COLAB_FULL_GPT2_M124_sft_grpo_seed1/048_grpo_wandb_runs/n84k30za.json",
+    "sha256": "ce4fe10f32b536cb8d2c28a093ddd34cea36421e4b213d4f66e1182a4507489f",
+    "project": "inm363-grpo",
+    "run_id": "n84k30za",
+    "run_name": "048_COLAB_FULL_GPT2_M124_sft_grpo_seed1_grpo"
+   }
+  ],
+  "starvation": {
+   "complete": {
+    "mean_accuracy_reward": 0.0555,
+    "mean_format_reward": 0.1267500038743019,
+    "share_zero_reward_spread": 0.066
+   },
+   "first_50": {
+    "mean_accuracy_reward": 0.05,
+    "mean_format_reward": 0.10850000277161598,
+    "share_zero_reward_spread": 0.0
+   },
+   "last_50": {
+    "mean_accuracy_reward": 0.045,
+    "mean_format_reward": 0.1440000043809414,
+    "share_zero_reward_spread": 0.2
+   },
+   "severely_reward_starved": false
+  },
+  "artifact": {
+   "kind": "adapter",
+   "path": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M124_sft_grpo_seed1/grpo",
+   "sha256": {
+    "adapter_model.safetensors": "ca1c3eda7667fefc666c6e20053579d8b105056ea88f27348af266f5beb48146",
+    "adapter_config.json": "b271ec4c8b2ab05bf125cdf4f0fe33d426b8b4d1ba2c1d9c6c3f9cd01174c216",
+    "adapter_base.json": "b1bf5684db21a6faa13f73d1ab52f88d168dbaca96111fe194787106fbe5024e",
+    "config_hash.txt": "5a98aadefce5959957bbf83793c78c13481e8d056ccaf2f5bdb40d34e2c08aaf"
+   }
+  }
+ },
+ "sha256": {
+  "grpo_preds.jsonl": "c931929bb26ed11028b0ce1accb72b691f611b580f291fe495ad55a6aa5b42be",
+  "grpo_eval.json": "e1639c14fb2302a0f7b8c4178943c5a4b3bad5786b2c53d26dc07f66f94ce756",
+  "grpo_logprob_preds.jsonl": "95b69593ebb5cfeb1ddde191eec84ec40e478e0fb31be1087bbbbcf9f08ce20c",
+  "grpo_logprob.json": "99798e989088738f5dc9189853fdccf901c62fffe9c47ca1df1af0b4427344e7"
+ }
+}

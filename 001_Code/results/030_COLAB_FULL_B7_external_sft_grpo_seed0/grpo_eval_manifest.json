@@ -1,0 +1,103 @@
+{
+ "ts": "2026-08-12T17:30:24",
+ "package": "030_n4",
+ "completed": true,
+ "sha256": {
+  "grpo_preds.jsonl": "f8c69c298a40f18d80c88bb2a5b730be82eef5866df5a230f468d9a8eb9cec0d",
+  "grpo_eval.json": "9d6d65cbf2da4c67e782b7c5ec5eba3b20593c3ffac3ce58896aec02c433a800",
+  "grpo_logprob.json": "8c7f6967bcb58aca97cac183c67530e46c7bd628346e7ec74e1ffab5774ce737",
+  "grpo_logprob_preds.jsonl": "c2811458d5b39881aa9b473485ab9093c0c90b51dae9cd9876ca5a972929b8f3"
+ },
+ "grpo_adapter_sha256": {
+  "adapter_model.safetensors": "e454f20ef2f0d6965f4d0724000af6bd437bf1bd56f8e6f3ab87da45e609d228",
+  "adapter_config.json": "b27aa23c5b197025ac33ea2d40dab8f551eb285c38a72e60f65a4a9f8766f59a",
+  "adapter_base.json": "b6e76b974ed56dad7ce0f7708a1b7e3495ba7375b4dd20a17262517f0c84d1c5",
+  "config_hash.txt": "ac8bc4a62199edf7777410fa1b29e922dea1f5f3f42a1924b4e1ad695109f053"
+ },
+ "adapter": "/content/drive/MyDrive/inm363/checkpoints/030_COLAB_FULL_B7_external_sft_grpo_seed0/grpo",
+ "source_adapter": "/content/drive/MyDrive/inm363/checkpoints/013_COLAB_FULL_B7_sft_grpo_seed0/sft",
+ "source_adapter_sha256": {
+  "adapter_model.safetensors": "5e513699f17375bf767ba1de4a5fc93818641f5ca9f5c1f3fe02fcb5b71d9450",
+  "adapter_config.json": "74eb7940440ec435d7ea27c5c74e0b011395d9cbca96b0ecca9173c0f51c1ac7",
+  "adapter_base.json": "bbe7839a8b4dcfa0474e911f8c556cb1525f78a4507c13eab970c6cd9bd31330",
+  "config_hash.txt": "d61900f22ffa50a6e6d2379b5a099723bf89fef7804e8a5643dcfb1a6df4dfdf"
+ },
+ "archived_merge": {
+  "ts": "2026-08-12T14:38:59",
+  "completed": true,
+  "source": "/content/drive/MyDrive/inm363/checkpoints/013_COLAB_FULL_B7_sft_grpo_seed0/sft_merged",
+  "source_sha256": {
+   "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+   "config.json": "a855ce196e6cc954bec101379a7b8db760b819f906020c98d2081893dad7b4cb",
+   "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+   "model.safetensors": "9868b17e0be8607c523c5b681f8684c933600aa57c84b916133ae2d691095dcf",
+   "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+   "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+  },
+  "destination_sha256": {
+   "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+   "config.json": "a855ce196e6cc954bec101379a7b8db760b819f906020c98d2081893dad7b4cb",
+   "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+   "model.safetensors": "9868b17e0be8607c523c5b681f8684c933600aa57c84b916133ae2d691095dcf",
+   "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+   "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+  },
+  "adapter_sha256": {
+   "adapter_model.safetensors": "5e513699f17375bf767ba1de4a5fc93818641f5ca9f5c1f3fe02fcb5b71d9450",
+   "adapter_config.json": "74eb7940440ec435d7ea27c5c74e0b011395d9cbca96b0ecca9173c0f51c1ac7",
+   "adapter_base.json": "bbe7839a8b4dcfa0474e911f8c556cb1525f78a4507c13eab970c6cd9bd31330",
+   "config_hash.txt": "d61900f22ffa50a6e6d2379b5a099723bf89fef7804e8a5643dcfb1a6df4dfdf"
+  },
+  "binding_sha256": "38a8c2fe84dd22a8a07581075a1e791a1a07518be121441449b6eec6698f8c6f"
+ },
+ "parent_gate_stats": {
+  "agreement": 1.0,
+  "acc_new": 0.800425,
+  "acc_archived": 0.800425
+ },
+ "training_complete": {
+  "ts": "2026-08-12T16:48:48",
+  "completed": true,
+  "steps": 500,
+  "history_sha256": "ce13f3301d15219cb6a28a2f025a6d1c2ff6adbb06aa16f19a24ddf68500b881",
+  "trainer_state_sha256": "5e57ca62aa8741eaf08a75c4b6b1f07319422ea9a74beb28d400577d1c3b9ecb",
+  "adapter_sha256": {
+   "adapter_model.safetensors": "e454f20ef2f0d6965f4d0724000af6bd437bf1bd56f8e6f3ab87da45e609d228",
+   "adapter_config.json": "b27aa23c5b197025ac33ea2d40dab8f551eb285c38a72e60f65a4a9f8766f59a",
+   "adapter_base.json": "b6e76b974ed56dad7ce0f7708a1b7e3495ba7375b4dd20a17262517f0c84d1c5",
+   "config_hash.txt": "ac8bc4a62199edf7777410fa1b29e922dea1f5f3f42a1924b4e1ad695109f053"
+  },
+  "adapter_base": {
+   "kind": "local",
+   "value": "checkpoints/030_COLAB_FULL_B7_external_sft_grpo_seed0/sft_merged"
+  },
+  "final_checkpoint": "checkpoint-500",
+  "first_learning_rate": 1e-05,
+  "final_learning_rate": 2e-08
+ },
+ "config": "configs/030_colab_b7_n4_seed0.yaml",
+ "seed": 0,
+ "git": {
+  "commit": "0839c3de0b8299b1cb348b09293c1e1022f9e32b",
+  "dirty": false
+ },
+ "versions": {
+  "trl": "1.7.1",
+  "transformers": "5.5.4",
+  "peft": "0.19.1",
+  "accelerate": "1.14.0",
+  "datasets": "4.8.4",
+  "torch": "2.11.0+cu128",
+  "numpy": "2.0.2",
+  "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+ },
+ "resolved_dtype": "bfloat16",
+ "gpu": {
+  "device": "NVIDIA A100-SXM4-80GB",
+  "peak_vram_gb": 0.0
+ },
+ "timings_sec": {
+  "grpo_eval": 2102.8
+ }
+}

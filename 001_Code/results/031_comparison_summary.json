@@ -1,0 +1,130 @@
+{
+ "experiment": "031",
+ "seed": 1,
+ "status": "completed",
+ "primary_endpoint": "overall generative accuracy versus the seed-matched GSM8K-SFT start",
+ "registered_outcome": "material improvement",
+ "overall": {
+  "reference_acc": 0.7786624203821656,
+  "continued_acc": 0.804140127388535,
+  "delta": 0.025477707006369428,
+  "ci": [
+   0.012738853503184714,
+   0.03821656050955414
+  ],
+  "mcnemar_p": 0.00012227884454768217,
+  "discordant": {
+   "continued_gain": 100,
+   "reference_gain": 52
+  }
+ },
+ "tiers_descriptive": {
+  "easy": {
+   "reference_acc": 0.8782707622298066,
+   "continued_acc": 0.8930602957906713,
+   "delta": 0.01478953356086462,
+   "ci": [
+    0.0022753128555176336,
+    0.02844141069397042
+   ],
+   "mcnemar_p": 0.040959591511636986,
+   "discordant": {
+    "continued_gain": 24,
+    "reference_gain": 11
+   }
+  },
+  "medium": {
+   "reference_acc": 0.7536945812807881,
+   "continued_acc": 0.7816091954022989,
+   "delta": 0.027914614121510674,
+   "ci": [
+    0.008210180623973728,
+    0.047619047619047616
+   ],
+   "mcnemar_p": 0.009475304279476404,
+   "discordant": {
+    "continued_gain": 28,
+    "reference_gain": 11
+   }
+  },
+  "hard": {
+   "reference_acc": 0.5959595959595959,
+   "continued_acc": 0.6414141414141414,
+   "delta": 0.045454545454545456,
+   "ci": [
+    0.0025252525252525255,
+    0.08838383838383838
+   ],
+   "mcnemar_p": 0.053544392168502264,
+   "discordant": {
+    "continued_gain": 48,
+    "reference_gain": 30
+   }
+  }
+ },
+ "probe_descriptive": {
+  "reference_acc": 0.8014861995753716,
+  "continued_acc": 0.804140127388535,
+  "delta": 0.002653927813163482,
+  "ci": [
+   -0.0015923566878980893,
+   0.006900212314225053
+  ],
+  "mcnemar_p": 0.332305908203125,
+  "discordant": {
+   "continued_gain": 11,
+   "reference_gain": 6
+  }
+ },
+ "n8_twin_overall_descriptive": 0.8052016985138004,
+ "format_rate": {
+  "start": 0.9033970276008493,
+  "continued": 0.9734607218683652
+ },
+ "a2_verdict": {
+  "experiment": "031",
+  "seed": 1,
+  "step": 150,
+  "early_accuracy_reward_mean": 0.705,
+  "mid_accuracy_reward_mean": 0.68,
+  "signed_improvement": -0.02499999999999991,
+  "mid_kl_mean": 0.004489697483368218,
+  "min_improvement": 0.02,
+  "max_mid_kl": 0.005,
+  "would_fire": true,
+  "config_hash": "718cb8fa015e0d09536598a6003745fab745ec1d8170b51046b7bf9e318ba97f",
+  "prefix_history_sha256": "3cd347433e46eec47a5331908a6dd1ac7c257b82d4468c49b159b1fd7d27cad6",
+  "verdict_history_sha256": "2346612268c0cf32cc228ffc3bbf3ad5d851981239c2a243d159241ad605a75b"
+ },
+ "training_windows": {
+  "steps_1_50": {
+   "rewards/accuracy_reward/mean": 0.705,
+   "rewards/format_reward/mean": 0.17500000387430192,
+   "frac_reward_zero_std": 0.24,
+   "reward_std": 0.29552151292562484,
+   "kl": 0.001976162432692945
+  },
+  "steps_51_100": {
+   "rewards/accuracy_reward/mean": 0.675,
+   "rewards/format_reward/mean": 0.18700000375509263,
+   "frac_reward_zero_std": 0.46,
+   "reward_std": 0.2113231401145458,
+   "kl": 0.006665480305673555
+  },
+  "steps_101_150": {
+   "rewards/accuracy_reward/mean": 0.68,
+   "rewards/format_reward/mean": 0.1800000038743019,
+   "frac_reward_zero_std": 0.4,
+   "reward_std": 0.2394290091097355,
+   "kl": 0.004489697483368218
+  },
+  "steps_151_500": {
+   "rewards/accuracy_reward/mean": 0.7214285714285714,
+   "rewards/format_reward/mean": 0.1890000033378601,
+   "frac_reward_zero_std": 0.5828571428571429,
+   "reward_std": 0.18429259798356465,
+   "kl": 0.005724220215509246
+  }
+ },
+ "endpoint_contact": 2
+}

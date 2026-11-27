@@ -1,0 +1,476 @@
+{
+  "binding": true,
+  "complete_seeds": [
+    0,
+    1,
+    2
+  ],
+  "common_readings": {
+    "base_budget": "equivalent",
+    "warm_vs_smooth_grpo": "mixed or inconclusive, report arm by arm"
+  },
+  "arms": [
+    {
+      "seed": 0,
+      "base_budget": {
+        "reference_acc": 0.7860934182590233,
+        "new_acc": 0.7829087048832272,
+        "delta": -0.0031847133757961785,
+        "ci": [
+          -0.01167728237791932,
+          0.005307855626326964
+        ],
+        "p_raw": 0.5504125118224712,
+        "tiers": {
+          "easy": {
+            "reference": 0.8953356086461889,
+            "new": 0.8873720136518771
+          },
+          "medium": {
+            "reference": 0.7799671592775042,
+            "new": 0.7783251231527094
+          },
+          "hard": {
+            "reference": 0.553030303030303,
+            "new": 0.5580808080808081
+          }
+        },
+        "holm_p": 0.9140415708211795,
+        "category": "equivalent"
+      },
+      "warm_vs_smooth_grpo": {
+        "reference_acc": 0.807855626326964,
+        "new_acc": 0.778131634819533,
+        "delta": -0.029723991507430998,
+        "ci": [
+          -0.04511677282377919,
+          -0.014331210191082803
+        ],
+        "p_raw": 0.0001942157394589495,
+        "tiers": {
+          "easy": {
+            "reference": 0.8919226393629124,
+            "new": 0.875995449374289
+          },
+          "medium": {
+            "reference": 0.7947454844006568,
+            "new": 0.7963875205254516
+          },
+          "hard": {
+            "reference": 0.6414141414141414,
+            "new": 0.5328282828282829
+          }
+        },
+        "holm_p": 0.0005826472183768484,
+        "category": "material decline"
+      },
+      "warm_budget_descriptive": {
+        "reference_acc": 0.7738853503184714,
+        "new_acc": 0.778131634819533,
+        "delta": 0.004246284501061571,
+        "ci": [
+          -0.0021231422505307855,
+          0.010615711252653927
+        ],
+        "p_raw": 0.24298495403490966,
+        "tiers": {
+          "easy": {
+            "reference": 0.8737201365187713,
+            "new": 0.875995449374289
+          },
+          "medium": {
+            "reference": 0.7963875205254516,
+            "new": 0.7963875205254516
+          },
+          "hard": {
+            "reference": 0.5176767676767676,
+            "new": 0.5328282828282829
+          }
+        },
+        "exact_preparation_match": true
+      },
+      "base_probe_from_start": {
+        "reference_acc": 0.8004246284501062,
+        "new_acc": 0.7988322717622081,
+        "delta": -0.0015923566878980893,
+        "ci": [
+          -0.009554140127388535,
+          0.006369426751592357
+        ],
+        "p_raw": 0.8013064925040663,
+        "tiers": {
+          "easy": {
+            "reference": 0.8976109215017065,
+            "new": 0.89419795221843
+          },
+          "medium": {
+            "reference": 0.812807881773399,
+            "new": 0.80623973727422
+          },
+          "hard": {
+            "reference": 0.5656565656565656,
+            "new": 0.5757575757575758
+          }
+        },
+        "classification": "unchanged"
+      },
+      "warm_probe_from_start": {
+        "reference_acc": 0.8004246284501062,
+        "new_acc": 0.7998938428874734,
+        "delta": -0.0005307855626326964,
+        "ci": [
+          -0.009554140127388535,
+          0.008492569002123142
+        ],
+        "p_raw": 0.9999999999999998,
+        "tiers": {
+          "easy": {
+            "reference": 0.8998862343572241,
+            "new": 0.9010238907849829
+          },
+          "medium": {
+            "reference": 0.8078817733990148,
+            "new": 0.812807881773399
+          },
+          "hard": {
+            "reference": 0.5681818181818182,
+            "new": 0.5555555555555556
+          }
+        },
+        "classification": "unchanged"
+      },
+      "endpoints": {
+        "base_p16": {
+          "overall_acc": 0.7829087048832272,
+          "hard_acc": 0.5580808080808081,
+          "probe_acc": 0.7988322717622081,
+          "hard_probe": 0.5757575757575758,
+          "hard_margin": -0.017676767676767735,
+          "format_compliance": 1.0,
+          "extraction_failure_rate": 0.0,
+          "mean_len": 16.0
+        },
+        "warm_p16": {
+          "overall_acc": 0.778131634819533,
+          "hard_acc": 0.5328282828282829,
+          "probe_acc": 0.7998938428874734,
+          "hard_probe": 0.5555555555555556,
+          "hard_margin": -0.022727272727272707,
+          "format_compliance": 1.0,
+          "extraction_failure_rate": 0.0,
+          "mean_len": 16.0
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "base_budget": {
+        "reference_acc": 0.7802547770700637,
+        "new_acc": 0.7839702760084926,
+        "delta": 0.0037154989384288748,
+        "ci": [
+          -0.004777070063694267,
+          0.012208067940552018
+        ],
+        "p_raw": 0.45702078541058977,
+        "tiers": {
+          "easy": {
+            "reference": 0.888509670079636,
+            "new": 0.8896473265073948
+          },
+          "medium": {
+            "reference": 0.7783251231527094,
+            "new": 0.7914614121510674
+          },
+          "hard": {
+            "reference": 0.5429292929292929,
+            "new": 0.5378787878787878
+          }
+        },
+        "holm_p": 0.9140415708211795,
+        "category": "equivalent"
+      },
+      "warm_vs_smooth_grpo": {
+        "reference_acc": 0.8014861995753716,
+        "new_acc": 0.7818471337579618,
+        "delta": -0.019639065817409766,
+        "ci": [
+          -0.03556263269639066,
+          -0.004246284501061571
+        ],
+        "p_raw": 0.01573041066921132,
+        "tiers": {
+          "easy": {
+            "reference": 0.888509670079636,
+            "new": 0.8839590443686007
+          },
+          "medium": {
+            "reference": 0.7816091954022989,
+            "new": 0.7881773399014779
+          },
+          "hard": {
+            "reference": 0.6388888888888888,
+            "new": 0.5454545454545454
+          }
+        },
+        "holm_p": 0.01573041066921132,
+        "category": "inconclusive"
+      },
+      "warm_budget_descriptive": {
+        "reference_acc": 0.7765392781316348,
+        "new_acc": 0.7818471337579618,
+        "delta": 0.005307855626326964,
+        "ci": [
+          -0.0021231422505307855,
+          0.012738853503184714
+        ],
+        "p_raw": 0.20263875106454066,
+        "tiers": {
+          "easy": {
+            "reference": 0.8805460750853242,
+            "new": 0.8839590443686007
+          },
+          "medium": {
+            "reference": 0.7865353037766831,
+            "new": 0.7881773399014779
+          },
+          "hard": {
+            "reference": 0.5303030303030303,
+            "new": 0.5454545454545454
+          }
+        },
+        "exact_preparation_match": false
+      },
+      "base_probe_from_start": {
+        "reference_acc": 0.8004246284501062,
+        "new_acc": 0.7977707006369427,
+        "delta": -0.002653927813163482,
+        "ci": [
+          -0.010615711252653927,
+          0.00583864118895966
+        ],
+        "p_raw": 0.6146550157654618,
+        "tiers": {
+          "easy": {
+            "reference": 0.8976109215017065,
+            "new": 0.89419795221843
+          },
+          "medium": {
+            "reference": 0.812807881773399,
+            "new": 0.80623973727422
+          },
+          "hard": {
+            "reference": 0.5656565656565656,
+            "new": 0.5707070707070707
+          }
+        },
+        "classification": "unchanged"
+      },
+      "warm_probe_from_start": {
+        "reference_acc": 0.8014861995753716,
+        "new_acc": 0.8030785562632696,
+        "delta": 0.0015923566878980893,
+        "ci": [
+          -0.006369426751592357,
+          0.009554140127388535
+        ],
+        "p_raw": 0.7913664277791806,
+        "tiers": {
+          "easy": {
+            "reference": 0.9010238907849829,
+            "new": 0.9010238907849829
+          },
+          "medium": {
+            "reference": 0.8111658456486043,
+            "new": 0.80623973727422
+          },
+          "hard": {
+            "reference": 0.5656565656565656,
+            "new": 0.5808080808080808
+          }
+        },
+        "classification": "unchanged"
+      },
+      "endpoints": {
+        "base_p16": {
+          "overall_acc": 0.7839702760084926,
+          "hard_acc": 0.5378787878787878,
+          "probe_acc": 0.7977707006369427,
+          "hard_probe": 0.5707070707070707,
+          "hard_margin": -0.03282828282828287,
+          "format_compliance": 1.0,
+          "extraction_failure_rate": 0.0,
+          "mean_len": 16.0
+        },
+        "warm_p16": {
+          "overall_acc": 0.7818471337579618,
+          "hard_acc": 0.5454545454545454,
+          "probe_acc": 0.8030785562632696,
+          "hard_probe": 0.5808080808080808,
+          "hard_margin": -0.03535353535353536,
+          "format_compliance": 1.0,
+          "extraction_failure_rate": 0.0,
+          "mean_len": 16.0
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "base_budget": {
+        "reference_acc": 0.7845010615711253,
+        "new_acc": 0.7786624203821656,
+        "delta": -0.00583864118895966,
+        "ci": [
+          -0.014331210191082803,
+          0.0031847133757961785
+        ],
+        "p_raw": 0.22840022535329702,
+        "tiers": {
+          "easy": {
+            "reference": 0.8907849829351536,
+            "new": 0.875995449374289
+          },
+          "medium": {
+            "reference": 0.7783251231527094,
+            "new": 0.7799671592775042
+          },
+          "hard": {
+            "reference": 0.5580808080808081,
+            "new": 0.5606060606060606
+          }
+        },
+        "holm_p": 0.685200676059891,
+        "category": "equivalent"
+      },
+      "warm_vs_smooth_grpo": {
+        "reference_acc": 0.7977707006369427,
+        "new_acc": 0.7722929936305732,
+        "delta": -0.025477707006369428,
+        "ci": [
+          -0.04087048832271762,
+          -0.009554140127388535
+        ],
+        "p_raw": 0.001792073701536992,
+        "tiers": {
+          "easy": {
+            "reference": 0.8839590443686007,
+            "new": 0.8691695108077361
+          },
+          "medium": {
+            "reference": 0.7914614121510674,
+            "new": 0.7783251231527094
+          },
+          "hard": {
+            "reference": 0.6161616161616161,
+            "new": 0.547979797979798
+          }
+        },
+        "holm_p": 0.003584147403073984,
+        "category": "material decline"
+      },
+      "warm_budget_descriptive": {
+        "reference_acc": 0.779723991507431,
+        "new_acc": 0.7722929936305732,
+        "delta": -0.0074309978768577496,
+        "ci": [
+          -0.01592356687898089,
+          0.0010615711252653928
+        ],
+        "p_raw": 0.10885696440971612,
+        "tiers": {
+          "easy": {
+            "reference": 0.8771331058020477,
+            "new": 0.8691695108077361
+          },
+          "medium": {
+            "reference": 0.7898193760262726,
+            "new": 0.7783251231527094
+          },
+          "hard": {
+            "reference": 0.547979797979798,
+            "new": 0.547979797979798
+          }
+        },
+        "exact_preparation_match": false
+      },
+      "base_probe_from_start": {
+        "reference_acc": 0.8004246284501062,
+        "new_acc": 0.8020169851380042,
+        "delta": 0.0015923566878980893,
+        "ci": [
+          -0.005851910828025465,
+          0.009554140127388535
+        ],
+        "p_raw": 0.7877061896700431,
+        "tiers": {
+          "easy": {
+            "reference": 0.8976109215017065,
+            "new": 0.8987485779294653
+          },
+          "medium": {
+            "reference": 0.812807881773399,
+            "new": 0.8078817733990148
+          },
+          "hard": {
+            "reference": 0.5656565656565656,
+            "new": 0.5782828282828283
+          }
+        },
+        "classification": "unchanged"
+      },
+      "warm_probe_from_start": {
+        "reference_acc": 0.7983014861995754,
+        "new_acc": 0.7956475583864119,
+        "delta": -0.002653927813163482,
+        "ci": [
+          -0.011146496815286623,
+          0.00583864118895966
+        ],
+        "p_raw": 0.6304564917867981,
+        "tiers": {
+          "easy": {
+            "reference": 0.8987485779294653,
+            "new": 0.8976109215017065
+          },
+          "medium": {
+            "reference": 0.8111658456486043,
+            "new": 0.8029556650246306
+          },
+          "hard": {
+            "reference": 0.5555555555555556,
+            "new": 0.5580808080808081
+          }
+        },
+        "classification": "unchanged"
+      },
+      "endpoints": {
+        "base_p16": {
+          "overall_acc": 0.7786624203821656,
+          "hard_acc": 0.5606060606060606,
+          "probe_acc": 0.8020169851380042,
+          "hard_probe": 0.5782828282828283,
+          "hard_margin": -0.017676767676767735,
+          "format_compliance": 1.0,
+          "extraction_failure_rate": 0.0,
+          "mean_len": 16.0
+        },
+        "warm_p16": {
+          "overall_acc": 0.7722929936305732,
+          "hard_acc": 0.547979797979798,
+          "probe_acc": 0.7956475583864119,
+          "hard_probe": 0.5580808080808081,
+          "hard_margin": -0.010101010101010055,
+          "format_compliance": 1.0,
+          "extraction_failure_rate": 0.0,
+          "mean_len": 16.0
+        }
+      }
+    }
+  ],
+  "scope": {
+    "base_budget": "024_p16 against 014_p8, same seed",
+    "warm_vs_smooth_grpo": "024 warm p16 against 022 smooth-1000, same 013 start and seed",
+    "warm_budget": "exact preparation match only at seed 0; seeds 1 and 2 descriptive",
+    "schedule": "each budget uses its own linear decay, method as practised"
+  }
+}

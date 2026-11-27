@@ -1,0 +1,343 @@
+{
+ "completed": true,
+ "experiment": "049",
+ "roster": [
+  "049_p2_COLAB_FULL_GPT2_B15_sft_only_seed0",
+  "049_p2_COLAB_FULL_GPT2_B15_sft_only_seed1",
+  "049_p2_COLAB_FULL_GPT2_B15_sft_only_seed2",
+  "049_p8_COLAB_FULL_GPT2_B15_sft_only_seed0",
+  "049_p8_COLAB_FULL_GPT2_B15_sft_only_seed1",
+  "049_p8_COLAB_FULL_GPT2_B15_sft_only_seed2",
+  "049_p32_COLAB_FULL_GPT2_B15_sft_only_seed0",
+  "049_p32_COLAB_FULL_GPT2_B15_sft_only_seed1",
+  "049_p32_COLAB_FULL_GPT2_B15_sft_only_seed2",
+  "049_wsft_p8_COLAB_FULL_GPT2_B15_sft_only_seed0",
+  "049_wsft_p8_COLAB_FULL_GPT2_B15_sft_only_seed1",
+  "049_wsft_p8_COLAB_FULL_GPT2_B15_sft_only_seed2",
+  "049_base_grpo_COLAB_FULL_GPT2_B15_base_grpo_seed0",
+  "049_base_grpo_COLAB_FULL_GPT2_B15_base_grpo_seed1",
+  "049_base_grpo_COLAB_FULL_GPT2_B15_base_grpo_seed2"
+ ],
+ "config_sha256": {
+  "configs/049_p2_colab_gpt2_b15_seed0.yaml": "44a3601080820b965f383f058a9e60bc3af1bd967027e1dce597398a5e5d6ccd",
+  "configs/049_p2_colab_gpt2_b15_seed1.yaml": "4c067faf8de59d9652f3a29f2ca52726f56079831ca12bc66550f7c047637ad1",
+  "configs/049_p2_colab_gpt2_b15_seed2.yaml": "b27e5bb307246b62562c89d47658813178acf71f0cc23b37d67e429ee9b48f27",
+  "configs/049_p8_colab_gpt2_b15_seed0.yaml": "587ceee6ba672f2f780bbc663141397a6435a444824c012eab1172d827af64d2",
+  "configs/049_p8_colab_gpt2_b15_seed1.yaml": "a1ba2a91388a6ef6d145ab1d6a55a9c34eecc404da89acabb13f8d57ddf25a52",
+  "configs/049_p8_colab_gpt2_b15_seed2.yaml": "2a59f79b054ec6596c7ea923c255f86704b455860d125c38c3d3ad80bb17684f",
+  "configs/049_p32_colab_gpt2_b15_seed0.yaml": "a4d07fd4202d54edcc8cc71677fec54ba4af8a0fb7ed57c765cca0435779ba23",
+  "configs/049_p32_colab_gpt2_b15_seed1.yaml": "5340e4762aae912e16365dade0912eaf7688f1c59881e47ba5983cf7425dba3e",
+  "configs/049_p32_colab_gpt2_b15_seed2.yaml": "d440dead4203b5163fe5b9d69d1de7e4cb5922c1e84288b921ad4bcda702bb8c",
+  "configs/049_wsft_p8_colab_gpt2_b15_seed0.yaml": "c4d537b2fd3c268a145e1a2b3a9a0a07151bbbd7c4a88f52a42535f0b491aff3",
+  "configs/049_wsft_p8_colab_gpt2_b15_seed1.yaml": "cf9991e91d2211c1e07e0d615e06085599e70993e8d4e101944a5a9865b66d11",
+  "configs/049_wsft_p8_colab_gpt2_b15_seed2.yaml": "765ff22f4351fbed5d9085002253b6f2b88450fbd912aa0bce1105eafe619365",
+  "configs/049_base_grpo_colab_gpt2_b15_seed0.yaml": "41707d65c95a1299827e62f41118d06b256394b42129a29c498212a31567ce23",
+  "configs/049_base_grpo_colab_gpt2_b15_seed1.yaml": "9bb9b01a4f8e4d560ab2acf8e29beef53ff5ed0fde56c6fe3e184472c5571ad0",
+  "configs/049_base_grpo_colab_gpt2_b15_seed2.yaml": "873e6ded95fb31f3352b5d4ab9d49fd20ad88ba0764bb262b9d3f0eaca6c3605"
+ },
+ "technical": {
+  "parity_path": "/content/drive/MyDrive/inm363/results/046_technical/046_xl_parity.json",
+  "parity_sha256": "a190aff55350442c18c3ac26a6f2a674c9bca35515bc0d2931a492ad1ca2f953",
+  "token_audit_path": "/content/drive/MyDrive/inm363/results/046_technical/046_token_audit.json",
+  "token_audit_sha256": "0b0aa21f627dd537ec1f14f5af6c2b59653be9d00dd8185327a1fede81a97eaf"
+ },
+ "starts": {
+  "049_p2_COLAB_FULL_GPT2_B15_sft_only_seed0": {
+   "kind": "immutable_base",
+   "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_base",
+   "base_record_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_manifest.json",
+   "base_record_sha256": "dfd8a6bf125f5866f132e06c9a71792d950dad7f9071b2ab28914296e1a57d94",
+   "base_artifact_sha256": {
+    "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+    "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+    "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+    "model.safetensors": "df636f168a87529b6bfa55c9555682c95a23a0d0b41eed0cbbfc85b42a480bd5",
+    "model_base.json": "5f742459ed1748c36e982ad5058cb1ec8cf5172073252afb51baf8852f0cdf56",
+    "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+    "tokenizer_config.json": "caab7b8a5a261a1d4cb142c2488acd9cb1c5c0154f681e5a38614a3a2c0cf8ce"
+   },
+   "base_endpoint_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_eval_manifest.json",
+   "base_endpoint_sha256": "a2826f7f1612d197075a6549169bd2f9006f386c7182740c935a947d7d4554c2"
+  },
+  "049_p2_COLAB_FULL_GPT2_B15_sft_only_seed1": {
+   "kind": "immutable_base",
+   "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_base",
+   "base_record_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_manifest.json",
+   "base_record_sha256": "dfd8a6bf125f5866f132e06c9a71792d950dad7f9071b2ab28914296e1a57d94",
+   "base_artifact_sha256": {
+    "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+    "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+    "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+    "model.safetensors": "df636f168a87529b6bfa55c9555682c95a23a0d0b41eed0cbbfc85b42a480bd5",
+    "model_base.json": "5f742459ed1748c36e982ad5058cb1ec8cf5172073252afb51baf8852f0cdf56",
+    "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+    "tokenizer_config.json": "caab7b8a5a261a1d4cb142c2488acd9cb1c5c0154f681e5a38614a3a2c0cf8ce"
+   },
+   "base_endpoint_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_eval_manifest.json",
+   "base_endpoint_sha256": "a2826f7f1612d197075a6549169bd2f9006f386c7182740c935a947d7d4554c2"
+  },
+  "049_p2_COLAB_FULL_GPT2_B15_sft_only_seed2": {
+   "kind": "immutable_base",
+   "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_base",
+   "base_record_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_manifest.json",
+   "base_record_sha256": "dfd8a6bf125f5866f132e06c9a71792d950dad7f9071b2ab28914296e1a57d94",
+   "base_artifact_sha256": {
+    "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+    "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+    "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+    "model.safetensors": "df636f168a87529b6bfa55c9555682c95a23a0d0b41eed0cbbfc85b42a480bd5",
+    "model_base.json": "5f742459ed1748c36e982ad5058cb1ec8cf5172073252afb51baf8852f0cdf56",
+    "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+    "tokenizer_config.json": "caab7b8a5a261a1d4cb142c2488acd9cb1c5c0154f681e5a38614a3a2c0cf8ce"
+   },
+   "base_endpoint_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_eval_manifest.json",
+   "base_endpoint_sha256": "a2826f7f1612d197075a6549169bd2f9006f386c7182740c935a947d7d4554c2"
+  },
+  "049_p8_COLAB_FULL_GPT2_B15_sft_only_seed0": {
+   "kind": "immutable_base",
+   "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_base",
+   "base_record_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_manifest.json",
+   "base_record_sha256": "dfd8a6bf125f5866f132e06c9a71792d950dad7f9071b2ab28914296e1a57d94",
+   "base_artifact_sha256": {
+    "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+    "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+    "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+    "model.safetensors": "df636f168a87529b6bfa55c9555682c95a23a0d0b41eed0cbbfc85b42a480bd5",
+    "model_base.json": "5f742459ed1748c36e982ad5058cb1ec8cf5172073252afb51baf8852f0cdf56",
+    "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+    "tokenizer_config.json": "caab7b8a5a261a1d4cb142c2488acd9cb1c5c0154f681e5a38614a3a2c0cf8ce"
+   },
+   "base_endpoint_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_eval_manifest.json",
+   "base_endpoint_sha256": "a2826f7f1612d197075a6549169bd2f9006f386c7182740c935a947d7d4554c2"
+  },
+  "049_p8_COLAB_FULL_GPT2_B15_sft_only_seed1": {
+   "kind": "immutable_base",
+   "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_base",
+   "base_record_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_manifest.json",
+   "base_record_sha256": "dfd8a6bf125f5866f132e06c9a71792d950dad7f9071b2ab28914296e1a57d94",
+   "base_artifact_sha256": {
+    "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+    "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+    "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+    "model.safetensors": "df636f168a87529b6bfa55c9555682c95a23a0d0b41eed0cbbfc85b42a480bd5",
+    "model_base.json": "5f742459ed1748c36e982ad5058cb1ec8cf5172073252afb51baf8852f0cdf56",
+    "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+    "tokenizer_config.json": "caab7b8a5a261a1d4cb142c2488acd9cb1c5c0154f681e5a38614a3a2c0cf8ce"
+   },
+   "base_endpoint_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_eval_manifest.json",
+   "base_endpoint_sha256": "a2826f7f1612d197075a6549169bd2f9006f386c7182740c935a947d7d4554c2"
+  },
+  "049_p8_COLAB_FULL_GPT2_B15_sft_only_seed2": {
+   "kind": "immutable_base",
+   "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_base",
+   "base_record_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_manifest.json",
+   "base_record_sha256": "dfd8a6bf125f5866f132e06c9a71792d950dad7f9071b2ab28914296e1a57d94",
+   "base_artifact_sha256": {
+    "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+    "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+    "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+    "model.safetensors": "df636f168a87529b6bfa55c9555682c95a23a0d0b41eed0cbbfc85b42a480bd5",
+    "model_base.json": "5f742459ed1748c36e982ad5058cb1ec8cf5172073252afb51baf8852f0cdf56",
+    "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+    "tokenizer_config.json": "caab7b8a5a261a1d4cb142c2488acd9cb1c5c0154f681e5a38614a3a2c0cf8ce"
+   },
+   "base_endpoint_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_eval_manifest.json",
+   "base_endpoint_sha256": "a2826f7f1612d197075a6549169bd2f9006f386c7182740c935a947d7d4554c2"
+  },
+  "049_p32_COLAB_FULL_GPT2_B15_sft_only_seed0": {
+   "kind": "immutable_base",
+   "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_base",
+   "base_record_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_manifest.json",
+   "base_record_sha256": "dfd8a6bf125f5866f132e06c9a71792d950dad7f9071b2ab28914296e1a57d94",
+   "base_artifact_sha256": {
+    "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+    "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+    "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+    "model.safetensors": "df636f168a87529b6bfa55c9555682c95a23a0d0b41eed0cbbfc85b42a480bd5",
+    "model_base.json": "5f742459ed1748c36e982ad5058cb1ec8cf5172073252afb51baf8852f0cdf56",
+    "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+    "tokenizer_config.json": "caab7b8a5a261a1d4cb142c2488acd9cb1c5c0154f681e5a38614a3a2c0cf8ce"
+   },
+   "base_endpoint_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_eval_manifest.json",
+   "base_endpoint_sha256": "a2826f7f1612d197075a6549169bd2f9006f386c7182740c935a947d7d4554c2"
+  },
+  "049_p32_COLAB_FULL_GPT2_B15_sft_only_seed1": {
+   "kind": "immutable_base",
+   "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_base",
+   "base_record_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_manifest.json",
+   "base_record_sha256": "dfd8a6bf125f5866f132e06c9a71792d950dad7f9071b2ab28914296e1a57d94",
+   "base_artifact_sha256": {
+    "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+    "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+    "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+    "model.safetensors": "df636f168a87529b6bfa55c9555682c95a23a0d0b41eed0cbbfc85b42a480bd5",
+    "model_base.json": "5f742459ed1748c36e982ad5058cb1ec8cf5172073252afb51baf8852f0cdf56",
+    "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+    "tokenizer_config.json": "caab7b8a5a261a1d4cb142c2488acd9cb1c5c0154f681e5a38614a3a2c0cf8ce"
+   },
+   "base_endpoint_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_eval_manifest.json",
+   "base_endpoint_sha256": "a2826f7f1612d197075a6549169bd2f9006f386c7182740c935a947d7d4554c2"
+  },
+  "049_p32_COLAB_FULL_GPT2_B15_sft_only_seed2": {
+   "kind": "immutable_base",
+   "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_base",
+   "base_record_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_manifest.json",
+   "base_record_sha256": "dfd8a6bf125f5866f132e06c9a71792d950dad7f9071b2ab28914296e1a57d94",
+   "base_artifact_sha256": {
+    "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+    "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+    "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+    "model.safetensors": "df636f168a87529b6bfa55c9555682c95a23a0d0b41eed0cbbfc85b42a480bd5",
+    "model_base.json": "5f742459ed1748c36e982ad5058cb1ec8cf5172073252afb51baf8852f0cdf56",
+    "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+    "tokenizer_config.json": "caab7b8a5a261a1d4cb142c2488acd9cb1c5c0154f681e5a38614a3a2c0cf8ce"
+   },
+   "base_endpoint_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_eval_manifest.json",
+   "base_endpoint_sha256": "a2826f7f1612d197075a6549169bd2f9006f386c7182740c935a947d7d4554c2"
+  },
+  "049_wsft_p8_COLAB_FULL_GPT2_B15_sft_only_seed0": {
+   "kind": "046_sft_merge",
+   "seed": 0,
+   "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_sft_grpo_seed0/sft_merged",
+   "parent_result_dir": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_sft_grpo_seed0",
+   "sft_record_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_sft_grpo_seed0/046_sft_training.json",
+   "sft_record_sha256": "483cf5e4d506b5ccf351fa8c9dc1c1cee8c7e99f12e722efec0106759a28cb46",
+   "grpo_record_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_sft_grpo_seed0/046_grpo_training.json",
+   "grpo_record_sha256": "9d89ee46c3a1746e59783f3ef194a04cf7273189446cdf7d4c2accee6def4b5f",
+   "merge_binding": {
+    "ts": "2026-08-26T21:22:00",
+    "adapter_dir": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_sft_grpo_seed0/sft",
+    "adapter_sha256": {
+     "adapter_model.safetensors": "20e74c8821e2e2acc310cf0cb5c8988428235b63a5006a015249d9b148a09ac3",
+     "adapter_config.json": "947c7d5e8fc645f209b680e6bffe028c1920d66a7de2b2c19a5acff0572e2c3c",
+     "adapter_base.json": "f8b6398736e2a51b7264367ba1876b62b1e3f7f17f0ba687cf77b62f34bf4697",
+     "config_hash.txt": "c9966fc5e90b5c97dbbc8b4fcf28dca513a2bfc742d08844cd198b30d99d770c"
+    },
+    "merged_sha256": {
+     "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+     "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+     "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+     "model.safetensors": "fd9a915effe41f78b7a211b80d8fd98b72581df1ce0e24f7a64b021d5b6d15f0",
+     "model_base.json": "f8b6398736e2a51b7264367ba1876b62b1e3f7f17f0ba687cf77b62f34bf4697",
+     "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+     "tokenizer_config.json": "46b0ee09bc6c14494f934103d0a72ac5a7f649ed99f6d8f1939cedad0c6c99e4"
+    }
+   }
+  },
+  "049_wsft_p8_COLAB_FULL_GPT2_B15_sft_only_seed1": {
+   "kind": "046_sft_merge",
+   "seed": 1,
+   "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_sft_grpo_seed1/sft_merged",
+   "parent_result_dir": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_sft_grpo_seed1",
+   "sft_record_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_sft_grpo_seed1/046_sft_training.json",
+   "sft_record_sha256": "d2f498ea302caa6af262f500bc2916a053eb144ed29f6fd6d7462afe0427f762",
+   "grpo_record_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_sft_grpo_seed1/046_grpo_training.json",
+   "grpo_record_sha256": "b8c3f373a87642141362451b09ed63fec7049e79d66f51a81bfc7ea19700fa98",
+   "merge_binding": {
+    "ts": "2026-08-27T09:59:13",
+    "adapter_dir": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_sft_grpo_seed1/sft",
+    "adapter_sha256": {
+     "adapter_model.safetensors": "e505df8a4535e2f3113d1cb456c33b95cfca7c2e2548161e8cdac922b91c802c",
+     "adapter_config.json": "f3966c91fb58d8b950714130eed9e5e86c87ced07a4cb2fcdbe599befc60e4fb",
+     "adapter_base.json": "f8b6398736e2a51b7264367ba1876b62b1e3f7f17f0ba687cf77b62f34bf4697",
+     "config_hash.txt": "af8fce6a00aa7c11c9e71384f0d36a77a91ee156331db062ddb243df3f32173c"
+    },
+    "merged_sha256": {
+     "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+     "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+     "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+     "model.safetensors": "37030ef0dda28e5e8b07411037cf2d7dfed3300401c4ecb0af635bb73af0aa3b",
+     "model_base.json": "f8b6398736e2a51b7264367ba1876b62b1e3f7f17f0ba687cf77b62f34bf4697",
+     "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+     "tokenizer_config.json": "46b0ee09bc6c14494f934103d0a72ac5a7f649ed99f6d8f1939cedad0c6c99e4"
+    }
+   }
+  },
+  "049_wsft_p8_COLAB_FULL_GPT2_B15_sft_only_seed2": {
+   "kind": "046_sft_merge",
+   "seed": 2,
+   "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_sft_grpo_seed2/sft_merged",
+   "parent_result_dir": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_sft_grpo_seed2",
+   "sft_record_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_sft_grpo_seed2/046_sft_training.json",
+   "sft_record_sha256": "643e5e42afd4a288270c7a2e7da14f600cfc96eb3ecfaa23ae2416c62910ae3a",
+   "grpo_record_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_sft_grpo_seed2/046_grpo_training.json",
+   "grpo_record_sha256": "fb5446697ec02147643df1a5dc0a484674bb41ae4f5bd0dabe9e0f17413cbbeb",
+   "merge_binding": {
+    "ts": "2026-08-27T19:10:20",
+    "adapter_dir": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_sft_grpo_seed2/sft",
+    "adapter_sha256": {
+     "adapter_model.safetensors": "447d3f4cc86176fe7e3f27289be69fe7dbd7aa1549a456dfb2716784d6834e64",
+     "adapter_config.json": "e54e83628223b61ed869bd18047a6267f21eebe045822e58aa310b9ba090f61d",
+     "adapter_base.json": "f8b6398736e2a51b7264367ba1876b62b1e3f7f17f0ba687cf77b62f34bf4697",
+     "config_hash.txt": "fb983e62b53cbf6173dcc0abcd8685b95266de48a1d5150572a0f8430244e7f4"
+    },
+    "merged_sha256": {
+     "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+     "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+     "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+     "model.safetensors": "fb15354f7ad552357c7aa86be4b27577682fab5f19601e8848a5366f7369e54d",
+     "model_base.json": "f8b6398736e2a51b7264367ba1876b62b1e3f7f17f0ba687cf77b62f34bf4697",
+     "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+     "tokenizer_config.json": "46b0ee09bc6c14494f934103d0a72ac5a7f649ed99f6d8f1939cedad0c6c99e4"
+    }
+   }
+  },
+  "049_base_grpo_COLAB_FULL_GPT2_B15_base_grpo_seed0": {
+   "kind": "immutable_base",
+   "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_base",
+   "base_record_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_manifest.json",
+   "base_record_sha256": "dfd8a6bf125f5866f132e06c9a71792d950dad7f9071b2ab28914296e1a57d94",
+   "base_artifact_sha256": {
+    "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+    "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+    "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+    "model.safetensors": "df636f168a87529b6bfa55c9555682c95a23a0d0b41eed0cbbfc85b42a480bd5",
+    "model_base.json": "5f742459ed1748c36e982ad5058cb1ec8cf5172073252afb51baf8852f0cdf56",
+    "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+    "tokenizer_config.json": "caab7b8a5a261a1d4cb142c2488acd9cb1c5c0154f681e5a38614a3a2c0cf8ce"
+   },
+   "base_endpoint_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_eval_manifest.json",
+   "base_endpoint_sha256": "a2826f7f1612d197075a6549169bd2f9006f386c7182740c935a947d7d4554c2"
+  },
+  "049_base_grpo_COLAB_FULL_GPT2_B15_base_grpo_seed1": {
+   "kind": "immutable_base",
+   "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_base",
+   "base_record_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_manifest.json",
+   "base_record_sha256": "dfd8a6bf125f5866f132e06c9a71792d950dad7f9071b2ab28914296e1a57d94",
+   "base_artifact_sha256": {
+    "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+    "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+    "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+    "model.safetensors": "df636f168a87529b6bfa55c9555682c95a23a0d0b41eed0cbbfc85b42a480bd5",
+    "model_base.json": "5f742459ed1748c36e982ad5058cb1ec8cf5172073252afb51baf8852f0cdf56",
+    "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+    "tokenizer_config.json": "caab7b8a5a261a1d4cb142c2488acd9cb1c5c0154f681e5a38614a3a2c0cf8ce"
+   },
+   "base_endpoint_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_eval_manifest.json",
+   "base_endpoint_sha256": "a2826f7f1612d197075a6549169bd2f9006f386c7182740c935a947d7d4554c2"
+  },
+  "049_base_grpo_COLAB_FULL_GPT2_B15_base_grpo_seed2": {
+   "kind": "immutable_base",
+   "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_base",
+   "base_record_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_manifest.json",
+   "base_record_sha256": "dfd8a6bf125f5866f132e06c9a71792d950dad7f9071b2ab28914296e1a57d94",
+   "base_artifact_sha256": {
+    "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+    "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+    "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+    "model.safetensors": "df636f168a87529b6bfa55c9555682c95a23a0d0b41eed0cbbfc85b42a480bd5",
+    "model_base.json": "5f742459ed1748c36e982ad5058cb1ec8cf5172073252afb51baf8852f0cdf56",
+    "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+    "tokenizer_config.json": "caab7b8a5a261a1d4cb142c2488acd9cb1c5c0154f681e5a38614a3a2c0cf8ce"
+   },
+   "base_endpoint_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_eval_manifest.json",
+   "base_endpoint_sha256": "a2826f7f1612d197075a6549169bd2f9006f386c7182740c935a947d7d4554c2"
+  }
+ },
+ "execution": {
+  "mc_sft_card": "A100_40GB",
+  "base_grpo_card": "A100_80GB",
+  "gradient_checkpointing": false,
+  "allow_oom_fallback": false
+ }
+}

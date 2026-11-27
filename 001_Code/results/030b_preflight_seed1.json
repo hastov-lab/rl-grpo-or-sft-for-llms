@@ -1,0 +1,46 @@
+{
+ "config": "configs/030_colab_b7_n4_seed1.yaml",
+ "tag": "030_COLAB_FULL_B7_external_sft_grpo_seed1",
+ "parent_tag": "013_COLAB_FULL_B7_sft_grpo_seed1",
+ "adapter_sha256": {
+  "adapter_model.safetensors": "be17dce6c29ac01a2abb28f368c61fe1c39dd9eef62463e3b1050ff0412ba01e",
+  "adapter_config.json": "06fb06907554e6630e065ddca9396d140a8afc3dee58e7f6af8a028bf716aeb8",
+  "adapter_base.json": "bbe7839a8b4dcfa0474e911f8c556cb1525f78a4507c13eab970c6cd9bd31330",
+  "config_hash.txt": "b800f0f7ee28169955df7ba1d5ad43e9cc78118820d139e45868f3dd4ac16429"
+ },
+ "parent_artifact_sha256": {
+  "sft_eval.json": "99013244987e1a3afd351b2d595806af0029a0f75e58d7dbddc708c8cb404c86",
+  "sft_preds.jsonl": "c7800ac9fa68fef5fb3a46bc1e08b14951fc2824afd80f49a3e326f7ac6215c8",
+  "sft_logprob.json": "b6420ae950dfd04e3500c7902731ffcf9fa43c3027c26d7c2a38a8464ae44679",
+  "sft_logprob_preds.jsonl": "35a699ff7468ab320678cc599f881bbaef5805c1416e3ebc670085431f5076d2",
+  "grpo_eval.json": "2984ec4f22e0ee3bf90b0f8252900963ab8461d3472e8e3cbaae7bc03fd36d98",
+  "grpo_preds.jsonl": "5ca738fa1dec581add257eeadd850e4c29b30f7343ac5218d5e6f7436c5c0869",
+  "grpo_logprob.json": "6f97508ae918646c9ed2df9cb394827f5a030b7632c1a7511e0e3cf1dfa89ef1",
+  "grpo_logprob_preds.jsonl": "5e71fb70e4415a34a26c95a60eade7867e36f558ad644b3d09b74edc6c33af98",
+  "grpo_trainlog.json": "03ad6168d7dbd3f81b99d7cbb3dbad290db8220254e665756037cd7958cf7e8c",
+  "manifest.json": "efe95f375a421c0a4de2695bdb836bd4b7ba2a34a418e5347e9b5aab499c2923"
+ },
+ "archive_source": "/content/drive/MyDrive/inm363/checkpoints/013_COLAB_FULL_B7_sft_grpo_seed1/sft_merged",
+ "archive_sha256": {
+  "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+  "config.json": "a855ce196e6cc954bec101379a7b8db760b819f906020c98d2081893dad7b4cb",
+  "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+  "model.safetensors": "7d6b3883e793ea3819a941ae427f2645990aec00107f2bd5947560f42beafe0b",
+  "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+  "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+ },
+ "historical_merge": {
+  "manifest": "results/022_smooth_B7_seed1_step1000/arm_manifest.json",
+  "manifest_sha256": "0a9a24aa6529e7c4439d0ac559a0a71e9268a7f82b764f625fb55b4f3f4aa838",
+  "source_run": "013_COLAB_FULL_B7_sft_grpo_seed1",
+  "source_sha256": {
+   "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+   "config.json": "a855ce196e6cc954bec101379a7b8db760b819f906020c98d2081893dad7b4cb",
+   "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+   "model.safetensors": "7d6b3883e793ea3819a941ae427f2645990aec00107f2bd5947560f42beafe0b",
+   "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+   "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+  }
+ },
+ "parent_hash_status": "legacy_missing_grpo_from_adapter"
+}

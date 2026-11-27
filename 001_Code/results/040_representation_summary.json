@@ -1,0 +1,90 @@
+{
+ "package": "040_w19",
+ "completed": true,
+ "n_pairs": 12,
+ "model_test_contacts": 0,
+ "by_scale": {
+  "B05": {
+   "agreement_mean": 0.9537415,
+   "agreement_range": [
+    0.94285714,
+    0.96734694
+   ],
+   "changed_fraction_mean": 0.0462585,
+   "changed_fraction_range": [
+    0.03265306,
+    0.05714286
+   ],
+   "accuracy_delta_mean": 0.00408163,
+   "accuracy_delta_range": [
+    -0.00816327,
+    0.01632653
+   ]
+  },
+  "B15": {
+   "agreement_mean": 0.97959184,
+   "agreement_range": [
+    0.9755102,
+    0.98367347
+   ],
+   "changed_fraction_mean": 0.02040816,
+   "changed_fraction_range": [
+    0.01632653,
+    0.0244898
+   ],
+   "accuracy_delta_mean": 0.0,
+   "accuracy_delta_range": [
+    -0.00408163,
+    0.00408163
+   ]
+  },
+  "B3": {
+   "agreement_mean": 0.9755102,
+   "agreement_range": [
+    0.96326531,
+    0.99183673
+   ],
+   "changed_fraction_mean": 0.0244898,
+   "changed_fraction_range": [
+    0.00816327,
+    0.03673469
+   ],
+   "accuracy_delta_mean": -0.00408163,
+   "accuracy_delta_range": [
+    -0.01632653,
+    0.00408163
+   ]
+  },
+  "B7": {
+   "agreement_mean": 0.9877551,
+   "agreement_range": [
+    0.98367347,
+    0.99183673
+   ],
+   "changed_fraction_mean": 0.0122449,
+   "changed_fraction_range": [
+    0.00816327,
+    0.01632653
+   ],
+   "accuracy_delta_mean": 0.00136055,
+   "accuracy_delta_range": [
+    -0.00408163,
+    0.00816327
+   ]
+  }
+ },
+ "pair_manifest_sha256": {
+  "040_representation_B05_seed0": "c6880ef83d1e156b4afebf33eab6ca8ab0025ccfeaff3c179d4ecbe7ec56caa4",
+  "040_representation_B05_seed1": "da4b6845e1b3527b973de84b4f6e8e42e2bfcad0d2044dce0d9249fb088ae3a3",
+  "040_representation_B05_seed2": "a93da1186577deaf95b42f9d521dc0bdb3c1f088a14fbd3a99dc0260a22ec00c",
+  "040_representation_B15_seed0": "9c004f44746d7f2f8cd3e480b717fed3c3edd2f52285c30baee612f505a2eae6",
+  "040_representation_B15_seed1": "4740ddfe52036ec42203c306a876832e7d826190573238251efc6f8b881185fd",
+  "040_representation_B15_seed2": "f02d47f6544c3fd0b791047bf099fb24d33cd4b8290134f109f393016a0935e8",
+  "040_representation_B3_seed0": "5f7b0d7f0f3834fe69666d6ff6e5b9bbacc97fdc3972b6db9fa05926d5bfb9ec",
+  "040_representation_B3_seed1": "bbea4d7a5fcb8df770b763830952a335ccfd69f840f5cdb1bc6670d99d7ab8a5",
+  "040_representation_B3_seed2": "04c72db44ea64856d2bf3443d09ff3dd1014b3d8883e5fccb5bf51420c0c205c",
+  "040_representation_B7_seed0": "2c1eb8b2b1f20f87191daa79e9507499d8dc095bf7a7a91b4c3efacd686335bb",
+  "040_representation_B7_seed1": "af2de30abd482034ca8393c3021bdd4920de615a5002b78e0d940bba084d9203",
+  "040_representation_B7_seed2": "26fc459b562a658b820492056a33cbaf8b25fd69ee8f5f8359c704f8243a63b7"
+ }
+}

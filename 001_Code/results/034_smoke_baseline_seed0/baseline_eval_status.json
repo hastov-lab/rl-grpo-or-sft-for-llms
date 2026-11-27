@@ -1,0 +1,11 @@
+{
+  "completed": true,
+  "task": "eval",
+  "branch": "baseline",
+  "gpu": {
+    "device": "NVIDIA A100-SXM4-80GB",
+    "peak_vram_gb": 0.0
+  },
+  "wall_seconds": 84.8,
+  "peak_vram_gib": 3.43
+}

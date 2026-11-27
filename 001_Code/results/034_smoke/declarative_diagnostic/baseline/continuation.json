@@ -1,0 +1,18 @@
+{
+  "condition": "baseline",
+  "metric": "continuation_score",
+  "n_items": 96,
+  "accuracy": 0.3020833333333333,
+  "by_group_variant": {
+    "injected": {
+      "exact": 0.3125,
+      "declarative_1": 0.1875,
+      "declarative_2": 0.1875
+    },
+    "control": {
+      "exact": 0.3125,
+      "declarative_1": 0.375,
+      "declarative_2": 0.4375
+    }
+  }
+}

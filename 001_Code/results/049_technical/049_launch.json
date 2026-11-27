@@ -1,0 +1,25 @@
+{
+ "completed": true,
+ "experiment": "049",
+ "initial_available_units": 406.39,
+ "minimum_units": 350.0,
+ "preflight_path": "/content/drive/MyDrive/inm363/results/049_technical/049_preflight.json",
+ "preflight_sha256": "8e809e816446f7ffa4208e852dc81b2a54cdb930d2824bd01f4d75f96aadd2e2",
+ "roster": [
+  "049_p2_COLAB_FULL_GPT2_B15_sft_only_seed0",
+  "049_p2_COLAB_FULL_GPT2_B15_sft_only_seed1",
+  "049_p2_COLAB_FULL_GPT2_B15_sft_only_seed2",
+  "049_p8_COLAB_FULL_GPT2_B15_sft_only_seed0",
+  "049_p8_COLAB_FULL_GPT2_B15_sft_only_seed1",
+  "049_p8_COLAB_FULL_GPT2_B15_sft_only_seed2",
+  "049_p32_COLAB_FULL_GPT2_B15_sft_only_seed0",
+  "049_p32_COLAB_FULL_GPT2_B15_sft_only_seed1",
+  "049_p32_COLAB_FULL_GPT2_B15_sft_only_seed2",
+  "049_wsft_p8_COLAB_FULL_GPT2_B15_sft_only_seed0",
+  "049_wsft_p8_COLAB_FULL_GPT2_B15_sft_only_seed1",
+  "049_wsft_p8_COLAB_FULL_GPT2_B15_sft_only_seed2",
+  "049_base_grpo_COLAB_FULL_GPT2_B15_base_grpo_seed0",
+  "049_base_grpo_COLAB_FULL_GPT2_B15_base_grpo_seed1",
+  "049_base_grpo_COLAB_FULL_GPT2_B15_base_grpo_seed2"
+ ]
+}

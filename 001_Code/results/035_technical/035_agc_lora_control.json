@@ -1,0 +1,25 @@
+{
+ "completed": true,
+ "scale": "B3",
+ "seed": 0,
+ "rung": "A_GC",
+ "execution": {
+  "batch": 8,
+  "accum": 1,
+  "checkpointing": true
+ },
+ "allocator_config": "expandable_segments:True",
+ "parameter_mode": "lora",
+ "lora_config_hash": "e3469a06c9f19e896f230d2e215c28cc5e15875c38b9046417f00cbe73bef6aa",
+ "source_agc_science_sha256": "1338e900e45cf6cfebd8f67d5728cde447a31ab473cd1dc7aec5122d6a174b3e",
+ "failed_full_status_sha256": "63d9352d26ae59fa83d59e32632ebfa0286983d5e0b5ab8e9c3fe701a7dc128c",
+ "failed_full_binding_sha256": "0e88f279c868cd55d3d3e88af0b7090a818a497603fb74339ed593a76323c83e",
+ "pair_parity_sha256": "b15667d00a981695f0f323738348d42185219802be54de88127be504fbd11c1c",
+ "authorised_training": [
+  "lora_seed0"
+ ],
+ "authorised_evaluation": [
+  "lora_seed0"
+ ],
+ "registered_date": "2026-08-18"
+}

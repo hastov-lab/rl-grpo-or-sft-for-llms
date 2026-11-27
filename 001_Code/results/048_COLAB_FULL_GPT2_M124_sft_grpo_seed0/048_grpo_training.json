@@ -1,0 +1,75 @@
+{
+ "completed": true,
+ "experiment": "048",
+ "stage": "grpo",
+ "seed": 0,
+ "config_hash": "1c965faf7ddad66da364a90de340c944b803ee7a75a53a404d29fbf2566cc92f",
+ "updates": 500,
+ "parameter_mode": "lora",
+ "sft_record_sha256": "b2a55eb7e4418b01f8f1ef978d5526f68f0b79e7adc418157cd7e9fba546fbe6",
+ "merged_path": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M124_sft_grpo_seed0/sft_merged",
+ "merge_binding": {
+  "ts": "2026-08-28T14:00:33",
+  "adapter_dir": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M124_sft_grpo_seed0/sft",
+  "adapter_sha256": {
+   "adapter_model.safetensors": "2b8f28d685c0cc4629990b75e4e3e6649da4a6067ad56990a90c8a97c582f572",
+   "adapter_config.json": "fa2f9c95fbd4bb82b4dfa2eeb452f510cea5c9ad38e922dc4bf437a860545f88",
+   "adapter_base.json": "3cc200759644a3a0ceeb6c63a1b47d09fa3f21ecfc3955589203f0652315e60e",
+   "config_hash.txt": "ecf9abc6d98f0dc849247784a2f8b699af17eabc0589689e9bd01bf7b1206073"
+  },
+  "merged_sha256": {
+   "artifact_type.json": "41ce53ec9b894d6c52e5d962d239711a2f83fed98b35cca8cfa2ba090a8a1cb6",
+   "config.json": "e84b5d8163f09b4f8f1d18b20ea047c8926f5b6f3b18efabec9d8c1fd3d3a3f6",
+   "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+   "model.safetensors": "ea8e24a32a649a761f13c9d65c5ba4b3bb8589c2ca812778d712b5a7eb9ad106",
+   "model_base.json": "3cc200759644a3a0ceeb6c63a1b47d09fa3f21ecfc3955589203f0652315e60e",
+   "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+   "tokenizer_config.json": "46b0ee09bc6c14494f934103d0a72ac5a7f649ed99f6d8f1939cedad0c6c99e4"
+  }
+ },
+ "adapter_base": {
+  "verified": true,
+  "adapter_base_sha256": "9ae24d9fb27ddf49f5fdcd8c2f237f876187a1a18e636ad28a842d34ea972ebd",
+  "resolved_path": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M124_sft_grpo_seed0/sft_merged",
+  "merged_path": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M124_sft_grpo_seed0/sft_merged"
+ },
+ "precision_report_sha256": "efc09d0c78162d1b7dbd202e7668547b77072ba76d14415eae02d8095d9e5f85",
+ "a2_verdict_sha256": "882e43e80664b080aa4e0036eaf78a6b619f1d6e90915a8a90e9a5bee852a83a",
+ "wandb_runs": [
+  {
+   "path": "/content/drive/MyDrive/inm363/results/048_COLAB_FULL_GPT2_M124_sft_grpo_seed0/048_grpo_wandb_runs/rs9mn0lm.json",
+   "sha256": "646f4a8e38ad7c55e55ca7730c91a95436f8cfabcdad04c2ee8fd07b40be609a",
+   "project": "inm363-grpo",
+   "run_id": "rs9mn0lm",
+   "run_name": "048_COLAB_FULL_GPT2_M124_sft_grpo_seed0_grpo"
+  }
+ ],
+ "starvation": {
+  "complete": {
+   "mean_accuracy_reward": 0.058,
+   "mean_format_reward": 0.12935000383853912,
+   "share_zero_reward_spread": 0.078
+  },
+  "first_50": {
+   "mean_accuracy_reward": 0.0575,
+   "mean_format_reward": 0.10900000259280204,
+   "share_zero_reward_spread": 0.06
+  },
+  "last_50": {
+   "mean_accuracy_reward": 0.065,
+   "mean_format_reward": 0.1285000040009618,
+   "share_zero_reward_spread": 0.06
+  },
+  "severely_reward_starved": false
+ },
+ "artifact": {
+  "kind": "adapter",
+  "path": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M124_sft_grpo_seed0/grpo",
+  "sha256": {
+   "adapter_model.safetensors": "ac558b5eaa517e42838c77470e0eff83a5d360579cc9559ad7517c9b4639a921",
+   "adapter_config.json": "195bca9b92a7f410809223d1cfbc53fe75232e8c81f74b03422962b4e1438490",
+   "adapter_base.json": "9ae24d9fb27ddf49f5fdcd8c2f237f876187a1a18e636ad28a842d34ea972ebd",
+   "config_hash.txt": "ecf9abc6d98f0dc849247784a2f8b699af17eabc0589689e9bd01bf7b1206073"
+  }
+ }
+}

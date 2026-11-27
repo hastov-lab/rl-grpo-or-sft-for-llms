@@ -1,0 +1,60 @@
+# Experiment 003 seed 0: the full 3b run (primary platform), frozen protocol v1.
+# Identical to protocol_frozen_v1.yaml in all frozen sections (unit tested)
+experiment: "003"
+env: COLAB
+mode: FULL
+scale: B3
+condition: SFT_GRPO
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+
+reward:
+  correct_weight: 1.0
+  format_weight: 0.2
+  min_think_chars: 20
+
+train:
+  sft_lr: 1.0e-4
+  grpo_lr: 1.0e-5
+  max_steps: 500
+  num_generations: 8
+  max_seq_len: 1024
+  sft_batch_size: 4
+  sft_grad_accum: 4
+  sft_completion_only: true
+  sft_val_examples: 500
+  dtype: auto
+  seed: 0
+
+grpo:
+  loss_type: grpo
+  beta: 0.04
+  scale_rewards: group
+  temperature: 1.0
+  top_p: 1.0
+  max_completion_length: 512
+
+eval:
+  max_new_tokens: 512
+  batch_size: 16
+
+log:
+  wandb_mode: online
+  save_total_limit: 10
+
+output_root: /content/drive/MyDrive/inm363
+
+# Execution knobs (outside the freeze, memory only). If grpo OOMs on the l4:
+# set grpo_batch_size: 4 and grpo_grad_accum: 2 (same effective batch), and/or
+# gradient_checkpointing: true. Use a new output_root for a fresh run.
+exec:
+  grpo_batch_size: null
+  grpo_grad_accum: 1
+  gradient_checkpointing: false  # A100 (40gb) has the headroom, no speed tax needed.
+                                 # on an l4 set true (the 12 jul oom proved 3b sits at its edge);
+                                 # the oom ladder turns it on by itself if memory runs out anyway
+  max_train_hours: 24   # sentinel a4: abort at step 20 if the projection says more

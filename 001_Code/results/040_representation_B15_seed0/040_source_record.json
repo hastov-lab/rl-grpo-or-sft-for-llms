@@ -1,0 +1,34 @@
+{
+ "experiment": "040",
+ "scale": "B15",
+ "seed": 0,
+ "pipeline_tag": "009_COLAB_FULL_B15_sft_grpo_seed0",
+ "config": "configs/009_colab_full_b15_seed0.yaml",
+ "config_sha256": "fe8a93b76dfb97dc75b1d0ac38ea57aaa3493ece239a3e0bc4a00363fbe2ebb9",
+ "adapter_dir": "/content/drive/MyDrive/inm363/checkpoints/009_COLAB_FULL_B15_sft_grpo_seed0/sft",
+ "adapter_sha256": {
+  "adapter_model.safetensors": "d3da0a00fcf251e1f28cda97489dad1a9aeccc59a7579f3c45331ec1529ebfff",
+  "adapter_config.json": "89f00b55ba36f32075147957782927965a1888b28ef905a004b2063be441ca44",
+  "adapter_base.json": "adcf19c3f54a55ad98d49cd2b9059dc80bb4c2871fa09ad8c3d2999fe4ab6a0e",
+  "config_hash.txt": "924aa800c7dc929aa6aba4ea94069f574ae2748d7d93cd20884e7a0a38506768"
+ },
+ "merged_dir": "/content/drive/MyDrive/inm363/checkpoints/009_COLAB_FULL_B15_sft_grpo_seed0/sft_merged",
+ "merged_sha256": {
+  "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+  "config.json": "23e5bdea36342ea968d7d4cf580478c9040f6dbe91f93c4498e7a70d555a80c4",
+  "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+  "model.safetensors": "5f01dbbced686976b568737ba3e820eade00b8f263d377a726a7fb47bce6466c",
+  "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+  "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+ },
+ "parent_manifest": "/content/drive/MyDrive/inm363/results/009_COLAB_FULL_B15_sft_grpo_seed0/manifest.json",
+ "parent_manifest_sha256": "e581aeeb53c8631ddc4d063ef2163acde8015313670980b91305a2bddef4e2fb",
+ "grpo_base_record": "/content/drive/MyDrive/inm363/checkpoints/009_COLAB_FULL_B15_sft_grpo_seed0/grpo/adapter_base.json",
+ "grpo_base_record_sha256": "8722192e0c85986e7b010920967e294fb71115eaf402ea15a33b5521cb41e190",
+ "pool": {
+  "path": "/content/040_grpo_pool.jsonl",
+  "sha256": "88c13c9870306bd5d4bfe9974207744021e14e998e0ca25f8b342232cef9477c",
+  "n_items": 245
+ },
+ "resolved_dtype": "bfloat16"
+}

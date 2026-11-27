@@ -1,0 +1,87 @@
+{
+  "run_tag": "005_COLAB_FULL_B05_base_grpo_seed0",
+  "timestamp": "2026-07-15T02:34:33",
+  "experiment": "005",
+  "condition": "BASE_GRPO",
+  "env": "COLAB",
+  "mode": "FULL",
+  "scale": "B05",
+  "seed": 0,
+  "config": {
+    "lora": {
+      "r": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ]
+    },
+    "reward": {
+      "correct_weight": 1.0,
+      "format_weight": 0.2,
+      "min_think_chars": 20
+    },
+    "train": {
+      "sft_lr": 0.0001,
+      "grpo_lr": 1e-05,
+      "max_steps": 500,
+      "num_generations": 8,
+      "max_seq_len": 1024,
+      "sft_batch_size": 4,
+      "sft_grad_accum": 4,
+      "sft_completion_only": true,
+      "sft_val_examples": 500,
+      "dtype": "auto",
+      "seed": 0
+    },
+    "grpo": {
+      "loss_type": "grpo",
+      "beta": 0.04,
+      "scale_rewards": "group",
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "max_completion_length": 512
+    },
+    "eval": {
+      "max_new_tokens": 512,
+      "batch_size": 16
+    },
+    "exec": {
+      "grpo_batch_size": null,
+      "grpo_grad_accum": 1,
+      "gradient_checkpointing": false,
+      "max_train_hours": 12
+    }
+  },
+  "git": {
+    "commit": "0752f62e6634cc8503d17988d86d8ae7de57ef47",
+    "dirty": false
+  },
+  "versions": {
+    "trl": "1.7.1",
+    "transformers": "5.5.4",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "datasets": "4.8.4",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.0.2"
+  },
+  "model_id": "Qwen/Qwen2.5-0.5B",
+  "timings_sec": {
+    "base_eval": 1473.902,
+    "base_logprob_eval": 19.081,
+    "grpo_train": 17501.433,
+    "grpo_eval": 3587.559,
+    "grpo_logprob_eval": 24.184
+  },
+  "gpu": {
+    "device": "NVIDIA A100-SXM4-40GB",
+    "peak_vram_gb": 21.644
+  }
+}

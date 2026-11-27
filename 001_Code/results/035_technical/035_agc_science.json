@@ -1,0 +1,29 @@
+{
+ "completed": true,
+ "scale": "B3",
+ "seed": 0,
+ "rung": "A_GC",
+ "execution": {
+  "batch": 8,
+  "accum": 1,
+  "checkpointing": true
+ },
+ "allocator_config": "expandable_segments:True",
+ "clean_restart": true,
+ "automatic_fallback": false,
+ "authorised_parity": [
+  "lora_seed0",
+  "full_seed0"
+ ],
+ "authorised_training": [
+  "full_seed0"
+ ],
+ "authorised_evaluation": [
+  "full_seed0"
+ ],
+ "registered_date": "2026-08-18",
+ "pilot_report_sha256": "f1289f7a2cbd0d4ca7034c787cddc17f80fa0b8677e766a3d552aa88e6b99606",
+ "failed_status_sha256": "7cb5f4e0b0b45a0f226f2dc249eb5562007c5865df0f40e170190882cbb46967",
+ "failed_binding_sha256": "ccaf496a3ccc6ae0b17c987ef320be1d27ebbc7331fa644524477e48e4cd8dae",
+ "archive": "/content/drive/MyDrive/inm363/failed_attempts/035/B3_seed0_full_A_expandable_allocator"
+}

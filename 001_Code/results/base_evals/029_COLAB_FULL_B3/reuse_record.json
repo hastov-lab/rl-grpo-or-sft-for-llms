@@ -1,0 +1,10 @@
+{
+ "ts": "2026-08-12T08:34:56",
+ "source": "/content/drive/MyDrive/inm363/results/base_evals/003_COLAB_FULL_B3",
+ "sha256": {
+  "base_eval.json": "ee6c4d001730c9a00b312a8170c5cc04addc1f869f09f3872f040c168dbc3501",
+  "base_preds.jsonl": "d978415469e4c47075f77e1c00068d5063785f028c442b6f05452607a02bbde8",
+  "base_logprob.json": "8f19838000cbebbd34a243e6156df69188b7f58ca9c44456ccec0ca6876ac499",
+  "base_logprob_preds.jsonl": "04abb12151673240fafb303a36c287bb4171d8de30d44edb0f832346cdad325a"
+ }
+}

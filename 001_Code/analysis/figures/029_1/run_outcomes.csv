@@ -1,0 +1,7 @@
+scale,seed,outcome,decision step,last checkpoint,minutes,peak VRAM GiB
+1.5B,0,A2 sentinel,150,100,6.323333333333333,9.69
+1.5B,1,completed,500,500,18.288333333333334,9.96
+1.5B,2,A2 sentinel,150,100,6.3133333333333335,9.96
+3B,0,A2 sentinel,150,100,7.825,16.56
+3B,1,A2 sentinel,150,100,8.1,16.56
+3B,2,A2 sentinel,150,100,7.756666666666666,16.92

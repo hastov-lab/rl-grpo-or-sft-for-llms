@@ -1,0 +1,25 @@
+2026-07-15 08:54:45,495 INFO loaded wandb api key from file
+2026-07-15 08:54:45,496 INFO run 006_COLAB_FULL_B05_sft_grpo_seed0 device=cuda stages=['base_eval', 'sft', 'sft_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/006_COLAB_FULL_B05_sft_grpo_seed0
+2026-07-15 09:19:20,198 INFO base_eval done in 24m 34s | elapsed 24m 34s
+2026-07-15 09:19:32,278 INFO base_logprob_eval done in 12s | elapsed 24m 46s
+2026-07-15 09:19:32,278 INFO base per-tier acc: {'easy': 0.20819112627986347, 'medium': 0.18719211822660098, 'hard': 0.13131313131313133}
+2026-07-15 09:29:34,910 INFO sft train done in 10m 02s | elapsed 34m 49s
+2026-07-15 10:37:40,804 INFO sft_eval done in 1h 07m 12s | elapsed 1h 42m 55s
+2026-07-15 10:37:57,313 INFO sft_logprob_eval done in 16s | elapsed 1h 43m 11s
+2026-07-15 10:37:57,313 INFO sft per-tier acc: {'easy': 0.21843003412969283, 'medium': 0.2200328407224959, 'hard': 0.1691919191919192}
+2026-07-15 14:57:36,774 INFO grpo train done in 4h 19m 39s | elapsed 6h 02m 51s
+2026-07-15 15:20:30,066 INFO loaded wandb api key from file
+2026-07-15 15:20:30,280 INFO run 006_COLAB_FULL_B05_sft_grpo_seed0 device=cuda stages=['base_eval', 'sft', 'sft_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/006_COLAB_FULL_B05_sft_grpo_seed0
+2026-07-15 15:20:30,565 INFO base_eval already done, skipping
+2026-07-15 15:20:30,935 INFO base_logprob_eval already done, skipping
+2026-07-15 15:20:31,282 INFO base per-tier acc: {'easy': 0.20819112627986347, 'medium': 0.18719211822660098, 'hard': 0.13131313131313133}
+2026-07-15 15:20:32,033 INFO sft adapter already there, not retraining
+2026-07-15 15:20:32,034 INFO sft_eval already done, skipping
+2026-07-15 15:20:32,272 INFO sft_logprob_eval already done, skipping
+2026-07-15 15:20:32,505 INFO sft per-tier acc: {'easy': 0.21843003412969283, 'medium': 0.2200328407224959, 'hard': 0.1691919191919192}
+2026-07-15 15:20:32,506 INFO grpo adapter already there, not retraining
+2026-07-15 15:55:10,879 INFO grpo_eval done in 34m 38s | elapsed 34m 40s
+2026-07-15 15:55:25,918 INFO grpo_logprob_eval done in 15s | elapsed 34m 55s
+2026-07-15 15:55:25,918 INFO grpo per-tier acc: {'easy': 0.5597269624573379, 'medium': 0.4630541871921182, 'hard': 0.24494949494949494}
+2026-07-15 15:55:27,878 INFO done. total wall time 34m 57s
+2026-07-15 15:55:27,879 INFO results -> /content/drive/MyDrive/inm363/results/006_COLAB_FULL_B05_sft_grpo_seed0/  checkpoints -> /content/drive/MyDrive/inm363/checkpoints/006_COLAB_FULL_B05_sft_grpo_seed0/

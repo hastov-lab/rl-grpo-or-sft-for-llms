@@ -1,0 +1,51 @@
+{
+ "experiment": "035",
+ "task": "train",
+ "scale": "B15",
+ "seed": 0,
+ "parameter_mode": "lora",
+ "config_hash": "d03c3468d8c74c6baf7e16059ce86f715e92dbb010339cfdc61fa44f3afccfd6",
+ "start_record": {
+  "experiment": "035",
+  "scale": "B15",
+  "seed": 0,
+  "source_tag": "009_COLAB_FULL_B15_sft_grpo_seed0",
+  "source_config": "configs/009_colab_full_b15_seed0.yaml",
+  "source_manifest": "/content/drive/MyDrive/inm363/results/009_COLAB_FULL_B15_sft_grpo_seed0/manifest.json",
+  "source_manifest_sha256": "e581aeeb53c8631ddc4d063ef2163acde8015313670980b91305a2bddef4e2fb",
+  "historical_adapter_base": "/content/drive/MyDrive/inm363/checkpoints/009_COLAB_FULL_B15_sft_grpo_seed0/grpo/adapter_base.json",
+  "historical_adapter_base_sha256": "8722192e0c85986e7b010920967e294fb71115eaf402ea15a33b5521cb41e190",
+  "start": "/content/drive/MyDrive/inm363/checkpoints/009_COLAB_FULL_B15_sft_grpo_seed0/sft_merged",
+  "start_sha256": {
+   "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+   "config.json": "23e5bdea36342ea968d7d4cf580478c9040f6dbe91f93c4498e7a70d555a80c4",
+   "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+   "model.safetensors": "5f01dbbced686976b568737ba3e820eade00b8f263d377a726a7fb47bce6466c",
+   "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+   "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+  },
+  "binding_level": "path_provenance_and_current_hashes",
+  "lineage_sha256": null
+ },
+ "rung": "A_GC",
+ "execution": {
+  "batch": 8,
+  "accum": 1,
+  "checkpointing": true
+ },
+ "environment": {
+  "gpu_device": "NVIDIA A100-SXM4-80GB",
+  "versions": {
+   "trl": "1.7.1",
+   "transformers": "5.5.4",
+   "peft": "0.19.1",
+   "accelerate": "1.14.0",
+   "datasets": "4.8.4",
+   "torch": "2.11.0+cu128",
+   "numpy": "2.0.2",
+   "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+   "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+  },
+  "allocator_config": "expandable_segments:True"
+ }
+}

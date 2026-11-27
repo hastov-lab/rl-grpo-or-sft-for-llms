@@ -1,0 +1,34 @@
+{
+ "experiment": "040",
+ "scale": "B3",
+ "seed": 0,
+ "pipeline_tag": "003_COLAB_FULL_B3_sft_grpo_seed0",
+ "config": "configs/003_colab_full_b3_seed0.yaml",
+ "config_sha256": "23ad0483768a2f676f99a0c89f3eb3175940cb26d48f577208bb18ab41e5e812",
+ "adapter_dir": "/content/drive/MyDrive/inm363/checkpoints/003_COLAB_FULL_B3_sft_grpo_seed0/sft",
+ "adapter_sha256": {
+  "adapter_model.safetensors": "e2f79af1eb99c052b5f7b87979eb006c428fb77ba41e2f44b40490bcb507bd5a",
+  "adapter_config.json": "4f585c9a011456eb6d15579afa7e9080b9d984cbb66e57ae23d0e9fc8e876ac4",
+  "adapter_base.json": "8bcc0caf63f66e2cc70151deb46ca6fa1dce4df0fc034c8930af3c3e5d26ee14",
+  "config_hash.txt": "63ff4f6ab338e759af1744b90ea3735d0c08f2c2f941f00687a2b1168d9cb23b"
+ },
+ "merged_dir": "/content/drive/MyDrive/inm363/checkpoints/003_COLAB_FULL_B3_sft_grpo_seed0/sft_merged",
+ "merged_sha256": {
+  "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+  "config.json": "cabc1f547ad41d6d2010c3e47792076d8a43eb79857ec53d531f53c8ee2a7686",
+  "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+  "model.safetensors": "210e4bf40190fd5dca38970ed9af764e7fafff5bf55a79f59a204d03684d12b2",
+  "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+  "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+ },
+ "parent_manifest": "/content/drive/MyDrive/inm363/results/003_COLAB_FULL_B3_sft_grpo_seed0/manifest.json",
+ "parent_manifest_sha256": "43117ed95dfda9c70eb23e52dafa4befd1ced6f2c1dd0bdd7b0bb6ac70aaae4f",
+ "grpo_base_record": "/content/drive/MyDrive/inm363/checkpoints/003_COLAB_FULL_B3_sft_grpo_seed0/grpo/adapter_base.json",
+ "grpo_base_record_sha256": "55bfd357e20c31ed3ac6d05549ff62ec99a07cf406d0e6378889e2d136e85e61",
+ "pool": {
+  "path": "/content/040_grpo_pool.jsonl",
+  "sha256": "88c13c9870306bd5d4bfe9974207744021e14e998e0ca25f8b342232cef9477c",
+  "n_items": 245
+ },
+ "resolved_dtype": "bfloat16"
+}

@@ -1,0 +1,35 @@
+2026-07-20 09:01:27,128 INFO no wandb key file at wandb_api_key.txt, using login/offline
+2026-07-20 09:01:27,129 INFO run 003_COLAB_FULL_B3_sft_grpo_seed1 device=cuda stages=['base_eval', 'sft', 'sft_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/003_COLAB_FULL_B3_sft_grpo_seed1
+2026-07-20 09:01:27,129 INFO base_eval already done, skipping
+2026-07-20 09:01:27,778 INFO base_logprob_eval already done, skipping
+2026-07-20 09:01:29,154 INFO base per-tier acc: {'easy': 0.6757679180887372, 'medium': 0.5385878489326765, 'hard': 0.494949494949495}
+2026-07-20 09:23:09,540 INFO no wandb key file at wandb_api_key.txt, using login/offline
+2026-07-20 09:23:09,541 INFO run 003_COLAB_FULL_B3_sft_grpo_seed1 device=cuda stages=['base_eval', 'sft', 'sft_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/003_COLAB_FULL_B3_sft_grpo_seed1
+2026-07-20 09:23:09,541 INFO base_eval already done, skipping
+2026-07-20 09:23:09,543 INFO base_logprob_eval already done, skipping
+2026-07-20 09:23:09,544 INFO base per-tier acc: {'easy': 0.6757679180887372, 'medium': 0.5385878489326765, 'hard': 0.494949494949495}
+2026-07-20 09:24:33,821 INFO no wandb key file at wandb_api_key.txt, using login/offline
+2026-07-20 09:24:33,822 INFO run 003_COLAB_FULL_B3_sft_grpo_seed1 device=cuda stages=['base_eval', 'sft', 'sft_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/003_COLAB_FULL_B3_sft_grpo_seed1
+2026-07-20 09:24:33,822 INFO base_eval already done, skipping
+2026-07-20 09:24:33,824 INFO base_logprob_eval already done, skipping
+2026-07-20 09:24:33,826 INFO base per-tier acc: {'easy': 0.6757679180887372, 'medium': 0.5385878489326765, 'hard': 0.494949494949495}
+2026-07-20 09:30:37,990 INFO no wandb key file at wandb_api_key.txt, using login/offline
+2026-07-20 09:30:38,646 INFO run 003_COLAB_FULL_B3_sft_grpo_seed1 device=cuda stages=['base_eval', 'sft', 'sft_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/003_COLAB_FULL_B3_sft_grpo_seed1
+2026-07-20 09:30:38,647 INFO base_eval already done, skipping
+2026-07-20 09:30:39,382 INFO base_logprob_eval already done, skipping
+2026-07-20 09:30:39,804 INFO base per-tier acc: {'easy': 0.6757679180887372, 'medium': 0.5385878489326765, 'hard': 0.494949494949495}
+2026-07-20 10:39:10,461 INFO using wandb key from env
+2026-07-20 10:39:11,458 INFO run 003_COLAB_FULL_B3_sft_grpo_seed1 device=cuda stages=['base_eval', 'sft', 'sft_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/003_COLAB_FULL_B3_sft_grpo_seed1
+2026-07-20 10:39:11,458 INFO base_eval already done, skipping
+2026-07-20 10:39:12,060 INFO base_logprob_eval already done, skipping
+2026-07-20 10:39:13,136 INFO base per-tier acc: {'easy': 0.6757679180887372, 'medium': 0.5385878489326765, 'hard': 0.494949494949495}
+2026-07-20 10:55:02,000 INFO sft train done in 15m 48s | elapsed 15m 50s
+2026-07-20 12:33:52,706 INFO sft_eval done in 1h 38m 48s | elapsed 1h 54m 41s
+2026-07-20 12:34:23,558 INFO sft_logprob_eval done in 30s | elapsed 1h 55m 12s
+2026-07-20 12:34:23,558 INFO sft per-tier acc: {'easy': 0.5870307167235495, 'medium': 0.44499178981937604, 'hard': 0.43686868686868685}
+2026-07-20 16:17:10,346 INFO grpo train done in 3h 42m 46s | elapsed 5h 37m 58s
+2026-07-20 17:14:52,554 INFO grpo_eval done in 57m 35s | elapsed 6h 35m 41s
+2026-07-20 17:15:24,411 INFO grpo_logprob_eval done in 31s | elapsed 6h 36m 12s
+2026-07-20 17:15:24,412 INFO grpo per-tier acc: {'easy': 0.8373151308304891, 'medium': 0.6814449917898193, 'hard': 0.5505050505050505}
+2026-07-20 17:15:24,777 INFO done. total wall time 6h 36m 13s
+2026-07-20 17:15:24,777 INFO results -> /content/drive/MyDrive/inm363/results/003_COLAB_FULL_B3_sft_grpo_seed1/  checkpoints -> /content/drive/MyDrive/inm363/checkpoints/003_COLAB_FULL_B3_sft_grpo_seed1/

@@ -1,0 +1,48 @@
+{
+  "attempts": [
+    {
+      "start_step": 0,
+      "ts_start": "2026-08-11 19:23",
+      "gpu": {
+        "device": "NVIDIA A100-SXM4-80GB",
+        "peak_vram_gb": 0.0
+      },
+      "env": {
+        "git": {
+          "commit": "bb548668f4838387fe26e191c9f67a7913e627bd",
+          "dirty": false
+        },
+        "versions": {
+          "trl": "1.7.1",
+          "transformers": "5.5.4",
+          "peft": "0.19.1",
+          "accelerate": "1.14.0",
+          "datasets": "4.8.4",
+          "torch": "2.11.0+cu128",
+          "numpy": "2.0.2",
+          "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+          "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+        },
+        "resolved_dtype": "bfloat16",
+        "ladder": "disabled"
+      },
+      "adapter_sha256": {
+        "adapter_model.safetensors": "fa061fded0dbef775c584ffd4d82e862a7d8bb4e3f0f6d958e401430040bbd3f",
+        "adapter_config.json": "fc86a9d371c24dec964fa8dd0ad536c64a8852d8a5aa2682829e73bb85504922",
+        "adapter_base.json": "bbe7839a8b4dcfa0474e911f8c556cb1525f78a4507c13eab970c6cd9bd31330",
+        "config_hash.txt": "adfeed6e345028386abb15a0684478c12aa982680fd322116d7b127eefd0ac1f"
+      },
+      "completed": true,
+      "end_step": 500,
+      "ts_end": "2026-08-11 19:45",
+      "elapsed_sec": 1361.7,
+      "peak_vram_gib": 31.07,
+      "worker_returncode": 0,
+      "error_type": null,
+      "error_message": null,
+      "cuda_oom": false,
+      "interrupted": false,
+      "resume_blocked": false
+    }
+  ]
+}

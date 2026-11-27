@@ -1,0 +1,22 @@
+{
+ "experiment": "035",
+ "scale": "B3",
+ "seed": 0,
+ "source_tag": "003_COLAB_FULL_B3_sft_grpo_seed0",
+ "source_config": "configs/003_colab_full_b3_seed0.yaml",
+ "source_manifest": "/content/drive/MyDrive/inm363/results/003_COLAB_FULL_B3_sft_grpo_seed0/manifest.json",
+ "source_manifest_sha256": "43117ed95dfda9c70eb23e52dafa4befd1ced6f2c1dd0bdd7b0bb6ac70aaae4f",
+ "historical_adapter_base": "/content/drive/MyDrive/inm363/checkpoints/003_COLAB_FULL_B3_sft_grpo_seed0/grpo/adapter_base.json",
+ "historical_adapter_base_sha256": "55bfd357e20c31ed3ac6d05549ff62ec99a07cf406d0e6378889e2d136e85e61",
+ "start": "/content/drive/MyDrive/inm363/checkpoints/003_COLAB_FULL_B3_sft_grpo_seed0/sft_merged",
+ "start_sha256": {
+  "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+  "config.json": "cabc1f547ad41d6d2010c3e47792076d8a43eb79857ec53d531f53c8ee2a7686",
+  "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+  "model.safetensors": "210e4bf40190fd5dca38970ed9af764e7fafff5bf55a79f59a204d03684d12b2",
+  "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+  "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+ },
+ "binding_level": "path_provenance_and_current_hashes",
+ "lineage_sha256": null
+}

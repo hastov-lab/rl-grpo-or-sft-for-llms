@@ -1,0 +1,38 @@
+{
+  "condition": "sft",
+  "metric": "logprob",
+  "n_items": 1884,
+  "per_tier_acc": {
+    "easy": 0.6837315130830489,
+    "medium": 0.5106732348111659,
+    "hard": 0.36363636363636365
+  },
+  "per_subject_acc": {
+    "high_school_psychology": 0.6440366972477064,
+    "marketing": 0.7307692307692307,
+    "us_foreign_policy": 0.79,
+    "high_school_geography": 0.5808080808080808,
+    "philosophy": 0.4694533762057878,
+    "business_ethics": 0.5,
+    "high_school_mathematics": 0.36666666666666664,
+    "formal_logic": 0.35714285714285715
+  },
+  "per_tier_ci": {
+    "easy": [
+      0.6518771331058021,
+      0.714448236632537
+    ],
+    "medium": [
+      0.47126436781609193,
+      0.5500821018062397
+    ],
+    "hard": [
+      0.3181818181818182,
+      0.40410353535353527
+    ]
+  },
+  "overall_ci": [
+    0.5392781316348195,
+    0.5828025477707006
+  ]
+}

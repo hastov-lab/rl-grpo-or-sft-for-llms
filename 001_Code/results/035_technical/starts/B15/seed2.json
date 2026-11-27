@@ -1,0 +1,22 @@
+{
+ "experiment": "035",
+ "scale": "B15",
+ "seed": 2,
+ "source_tag": "009_COLAB_FULL_B15_sft_grpo_seed2",
+ "source_config": "configs/009_colab_full_b15_seed2.yaml",
+ "source_manifest": "/content/drive/MyDrive/inm363/results/009_COLAB_FULL_B15_sft_grpo_seed2/manifest.json",
+ "source_manifest_sha256": "f2dc5370f4884dd928774e82767c3aa39ecbc84adc5a83f667b3febe169e81b1",
+ "historical_adapter_base": "/content/drive/MyDrive/inm363/checkpoints/009_COLAB_FULL_B15_sft_grpo_seed2/grpo/adapter_base.json",
+ "historical_adapter_base_sha256": "fe3fd1409e2511943df1922e5faea9b976d2a6b652516c286734ef7bcfa15551",
+ "start": "/content/drive/MyDrive/inm363/checkpoints/009_COLAB_FULL_B15_sft_grpo_seed2/sft_merged",
+ "start_sha256": {
+  "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+  "config.json": "23e5bdea36342ea968d7d4cf580478c9040f6dbe91f93c4498e7a70d555a80c4",
+  "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+  "model.safetensors": "b318417a5339d5bad38da8e955decf3ea160d25ea1b013d5a7601d137911c0bb",
+  "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+  "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+ },
+ "binding_level": "current_hashes_and_032_lineage",
+ "lineage_sha256": "9ccdbb27bd7f8b26073f70b318373caa355921499c0ade0944f2c91f13b08b9b"
+}

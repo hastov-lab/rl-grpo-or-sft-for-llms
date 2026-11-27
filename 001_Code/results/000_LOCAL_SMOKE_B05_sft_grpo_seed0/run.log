@@ -1,0 +1,15 @@
+2026-07-12 01:42:20,652 INFO loaded wandb api key from file
+2026-07-12 01:42:20,652 INFO run 000_LOCAL_SMOKE_B05_sft_grpo_seed0 device=cpu stages=['base_eval', 'sft', 'sft_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=./results/000_LOCAL_SMOKE_B05_sft_grpo_seed0
+2026-07-12 01:42:39,444 INFO base_eval done in 18s | elapsed 18s
+2026-07-12 01:42:48,660 INFO base_logprob_eval done in 9s | elapsed 28s
+2026-07-12 01:42:48,660 INFO base per-tier acc: {'easy': 0.0, 'medium': 0.0, 'hard': 0.0}
+2026-07-12 01:43:08,383 INFO sft train done in 19s | elapsed 47s
+2026-07-12 01:43:20,647 INFO sft_eval done in 12s | elapsed 59s
+2026-07-12 01:43:29,629 INFO sft_logprob_eval done in 8s | elapsed 1m 08s
+2026-07-12 01:43:29,630 INFO sft per-tier acc: {'easy': 0.0, 'medium': 0.0, 'hard': 0.0}
+2026-07-12 01:43:57,341 INFO grpo train done in 27s | elapsed 1m 36s
+2026-07-12 01:44:08,255 INFO grpo_eval done in 10s | elapsed 1m 47s
+2026-07-12 01:44:15,605 INFO grpo_logprob_eval done in 7s | elapsed 1m 54s
+2026-07-12 01:44:15,605 INFO grpo per-tier acc: {'easy': 0.0, 'medium': 0.0, 'hard': 0.0}
+2026-07-12 01:44:15,811 INFO done. total wall time 1m 55s
+2026-07-12 01:44:15,811 INFO results -> ./results/000_LOCAL_SMOKE_B05_sft_grpo_seed0/  checkpoints -> ./checkpoints/000_LOCAL_SMOKE_B05_sft_grpo_seed0/

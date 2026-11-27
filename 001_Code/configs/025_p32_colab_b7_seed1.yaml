@@ -1,0 +1,55 @@
+# Experiment 025_p32 seed 1: base mc-sft at 7b with 32 passes over the
+# 245-prompt pool, completing the exposure sweep to p2/p8/p16/p32. Exact 014
+# mirror except the experiment id and step count. Exploratory, ladder off
+experiment: "025_p32"
+exploratory: true
+env: COLAB
+mode: FULL
+scale: B7
+condition: SFT_ONLY
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+
+reward:
+  correct_weight: 1.0
+  format_weight: 0.2
+  min_think_chars: 20
+
+train:
+  sft_lr: 1.0e-4
+  grpo_lr: 1.0e-5
+  max_steps: 490
+  num_generations: 8
+  max_seq_len: 1024
+  sft_batch_size: 4
+  sft_grad_accum: 4
+  sft_completion_only: true
+  sft_data: mmlu_mc
+  sft_val_examples: 0
+  dtype: auto
+  seed: 1
+
+grpo:
+  loss_type: grpo
+  beta: 0.04
+  scale_rewards: group
+  temperature: 1.0
+  top_p: 1.0
+  max_completion_length: 512
+
+eval:
+  max_new_tokens: 512
+  batch_size: 16
+  skip_generative: true
+
+log:
+  wandb_mode: online
+
+output_root: /content/drive/MyDrive/inm363
+
+exec:
+  allow_oom_fallback: false

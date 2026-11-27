@@ -1,0 +1,44 @@
+{
+ "schema": 1,
+ "completed": true,
+ "timestamp": "2026-08-15T21:54:58",
+ "condition": "sft",
+ "n_items": 96,
+ "diagnostic_sha256": "d44f8f0c5a3c60f028fbca3c1d064130d777174f64f44b3e825f4a376681d704",
+ "diagnostic_file_sha256": "c8c1fcaddb51086653ae8d0b1befdf23e2587e822cd7498508d6ae1fce719300",
+ "source_dataset_sha256": "a9d359dfe03251b0b08e6d25f22870348dc900a7d4c505cb3b341a1b92ee1583",
+ "start_record_sha256": "ec86dc7e80cdff51ffdb2fbdabea480f3a263953718261a52ce73ebeca6cada5",
+ "merged_sha256": {
+  "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+  "config.json": "23e5bdea36342ea968d7d4cf580478c9040f6dbe91f93c4498e7a70d555a80c4",
+  "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+  "model.safetensors": "5f01dbbced686976b568737ba3e820eade00b8f263d377a726a7fb47bce6466c",
+  "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+  "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+ },
+ "adapter_sha256": {
+  "adapter_model.safetensors": "2c2662a0af49c1efec6b518ab5e10112be92619cc4efad6cf8afb87dc6a15159",
+  "adapter_config.json": "972d850b4c591ab81146b5cb305603d0090cb97611a4882a3764220912ad5d40",
+  "adapter_base.json": "8722192e0c85986e7b010920967e294fb71115eaf402ea15a33b5521cb41e190",
+  "config_hash.txt": "98c437e909e44abdbe9cf3e85501074c6b21337cf8956280620a6e49c1f1f582"
+ },
+ "sha256": {
+  "generation_preds.jsonl": "ca0019e1c7371e779fcad90d062b67113c99a31d1722523892ce0a97f2112610",
+  "generation.json": "2c5b0b8644dd5dfa85880fad16953a91c89abdeba17e85190381eb019fb8d05d",
+  "continuation_preds.jsonl": "9c485d19e55df3ee1322cf048a61b4240595e9c5ac939b4f7bcca903e93ac7bc",
+  "continuation.json": "d0296440a2e27ff4bad760fae6b95236e6c2e3d93ba820a855c9a4e9d7fb250c"
+ },
+ "worker_status": {
+  "completed": true,
+  "task": "declarative_diagnostic",
+  "branch": "sft",
+  "gpu": {
+   "device": "NVIDIA A100-SXM4-80GB",
+   "peak_vram_gb": 0.0
+  },
+  "wall_seconds": 17.1,
+  "diagnostic_sha256": "d44f8f0c5a3c60f028fbca3c1d064130d777174f64f44b3e825f4a376681d704",
+  "start_record_sha256": "ec86dc7e80cdff51ffdb2fbdabea480f3a263953718261a52ce73ebeca6cada5",
+  "peak_vram_gib": 3.6
+ }
+}

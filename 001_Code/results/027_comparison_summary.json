@@ -1,0 +1,621 @@
+{
+  "binding": true,
+  "method_label": "method-as-practised exposure comparison",
+  "thresholds": {
+    "material_delta": 0.02,
+    "alpha": 0.05,
+    "equivalence_margin": 0.02,
+    "holm_family": "three seeds within each scale and exposure"
+  },
+  "common_readings": {
+    "0.5B": {
+      "p2": "material decline",
+      "p32": "mixed or inconclusive, report arm by arm"
+    },
+    "1.5B": {
+      "p2": "material decline",
+      "p32": "equivalent"
+    },
+    "3B": {
+      "p2": "mixed or inconclusive, report arm by arm",
+      "p32": "mixed or inconclusive, report arm by arm"
+    }
+  },
+  "comparisons": [
+    {
+      "scale": "0.5B",
+      "exposure": "p2",
+      "comparison": "p2 minus p8",
+      "seed": 0,
+      "reference": 0.5382165605095541,
+      "new": 0.4421443736730361,
+      "delta": -0.09607218683651805,
+      "ci low": -0.12154989384288747,
+      "ci high": -0.07112526539278131,
+      "p raw": 1.5201643997240646e-13,
+      "reference only correct": 392,
+      "new only correct": 211,
+      "Holm p": 4.560493199172194e-13,
+      "classification": "material decline"
+    },
+    {
+      "scale": "0.5B",
+      "exposure": "p2",
+      "comparison": "p2 minus p8",
+      "seed": 1,
+      "reference": 0.5334394904458599,
+      "new": 0.4596602972399151,
+      "delta": -0.0737791932059448,
+      "ci low": -0.09713375796178345,
+      "ci high": -0.05042462845010616,
+      "p raw": 1.1070097052692298e-09,
+      "reference only correct": 329,
+      "new only correct": 190,
+      "Holm p": 2.2140194105384597e-09,
+      "classification": "material decline"
+    },
+    {
+      "scale": "0.5B",
+      "exposure": "p2",
+      "comparison": "p2 minus p8",
+      "seed": 2,
+      "reference": 0.5302547770700637,
+      "new": 0.48142250530785563,
+      "delta": -0.04883227176220807,
+      "ci low": -0.0727176220806794,
+      "ci high": -0.024946921443736732,
+      "p raw": 9.502870005055683e-05,
+      "reference only correct": 319,
+      "new only correct": 227,
+      "Holm p": 9.502870005055683e-05,
+      "classification": "material decline"
+    },
+    {
+      "scale": "0.5B",
+      "exposure": "p32",
+      "comparison": "p32 minus p8",
+      "seed": 0,
+      "reference": 0.5382165605095541,
+      "new": 0.529723991507431,
+      "delta": -0.008492569002123142,
+      "ci low": -0.022292993630573247,
+      "ci high": 0.005307855626326964,
+      "p raw": 0.26875982532444004,
+      "reference only correct": 100,
+      "new only correct": 84,
+      "Holm p": 0.5375196506488801,
+      "classification": "inconclusive"
+    },
+    {
+      "scale": "0.5B",
+      "exposure": "p32",
+      "comparison": "p32 minus p8",
+      "seed": 1,
+      "reference": 0.5334394904458599,
+      "new": 0.5392781316348195,
+      "delta": 0.00583864118895966,
+      "ci low": -0.006900212314225053,
+      "ci high": 0.018577494692144373,
+      "p raw": 0.41274255882414235,
+      "reference only correct": 69,
+      "new only correct": 80,
+      "Holm p": 0.5375196506488801,
+      "classification": "equivalent"
+    },
+    {
+      "scale": "0.5B",
+      "exposure": "p32",
+      "comparison": "p32 minus p8",
+      "seed": 2,
+      "reference": 0.5302547770700637,
+      "new": 0.5445859872611465,
+      "delta": 0.014331210191082803,
+      "ci low": -0.0010615711252653928,
+      "ci high": 0.029723991507430998,
+      "p raw": 0.07869373377196526,
+      "reference only correct": 96,
+      "new only correct": 123,
+      "Holm p": 0.23608120131589577,
+      "classification": "inconclusive"
+    },
+    {
+      "scale": "1.5B",
+      "exposure": "p2",
+      "comparison": "p2 minus p8",
+      "seed": 0,
+      "reference": 0.6916135881104034,
+      "new": 0.6698513800424628,
+      "delta": -0.02176220806794055,
+      "ci low": -0.03821656050955414,
+      "ci high": -0.005307855626326964,
+      "p raw": 0.010775837513134934,
+      "reference only correct": 144,
+      "new only correct": 103,
+      "Holm p": 0.021551675026269868,
+      "classification": "material decline"
+    },
+    {
+      "scale": "1.5B",
+      "exposure": "p2",
+      "comparison": "p2 minus p8",
+      "seed": 1,
+      "reference": 0.690552016985138,
+      "new": 0.6693205944798302,
+      "delta": -0.021231422505307854,
+      "ci low": -0.03768577494692144,
+      "ci high": -0.004777070063694267,
+      "p raw": 0.01310842092273413,
+      "reference only correct": 144,
+      "new only correct": 104,
+      "Holm p": 0.021551675026269868,
+      "classification": "material decline"
+    },
+    {
+      "scale": "1.5B",
+      "exposure": "p2",
+      "comparison": "p2 minus p8",
+      "seed": 2,
+      "reference": 0.6926751592356688,
+      "new": 0.667728237791932,
+      "delta": -0.024946921443736732,
+      "ci low": -0.04246284501061571,
+      "ci high": -0.007961783439490446,
+      "p raw": 0.005968726153719238,
+      "reference only correct": 164,
+      "new only correct": 117,
+      "Holm p": 0.01790617846115771,
+      "classification": "material decline"
+    },
+    {
+      "scale": "1.5B",
+      "exposure": "p32",
+      "comparison": "p32 minus p8",
+      "seed": 0,
+      "reference": 0.6916135881104034,
+      "new": 0.6947983014861996,
+      "delta": 0.0031847133757961785,
+      "ci low": -0.006369426751592357,
+      "ci high": 0.01326963906581741,
+      "p raw": 0.5942882951469404,
+      "reference only correct": 41,
+      "new only correct": 47,
+      "Holm p": 1.0,
+      "classification": "equivalent"
+    },
+    {
+      "scale": "1.5B",
+      "exposure": "p32",
+      "comparison": "p32 minus p8",
+      "seed": 1,
+      "reference": 0.690552016985138,
+      "new": 0.6900212314225053,
+      "delta": -0.0005307855626326964,
+      "ci low": -0.010084925690021231,
+      "ci high": 0.009023354564755838,
+      "p raw": 1.0,
+      "reference only correct": 45,
+      "new only correct": 44,
+      "Holm p": 1.0,
+      "classification": "equivalent"
+    },
+    {
+      "scale": "1.5B",
+      "exposure": "p32",
+      "comparison": "p32 minus p8",
+      "seed": 2,
+      "reference": 0.6926751592356688,
+      "new": 0.6932059447983014,
+      "delta": 0.0005307855626326964,
+      "ci low": -0.009554140127388535,
+      "ci high": 0.010615711252653927,
+      "p raw": 0.9999999999999998,
+      "reference only correct": 47,
+      "new only correct": 48,
+      "Holm p": 1.0,
+      "classification": "equivalent"
+    },
+    {
+      "scale": "3B",
+      "exposure": "p2",
+      "comparison": "p2 minus p8",
+      "seed": 0,
+      "reference": 0.732484076433121,
+      "new": 0.7245222929936306,
+      "delta": -0.007961783439490446,
+      "ci low": -0.020169851380042462,
+      "ci high": 0.004246284501061571,
+      "p raw": 0.23828700628615268,
+      "reference only correct": 78,
+      "new only correct": 63,
+      "Holm p": 0.23828700628615268,
+      "classification": "inconclusive"
+    },
+    {
+      "scale": "3B",
+      "exposure": "p2",
+      "comparison": "p2 minus p8",
+      "seed": 1,
+      "reference": 0.725583864118896,
+      "new": 0.7117834394904459,
+      "delta": -0.013800424628450107,
+      "ci low": -0.02653927813163482,
+      "ci high": -0.0005307855626326964,
+      "p raw": 0.04359993650333527,
+      "reference only correct": 90,
+      "new only correct": 64,
+      "Holm p": 0.08719987300667054,
+      "classification": "inconclusive"
+    },
+    {
+      "scale": "3B",
+      "exposure": "p2",
+      "comparison": "p2 minus p8",
+      "seed": 2,
+      "reference": 0.7346072186836518,
+      "new": 0.7181528662420382,
+      "delta": -0.016454352441613588,
+      "ci low": -0.029193205944798302,
+      "ci high": -0.0037154989384288748,
+      "p raw": 0.013712033079849199,
+      "reference only correct": 90,
+      "new only correct": 59,
+      "Holm p": 0.0411360992395476,
+      "classification": "inconclusive"
+    },
+    {
+      "scale": "3B",
+      "exposure": "p32",
+      "comparison": "p32 minus p8",
+      "seed": 0,
+      "reference": 0.732484076433121,
+      "new": 0.7208067940552016,
+      "delta": -0.01167728237791932,
+      "ci low": -0.022823779193205943,
+      "ci high": -0.0005307855626326964,
+      "p raw": 0.052748349677391566,
+      "reference only correct": 70,
+      "new only correct": 48,
+      "Holm p": 0.1582450490321747,
+      "classification": "inconclusive"
+    },
+    {
+      "scale": "3B",
+      "exposure": "p32",
+      "comparison": "p32 minus p8",
+      "seed": 1,
+      "reference": 0.725583864118896,
+      "new": 0.7292993630573248,
+      "delta": 0.0037154989384288748,
+      "ci low": -0.00583864118895966,
+      "ci high": 0.01326963906581741,
+      "p raw": 0.5202915935750735,
+      "reference only correct": 40,
+      "new only correct": 47,
+      "Holm p": 0.6522683423839658,
+      "classification": "equivalent"
+    },
+    {
+      "scale": "3B",
+      "exposure": "p32",
+      "comparison": "p32 minus p8",
+      "seed": 2,
+      "reference": 0.7346072186836518,
+      "new": 0.7292993630573248,
+      "delta": -0.005307855626326964,
+      "ci low": -0.014861995753715499,
+      "ci high": 0.004246284501061571,
+      "p raw": 0.3261341711919829,
+      "reference only correct": 47,
+      "new only correct": 37,
+      "Holm p": 0.6522683423839658,
+      "classification": "equivalent"
+    }
+  ],
+  "endpoints": [
+    {
+      "scale": "0.5B",
+      "exposure": "p2",
+      "seed_values": {
+        "0": 0.4421443736730361,
+        "1": 0.4596602972399151,
+        "2": 0.48142250530785563
+      },
+      "mean": 0.4610757254069356,
+      "minimum": 0.4421443736730361,
+      "maximum": 0.48142250530785563,
+      "spread": 0.039278131634819524,
+      "mean_minus_seed0": 0.018931351733899482,
+      "material_change_from_seed0": false
+    },
+    {
+      "scale": "0.5B",
+      "exposure": "p8",
+      "seed_values": {
+        "0": 0.5382165605095541,
+        "1": 0.5334394904458599,
+        "2": 0.5302547770700637
+      },
+      "mean": 0.5339702760084926,
+      "minimum": 0.5302547770700637,
+      "maximum": 0.5382165605095541,
+      "spread": 0.007961783439490389,
+      "mean_minus_seed0": -0.00424628450106157,
+      "material_change_from_seed0": false
+    },
+    {
+      "scale": "0.5B",
+      "exposure": "p32",
+      "seed_values": {
+        "0": 0.529723991507431,
+        "1": 0.5392781316348195,
+        "2": 0.5445859872611465
+      },
+      "mean": 0.537862703467799,
+      "minimum": 0.529723991507431,
+      "maximum": 0.5445859872611465,
+      "spread": 0.014861995753715496,
+      "mean_minus_seed0": 0.008138711960367973,
+      "material_change_from_seed0": false
+    },
+    {
+      "scale": "1.5B",
+      "exposure": "p2",
+      "seed_values": {
+        "0": 0.6698513800424628,
+        "1": 0.6693205944798302,
+        "2": 0.667728237791932
+      },
+      "mean": 0.6689667374380749,
+      "minimum": 0.667728237791932,
+      "maximum": 0.6698513800424628,
+      "spread": 0.002123142250530785,
+      "mean_minus_seed0": -0.0008846426043879196,
+      "material_change_from_seed0": false
+    },
+    {
+      "scale": "1.5B",
+      "exposure": "p8",
+      "seed_values": {
+        "0": 0.6916135881104034,
+        "1": 0.690552016985138,
+        "2": 0.6926751592356688
+      },
+      "mean": 0.6916135881104033,
+      "minimum": 0.690552016985138,
+      "maximum": 0.6926751592356688,
+      "spread": 0.002123142250530785,
+      "mean_minus_seed0": -1.1102230246251565e-16,
+      "material_change_from_seed0": false
+    },
+    {
+      "scale": "1.5B",
+      "exposure": "p32",
+      "seed_values": {
+        "0": 0.6947983014861996,
+        "1": 0.6900212314225053,
+        "2": 0.6932059447983014
+      },
+      "mean": 0.6926751592356689,
+      "minimum": 0.6900212314225053,
+      "maximum": 0.6947983014861996,
+      "spread": 0.004777070063694322,
+      "mean_minus_seed0": -0.002123142250530674,
+      "material_change_from_seed0": false
+    },
+    {
+      "scale": "3B",
+      "exposure": "p2",
+      "seed_values": {
+        "0": 0.7245222929936306,
+        "1": 0.7117834394904459,
+        "2": 0.7181528662420382
+      },
+      "mean": 0.7181528662420383,
+      "minimum": 0.7117834394904459,
+      "maximum": 0.7245222929936306,
+      "spread": 0.01273885350318471,
+      "mean_minus_seed0": -0.006369426751592244,
+      "material_change_from_seed0": false
+    },
+    {
+      "scale": "3B",
+      "exposure": "p8",
+      "seed_values": {
+        "0": 0.732484076433121,
+        "1": 0.725583864118896,
+        "2": 0.7346072186836518
+      },
+      "mean": 0.7308917197452228,
+      "minimum": 0.725583864118896,
+      "maximum": 0.7346072186836518,
+      "spread": 0.009023354564755781,
+      "mean_minus_seed0": -0.0015923566878981443,
+      "material_change_from_seed0": false
+    },
+    {
+      "scale": "3B",
+      "exposure": "p32",
+      "seed_values": {
+        "0": 0.7208067940552016,
+        "1": 0.7292993630573248,
+        "2": 0.7292993630573248
+      },
+      "mean": 0.7264685067232838,
+      "minimum": 0.7208067940552016,
+      "maximum": 0.7292993630573248,
+      "spread": 0.00849256900212314,
+      "mean_minus_seed0": 0.005661712668082131,
+      "material_change_from_seed0": false
+    }
+  ],
+  "new_evaluations": [
+    {
+      "scale": "0.5B",
+      "exposure": "p2",
+      "seed": 1,
+      "adapter_sha256": {
+        "adapter_model.safetensors": "17c525b44506a978f3e8ada963e037a43875e87c13e4b9bdffeb4150383e5d10",
+        "adapter_config.json": "6f6ef152582561991c2de2f9cf4d0610dda30aa861a07703143c586d88c04d5c",
+        "adapter_base.json": "f6037445c2aadfea4b90d87219b4a716933de85f7dc2ba87831baaf14731784a",
+        "config_hash.txt": "353ad3ff356e9c5010613df4e3942c40f806ed9b9e42471dd1aef2310ab8aabc"
+      },
+      "predictions_sha256": "7256d5bf4bb4bf63f248400313c408cc62cf4aa41c17761b4d3d757d394a903a",
+      "metrics_sha256": "38b33ab4a34e0f14d27f3a1e69f31f25fded736196f530dd9b952609fdb9ceda",
+      "identity_agreement": 1.0
+    },
+    {
+      "scale": "0.5B",
+      "exposure": "p2",
+      "seed": 2,
+      "adapter_sha256": {
+        "adapter_model.safetensors": "a0aa8585f9496454e7918614b555ac6a5865352247202a9a223f7bb0626e5888",
+        "adapter_config.json": "405d8fdac94420028daabfdd9666cbb5a8bf1aad7e536af7b78dd63cbe017737",
+        "adapter_base.json": "f6037445c2aadfea4b90d87219b4a716933de85f7dc2ba87831baaf14731784a",
+        "config_hash.txt": "2734a66a53f47ec0bee82806fa2ccad8b7627ff31fb9982cd98e5bfb3790d669"
+      },
+      "predictions_sha256": "f3d0265a9564c49c2ef40d42e7b46b7376fe98851f1d3e44e988078efae39c84",
+      "metrics_sha256": "17acf672115305a6552a42277121a9a8db45f8bca3a1b2a95c39be03c15ff792",
+      "identity_agreement": 1.0
+    },
+    {
+      "scale": "0.5B",
+      "exposure": "p32",
+      "seed": 1,
+      "adapter_sha256": {
+        "adapter_model.safetensors": "d4f1b9f72202107a6d0134da45440cc2dd13033fe15253c83a1192a535d1dce2",
+        "adapter_config.json": "2d462318afe91377284d2860b2423a0f4787d116d0746c8356a274780e3616bf",
+        "adapter_base.json": "f6037445c2aadfea4b90d87219b4a716933de85f7dc2ba87831baaf14731784a",
+        "config_hash.txt": "3b6320dad9e85abb497231635cc4bdf4c9c10b462333b939f739d4e3f972b613"
+      },
+      "predictions_sha256": "193d65f743b78153a49473d41946091e411240b6ff3ad0389e43a18dddefd8c4",
+      "metrics_sha256": "3de42ff656469562c9b920d6a763573e5ad508b05d38864cd93756d1a36c6e01",
+      "identity_agreement": 1.0
+    },
+    {
+      "scale": "0.5B",
+      "exposure": "p32",
+      "seed": 2,
+      "adapter_sha256": {
+        "adapter_model.safetensors": "add02404a2255a2c842b561ba180fdf25bb4aba6278130c4590bbbf38ee3ab9c",
+        "adapter_config.json": "9a39c1ddce2f328798f82f94197e9e79f71b696f4dcc2f91de58301e5fe4185e",
+        "adapter_base.json": "f6037445c2aadfea4b90d87219b4a716933de85f7dc2ba87831baaf14731784a",
+        "config_hash.txt": "d6ddb8d29cfe41c83819b68d8274ddd5961f892669b96ebc1a803c8e8ed17d7a"
+      },
+      "predictions_sha256": "d4293f8e191ff55e5c7d53d4a18b6cf6a770a221b80c3873ee6aa15e69a45194",
+      "metrics_sha256": "2e952041817b0441da5d6b65e3975de002c1ffbfab2039747846b2cf6289b733",
+      "identity_agreement": 1.0
+    },
+    {
+      "scale": "1.5B",
+      "exposure": "p2",
+      "seed": 1,
+      "adapter_sha256": {
+        "adapter_model.safetensors": "a2a851b85a36a3c6b15f1a38e8d0e358c8ecfaae5544d5ffd45156af158e71dc",
+        "adapter_config.json": "9278c96c2eccfe923f9d2dc9731c5aee607a53770e1b412b1119b7dc20a427d5",
+        "adapter_base.json": "adcf19c3f54a55ad98d49cd2b9059dc80bb4c2871fa09ad8c3d2999fe4ab6a0e",
+        "config_hash.txt": "acc9b0d7479e8d08f42fbc56ec18ce97eb85b1d6773c257bec37d6e813b89d04"
+      },
+      "predictions_sha256": "c7cf838f42fae31c57ce02994d3e62b1a4b3e9334a21769d6a2928a1a9e31f9d",
+      "metrics_sha256": "6c8326d9cc519eb98b1687f7ac6a0dee92f2894db918df5d80838462e331c0a0",
+      "identity_agreement": 1.0
+    },
+    {
+      "scale": "1.5B",
+      "exposure": "p2",
+      "seed": 2,
+      "adapter_sha256": {
+        "adapter_model.safetensors": "b391ad032722d90f3201806693cc0abb529521c054f631bc254201175ec0ca53",
+        "adapter_config.json": "e0dcf2c87d8b57cde8c7ad76083dad98b472fcdb9fa2be9637cf3c9e4dd6c314",
+        "adapter_base.json": "adcf19c3f54a55ad98d49cd2b9059dc80bb4c2871fa09ad8c3d2999fe4ab6a0e",
+        "config_hash.txt": "200964cf9dbb46e72029f94b13805c1ce92e408465d299988fbfaba9a0f5702d"
+      },
+      "predictions_sha256": "984f2fb33efb5b4d6cc13f10e09614c348047d07062e9236a377ef3f522614fe",
+      "metrics_sha256": "2efae217d282ac6302e3d2719af0d20920cd9efd433fe2c488b036b4190dca95",
+      "identity_agreement": 1.0
+    },
+    {
+      "scale": "1.5B",
+      "exposure": "p32",
+      "seed": 1,
+      "adapter_sha256": {
+        "adapter_model.safetensors": "a281a25e0da08a568871589721246800816ccb502bd8ad57821a02ae241f9ae2",
+        "adapter_config.json": "d26313e79bb7f2cb3c0f486a4e09d9b1a8e1fe5a61339e936c7d187d7832f253",
+        "adapter_base.json": "adcf19c3f54a55ad98d49cd2b9059dc80bb4c2871fa09ad8c3d2999fe4ab6a0e",
+        "config_hash.txt": "74ff3239fcad1dccd1c1614d395aec4d196ec1b243f1bb8935d8160e4a836a7a"
+      },
+      "predictions_sha256": "0ac651de76917dd5e937c7b5247e4b8c277345039551e635c3856f522c15c38e",
+      "metrics_sha256": "889b7b359446e1ac9026f4a48c64b80f37eba56a351279f694a334e01ce9ad49",
+      "identity_agreement": 1.0
+    },
+    {
+      "scale": "1.5B",
+      "exposure": "p32",
+      "seed": 2,
+      "adapter_sha256": {
+        "adapter_model.safetensors": "83ca3580a4e560b319f5d0205af4a079872f898a32199176ec1508212298f72c",
+        "adapter_config.json": "4ff51686288f4060519a1b34c1b9e7031e5ee33ec9b8abf3f418a1e2a9ae368d",
+        "adapter_base.json": "adcf19c3f54a55ad98d49cd2b9059dc80bb4c2871fa09ad8c3d2999fe4ab6a0e",
+        "config_hash.txt": "0647a251c0da2ab1a30bd0190e6db2d2c5cf5a39a7d4c9647778846575ed63f5"
+      },
+      "predictions_sha256": "24055f1bb306554a070313c08a1afe843e91d02e4f4a92d0e8c85ef508c5d4d9",
+      "metrics_sha256": "d6bfe2a34e63a9e331893f48df4164bd66bd2a5998a619ac54eed41aa96a12da",
+      "identity_agreement": 1.0
+    },
+    {
+      "scale": "3B",
+      "exposure": "p2",
+      "seed": 1,
+      "adapter_sha256": {
+        "adapter_model.safetensors": "bf58293443103040feca43e0659f64b5becd9ac137c9848f43fb9dd5bc0af724",
+        "adapter_config.json": "bd298cd40390167efc1e2f559b51c060f03ed842dcc5fb0fed169f5bb6acbfd7",
+        "adapter_base.json": "8bcc0caf63f66e2cc70151deb46ca6fa1dce4df0fc034c8930af3c3e5d26ee14",
+        "config_hash.txt": "1e3afd44e5018e6007c6c09e8e7a526c35e2bac6e6b83a71862b9d409893aa1f"
+      },
+      "predictions_sha256": "5ae7ea258791b28f171c0c22b1bb6c76532eb04638a4c2ef6e4be59ee8010fd7",
+      "metrics_sha256": "4f003e3766b9e78f189f7c7b9271fa57d7fce47e5b03a23c6c78b408ae6300dc",
+      "identity_agreement": 1.0
+    },
+    {
+      "scale": "3B",
+      "exposure": "p2",
+      "seed": 2,
+      "adapter_sha256": {
+        "adapter_model.safetensors": "9a7ade37cd3e82b5cce5529da2aa82b2c3129c063ec43e715cb482bdb725fc4e",
+        "adapter_config.json": "2656b4cb0473e24139c1f3db00185513df037b4c24979f91a86c77b66c3c68a7",
+        "adapter_base.json": "8bcc0caf63f66e2cc70151deb46ca6fa1dce4df0fc034c8930af3c3e5d26ee14",
+        "config_hash.txt": "db070a35ba03499560a46f8880caabccee68cc8628e048b2378911eddc10c3ec"
+      },
+      "predictions_sha256": "36867a8d5d9fdf2baad6e5141823ff0d1ead667b16a45a36a8571fe8784abef7",
+      "metrics_sha256": "119464e8de521e818bf76af6eae43293f985c4d1555bb81e524910c0a0fa2341",
+      "identity_agreement": 1.0
+    },
+    {
+      "scale": "3B",
+      "exposure": "p32",
+      "seed": 1,
+      "adapter_sha256": {
+        "adapter_model.safetensors": "734a6a8058cb00e130eecdfae8fe374c996d17a646d0274ac2438a279e15a655",
+        "adapter_config.json": "7b3cbe5da896bf20191a1fe88b36ab04fc35027f48384ae552444eb0a178e8f8",
+        "adapter_base.json": "8bcc0caf63f66e2cc70151deb46ca6fa1dce4df0fc034c8930af3c3e5d26ee14",
+        "config_hash.txt": "40940c12b4d63b13d59fad01d6354dc117285de3f9b00dbc9804b175b32d83ed"
+      },
+      "predictions_sha256": "6cf1ea2e58b7212e767101ce69dfbd7d342b13e0090b7044c010cf1e31dacfb5",
+      "metrics_sha256": "d26f5c00cb5e9adbd62153e2191d130f3de2ee6ebeca2dcbf141c209379315e6",
+      "identity_agreement": 1.0
+    },
+    {
+      "scale": "3B",
+      "exposure": "p32",
+      "seed": 2,
+      "adapter_sha256": {
+        "adapter_model.safetensors": "3a973044eb9105eb3f020ad59371cd44a4c6a5ea568173e3f163d8ab02ab05e8",
+        "adapter_config.json": "f7eded21d8c566b787f5dad62384b4a4524338693c4565368f1b6c89b19c9f31",
+        "adapter_base.json": "8bcc0caf63f66e2cc70151deb46ca6fa1dce4df0fc034c8930af3c3e5d26ee14",
+        "config_hash.txt": "02b86863625b32ea9844ea5bb3821a6b68e2bb1157f5f9eeed64adacad120ad9"
+      },
+      "predictions_sha256": "fc7ffb927890952d3477fe99be0817b2499243e62bf832609c683f3d696ad34a",
+      "metrics_sha256": "f31e76e31fa3a83fa69bed18a1186a904049338867dd78fe9d7a9d628fa9ca5d",
+      "identity_agreement": 1.0
+    }
+  ]
+}

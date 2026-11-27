@@ -1,0 +1,10 @@
+{
+ "completed": true,
+ "experiment": "048",
+ "sha256": {
+  "048_sft_training.json": "1b8ed555acc428c38690340bb70dd12bad4426a922c84e02a00004eb00875097",
+  "048_grpo_training.json": "d11e86fab0702258bd5ef694e07d3ed8c47364ef7da83a3e0015611db827adcc",
+  "048_sft_eval_manifest.json": "5391aa2bdf1b65c56e6598d9cbcbc776eca9e5b4e576db15a87894b5baba6d8a",
+  "048_grpo_eval_manifest.json": "24023b3ed0b6cf90d57e42c125514bdea558593b07ff642685ca84140f707ee4"
+ }
+}

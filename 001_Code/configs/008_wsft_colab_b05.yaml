@@ -1,0 +1,54 @@
+# Experiment 008: warm-start mc-sft at 0.5b (exploratory). The last cell of the
+# prep x method matrix: gsm8k-sft first (the exact stage-1 adapter that fed grpo
+# in 006), then mc-sft on the 245 mmlu prompts at 8 passes, the 007 saturation
+# point for this scale. Probe-only here, gen eval via eval_adapter.py at seed 0
+experiment: "008_wsft"
+exploratory: true
+env: COLAB
+mode: FULL
+scale: B05
+condition: SFT_ONLY
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+
+reward:
+  correct_weight: 1.0
+  format_weight: 0.2
+  min_think_chars: 20
+
+train:
+  sft_lr: 1.0e-4
+  grpo_lr: 1.0e-5
+  max_steps: 123
+  num_generations: 8
+  max_seq_len: 1024
+  sft_batch_size: 4
+  sft_grad_accum: 4
+  sft_completion_only: true
+  sft_data: mmlu_mc
+  sft_from_adapter: checkpoints/006_COLAB_FULL_B05_sft_grpo_seed0/sft
+  sft_val_examples: 0
+  dtype: auto
+  seed: 0
+
+grpo:
+  loss_type: grpo
+  beta: 0.04
+  scale_rewards: group
+  temperature: 1.0
+  top_p: 1.0
+  max_completion_length: 512
+
+eval:
+  max_new_tokens: 512
+  batch_size: 16
+  skip_generative: true
+
+log:
+  wandb_mode: online
+
+output_root: /content/drive/MyDrive/inm363

@@ -1,0 +1,29 @@
+{
+ "binding_sha256": "11e3391540484842b98d9b200fee43acce46476b7b90f229dfec9c3a177ae1f5",
+ "initial_step": 0,
+ "wandb_runs": [
+  {
+   "path": "/content/drive/MyDrive/inm363/results/050_COLAB_FULL_B05_base_grpo_seed2/050_grpo_wandb_runs/vm84pjvc.json",
+   "sha256": "628e5772ab5188a7e1336a634880d9f03d5f772d421a9fec4e6bc16d24d23d52",
+   "project": "inm363-grpo",
+   "run_id": "vm84pjvc",
+   "run_name": "050_COLAB_FULL_B05_base_grpo_seed2_grpo"
+  }
+ ],
+ "completed": true,
+ "parser_diagnostics": {
+  "completed_updates": 500,
+  "responses_checked": 4000,
+  "h_only_accuracy_reward": 47,
+  "b1_only_accuracy_reward": 54
+ },
+ "files": {
+  "checkpoints/adapter_model.safetensors": "e9fbdda3ea81b8f20fd1d5bc4af6c46d02585bb85d9ef22cd29a28f4bca1c2ba",
+  "checkpoints/adapter_config.json": "1a89c68e87b86633bf87028d93653f1d8cc93011688ce4a2beb0a220d1cd4c48",
+  "checkpoints/adapter_base.json": "57ff9ac30dfc29975afef1f53a60b1702c34f80c703db041bed7ef5cc5a21141",
+  "checkpoints/config_hash.txt": "69fb86e0de12f0c73b29c5926d29280e12a86bde9fb0141cde6539abb3c76652",
+  "results/parser_diagnostics.json": "8772904478692ccda4245e0e29c72134c734ca9e1f3aa796c5820eae960e4f01",
+  "results/grpo_trainlog.json": "d908059014e2ddf63041dd2530b8011e7760a8c22ddc5ad011640d40ff0d0864",
+  "results/manifest.json": "18a0b198029b158492e0aa0733b269823dade41894005de2b8bdac85d3c0fbc1"
+ }
+}

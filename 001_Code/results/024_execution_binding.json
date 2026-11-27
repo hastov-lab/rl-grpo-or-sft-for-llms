@@ -1,0 +1,48 @@
+{
+  "created_git": {
+    "commit": "f6257229a85f5dd71beca112774a645ad255947a",
+    "dirty": false
+  },
+  "protocol_sha256": "f787f3ac69d3588d257052e4f3a91bdeee5c18a7150493d7b2dcaf576e0e6ded",
+  "protocol": {
+    "notebook_protocol_sha256": "6e7ba3dd8728e97a833bc28925f409afe8fe01123c5229ed5b680ae3b0b09d1c",
+    "scientific_file_hashes": {
+      "analysis/aux_train_check.py": "3f1d5954395cf4a838072f7132a67e32b0d22bb0d6070f794bab269701d99150",
+      "analysis/stats.py": "9b06ad9157f03004e31ddc563e178106fad82053bf273dd38536c3292c5eb9ff",
+      "checkpoint.py": "854dbb7fb11169fe49258b85ac2c8debe5cbdfdabfcc264f3d8bab2b1fdddb7c",
+      "config.py": "caea6a6621e5875862161fc124372ddb6b47d352f752a641a88d886db4fc5682",
+      "data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "data/checks.py": "b8c645c61d2b9d97ad25cdbf5716464dddac3a7ee9cd2d81e8526130fefa2e03",
+      "data/gsm8k.py": "cf6fcfae7087b75e8260b98fb6dff870184f94ab521c4edb7f7d72c242ee54a4",
+      "data/mmlu.py": "9dae6e9dd6a13f60253346e014069ec753a442fee8725d7b381273d58d6f3007",
+      "data/prompts.py": "b34477daf45229f670d35bea457c6af8c24986d13dc2cddcaf99d8c353e31a7c",
+      "data/splits.py": "a5db19833563e9be0606dd1db969a9d08e2241b0cae68e1e862cedc6e55679c1",
+      "data/subjects.py": "a22b517cba4561883b0fb8cf754907498c888afa7bef51d1a60add8a9cc21a56",
+      "data/tagging.py": "1cc0b9d2f0e67e7966de5ac35361000f32aeb2e091035ca7c9f2343f2b4e00ba",
+      "enums.py": "d9f54957fd277c95d6c25eb0807d2bc24e42b75f934453457b962652adc7e461",
+      "eval/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "eval/diagnostics.py": "a8c2b0568a24947d5a125e9ec72a84733dec9191bc1d1d11ceb013a14ff2bf0e",
+      "eval/harness.py": "bd0bb83468d9727620576f60d03285c93b747587a38508fb6b09867e3d37fed7",
+      "eval/metrics.py": "a6ba6d503f36c0c18a5a40c1385a33095c83cb62a4f17340885dde446bcace4b",
+      "obs.py": "1d7c1c9beb62aa2e9d7ecd3780bdf77b47ee5a17c4ca8a7aeb2e81ba7c545f5a",
+      "scripts/build_data.py": "45673e91b696dd4e73553e1a1c3659959139667dbd3f84723f68b1a19478b6a2",
+      "scripts/env_switch.py": "6ebf8874dfecad003ad0ea134b4bd5abcc38307e925ea6ce8b96188669865dde",
+      "scripts/eval_adapter.py": "42379ea59161ea67cb23663a522051d87a09937a3cf907b932c12283c91e46f4",
+      "scripts/run.py": "b737466e21279e4907db528f58268d3ec9ff5a266a5a3e642cea45925331240a",
+      "train/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "train/grpo.py": "ba8e5cc50417efca5789594a79c8d09386c1a8fd439c2738f8d57d7d256c919e",
+      "train/grpo_utils.py": "86f3b4f9a350c122c34cb7009a2c8025ca7e5eb3606281c14efeb81e879044f6",
+      "train/model_utils.py": "60dd351011df7b19dcc5bd4cb2f14fe7e643d087e4cfc1bcacd9d7d7b22b96d0",
+      "train/reward.py": "f437b2d305292f99fa05b156ca48d70181671c5d4a588fa12d3cd8174f5b1c0f",
+      "train/sft.py": "7eda34f0a26b5dffee8d529c85e0edb8b55c5f8ce53f4f4e8b7c32684e4a8d0a"
+    },
+    "config_hashes": {
+      "configs/024_p16_colab_b7_seed0.yaml": "49339becd96a7e51fd60a1434a8121c2d67d517343b58670b54365c3cf3a33b3",
+      "configs/024_p16_colab_b7_seed1.yaml": "9891ecafc137a5ba35e9f6ad2d18c014822cbe3fa2eee513bb83ddcd917ca104",
+      "configs/024_p16_colab_b7_seed2.yaml": "0678b40862f19167aab499a93eccc349c83cdda52d5b9fdf1e9ef43993dc9aaf",
+      "configs/024_wsft_p16_colab_b7_seed0.yaml": "37e1f0f4b53276e96635ec711441364cd0bc0ded19859f1beac5b4376e56cc10",
+      "configs/024_wsft_p16_colab_b7_seed1.yaml": "fb00d8a76c74c3c366209e8c712fb49e99731fea82c5fee271cd2be8c558cf9b",
+      "configs/024_wsft_p16_colab_b7_seed2.yaml": "a5b9b97c5e2895ece972004b8e63a22225b6bcd6e662022ed188768dc6097ec4"
+    }
+  }
+}

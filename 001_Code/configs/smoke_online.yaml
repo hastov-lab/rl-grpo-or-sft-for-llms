@@ -1,0 +1,7 @@
+# Same tiny local smoke run but syncs to wandb cloud, just to prove online logging works.
+# Routine local runs stay on smoke_local.yaml (offline) so I dont spam the wandb project
+env: LOCAL
+mode: SMOKE
+scale: B05
+log:
+  wandb_mode: online

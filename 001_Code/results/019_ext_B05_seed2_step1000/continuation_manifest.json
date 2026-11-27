@@ -1,0 +1,85 @@
+{
+  "source_run": "006_COLAB_FULL_B05_sft_grpo_seed2",
+  "seeded": "checkpoint-500 + sft_merged",
+  "required_present": [
+    "adapter_model.safetensors",
+    "adapter_config.json",
+    "optimizer.pt",
+    "scheduler.pt",
+    "trainer_state.json",
+    "rng_state.pth"
+  ],
+  "ts": "2026-07-28 11:43",
+  "hashes": {
+    "sft_merged/chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+    "sft_merged/config.json": "32de0d9b281901b33c841c1c8381bee989ed2da1c70ebfda5c564821dc99eb41",
+    "sft_merged/generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+    "sft_merged/model.safetensors": "0d5bd4a0b65989b35d3212ecb658d4ea5dbeeb04f5d36c9a83246aeb589aab30",
+    "sft_merged/tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+    "sft_merged/tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd",
+    "checkpoint-500/README.md": "bceaf293bc4f27792ca1bbaddbe9e7faf5ee89152a2a9b96fb9abdca6ccb3899",
+    "checkpoint-500/adapter_config.json": "fb96493c80133cb42a4ee3557c2763cf8791504b6d3499e6bc1b52bc355c2a87",
+    "checkpoint-500/adapter_model.safetensors": "a8a46d0d9f3f895833ebd80e64e98546beebb7c5f6d4f30ceb2c5c70114743e3",
+    "checkpoint-500/chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+    "checkpoint-500/optimizer.pt": "22a27030ed61669e6925718dc9fea57c965e6b5febcb7c1521f59a9dfbfb054b",
+    "checkpoint-500/rng_state.pth": "56068f72f72e094ed9bb9169ae397703b133557f4df08cb6604b2382056a4112",
+    "checkpoint-500/scheduler.pt": "397b049f60afa9ebb2caf64ba5b428310a5e9d01385c6359e7192e85daef1fd8",
+    "checkpoint-500/tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+    "checkpoint-500/tokenizer_config.json": "5cf3fd79f6c2583728d2f110aca4422887e2d51b641c589c0319eccd44bfc502",
+    "checkpoint-500/trainer_state.json": "6495dc22b6da26a83d602aef8a46f6b2440b3b12aa851acc9510458cdd76c892",
+    "checkpoint-500/training_args.bin": "daf175baed7d930ebd06260eba1faa6f898fe1a7835c6535180234328106e730"
+  },
+  "attempts": [
+    {
+      "start_step": 500,
+      "ts_start": "2026-07-28 11:44",
+      "gpu": {
+        "device": "NVIDIA A100-SXM4-40GB",
+        "peak_vram_gb": 0.0
+      },
+      "env": {
+        "git": {
+          "commit": "0d71df0650182f5633827ba9471d716ae986e705",
+          "dirty": false
+        },
+        "versions": {
+          "trl": "1.7.1",
+          "transformers": "5.5.4",
+          "peft": "0.19.1",
+          "accelerate": "1.14.0",
+          "datasets": "4.8.4",
+          "torch": "2.11.0+cu128",
+          "numpy": "2.0.2",
+          "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+          "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+        },
+        "resolved_dtype": "bfloat16",
+        "ladder": "disabled"
+      },
+      "completed": true,
+      "end_step": 1000,
+      "ts_end": "2026-07-28 14:44",
+      "elapsed_sec": 10817.8,
+      "peak_vram_gib": 25.23
+    }
+  ],
+  "training": {
+    "parent_git": {
+      "commit": "77f80d9e841fc0167ba2f28d1fc7f83ecd0c1a8f",
+      "dirty": false
+    },
+    "parent_versions": {
+      "trl": "1.7.1",
+      "transformers": "5.5.4",
+      "peft": "0.19.1",
+      "accelerate": "1.14.0",
+      "datasets": "4.8.4",
+      "torch": "2.11.0+cu128",
+      "numpy": "2.0.2",
+      "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+      "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+    },
+    "resolved_config": "configs/019_ext_colab_b05.yaml",
+    "note": "per-attempt environments live in attempts[].env"
+  }
+}

@@ -1,0 +1,53 @@
+{
+ "completed": true,
+ "experiment": "042",
+ "stage": "grpo",
+ "seed": 0,
+ "config_hash": "636d4563710918c0586a505258d320f08b6ec86c199142249262011ccb192458",
+ "updates": 500,
+ "parameter_mode": "full",
+ "sft_record_sha256": "e3cfb6f4491ecbc6c9ff5d17536e53a7cea4618a17ff3a42f0045f3c059c00de",
+ "precision_report_sha256": "fc8a4a28c104908c8786ecf95925cfecba0f4e453c65e5432138f2e6f339f44f",
+ "a2_verdict_sha256": "9b5c7d18c031e2a1731a7ec077c59253d1c9f3fcc94aea91335df7836ba74264",
+ "wandb_runs": [
+  {
+   "path": "/content/drive/MyDrive/inm363/results/042_COLAB_FULL_M124_sft_grpo_seed0/042_wandb_runs/ecx9k3az.json",
+   "sha256": "7b5adb265c4e30800e5b3e5c606eaacc7ba339958b5d2f727ee979d02e60d9c2",
+   "project": "inm363-grpo",
+   "run_id": "ecx9k3az",
+   "run_name": "042_COLAB_FULL_M124_sft_grpo_seed0_grpo"
+  }
+ ],
+ "starvation": {
+  "complete": {
+   "mean_accuracy_reward": 0.01725,
+   "mean_format_reward": 0.19200000503659248,
+   "share_zero_reward_spread": 0.686
+  },
+  "first_50": {
+   "mean_accuracy_reward": 0.015,
+   "mean_format_reward": 0.18650000542402267,
+   "share_zero_reward_spread": 0.62
+  },
+  "last_50": {
+   "mean_accuracy_reward": 0.015,
+   "mean_format_reward": 0.19550000458955766,
+   "share_zero_reward_spread": 0.74
+  },
+  "severely_reward_starved": false
+ },
+ "artifact": "/content/drive/MyDrive/inm363/checkpoints/042_COLAB_FULL_M124_sft_grpo_seed0/grpo",
+ "artifact_sha256": {
+  "README.md": "e5bee51a6b2f8e6945b89bb4f4b70e60904f83b92bdddc8dcb4260fd372ed1b8",
+  "a2_verdict.json": "9b5c7d18c031e2a1731a7ec077c59253d1c9f3fcc94aea91335df7836ba74264",
+  "artifact_type.json": "41ce53ec9b894d6c52e5d962d239711a2f83fed98b35cca8cfa2ba090a8a1cb6",
+  "config.json": "99be2863f297063e595e768de2438553b173ba8f2ca564926bcb4effe91b6e3c",
+  "config_hash.txt": "c9a80e2dcf9e3a2d119297e0870ac9fc156c58f924f9f3e3d24aad71a74d30bd",
+  "generation_config.json": "e6b5e11e2ef2c220badc09b69e5bc143d5abc99f6f32b2ed37dd505f068e3bf3",
+  "model.safetensors": "92512505ff0e73f591e182d6cc97840de50d1838c54ceef2ea2ffa12f20d46d3",
+  "model_base.json": "c83a07e137a5ab52c17db3949896e65386ffdcf6181a6932b518a0b8fd944364",
+  "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+  "tokenizer_config.json": "46b0ee09bc6c14494f934103d0a72ac5a7f649ed99f6d8f1939cedad0c6c99e4",
+  "training_args.bin": "57e86b3fc4bbe598027bf3e5b2ee26def0dc3a7fe623688f7ee3b24390f9ff3a"
+ }
+}

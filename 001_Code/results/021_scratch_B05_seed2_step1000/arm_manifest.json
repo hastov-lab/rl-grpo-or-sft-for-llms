@@ -1,0 +1,47 @@
+{
+  "source_run": "006_COLAB_FULL_B05_sft_grpo_seed2",
+  "seeded": "sft_merged only, fresh run",
+  "ts": "2026-07-29 18:30",
+  "hashes": {
+    "sft_merged/chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+    "sft_merged/config.json": "32de0d9b281901b33c841c1c8381bee989ed2da1c70ebfda5c564821dc99eb41",
+    "sft_merged/generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+    "sft_merged/model.safetensors": "0d5bd4a0b65989b35d3212ecb658d4ea5dbeeb04f5d36c9a83246aeb589aab30",
+    "sft_merged/tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+    "sft_merged/tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+  },
+  "attempts": [
+    {
+      "start_step": 0,
+      "ts_start": "2026-07-30 02:29",
+      "gpu": {
+        "device": "NVIDIA A100-SXM4-40GB",
+        "peak_vram_gb": 21.651
+      },
+      "env": {
+        "git": {
+          "commit": "7f830ee1d02fd0f02304fb0e338687a7e288cbfc",
+          "dirty": false
+        },
+        "versions": {
+          "trl": "1.7.1",
+          "transformers": "5.5.4",
+          "peft": "0.19.1",
+          "accelerate": "1.14.0",
+          "datasets": "4.8.4",
+          "torch": "2.11.0+cu128",
+          "numpy": "2.0.2",
+          "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+          "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+        },
+        "resolved_dtype": "bfloat16",
+        "ladder": "disabled"
+      },
+      "completed": true,
+      "end_step": 1000,
+      "ts_end": "2026-07-30 08:02",
+      "elapsed_sec": 19940.3,
+      "peak_vram_gib": 22.73
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+ "parser": "B1",
+ "historical_comparator": "049_base_grpo_seed2",
+ "config": {
+  "experiment": "051",
+  "exploratory": true,
+  "env": "Env.COLAB",
+  "mode": "Mode.FULL",
+  "scale": "Scale.GPT2_B15",
+  "condition": "Condition.BASE_GRPO",
+  "lora": {
+   "r": 16,
+   "alpha": 32,
+   "dropout": 0.05,
+   "target_modules": null
+  },
+  "reward": {
+   "correct_weight": 1.0,
+   "format_weight": 0.2,
+   "min_think_chars": 20
+  },
+  "train": {
+   "sft_lr": 0.0001,
+   "grpo_lr": 1e-05,
+   "max_steps": 500,
+   "num_generations": 8,
+   "max_seq_len": 1024,
+   "sft_batch_size": 4,
+   "sft_grad_accum": 4,
+   "sft_completion_only": true,
+   "sft_data": "gsm8k",
+   "sft_val_examples": 500,
+   "sft_from_adapter": "",
+   "grpo_from_adapter": "",
+   "sft_parameter_mode": "lora",
+   "sft_precision_mode": "fp32_master_bf16",
+   "grpo_parameter_mode": "lora",
+   "grpo_precision_mode": "fp32_master_bf16",
+   "a2_action": "observe",
+   "dtype": "auto",
+   "seed": 2
+  },
+  "grpo": {
+   "loss_type": "grpo",
+   "beta": 0.04,
+   "scale_rewards": "group",
+   "temperature": 1.0,
+   "top_p": 1.0,
+   "max_completion_length": 512
+  },
+  "eval": {
+   "max_new_tokens": 512,
+   "batch_size": 16,
+   "skip_generative": false
+  },
+  "exec": {
+   "grpo_batch_size": 8,
+   "grpo_grad_accum": 1,
+   "gradient_checkpointing": false,
+   "max_train_hours": 24,
+   "allow_oom_fallback": false
+  },
+  "log": {
+   "trackers": [
+    "tensorboard",
+    "wandb"
+   ],
+   "save_steps": 50,
+   "save_total_limit": 2,
+   "log_completions": true,
+   "num_sample_completions": 20,
+   "wandb_project": "inm363-grpo",
+   "wandb_mode": "online",
+   "wandb_key_file": "wandb_api_key.txt"
+  },
+  "output_root": "/content/drive/MyDrive/inm363"
+ },
+ "source": {
+  "kind": "immutable_base",
+  "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_base",
+  "base_artifact_sha256": {
+   "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+   "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+   "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+   "model.safetensors": "df636f168a87529b6bfa55c9555682c95a23a0d0b41eed0cbbfc85b42a480bd5",
+   "model_base.json": "5f742459ed1748c36e982ad5058cb1ec8cf5172073252afb51baf8852f0cdf56",
+   "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+   "tokenizer_config.json": "caab7b8a5a261a1d4cb142c2488acd9cb1c5c0154f681e5a38614a3a2c0cf8ce"
+  },
+  "records": {
+   "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_manifest.json": "dfd8a6bf125f5866f132e06c9a71792d950dad7f9071b2ab28914296e1a57d94",
+   "/content/drive/MyDrive/inm363/results/046_technical/046_xl_parity.json": "a190aff55350442c18c3ac26a6f2a674c9bca35515bc0d2931a492ad1ca2f953",
+   "/content/drive/MyDrive/inm363/results/046_technical/046_token_audit.json": "0b0aa21f627dd537ec1f14f5af6c2b59653be9d00dd8185327a1fede81a97eaf",
+   "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_eval_manifest.json": "a2826f7f1612d197075a6549169bd2f9006f386c7182740c935a947d7d4554c2"
+  }
+ },
+ "versions": {
+  "trl": "1.7.1",
+  "transformers": "5.5.4",
+  "peft": "0.19.1",
+  "accelerate": "1.14.0",
+  "datasets": "4.8.4",
+  "torch": "2.11.0+cu128",
+  "numpy": "2.0.2",
+  "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+ },
+ "grpo_rows_sha256": "e3ebd3d0f1bdcfac82caeec95af61ddc4bb7010777abe00bc03de72a1b5c6660",
+ "eval_rows_sha256": "c73bcd5dc74015781213e53f458999160931825a0a40a31cfdd87ec7b06b2a5f",
+ "code": {
+  "checkpoint.py": "c5a90fd7338804b2495dc7c0364914fefc35d30250b9f7d2844bbffd07c013d1",
+  "config.py": "5ec85f1425acc960eab3eb51686ce4201c3636dd76452a937387271097b90e81",
+  "data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "data/checks.py": "b8c645c61d2b9d97ad25cdbf5716464dddac3a7ee9cd2d81e8526130fefa2e03",
+  "data/gsm8k.py": "cf6fcfae7087b75e8260b98fb6dff870184f94ab521c4edb7f7d72c242ee54a4",
+  "data/mmlu.py": "9dae6e9dd6a13f60253346e014069ec753a442fee8725d7b381273d58d6f3007",
+  "data/mmlu_b1.py": "932968a6f22f59f282b71a43b4e6ec5470127b33d71c97ed1e36d3d4880b471d",
+  "data/prompts.py": "b34477daf45229f670d35bea457c6af8c24986d13dc2cddcaf99d8c353e31a7c",
+  "data/splits.py": "a5db19833563e9be0606dd1db969a9d08e2241b0cae68e1e862cedc6e55679c1",
+  "data/subjects.py": "a22b517cba4561883b0fb8cf754907498c888afa7bef51d1a60add8a9cc21a56",
+  "data/synthetic_facts.py": "eb41104f564ee40feeea920af95f81b7854346f056e19c39930f1be36f4540d4",
+  "data/tagging.py": "1cc0b9d2f0e67e7966de5ac35361000f32aeb2e091035ca7c9f2343f2b4e00ba",
+  "enums.py": "904aa06e9a2c0216a462f902046fcd8902caffb72824e64dd9146411d970213d",
+  "eval/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "eval/diagnostics.py": "a8c2b0568a24947d5a125e9ec72a84733dec9191bc1d1d11ceb013a14ff2bf0e",
+  "eval/harness.py": "2cf3ab8de99a2da974a1b8717e7367a7616051cb02a8992aa006c3fe70280177",
+  "eval/metrics.py": "2e1d84f67332b983f933e7de19ea6f417b6cf58f7bf9a126337ef11e9d685990",
+  "file_utils.py": "db279e465b3c92e756c7976f90032a32068a42718d33061ebddd02d8776bfb0a",
+  "obs.py": "241f8cd2212df4f3831b529ae0ede5b27771ec4a846514e505fdd203e8b098a1",
+  "scripts/grpo_worker.py": "ffed2fc266783fa844b76f64b6c2cc5326240d79caa867d99a63e93d7e68f22a",
+  "scripts/s12_eval.py": "3598de6449c450165364c8579b0c6d4f089549890edde103dc527bfca6f8e7dc",
+  "scripts/s35_matched_grpo.py": "524fe0441fd49a3bfd6e5bace5ddb030f0ddc4d9a3ced5d8bc0ef7fd97f5399d",
+  "scripts/s42_worker.py": "27675a57d6d2843fa95c28e020bb7212c5b77db4503bc030952e3000246cb1a8",
+  "scripts/s46_gpt2_xl.py": "778097369ae644ec77262b8ce80efa955a5ed4cb3b7284f4b0f2a6446bef6c06",
+  "scripts/s46_worker.py": "f611471370b08a033e61fdeb985e7e787dd839f8a741b56aaaa5e7259ead7806",
+  "scripts/s49_gpt2_xl_symmetry.py": "c99be9aeba5f16e45a999b801ddec3de9fe3151b09e3cf582b328e1119abacb9",
+  "scripts/s50_b1_grpo.py": "557f4b3567df3d2a124eff5281697f4bae60d0b10b019da16cba534a25d90472",
+  "scripts/s51_b1_grpo.py": "7e971b3359de52d168ccf1075adcfdf223d0ed68fbf9c34d4a5ac21be10df140",
+  "train/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "train/grpo.py": "9abcd5e493a83e7300ac9b44ca935fc4583a4e7af7ce66297d3c4aeb2d2a54ff",
+  "train/grpo_utils.py": "86f3b4f9a350c122c34cb7009a2c8025ca7e5eb3606281c14efeb81e879044f6",
+  "train/model_utils.py": "e09ca52bbc0ca2598d30df235c48bc21058963dc3d6c248cd514e50ab4dce4c7",
+  "train/parser_diagnostics.py": "7106ec610cd489f4dea95b9777b1c495be589a6facd362fc3a35a96fc995d8e7",
+  "train/reward.py": "2a560dc4c4e7f4ace7620cd90b3d47c448ce2741f6024691880b144f6cd25142",
+  "train/sft.py": "8171490a0364bbab7d30f35962484c99d875c6f997aacfb46bb69389c6abdeb8"
+ },
+ "scratch_code": {
+  "__init__.py": "ba297879028699c5b1698c100ebb950ea6f5f92ab9ef35376678fe1515e1a28e",
+  "attention.py": "711a9a3f645a0b8132002bb012434608349cdc9899c9c84ccbda0723660cf885",
+  "configuration.py": "b4fcc41a9db73da747e21f8bcebee5e12c2655df8f14c103b310e44139eea83e",
+  "model.py": "0d074c059cae2052e7e192e027217a67037b400c21acefc1cba9cf7b2ef139bc",
+  "tokenizer.py": "1079f75db47a47d0b32cbcccf5abe4984bb0058366de1c272d9af6f01d144d84",
+  "weights.py": "d9f53d94ba1a96d8c329da3621954f9f989ab518351157212a070f4c57b11622"
+ }
+}

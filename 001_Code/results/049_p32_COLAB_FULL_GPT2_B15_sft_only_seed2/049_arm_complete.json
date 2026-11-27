@@ -1,0 +1,11 @@
+{
+ "completed": true,
+ "experiment": "049",
+ "family": "p32",
+ "seed": 2,
+ "preflight_sha256": "8e809e816446f7ffa4208e852dc81b2a54cdb930d2824bd01f4d75f96aadd2e2",
+ "sha256": {
+  "049_sft_training.json": "3836c059ed819719ddfb53a0ebf01ae105ad47684ad0753c1753ccb878f0c1ce",
+  "049_sft_eval_manifest.json": "f165a3ab3d39f656627cc9e3bd262b7089502cf8c280543ad514138ba0e55187"
+ }
+}

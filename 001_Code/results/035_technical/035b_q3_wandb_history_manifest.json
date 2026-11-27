@@ -1,0 +1,101 @@
+{
+  "completed": true,
+  "experiment": "035b",
+  "purpose": "registered Q3 first-50 full-parameter comparison",
+  "records": [
+    {
+      "created_at": "2026-08-18T11:38:58Z",
+      "entity": "gogastov-city-university-of-london",
+      "first_step": 1,
+      "history_fields": [
+        "step",
+        "learning_rate",
+        "rewards/accuracy_reward/mean",
+        "rewards/format_reward/mean",
+        "reward",
+        "reward_std",
+        "frac_reward_zero_std",
+        "kl",
+        "entropy",
+        "grad_norm",
+        "completions/clipped_ratio",
+        "completions/mean_length",
+        "step_time"
+      ],
+      "history_path": "results/035_technical/035b_q3_b3_full_wandb_history.jsonl",
+      "history_sha256": "57b52313c420b2ecef82de52a5832c3561a550161f26434b696900eda289ea91",
+      "last_step": 50,
+      "project": "inm363-grpo",
+      "q3_step_coverage": [
+        1,
+        50
+      ],
+      "row_count": 50,
+      "run_id": "ca8dgcqc",
+      "run_name": "035_COLAB_FULL_B3_matched_full_grpo_seed0_grpo",
+      "scale": "B3",
+      "source_field_map": {
+        "completions/clipped_ratio": "train/completions/clipped_ratio",
+        "completions/mean_length": "train/completions/mean_length",
+        "entropy": "train/entropy",
+        "frac_reward_zero_std": "train/frac_reward_zero_std",
+        "grad_norm": "train/grad_norm",
+        "kl": "train/kl",
+        "learning_rate": "train/learning_rate",
+        "reward": "train/reward",
+        "reward_std": "train/reward_std",
+        "rewards/accuracy_reward/mean": "train/rewards/accuracy_reward/mean",
+        "rewards/format_reward/mean": "train/rewards/format_reward/mean",
+        "step_time": "train/step_time"
+      },
+      "state": "finished"
+    },
+    {
+      "created_at": "2026-08-19T14:15:10Z",
+      "entity": "gogastov-city-university-of-london",
+      "first_step": 1,
+      "history_fields": [
+        "step",
+        "learning_rate",
+        "rewards/accuracy_reward/mean",
+        "rewards/format_reward/mean",
+        "reward",
+        "reward_std",
+        "frac_reward_zero_std",
+        "kl",
+        "entropy",
+        "grad_norm",
+        "completions/clipped_ratio",
+        "completions/mean_length",
+        "step_time"
+      ],
+      "history_path": "results/035_technical/035b_q3_b15_full_wandb_history.jsonl",
+      "history_sha256": "f4ac99024e2a6034928f1f7a8a02c06ecf6ec2c812b9a24a4974586bc5a93654",
+      "last_step": 500,
+      "project": "inm363-grpo",
+      "q3_step_coverage": [
+        1,
+        50
+      ],
+      "row_count": 500,
+      "run_id": "ityclcai",
+      "run_name": "035_COLAB_FULL_B15_matched_full_grpo_seed0_grpo",
+      "scale": "B15",
+      "source_field_map": {
+        "completions/clipped_ratio": "train/completions/clipped_ratio",
+        "completions/mean_length": "train/completions/mean_length",
+        "entropy": "train/entropy",
+        "frac_reward_zero_std": "train/frac_reward_zero_std",
+        "grad_norm": "train/grad_norm",
+        "kl": "train/kl",
+        "learning_rate": "train/learning_rate",
+        "reward": "train/reward",
+        "reward_std": "train/reward_std",
+        "rewards/accuracy_reward/mean": "train/rewards/accuracy_reward/mean",
+        "rewards/format_reward/mean": "train/rewards/format_reward/mean",
+        "step_time": "train/step_time"
+      },
+      "state": "finished"
+    }
+  ]
+}

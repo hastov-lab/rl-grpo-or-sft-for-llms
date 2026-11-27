@@ -1,0 +1,14 @@
+{
+  "completed": true,
+  "task": "train",
+  "branch": "sft",
+  "gpu": {
+    "device": "NVIDIA A100-SXM4-80GB",
+    "peak_vram_gb": 0.0
+  },
+  "start_step": 0,
+  "wall_seconds": 86.4,
+  "end_step": 50,
+  "steps_this_attempt": 50,
+  "peak_vram_gib": 4.85
+}

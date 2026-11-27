@@ -1,0 +1,20 @@
+2026-07-12 01:00:36,638 INFO loaded wandb api key from file
+2026-07-12 01:00:36,638 INFO run 003_COLAB_FULL_B3_sft_grpo_seed0 device=cuda stages=['base_eval', 'sft', 'sft_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/003_COLAB_FULL_B3_sft_grpo_seed0
+2026-07-12 01:46:06,251 INFO base_eval done in 45m 29s | elapsed 45m 29s
+2026-07-12 01:46:57,415 INFO base_logprob_eval done in 51s | elapsed 46m 20s
+2026-07-12 01:46:57,416 INFO base per-tier acc: {'easy': 0.6757679180887372, 'medium': 0.5385878489326765, 'hard': 0.494949494949495}
+2026-07-12 08:35:28,874 INFO loaded wandb api key from file
+2026-07-12 08:35:29,575 INFO run 003_COLAB_FULL_B3_sft_grpo_seed0 device=cuda stages=['base_eval', 'sft', 'sft_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/003_COLAB_FULL_B3_sft_grpo_seed0
+2026-07-12 08:35:29,986 INFO base_eval already done, skipping
+2026-07-12 08:35:30,599 INFO base_logprob_eval already done, skipping
+2026-07-12 08:35:31,194 INFO base per-tier acc: {'easy': 0.6757679180887372, 'medium': 0.5385878489326765, 'hard': 0.494949494949495}
+2026-07-12 08:50:06,333 INFO sft train done in 14m 33s | elapsed 14m 36s
+2026-07-12 10:28:03,446 INFO sft_eval done in 1h 37m 55s | elapsed 1h 52m 33s
+2026-07-12 10:28:38,175 INFO sft_logprob_eval done in 34s | elapsed 1h 53m 08s
+2026-07-12 10:28:38,176 INFO sft per-tier acc: {'easy': 0.608646188850967, 'medium': 0.4876847290640394, 'hard': 0.4393939393939394}
+2026-07-12 14:10:40,141 INFO grpo train done in 3h 42m 01s | elapsed 5h 35m 10s
+2026-07-12 15:03:11,171 INFO grpo_eval done in 52m 25s | elapsed 6h 27m 41s
+2026-07-12 15:03:47,437 INFO grpo_logprob_eval done in 36s | elapsed 6h 28m 17s
+2026-07-12 15:03:47,437 INFO grpo per-tier acc: {'easy': 0.8213879408418657, 'medium': 0.6912972085385879, 'hard': 0.5202020202020202}
+2026-07-12 15:03:48,172 INFO done. total wall time 6h 28m 18s
+2026-07-12 15:03:48,173 INFO results -> /content/drive/MyDrive/inm363/results/003_COLAB_FULL_B3_sft_grpo_seed0/  checkpoints -> /content/drive/MyDrive/inm363/checkpoints/003_COLAB_FULL_B3_sft_grpo_seed0/

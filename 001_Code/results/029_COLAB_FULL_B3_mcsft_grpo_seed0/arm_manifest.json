@@ -1,0 +1,48 @@
+{
+  "attempts": [
+    {
+      "start_step": 0,
+      "ts_start": "2026-08-12 09:25",
+      "gpu": {
+        "device": "NVIDIA A100-SXM4-80GB",
+        "peak_vram_gb": 0.0
+      },
+      "env": {
+        "git": {
+          "commit": "c1f302fe68a5d747d114d484f05392edd5fbfd4e",
+          "dirty": false
+        },
+        "versions": {
+          "trl": "1.7.1",
+          "transformers": "5.5.4",
+          "peft": "0.19.1",
+          "accelerate": "1.14.0",
+          "datasets": "4.8.4",
+          "torch": "2.11.0+cu128",
+          "numpy": "2.0.2",
+          "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+          "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+        },
+        "resolved_dtype": "bfloat16",
+        "ladder": "disabled"
+      },
+      "adapter_sha256": {
+        "adapter_model.safetensors": "4af64e535f595823ff6ac86c98c488c364d5009eaebd890a601049104e6d96f8",
+        "adapter_config.json": "bc2897e5105d00ef9c16fec61e5d28d28a01740e7917db6fd287f27dda236253",
+        "adapter_base.json": "8bcc0caf63f66e2cc70151deb46ca6fa1dce4df0fc034c8930af3c3e5d26ee14",
+        "config_hash.txt": "b3fcd3e5c26482ef71f4229dbb73e9e5e2b350fc9e96511eeb613491c11bb7a5"
+      },
+      "completed": false,
+      "end_step": 100,
+      "ts_end": "2026-08-12 09:33",
+      "elapsed_sec": 469.5,
+      "peak_vram_gib": 16.56,
+      "worker_returncode": 1,
+      "error_type": "RuntimeError",
+      "error_message": "sentinel abort: a2: reward flat and kl near zero by step 150, policy is not moving. suspect lr or beta",
+      "cuda_oom": false,
+      "interrupted": false,
+      "resume_blocked": true
+    }
+  ]
+}

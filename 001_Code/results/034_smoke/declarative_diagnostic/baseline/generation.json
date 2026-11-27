@@ -1,0 +1,18 @@
+{
+  "condition": "baseline",
+  "metric": "direct_generation",
+  "n_items": 96,
+  "accuracy": 0.0,
+  "by_group_variant": {
+    "injected": {
+      "exact": 0.0,
+      "declarative_1": 0.0,
+      "declarative_2": 0.0
+    },
+    "control": {
+      "exact": 0.0,
+      "declarative_1": 0.0,
+      "declarative_2": 0.0
+    }
+  }
+}

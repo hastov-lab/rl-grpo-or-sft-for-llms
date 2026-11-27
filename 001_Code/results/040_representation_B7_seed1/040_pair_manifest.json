@@ -1,0 +1,59 @@
+{
+ "timestamp": "2026-08-21T00:33:31",
+ "package": "040_w19",
+ "completed": true,
+ "scale": "B7",
+ "seed": 1,
+ "source_record_sha256": "f5efbc63f6611cdefb98317bcce559de4f405e174fec4259c56e5aefb965f9ec",
+ "resolved_dtype": "bfloat16",
+ "measurement_order": [
+  "adapter",
+  "merged"
+ ],
+ "comparison": {
+  "n_items": 245,
+  "agreement": 0.9877551,
+  "n_changed": 3,
+  "changed_fraction": 0.0122449,
+  "adapter_accuracy": 0.7755102,
+  "merged_accuracy": 0.78367347,
+  "accuracy_delta": 0.00816327,
+  "flips": {
+   "correct_to_wrong": 0,
+   "wrong_to_correct": 2,
+   "wrong_to_different_wrong": 1
+  },
+  "top_two_margin": {
+   "changed_mean": 0.0625,
+   "changed_median": 0.0625,
+   "unchanged_mean": 2.84517045,
+   "unchanged_median": 2.75
+  },
+  "changed_by_subject": {
+   "formal_logic": 2,
+   "high_school_mathematics": 1
+  }
+ },
+ "sha256": {
+  "adapter_logprob.json": "a291cfdb176445940de135c64cebf945121792a52de43abc2184a1fb6c3a619c",
+  "adapter_logprob_preds.jsonl": "8a7c2e22ab84125bec4654aea2e27ddad2b7ce9c0da5d4dc8b99dbbf571a0a3a",
+  "merged_logprob.json": "99b58e6080ee78dbcd07e54ec30f5bdf0ceacd5fec530bf044303c2e41c61c57",
+  "merged_logprob_preds.jsonl": "d1dfffbe3ec07e9dc79cae7b97ca3dee25c6e48b22c9fbca697aa8b8d588b78c"
+ },
+ "gpu": {
+  "device": "NVIDIA A100-SXM4-80GB",
+  "peak_vram_gb": 0.0
+ },
+ "versions": {
+  "trl": "1.7.1",
+  "transformers": "5.5.4",
+  "peft": "0.19.1",
+  "accelerate": "1.14.0",
+  "datasets": "4.8.4",
+  "torch": "2.11.0+cu128",
+  "numpy": "2.0.2",
+  "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+ },
+ "model_test_contacts": 0
+}

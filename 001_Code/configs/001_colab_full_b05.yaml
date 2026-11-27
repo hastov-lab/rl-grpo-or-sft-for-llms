@@ -1,0 +1,56 @@
+# Experiment 001 archive: the pre-freeze validation run of 10 jul (cap 384, no think prefill).
+# Kept for the record, dont run this again
+# the real 0.5b validation run on colab.
+# The freeze after validation locks a copy of this.
+
+env: COLAB
+mode: FULL
+scale: B05
+condition: SFT_GRPO
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  # All linear layers, the small-model rl convention. Qwen2.5 module names,
+  # which is why the smoke configs (tiny-gpt2) leave this null
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+
+reward:
+  correct_weight: 1.0
+  format_weight: 0.2
+  min_think_chars: 20
+
+train:
+  sft_lr: 1.0e-4
+  grpo_lr: 1.0e-5
+  max_steps: 500
+  num_generations: 8
+  max_seq_len: 1024
+  sft_batch_size: 4
+  sft_grad_accum: 4
+  sft_completion_only: true
+  sft_val_examples: 500
+  dtype: auto
+  seed: 0
+
+grpo:
+  loss_type: grpo
+  beta: 0.04
+  scale_rewards: group
+  temperature: 1.0
+  top_p: 1.0
+  max_completion_length: 384
+
+eval:
+  max_new_tokens: 384
+  batch_size: 16
+
+log:
+  wandb_mode: online
+  # Keep every 50-step checkpoint on this run so accuracy-vs-step trajectories
+  # can be evaluated afterwards. Adapters are small, this fits on drive fine
+  save_total_limit: 10
+
+# write everything to google drive so it survives a colab disconnect
+output_root: /content/drive/MyDrive/inm363

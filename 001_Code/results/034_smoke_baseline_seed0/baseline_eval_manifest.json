@@ -1,0 +1,35 @@
+{
+ "schema": 1,
+ "completed": true,
+ "timestamp": "2026-08-15T19:30:27",
+ "condition": "baseline",
+ "n_items": 96,
+ "dataset_sha256": "a9d359dfe03251b0b08e6d25f22870348dc900a7d4c505cb3b341a1b92ee1583",
+ "start_record_sha256": "ec86dc7e80cdff51ffdb2fbdabea480f3a263953718261a52ce73ebeca6cada5",
+ "merged_sha256": {
+  "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+  "config.json": "23e5bdea36342ea968d7d4cf580478c9040f6dbe91f93c4498e7a70d555a80c4",
+  "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+  "model.safetensors": "5f01dbbced686976b568737ba3e820eade00b8f263d377a726a7fb47bce6466c",
+  "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+  "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+ },
+ "adapter_sha256": null,
+ "sha256": {
+  "baseline_preds.jsonl": "15d44ac39b76cb30c5d0b25ff25218d02cb4c2d1f3699dc74d4a8e6196f700f2",
+  "baseline_eval.json": "2cd7b6f2703edbffaa735d28bb5dcfcffa31e5ad437cdeacc112ab90870595fa",
+  "baseline_logprob_preds.jsonl": "3030fd7736c7883fa241ce36f612221f851ba5158b2684831aec5f99682c3a28",
+  "baseline_logprob.json": "9e61b8934babc27f39c0b0c3dad9ba796a480c0fd9935cb81218232f8888d7ec"
+ },
+ "worker_status": {
+  "completed": true,
+  "task": "eval",
+  "branch": "baseline",
+  "gpu": {
+   "device": "NVIDIA A100-SXM4-80GB",
+   "peak_vram_gb": 3.43
+  },
+  "wall_seconds": 84.8,
+  "peak_vram_gib": 3.43
+ }
+}

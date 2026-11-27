@@ -1,0 +1,37 @@
+{
+ "completed": true,
+ "experiment": "049",
+ "family": "base_grpo",
+ "outcome": "a1",
+ "seed": 1,
+ "config_hash": "9bb9b01a4f8e4d560ab2acf8e29beef53ff5ed0fde56c6fe3e184472c5571ad0",
+ "status_sha256": "a87c9f37db3c2215948cf059b12584c9461da4ee852a62a4f60f4b56eb319dab",
+ "preflight_path": "/content/drive/MyDrive/inm363/results/049_technical/049_preflight.json",
+ "preflight_sha256": "8e809e816446f7ffa4208e852dc81b2a54cdb930d2824bd01f4d75f96aadd2e2",
+ "start": {
+  "kind": "immutable_base",
+  "path": "/content/drive/MyDrive/inm363/checkpoints/046_COLAB_FULL_GPT2_B15_base",
+  "base_record_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_manifest.json",
+  "base_record_sha256": "dfd8a6bf125f5866f132e06c9a71792d950dad7f9071b2ab28914296e1a57d94",
+  "base_artifact_sha256": {
+   "artifact_type.json": "7c70301d0243f84d115d9e76cc66a4aa9fde74cdc3ecfe08091802a65d1c93c9",
+   "config.json": "48bd45e1cfdeeb968dc7387dbc9b0bca472449969029aa4f21a9dcb43ed4099a",
+   "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+   "model.safetensors": "df636f168a87529b6bfa55c9555682c95a23a0d0b41eed0cbbfc85b42a480bd5",
+   "model_base.json": "5f742459ed1748c36e982ad5058cb1ec8cf5172073252afb51baf8852f0cdf56",
+   "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+   "tokenizer_config.json": "caab7b8a5a261a1d4cb142c2488acd9cb1c5c0154f681e5a38614a3a2c0cf8ce"
+  },
+  "base_endpoint_path": "/content/drive/MyDrive/inm363/results/046_COLAB_FULL_GPT2_B15_base/046_base_eval_manifest.json",
+  "base_endpoint_sha256": "a2826f7f1612d197075a6549169bd2f9006f386c7182740c935a947d7d4554c2"
+ },
+ "wandb_runs": [
+  {
+   "path": "/content/drive/MyDrive/inm363/results/049_base_grpo_COLAB_FULL_GPT2_B15_base_grpo_seed1/049_grpo_wandb_runs/abbzxcv4.json",
+   "sha256": "4bd31a914fe82c62811273d366d9d3e4bd91d7f1f5b2f59b9c26f467e728c49f",
+   "project": "inm363-grpo",
+   "run_id": "abbzxcv4",
+   "run_name": "049_base_grpo_COLAB_FULL_GPT2_B15_base_grpo_seed1_grpo"
+  }
+ ]
+}

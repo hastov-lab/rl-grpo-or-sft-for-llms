@@ -1,0 +1,76 @@
+{
+ "config": "configs/031_colab_b7_n4_a2_record.yaml",
+ "tag": "031_COLAB_FULL_B7_external_sft_grpo_seed1",
+ "source_tag": "030_COLAB_FULL_B7_external_sft_grpo_seed1",
+ "parent_tag": "013_COLAB_FULL_B7_sft_grpo_seed1",
+ "parent_hash_status": "legacy_missing_grpo_from_adapter",
+ "adapter_sha256": {
+  "adapter_model.safetensors": "be17dce6c29ac01a2abb28f368c61fe1c39dd9eef62463e3b1050ff0412ba01e",
+  "adapter_config.json": "06fb06907554e6630e065ddca9396d140a8afc3dee58e7f6af8a028bf716aeb8",
+  "adapter_base.json": "bbe7839a8b4dcfa0474e911f8c556cb1525f78a4507c13eab970c6cd9bd31330",
+  "config_hash.txt": "b800f0f7ee28169955df7ba1d5ad43e9cc78118820d139e45868f3dd4ac16429"
+ },
+ "source_prefix": {
+  "source_config_hash": "9e7284c8d7d1856d3a25f26919c216f0208f3e962a9159fc5b094cb0d2c14729",
+  "source_config_hash_sha256": "2a5a2aad0d4fbdec7bcb9c9afa874563cd74b3f24bc0a8d8db0009814f243b64",
+  "source_checkpoint_sha256": {
+   "README.md": "75be6a233c7003e8813cecd7dfdd940599e26b1eb9573121e4f5cebb3fc3b6be",
+   "adapter_config.json": "80f24db894d70aa41411bab596580f41cb47b8af9523783f311fe95e9d761945",
+   "adapter_model.safetensors": "b2d8a2d897115cdfd0f29f7bd31d6f998e2a194e8c1d41cbba846340414025fd",
+   "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+   "optimizer.pt": "fa1667312250c2ffab33c0430707d049cd2c2ce331ac1e0c787931335b8dc25d",
+   "rng_state.pth": "c8a134b2fb55985757a28cd42040ffb61468c1c613e66d023fa29bcaed1cd6cc",
+   "scheduler.pt": "7baaf342373825d796b6fa4bf509cd83798f3b8239853d9b90c1f47d5d31d8d5",
+   "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+   "tokenizer_config.json": "5cf3fd79f6c2583728d2f110aca4422887e2d51b641c589c0319eccd44bfc502",
+   "trainer_state.json": "eeceeddfb685d35d2f535d1736135e50c02ef42dca063e0b9aa2b06c3225cd5c",
+   "training_args.bin": "794e89f902a1ff4cfba1c0b18a886045327b048c4f5f75400d04850b0b6ecc2e"
+  },
+  "trainer_state_sha256": "eeceeddfb685d35d2f535d1736135e50c02ef42dca063e0b9aa2b06c3225cd5c",
+  "prefix_history_sha256": "3cd347433e46eec47a5331908a6dd1ac7c257b82d4468c49b159b1fd7d27cad6",
+  "archived_history_sha256": "5b117431884208f4e5feede64314a78a63f76dcc3636be9ede77093c3e73f7f0"
+ },
+ "archive_source": "/content/drive/MyDrive/inm363/checkpoints/013_COLAB_FULL_B7_sft_grpo_seed1/sft_merged",
+ "archive_sha256": {
+  "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+  "config.json": "a855ce196e6cc954bec101379a7b8db760b819f906020c98d2081893dad7b4cb",
+  "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+  "model.safetensors": "7d6b3883e793ea3819a941ae427f2645990aec00107f2bd5947560f42beafe0b",
+  "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+  "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+ },
+ "historical_merge": {
+  "manifest": "/content/drive/MyDrive/inm363/results/022_smooth_B7_seed1_step1000/arm_manifest.json",
+  "manifest_sha256": "0a9a24aa6529e7c4439d0ac559a0a71e9268a7f82b764f625fb55b4f3f4aa838",
+  "source_run": "013_COLAB_FULL_B7_sft_grpo_seed1",
+  "source_sha256": {
+   "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+   "config.json": "a855ce196e6cc954bec101379a7b8db760b819f906020c98d2081893dad7b4cb",
+   "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+   "model.safetensors": "7d6b3883e793ea3819a941ae427f2645990aec00107f2bd5947560f42beafe0b",
+   "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+   "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+  }
+ },
+ "source_gate_sha256": "f3f734ac172f4904a822f617d3e22261a42e5c4cf2aba348e35fb12ba0259c54",
+ "archived_parent_preds_sha256": "35a699ff7468ab320678cc599f881bbaef5805c1416e3ebc670085431f5076d2",
+ "source_attempt_env": {
+  "git": {
+   "commit": "718aeddbb96eb3dedb39934444befb6ad6422628",
+   "dirty": false
+  },
+  "versions": {
+   "trl": "1.7.1",
+   "transformers": "5.5.4",
+   "peft": "0.19.1",
+   "accelerate": "1.14.0",
+   "datasets": "4.8.4",
+   "torch": "2.11.0+cu128",
+   "numpy": "2.0.2",
+   "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+   "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+  },
+  "resolved_dtype": "bfloat16",
+  "ladder": "disabled"
+ }
+}

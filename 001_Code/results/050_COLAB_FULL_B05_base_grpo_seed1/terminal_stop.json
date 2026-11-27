@@ -1,0 +1,29 @@
+{
+ "binding_sha256": "bcc6d7caae53e870efb847619bc59360668f2e611ec1a6fd42f9253a4ea51c6c",
+ "initial_step": 0,
+ "wandb_runs": [
+  {
+   "path": "/content/drive/MyDrive/inm363/results/050_COLAB_FULL_B05_base_grpo_seed1/050_grpo_wandb_runs/dzuth63t.json",
+   "sha256": "fd85c09cd8b30bee133c5988e2abda4294ac4c717ac1d4f27521e7ca58e1d3b3",
+   "project": "inm363-grpo",
+   "run_id": "dzuth63t",
+   "run_name": "050_COLAB_FULL_B05_base_grpo_seed1_grpo"
+  }
+ ],
+ "completed": false,
+ "outcome": {
+  "kind": "A1",
+  "step": 50,
+  "mean_clipped_ratio": 0.3175
+ },
+ "parser_diagnostics": {
+  "completed_updates": 50,
+  "responses_checked": 400,
+  "h_only_accuracy_reward": 7,
+  "b1_only_accuracy_reward": 2
+ },
+ "files": {
+  "results/parser_diagnostics.json": "638040bad17d90b7ec4ddbb6431a44e2c08a54072013cd0002407ed6b6250d31",
+  "results/manifest.json": "1d2cc0590866f0a6ad1610522ebc74d71521ca16169380cf4bdd873a0a524790"
+ }
+}

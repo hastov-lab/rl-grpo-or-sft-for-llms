@@ -1,0 +1,14 @@
+{
+  "completed": true,
+  "removed": [
+    {
+      "path": "checkpoint-450",
+      "bytes": 371656335
+    },
+    {
+      "path": "checkpoint-500",
+      "bytes": 371711229
+    }
+  ],
+  "timestamp": "2026-08-18T22:14:24"
+}

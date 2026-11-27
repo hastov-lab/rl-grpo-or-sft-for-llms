@@ -1,0 +1,11 @@
+{
+  "source": "results/base_evals/014_p8_COLAB_FULL_B7",
+  "files": {
+    "base_logprob.json": "31b521c6435ba85819a8f999db4c22eb4a93846d2563858fd4c45b1d1bc8193c",
+    "base_logprob_preds.jsonl": "6d98a2d8435079fd93ead43e69a6456f1fcbb755194779b0ad0a577a33959819"
+  },
+  "n_items": 1884,
+  "source_manifest_run": "014_p8_COLAB_FULL_B7_sft_only_seed0",
+  "source_git_commit": "b56a99809c66fba078700244e4252fc4e13c92ee",
+  "scope": "raw 7b base probe, generative base eval not reused"
+}

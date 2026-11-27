@@ -1,0 +1,55 @@
+# Experiment 006 seed 0: the reportable 0.5b cell, on a100 like the 3b runs, frozen protocol v1.
+# Identical to protocol_frozen_v1.yaml in all frozen sections (unit tested)
+experiment: "006"
+env: COLAB
+mode: FULL
+scale: B05
+condition: SFT_GRPO
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+
+reward:
+  correct_weight: 1.0
+  format_weight: 0.2
+  min_think_chars: 20
+
+train:
+  sft_lr: 1.0e-4
+  grpo_lr: 1.0e-5
+  max_steps: 500
+  num_generations: 8
+  max_seq_len: 1024
+  sft_batch_size: 4
+  sft_grad_accum: 4
+  sft_completion_only: true
+  sft_val_examples: 500
+  dtype: auto
+  seed: 0
+
+grpo:
+  loss_type: grpo
+  beta: 0.04
+  scale_rewards: group
+  temperature: 1.0
+  top_p: 1.0
+  max_completion_length: 512
+
+eval:
+  max_new_tokens: 512
+  batch_size: 16
+
+log:
+  wandb_mode: online
+  save_total_limit: 10
+
+output_root: /content/drive/MyDrive/inm363
+
+
+# 0.5B fits everywhere, no memory knobs needed. A100 for dtype consistency (bf16)
+# with the 3b cells, see the 005 memo
+exec:
+  max_train_hours: 12

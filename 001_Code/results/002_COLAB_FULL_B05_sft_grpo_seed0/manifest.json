@@ -1,0 +1,70 @@
+{
+  "run_tag": "002_COLAB_FULL_B05_sft_grpo_seed0",
+  "timestamp": "2026-07-11T09:40:18",
+  "env": "COLAB",
+  "mode": "FULL",
+  "scale": "B05",
+  "seed": 0,
+  "config": {
+    "lora": {
+      "r": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ]
+    },
+    "reward": {
+      "correct_weight": 1.0,
+      "format_weight": 0.2,
+      "min_think_chars": 20
+    },
+    "train": {
+      "sft_lr": 0.0001,
+      "grpo_lr": 1e-05,
+      "max_steps": 500,
+      "num_generations": 8,
+      "max_seq_len": 1024,
+      "sft_batch_size": 4,
+      "sft_grad_accum": 4,
+      "sft_completion_only": true,
+      "sft_val_examples": 500,
+      "dtype": "auto",
+      "seed": 0
+    }
+  },
+  "git": {
+    "commit": "b1f3a89813d1f140b7ea2772dd7d6356d07a77db",
+    "dirty": false
+  },
+  "versions": {
+    "trl": "1.7.1",
+    "transformers": "5.5.4",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "datasets": "4.8.4",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.0.2"
+  },
+  "model_id": "Qwen/Qwen2.5-0.5B",
+  "timings_sec": {
+    "base_eval": 3262.02,
+    "base_logprob_eval": 121.256,
+    "sft_train": 4580.58,
+    "sft_eval": 4827.925,
+    "sft_logprob_eval": 134.483,
+    "grpo_train": 19696.14,
+    "grpo_eval": 2674.908,
+    "grpo_logprob_eval": 133.498
+  },
+  "gpu": {
+    "device": "Tesla T4",
+    "peak_vram_gb": 11.36
+  }
+}

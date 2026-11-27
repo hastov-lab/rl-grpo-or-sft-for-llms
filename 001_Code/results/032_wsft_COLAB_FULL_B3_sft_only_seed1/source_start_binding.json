@@ -1,0 +1,21 @@
+{
+ "adapter_dir": "/content/drive/MyDrive/inm363/checkpoints/003_COLAB_FULL_B3_sft_grpo_seed1/sft",
+ "adapter_sha256": {
+  "adapter_model.safetensors": "20a53e694f35ffa700552d740d847252ee1562646b378487c21eaddab592b5b9",
+  "adapter_config.json": "b0bb69895f7623bc26cf16443bc0786375afa3006c226723bbf5f892b50de66a",
+  "adapter_base.json": "8bcc0caf63f66e2cc70151deb46ca6fa1dce4df0fc034c8930af3c3e5d26ee14",
+  "config_hash.txt": "aef11d1ebfed5a705fa3121f6a1ba7092ca756e7de264c8294a9eddd9b66cbdd"
+ },
+ "resolved_start": "/content/drive/MyDrive/inm363/checkpoints/003_COLAB_FULL_B3_sft_grpo_seed1/sft_merged",
+ "resolved_start_sha256": {
+  "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+  "config.json": "cabc1f547ad41d6d2010c3e47792076d8a43eb79857ec53d531f53c8ee2a7686",
+  "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+  "model.safetensors": "ed1b3a0dfa4e038c8bb09a8430e97ecac23f4483f971972b3bb4fdbe189a556b",
+  "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+  "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+ },
+ "resolved_base_kind": "local",
+ "resolved_base_value": "checkpoints/003_COLAB_FULL_B3_sft_grpo_seed1/sft_merged",
+ "start_kind": "parent_merged"
+}

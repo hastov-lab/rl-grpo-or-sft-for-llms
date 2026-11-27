@@ -1,0 +1,40 @@
+{
+ "package": "040_w19",
+ "pool": {
+  "path": "/content/040_grpo_pool.jsonl",
+  "sha256": "88c13c9870306bd5d4bfe9974207744021e14e998e0ca25f8b342232cef9477c",
+  "n_items": 245
+ },
+ "versions": {
+  "trl": "1.7.1",
+  "transformers": "5.5.4",
+  "peft": "0.19.1",
+  "accelerate": "1.14.0",
+  "datasets": "4.8.4",
+  "torch": "2.11.0+cu128",
+  "numpy": "2.0.2",
+  "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+ },
+ "scientific_sha256": {
+  "scripts/s40_representation.py": "266f9f5679593ed046e505b1cbce39b8c75ddc6554411f12e4dbd4f451a3a75d",
+  "scripts/s32_wsft.py": "5c867586474801c60f73cca3fbc388401eb2f29059215d330ccb54422f983045",
+  "eval/harness.py": "2ead4779a92c1753dca601c44f932a5fc9e5c7fc48886a9e4bc23f14d0a73b81",
+  "data/splits.py": "a5db19833563e9be0606dd1db969a9d08e2241b0cae68e1e862cedc6e55679c1",
+  "train/model_utils.py": "ab69ea054317be501cdaf4ba90fa61661ba9d73e3d48a2eb9f68b3069db1c9d5"
+ },
+ "source_record_sha256": {
+  "040_representation_B05_seed0": "926dbe13ffea703c5b23922f67e6b4617753351d7c71a4f9b4306a5c70387fd2",
+  "040_representation_B05_seed1": "74044071c8cc3ce9c86ec6d00357be26abce44714bcded4ad6c102c83b7390bd",
+  "040_representation_B05_seed2": "35322a9e9238a5302a06157365f3ab6352e4763614a803c8edde5b413fc8edeb",
+  "040_representation_B15_seed0": "fc46d691204ef295529019cfc3349635f0be4f1002f0672c3bbc94082ccbb140",
+  "040_representation_B15_seed1": "e776da2d1ec5805ea5ba5156a300780443583f63d75dde004efdfc6a51735752",
+  "040_representation_B15_seed2": "acfa96382f511eb6c2f32a64afc8f994cb88ba6c86f0a3063ae79c6028683cf3",
+  "040_representation_B3_seed0": "fde8eec1ffb82fbff7bced8bed646e541f6ad0659d5d8f32583edf6f2e36a57b",
+  "040_representation_B3_seed1": "b8e91c45e63dcaa5345487de2406d5747a68424e40a2efb9ac78a944af7d82f5",
+  "040_representation_B3_seed2": "5fca768ec93cfaf9e95cd64ce9f5a69e39e0b3654d66315ce97bbde819f16768",
+  "040_representation_B7_seed0": "e4e6faea8999955365c82d0f9a47d945d5c3c30d61d7a3889b065f9d581940d0",
+  "040_representation_B7_seed1": "f5efbc63f6611cdefb98317bcce559de4f405e174fec4259c56e5aefb965f9ec",
+  "040_representation_B7_seed2": "f4de601c64f477bc0069d88b8d498dd1d6b82038714040ee81d235864b37c95e"
+ }
+}

@@ -1,0 +1,332 @@
+{
+ "completed": true,
+ "experiment": "046",
+ "card_requested": 80,
+ "sft_updates": 5,
+ "grpo_updates": 30,
+ "peak_reserved_fraction": 0.6145201487318668,
+ "peak_reserved_gib": 48.7,
+ "peak_allocated_fraction": 0.604427768448235,
+ "peak_allocated_gib": 47.9,
+ "allocator_config": "expandable_segments:True",
+ "resume_memory": [
+  {
+   "label": "before trainer",
+   "available": true,
+   "allocated_gib": 0.0,
+   "reserved_gib": 0.0,
+   "peak_allocated_gib": 0.0,
+   "peak_reserved_gib": 0.0,
+   "free_gib": 78.83282470703125,
+   "total_gib": 79.250732421875
+  },
+  {
+   "label": "trainer ready",
+   "available": true,
+   "allocated_gib": 5.931930065155029,
+   "reserved_gib": 5.935546875,
+   "peak_allocated_gib": 5.931930065155029,
+   "peak_reserved_gib": 5.935546875,
+   "free_gib": 72.89727783203125,
+   "total_gib": 79.250732421875
+  },
+  {
+   "label": "before _load_from_checkpoint",
+   "available": true,
+   "allocated_gib": 5.940841197967529,
+   "reserved_gib": 6.1796875,
+   "peak_allocated_gib": 6.160537242889404,
+   "peak_reserved_gib": 6.1796875,
+   "free_gib": 72.56134033203125,
+   "total_gib": 79.250732421875
+  },
+  {
+   "label": "after _load_from_checkpoint",
+   "available": true,
+   "allocated_gib": 5.940841197967529,
+   "reserved_gib": 6.212890625,
+   "peak_allocated_gib": 6.160537242889404,
+   "peak_reserved_gib": 6.212890625,
+   "free_gib": 72.52813720703125,
+   "total_gib": 79.250732421875
+  },
+  {
+   "label": "after _load_from_checkpoint cleanup",
+   "available": true,
+   "allocated_gib": 5.940841197967529,
+   "reserved_gib": 5.95703125,
+   "peak_allocated_gib": 6.160537242889404,
+   "peak_reserved_gib": 6.212890625,
+   "free_gib": 72.78399658203125,
+   "total_gib": 79.250732421875
+  },
+  {
+   "label": "before _load_optimizer_and_scheduler",
+   "available": true,
+   "allocated_gib": 5.940841197967529,
+   "reserved_gib": 5.95703125,
+   "peak_allocated_gib": 6.160537242889404,
+   "peak_reserved_gib": 6.212890625,
+   "free_gib": 72.78399658203125,
+   "total_gib": 79.250732421875
+  },
+  {
+   "label": "after _load_optimizer_and_scheduler",
+   "available": true,
+   "allocated_gib": 6.105910778045654,
+   "reserved_gib": 6.12109375,
+   "peak_allocated_gib": 6.160537242889404,
+   "peak_reserved_gib": 6.212890625,
+   "free_gib": 72.61993408203125,
+   "total_gib": 79.250732421875
+  },
+  {
+   "label": "after _load_optimizer_and_scheduler cleanup",
+   "available": true,
+   "allocated_gib": 6.105910778045654,
+   "reserved_gib": 6.12109375,
+   "peak_allocated_gib": 6.160537242889404,
+   "peak_reserved_gib": 6.212890625,
+   "free_gib": 72.61993408203125,
+   "total_gib": 79.250732421875
+  },
+  {
+   "label": "training finished",
+   "available": true,
+   "allocated_gib": 6.113938331604004,
+   "reserved_gib": 48.701171875,
+   "peak_allocated_gib": 47.90134334564209,
+   "peak_reserved_gib": 48.701171875,
+   "free_gib": 30.03009033203125,
+   "total_gib": 79.250732421875
+  }
+ ],
+ "total_vram_gib": 79.25,
+ "adapter_reload_verified": true,
+ "merge_verified": true,
+ "resume_verified": true,
+ "sft_lora_setup": {
+  "verified": true,
+  "trainable_parameters": 22118400,
+  "total_parameters": 1579729600,
+  "trainable_fraction": 0.014001383527915157,
+  "trainable_tensors": 576,
+  "targets": [
+   "W_query",
+   "W_key",
+   "W_value",
+   "out_proj",
+   "layers.0",
+   "layers.2"
+  ],
+  "target_module_counts": {
+   "W_query": 48,
+   "W_key": 48,
+   "W_value": 48,
+   "out_proj": 48,
+   "layers.0": 48,
+   "layers.2": 48
+  },
+  "tied_language_model_weights": true
+ },
+ "precision_audit": {
+  "trainable_parameter_dtypes": [
+   "float32"
+  ],
+  "gradient_dtypes": [
+   "float32"
+  ],
+  "gradients_finite": true,
+  "parameters_finite": true,
+  "optimizer_states_finite": true,
+  "nonzero_gradient_elements": 22118064,
+  "optimizer_state_dtypes": [
+   "float32"
+  ],
+  "bf16_enabled": true,
+  "accelerator_mixed_precision": "bf16",
+  "module_changes": {
+   "attention": {
+    "tensor": "base_model.model.trf_blocks.0.att.W_query.lora_A.default.weight",
+    "tensor_elements": 25600,
+    "elements": 25600,
+    "changed_elements": 25599,
+    "changed_fraction": 0.9999609375,
+    "mean_abs_change": 3.231557639082894e-05,
+    "max_abs_change": 0.00014517828822135925,
+    "change_norm_ratio": 0.002792097746684997
+   },
+   "mlp": {
+    "tensor": "base_model.model.trf_blocks.0.ff.layers.0.lora_A.default.weight",
+    "tensor_elements": 25600,
+    "elements": 25600,
+    "changed_elements": 25600,
+    "changed_fraction": 1.0,
+    "mean_abs_change": 4.511403676588088e-05,
+    "max_abs_change": 0.00019116606563329697,
+    "change_norm_ratio": 0.003843728382059245
+   }
+  },
+  "reference_gate": {
+   "verified": true,
+   "reference_kind": "adapter_disabled"
+  },
+  "wandb_run_record": null,
+  "reference_behaviour": {
+   "verified": true,
+   "reference_max_abs_drift": 0.0,
+   "adapter_effect_max_abs": 0.05415153503417969,
+   "sampled_logprobs": 64
+  },
+  "lora_setup": {
+   "verified": true,
+   "trainable_parameters": 22118400,
+   "total_parameters": 1579729600,
+   "trainable_fraction": 0.014001383527915157,
+   "trainable_tensors": 576,
+   "targets": [
+    "W_query",
+    "W_key",
+    "W_value",
+    "out_proj",
+    "layers.0",
+    "layers.2"
+   ],
+   "target_module_counts": {
+    "W_query": 48,
+    "W_key": 48,
+    "W_value": 48,
+    "out_proj": 48,
+    "layers.0": 48,
+    "layers.2": 48
+   },
+   "tied_language_model_weights": true
+  },
+  "completion_length_verified": true,
+  "resume_memory": [
+   {
+    "label": "before trainer",
+    "available": true,
+    "allocated_gib": 0.0,
+    "reserved_gib": 0.0,
+    "peak_allocated_gib": 0.0,
+    "peak_reserved_gib": 0.0,
+    "free_gib": 78.83282470703125,
+    "total_gib": 79.250732421875
+   },
+   {
+    "label": "trainer ready",
+    "available": true,
+    "allocated_gib": 5.931930065155029,
+    "reserved_gib": 5.935546875,
+    "peak_allocated_gib": 5.931930065155029,
+    "peak_reserved_gib": 5.935546875,
+    "free_gib": 72.89727783203125,
+    "total_gib": 79.250732421875
+   },
+   {
+    "label": "before _load_from_checkpoint",
+    "available": true,
+    "allocated_gib": 5.940841197967529,
+    "reserved_gib": 6.1796875,
+    "peak_allocated_gib": 6.160537242889404,
+    "peak_reserved_gib": 6.1796875,
+    "free_gib": 72.56134033203125,
+    "total_gib": 79.250732421875
+   },
+   {
+    "label": "after _load_from_checkpoint",
+    "available": true,
+    "allocated_gib": 5.940841197967529,
+    "reserved_gib": 6.212890625,
+    "peak_allocated_gib": 6.160537242889404,
+    "peak_reserved_gib": 6.212890625,
+    "free_gib": 72.52813720703125,
+    "total_gib": 79.250732421875
+   },
+   {
+    "label": "after _load_from_checkpoint cleanup",
+    "available": true,
+    "allocated_gib": 5.940841197967529,
+    "reserved_gib": 5.95703125,
+    "peak_allocated_gib": 6.160537242889404,
+    "peak_reserved_gib": 6.212890625,
+    "free_gib": 72.78399658203125,
+    "total_gib": 79.250732421875
+   },
+   {
+    "label": "before _load_optimizer_and_scheduler",
+    "available": true,
+    "allocated_gib": 5.940841197967529,
+    "reserved_gib": 5.95703125,
+    "peak_allocated_gib": 6.160537242889404,
+    "peak_reserved_gib": 6.212890625,
+    "free_gib": 72.78399658203125,
+    "total_gib": 79.250732421875
+   },
+   {
+    "label": "after _load_optimizer_and_scheduler",
+    "available": true,
+    "allocated_gib": 6.105910778045654,
+    "reserved_gib": 6.12109375,
+    "peak_allocated_gib": 6.160537242889404,
+    "peak_reserved_gib": 6.212890625,
+    "free_gib": 72.61993408203125,
+    "total_gib": 79.250732421875
+   },
+   {
+    "label": "after _load_optimizer_and_scheduler cleanup",
+    "available": true,
+    "allocated_gib": 6.105910778045654,
+    "reserved_gib": 6.12109375,
+    "peak_allocated_gib": 6.160537242889404,
+    "peak_reserved_gib": 6.212890625,
+    "free_gib": 72.61993408203125,
+    "total_gib": 79.250732421875
+   },
+   {
+    "label": "training finished",
+    "available": true,
+    "allocated_gib": 6.113938331604004,
+    "reserved_gib": 48.701171875,
+    "peak_allocated_gib": 47.90134334564209,
+    "peak_reserved_gib": 48.701171875,
+    "free_gib": 30.03009033203125,
+    "total_gib": 79.250732421875
+   }
+  ],
+  "adapter_base": {
+   "verified": true,
+   "adapter_base_sha256": "96ed6161c0333a9ad72f9674ef1e01e2cc3d3222f601a7713019686a488e9949",
+   "resolved_path": "/content/sft_merged",
+   "merged_path": "/content/sft_merged"
+  }
+ },
+ "lora_setup": {
+  "verified": true,
+  "trainable_parameters": 22118400,
+  "total_parameters": 1579729600,
+  "trainable_fraction": 0.014001383527915157,
+  "trainable_tensors": 576,
+  "targets": [
+   "W_query",
+   "W_key",
+   "W_value",
+   "out_proj",
+   "layers.0",
+   "layers.2"
+  ],
+  "target_module_counts": {
+   "W_query": 48,
+   "W_key": 48,
+   "W_value": 48,
+   "out_proj": 48,
+   "layers.0": 48,
+   "layers.2": 48
+  },
+  "tied_language_model_weights": true
+ },
+ "scientific_metrics_used": false,
+ "mmlu_test_passes": 0,
+ "failed_40_sha256": "d413a8307806dbf484058f88986c6aa10eea4c64bdedcc6da453a11c3d381ae7"
+}

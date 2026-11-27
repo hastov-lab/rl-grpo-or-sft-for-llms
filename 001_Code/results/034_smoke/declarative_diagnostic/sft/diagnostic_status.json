@@ -1,0 +1,13 @@
+{
+  "completed": true,
+  "task": "declarative_diagnostic",
+  "branch": "sft",
+  "gpu": {
+    "device": "NVIDIA A100-SXM4-80GB",
+    "peak_vram_gb": 0.0
+  },
+  "wall_seconds": 17.1,
+  "diagnostic_sha256": "d44f8f0c5a3c60f028fbca3c1d064130d777174f64f44b3e825f4a376681d704",
+  "start_record_sha256": "ec86dc7e80cdff51ffdb2fbdabea480f3a263953718261a52ce73ebeca6cada5",
+  "peak_vram_gib": 3.6
+}

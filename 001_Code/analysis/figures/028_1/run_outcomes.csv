@@ -1,0 +1,4 @@
+seed,outcome,step reached,last checkpoint,minutes,peak VRAM GiB,endpoint
+0,A2 sentinel,150,100,9.401666666666667,28.42,False
+1,A2 sentinel,150,100,10.278333333333334,28.42,False
+2,completed,500,500,22.695,31.07,True

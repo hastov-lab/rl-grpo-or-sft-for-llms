@@ -1,0 +1,98 @@
+{
+  "completed": true,
+  "task": "train",
+  "rung": "A_GC",
+  "execution": {
+    "batch": 8,
+    "accum": 1,
+    "checkpointing": true
+  },
+  "gpu": {
+    "device": "NVIDIA A100-SXM4-80GB",
+    "peak_vram_gb": 0.0
+  },
+  "versions": {
+    "trl": "1.7.1",
+    "transformers": "5.5.4",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "datasets": "4.8.4",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.0.2",
+    "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+    "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+  },
+  "allocator_config": "expandable_segments:True",
+  "wall_seconds": 9381.7,
+  "start_step": 0,
+  "end_step": 500,
+  "completed_updates": 500,
+  "peak_vram_gib": 38.26,
+  "peak_reserved_gib": 38.26,
+  "peak_allocated_gib": 33.75,
+  "total_vram_gib": 79.25,
+  "peak_reserved_fraction": 0.48281789588153207,
+  "training_record": {
+    "completed": true,
+    "scale": "B15",
+    "seed": 0,
+    "parameter_mode": "full",
+    "rung": "A_GC",
+    "execution": {
+      "batch": 8,
+      "accum": 1,
+      "checkpointing": true
+    },
+    "config_hash": "44b792ea5ce2986b1169a635a0349b587e88395fc1087f807b810ff0915c4e93",
+    "start_record": {
+      "experiment": "035",
+      "scale": "B15",
+      "seed": 0,
+      "source_tag": "009_COLAB_FULL_B15_sft_grpo_seed0",
+      "source_config": "configs/009_colab_full_b15_seed0.yaml",
+      "source_manifest": "/content/drive/MyDrive/inm363/results/009_COLAB_FULL_B15_sft_grpo_seed0/manifest.json",
+      "source_manifest_sha256": "e581aeeb53c8631ddc4d063ef2163acde8015313670980b91305a2bddef4e2fb",
+      "historical_adapter_base": "/content/drive/MyDrive/inm363/checkpoints/009_COLAB_FULL_B15_sft_grpo_seed0/grpo/adapter_base.json",
+      "historical_adapter_base_sha256": "8722192e0c85986e7b010920967e294fb71115eaf402ea15a33b5521cb41e190",
+      "start": "/content/drive/MyDrive/inm363/checkpoints/009_COLAB_FULL_B15_sft_grpo_seed0/sft_merged",
+      "start_sha256": {
+        "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+        "config.json": "23e5bdea36342ea968d7d4cf580478c9040f6dbe91f93c4498e7a70d555a80c4",
+        "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+        "model.safetensors": "5f01dbbced686976b568737ba3e820eade00b8f263d377a726a7fb47bce6466c",
+        "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+        "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+      },
+      "binding_level": "path_provenance_and_current_hashes",
+      "lineage_sha256": null
+    },
+    "precision_report_sha256": "044a78ffda24149b050ea30dd5107e0b54b1430628b3c689b2ef305c061913c2",
+    "a2_verdict_sha256": "e6ae09c343b011fe1b99527793542431e19af30f122f94ceb68f32a6dbe777c9",
+    "artifact": {
+      "kind": "full",
+      "sha256": {
+        "README.md": "1e2f8397154e7b0e81ef2d89ccdb89bca14de3bde965ef24a17e3d38eee72297",
+        "a2_verdict.json": "e6ae09c343b011fe1b99527793542431e19af30f122f94ceb68f32a6dbe777c9",
+        "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+        "config.json": "50a92821a287cc8166cc0069ebf0c02c333543d5f0837839913111feb75f2aab",
+        "config_hash.txt": "5cc92e363a188c2a06a72ac7d85f8a0cdbb147b5686024b5031f99d434930f56",
+        "generation_config.json": "1a9cd53570699c95f5f481223a8d7dc3d8c6da5aad80c62b3485f00a4e2eaf28",
+        "model.safetensors": "1e05e0f05a857c0298e876b96d2bc9e5234e00a09e2f764023a38349f3e38b52",
+        "model_base.json": "8722192e0c85986e7b010920967e294fb71115eaf402ea15a33b5521cb41e190",
+        "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+        "tokenizer_config.json": "5cf3fd79f6c2583728d2f110aca4422887e2d51b641c589c0319eccd44bfc502",
+        "training_args.bin": "4b2669fef389d58e41dc71624699fc2782d7f3f17b8db6ea27447a62ee446424"
+      }
+    },
+    "wandb_runs": [
+      {
+        "path": "/content/drive/MyDrive/inm363/results/035_COLAB_FULL_B15_matched_full_grpo_seed0/035_wandb_runs/ityclcai.json",
+        "sha256": "b4a7701cb719cdbf131db662f4f4785ec47673e175b36d3ecddfa167f5b1c70a",
+        "project": "inm363-grpo",
+        "run_id": "ityclcai",
+        "run_name": "035_COLAB_FULL_B15_matched_full_grpo_seed0_grpo"
+      }
+    ],
+    "record_path": "/content/drive/MyDrive/inm363/results/035_COLAB_FULL_B15_matched_full_grpo_seed0/035_training_complete.json"
+  }
+}

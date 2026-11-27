@@ -1,0 +1,7 @@
+,0.5B,1.5B,3B
+grpo seed range (pt),19.055,3.928,1.062
+supervised seed range (pt),0.796,0.743,0.902
+format without warm start,0.018,0.761,0.937
+base+grpo deficit vs sft+grpo (pt),-2.866,-4.565,-4.459
+mc-sft minus BEST grpo seed (pt),2.813,1.752,0.425
+grpo hard-tier edge over mc-sft (pt),-11.616,-2.609,3.535

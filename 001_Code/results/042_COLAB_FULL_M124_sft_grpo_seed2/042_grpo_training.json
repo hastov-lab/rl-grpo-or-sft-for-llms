@@ -1,0 +1,53 @@
+{
+ "completed": true,
+ "experiment": "042",
+ "stage": "grpo",
+ "seed": 2,
+ "config_hash": "d4f5b68f63c0d44aa679d3924d8764e0445ac4a5ceb114ee0818db8e9452a5ff",
+ "updates": 500,
+ "parameter_mode": "full",
+ "sft_record_sha256": "b861287b931784cd7bb1920aa2268cf860cc9935aac95b2844e965e369546f3f",
+ "precision_report_sha256": "a28bcef1691265b7d2e14fd6f8839ace25ddf5b70140098753da22b061950e43",
+ "a2_verdict_sha256": "8576fb276b601e9e5528663177f0161bed5b0145871d5f30db53fb151a922af0",
+ "wandb_runs": [
+  {
+   "path": "/content/drive/MyDrive/inm363/results/042_COLAB_FULL_M124_sft_grpo_seed2/042_wandb_runs/xyhvhhym.json",
+   "sha256": "2dab5a2602794f49c561d81d3b22a8cab88475e0308088a3ed4b91977f738be5",
+   "project": "inm363-grpo",
+   "run_id": "xyhvhhym",
+   "run_name": "042_COLAB_FULL_M124_sft_grpo_seed2_grpo"
+  }
+ ],
+ "starvation": {
+  "complete": {
+   "mean_accuracy_reward": 0.0645,
+   "mean_format_reward": 0.19365000462532042,
+   "share_zero_reward_spread": 0.5
+  },
+  "first_50": {
+   "mean_accuracy_reward": 0.045,
+   "mean_format_reward": 0.18450000643730163,
+   "share_zero_reward_spread": 0.38
+  },
+  "last_50": {
+   "mean_accuracy_reward": 0.08,
+   "mean_format_reward": 0.19800000369548798,
+   "share_zero_reward_spread": 0.54
+  },
+  "severely_reward_starved": false
+ },
+ "artifact": "/content/drive/MyDrive/inm363/checkpoints/042_COLAB_FULL_M124_sft_grpo_seed2/grpo",
+ "artifact_sha256": {
+  "README.md": "20b790b77fc4d83732522a3f287322dad54cae6ffdbee2b3e927257f4f0fd955",
+  "a2_verdict.json": "8576fb276b601e9e5528663177f0161bed5b0145871d5f30db53fb151a922af0",
+  "artifact_type.json": "41ce53ec9b894d6c52e5d962d239711a2f83fed98b35cca8cfa2ba090a8a1cb6",
+  "config.json": "99be2863f297063e595e768de2438553b173ba8f2ca564926bcb4effe91b6e3c",
+  "config_hash.txt": "ba60f078ee9fae4739123ece98866dc219ccbce29312163cbbf09d688e980675",
+  "generation_config.json": "e6b5e11e2ef2c220badc09b69e5bc143d5abc99f6f32b2ed37dd505f068e3bf3",
+  "model.safetensors": "615dec4f43ed66f5b7aca0720c1dfe7497c1a97d43b30580ff56120e30831c6c",
+  "model_base.json": "a8984a2fa2705e8af909604ea49bc55ccc904a715a23a700bc533074adb4985a",
+  "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+  "tokenizer_config.json": "46b0ee09bc6c14494f934103d0a72ac5a7f649ed99f6d8f1939cedad0c6c99e4",
+  "training_args.bin": "f3b29180b93db5ff8d90f0cbda3ebc90ad0178c3b0bbccc19d2a5750dd9c0019"
+ }
+}

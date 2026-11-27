@@ -1,0 +1,37 @@
+{
+ "ts": "2026-08-12T08:54:45",
+ "outcome": "concluded_a2",
+ "message": "sentinel abort: a2: reward flat and kl near zero by step 150, policy is not moving. suspect lr or beta",
+ "end_step": 100,
+ "elapsed_sec": 379.4,
+ "peak_vram_gib": 9.69,
+ "adapter_sha256": {
+  "adapter_model.safetensors": "7dc47c89efc01cdfc4eae997d441d8ceac090cd8b4bc5c5164eed11c0b65f66c",
+  "adapter_config.json": "5227fb792fb46088f4ecda6cdedb509d4cac17590848fd598875ad411ade9b93",
+  "adapter_base.json": "adcf19c3f54a55ad98d49cd2b9059dc80bb4c2871fa09ad8c3d2999fe4ab6a0e",
+  "config_hash.txt": "620a2cb73c24947897685dc0d1c097be8549ff6bae6670b82a7cfdd0bd915ea8"
+ },
+ "evidence": {
+  "n_prompts": 245,
+  "samples_per_prompt": 8,
+  "temperature": 1.0,
+  "share_single_completion": 0.17551020408163265,
+  "mean_distinct_completions": 2.2816326530612243,
+  "share_single_answer": 0.9714285714285714,
+  "mean_completion_tokens": 16.020408163265305,
+  "mean_accuracy_reward": 0.9928571428571429,
+  "format_rate": 0.9714285714285714,
+  "share_zero_reward_spread": 0.8326530612244898,
+  "mean_reward_std": 0.02173111940349864,
+  "parent_tag": "010_p8_COLAB_FULL_B15_sft_only_seed0",
+  "adapter_sha256": {
+   "adapter_model.safetensors": "7dc47c89efc01cdfc4eae997d441d8ceac090cd8b4bc5c5164eed11c0b65f66c",
+   "adapter_config.json": "5227fb792fb46088f4ecda6cdedb509d4cac17590848fd598875ad411ade9b93",
+   "adapter_base.json": "adcf19c3f54a55ad98d49cd2b9059dc80bb4c2871fa09ad8c3d2999fe4ab6a0e",
+   "config_hash.txt": "620a2cb73c24947897685dc0d1c097be8549ff6bae6670b82a7cfdd0bd915ea8"
+  },
+  "split_revision": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "ts": "2026-08-12 08:40",
+  "elapsed_sec": 92.1
+ }
+}

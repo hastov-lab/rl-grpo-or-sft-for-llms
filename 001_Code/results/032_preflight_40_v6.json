@@ -1,0 +1,201 @@
+{
+ "version": 6,
+ "phase": "40",
+ "execution_sha256": "595fae6b98965a0edf9fa87723a8f2910b0bcd59d6ddfd9d1ac613a2bae78e23",
+ "historical": {
+  "008_wsft_COLAB_FULL_B05_sft_only_seed0": {
+   "sft_eval.json": "667d6a4c38a705ef8ff642d305576efd7205601e38631485f334888676406902",
+   "sft_preds.jsonl": "ddfa31d1a24773303f13c72331da28529340457acc2c0d52995ac615e1b03120",
+   "sft_logprob.json": "da7e975b9ad2be987088e58097c7f332017fa8de3d475f73971059df58abe26c",
+   "sft_logprob_preds.jsonl": "ed01294c8129e0e1433e7acf1e11597f5009cc6fa464612dd27f0cf7e6e59e20"
+  },
+  "008_wsft_COLAB_FULL_B05_sft_only_seed1": {
+   "sft_eval.json": "4062d817a98cdba0ed35d5f391ecaf4fca171489e7c11ae45131a85009e59e9a",
+   "sft_preds.jsonl": "2fdbd812fd217ea97903170a75c48aab9501e65c379ca40017a5de9c8668113e",
+   "sft_logprob.json": "1b60ac77736a1a58d932e020eb52cdc4e81b1a9991318ada4bc0821e3a5878c6",
+   "sft_logprob_preds.jsonl": "fe3785aedcc98df36b1e21d4219d90b0e661d7618ec3a6aa5fc0a79d3bcc3c2b"
+  },
+  "008_wsft_COLAB_FULL_B05_sft_only_seed2": {
+   "sft_eval.json": "25191dc8eff425130a4fe9a78f0de5d8a0fa8dcb89749d0ecd415fa17bd37ce4",
+   "sft_preds.jsonl": "21e04b27b104479c6a09a9552676fa6ff8d9739ffb91456bf5537749628d80f5",
+   "sft_logprob.json": "cfd68ecd01f6a794bea5f572f0440b9b7fd31c4460cb17bf35f5c1b86862a66c",
+   "sft_logprob_preds.jsonl": "a5418afd3b3e9b3555c3d9c84285539938ccbcfe9c4e668d701acbed557f18e3"
+  },
+  "008_wsft_COLAB_FULL_B3_sft_only_seed0": {
+   "sft_eval.json": "82ef9576d6e915de875517489d0ec2f8e21f44afd05fd7adc94b32bc41f33314",
+   "sft_preds.jsonl": "fa5e71baf2c75a1eaa4d44fa6dd0df0f1cb5a96c6cf9b1ae173dbcc1dfa499ef",
+   "sft_logprob.json": "9ec90062d2de5651a0e337b280a4b38cb0df071f848a54b96a0f6da32fc7097a",
+   "sft_logprob_preds.jsonl": "cdedc37748781184adbfcab6b2b4c4c2d48d75400556977d1c7e66e39dab8288"
+  },
+  "008_wsft_COLAB_FULL_B3_sft_only_seed1": {
+   "sft_eval.json": "13ccabfc411621d8dc1eab9b628c528783554510556416e824d7df7526805c81",
+   "sft_preds.jsonl": "b5ab3ec676f2893e5a86db692d98aa71b4a9b29f7e70638469c16ac96cdb494c",
+   "sft_logprob.json": "9be36127997b2abd19640ae5902c02f3dea56fe9af425061b965920eaca81f1b",
+   "sft_logprob_preds.jsonl": "56f81dfab04651897f1a7ddf146f47cc38c2e04bfbf7bd3478cb2ba20deb129a"
+  },
+  "008_wsft_COLAB_FULL_B3_sft_only_seed2": {
+   "sft_eval.json": "346c7672f8747ee782ca125859006e9a5538078aa69104fce659cbdf7323cbb3",
+   "sft_preds.jsonl": "9a0e12c48828a382e02f7e1cedd1dbcca39a8b2efbf447dec250f8367dfd77a1",
+   "sft_logprob.json": "4eb85f2a8de9b4dbe8d6417999176b4444c6ce461c4ea0e43b490ab8d4028f10",
+   "sft_logprob_preds.jsonl": "484c82f10b23533616700fe60a1d8a13100ae10bf5604880f0792e182f703c8e"
+  }
+ },
+ "arms": {
+  "032_wsft_COLAB_FULL_B05_sft_only_seed1": {
+   "config": "configs/032_wsft_colab_b05_seed1.yaml",
+   "config_sha256": "d20cb6ec7aac7420944eccc35a0f133b7c0e0cb47704c542cf6b1f102746f83d",
+   "parent_manifest_sha256": "f8b4fd780f11055c3f06b77721bc92d658ecb0ac3a601255cee695e43963823c",
+   "source_config_hash_status": "legacy_missing_grpo_from_adapter",
+   "archived_preds_sha256": "f41629a1d10e2376a9dccd0313378593e0b71fc087d8d946bdf1b358a4cf1ac8",
+   "source_lineage": {
+    "adapter_dir": "/content/drive/MyDrive/inm363/checkpoints/006_COLAB_FULL_B05_sft_grpo_seed1/sft",
+    "adapter_sha256": {
+     "adapter_model.safetensors": "b94d2271e83f4aa082b2b916adfe7fc36ea1e589ab2ddbe0cfb2299eaf18ec2d",
+     "adapter_config.json": "abee8e12900675bf8342a80dec48b419869bd392c8a13dd0c3237aab7446f570",
+     "adapter_base.json": "f6037445c2aadfea4b90d87219b4a716933de85f7dc2ba87831baaf14731784a",
+     "config_hash.txt": "61bb16a3a659ca36206db9d3c302e01ef6d49bcf5b138fe4d4a0cbf6ec19a1d0"
+    },
+    "resolved_start": "/content/drive/MyDrive/inm363/checkpoints/006_COLAB_FULL_B05_sft_grpo_seed1/sft_merged",
+    "resolved_start_sha256": {
+     "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+     "config.json": "32de0d9b281901b33c841c1c8381bee989ed2da1c70ebfda5c564821dc99eb41",
+     "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+     "model.safetensors": "dd8a90aab24af979eb52a305e02c7a6a8a140374c9783f6d57a41d3cb44677a1",
+     "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+     "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+    },
+    "resolved_base_kind": "local",
+    "resolved_base_value": "checkpoints/006_COLAB_FULL_B05_sft_grpo_seed1/sft_merged",
+    "start_kind": "parent_merged",
+    "version": 6,
+    "binding_level": "path_and_provenance",
+    "byte_reconstruction": false,
+    "parent_manifest": "/content/drive/MyDrive/inm363/results/006_COLAB_FULL_B05_sft_grpo_seed1/manifest.json",
+    "parent_manifest_sha256": "f8b4fd780f11055c3f06b77721bc92d658ecb0ac3a601255cee695e43963823c",
+    "parent_grpo_adapter_base": "/content/drive/MyDrive/inm363/checkpoints/006_COLAB_FULL_B05_sft_grpo_seed1/grpo/adapter_base.json",
+    "parent_grpo_adapter_base_sha256": "74d9a98bb04271b98683b2b3aaafc9f13d7d53ac83cb9369cc739023c51c23ff",
+    "parent_grpo_base": {
+     "kind": "local",
+     "value": "checkpoints/006_COLAB_FULL_B05_sft_grpo_seed1/sft_merged"
+    }
+   }
+  },
+  "032_wsft_COLAB_FULL_B05_sft_only_seed2": {
+   "config": "configs/032_wsft_colab_b05_seed2.yaml",
+   "config_sha256": "0cd72708ac3bae8d22e2f3685d5e491541b69d6a92ca72dd5e21a2f3a6ace583",
+   "parent_manifest_sha256": "3baa568eabe4914306eea785bbcb4783bdbcbbddbbf6b7c3d53933992f2c0a17",
+   "source_config_hash_status": "legacy_missing_grpo_from_adapter",
+   "archived_preds_sha256": "dd26106716d20027502f051b5c795486b3203f7955a91dfbe30dd15e097d5d6f",
+   "source_lineage": {
+    "adapter_dir": "/content/drive/MyDrive/inm363/checkpoints/006_COLAB_FULL_B05_sft_grpo_seed2/sft",
+    "adapter_sha256": {
+     "adapter_model.safetensors": "2cb3c83ca9148a27b88d039b0bbd3592bbb8ea7d9a169cc6c2304b6f01ae7c89",
+     "adapter_config.json": "a87d9028a32f2592811ce44967f24a392f70695af0d1ab6859575292b2a858d8",
+     "adapter_base.json": "f6037445c2aadfea4b90d87219b4a716933de85f7dc2ba87831baaf14731784a",
+     "config_hash.txt": "d2f6630dd1b7773a2648c428c39715ed60ccd7efdb93f91a946ad4b66fda265b"
+    },
+    "resolved_start": "/content/drive/MyDrive/inm363/checkpoints/006_COLAB_FULL_B05_sft_grpo_seed2/sft_merged",
+    "resolved_start_sha256": {
+     "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+     "config.json": "32de0d9b281901b33c841c1c8381bee989ed2da1c70ebfda5c564821dc99eb41",
+     "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+     "model.safetensors": "0d5bd4a0b65989b35d3212ecb658d4ea5dbeeb04f5d36c9a83246aeb589aab30",
+     "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+     "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+    },
+    "resolved_base_kind": "local",
+    "resolved_base_value": "checkpoints/006_COLAB_FULL_B05_sft_grpo_seed2/sft_merged",
+    "start_kind": "parent_merged",
+    "version": 6,
+    "binding_level": "path_and_provenance",
+    "byte_reconstruction": false,
+    "parent_manifest": "/content/drive/MyDrive/inm363/results/006_COLAB_FULL_B05_sft_grpo_seed2/manifest.json",
+    "parent_manifest_sha256": "3baa568eabe4914306eea785bbcb4783bdbcbbddbbf6b7c3d53933992f2c0a17",
+    "parent_grpo_adapter_base": "/content/drive/MyDrive/inm363/checkpoints/006_COLAB_FULL_B05_sft_grpo_seed2/grpo/adapter_base.json",
+    "parent_grpo_adapter_base_sha256": "842520ce8cd264f49baabc107a5a92ce868a568875834b432886f1f3a78426bc",
+    "parent_grpo_base": {
+     "kind": "local",
+     "value": "checkpoints/006_COLAB_FULL_B05_sft_grpo_seed2/sft_merged"
+    }
+   }
+  },
+  "032_wsft_COLAB_FULL_B3_sft_only_seed1": {
+   "config": "configs/032_wsft_colab_b3_seed1.yaml",
+   "config_sha256": "5cf48625a894b31a7fa4b40085fdec350ce146308979d514e7af83753837f4e6",
+   "parent_manifest_sha256": "3a19371bf9385d807d7bd0108c7cbfce431c935896d7cae50797172695194deb",
+   "source_config_hash_status": "legacy_missing_grpo_from_adapter",
+   "archived_preds_sha256": "b9ae16a5d8623b30aeb96bf60c582196cb702ee60bf7e589b617c81bf92df6bb",
+   "source_lineage": {
+    "adapter_dir": "/content/drive/MyDrive/inm363/checkpoints/003_COLAB_FULL_B3_sft_grpo_seed1/sft",
+    "adapter_sha256": {
+     "adapter_model.safetensors": "20a53e694f35ffa700552d740d847252ee1562646b378487c21eaddab592b5b9",
+     "adapter_config.json": "b0bb69895f7623bc26cf16443bc0786375afa3006c226723bbf5f892b50de66a",
+     "adapter_base.json": "8bcc0caf63f66e2cc70151deb46ca6fa1dce4df0fc034c8930af3c3e5d26ee14",
+     "config_hash.txt": "aef11d1ebfed5a705fa3121f6a1ba7092ca756e7de264c8294a9eddd9b66cbdd"
+    },
+    "resolved_start": "/content/drive/MyDrive/inm363/checkpoints/003_COLAB_FULL_B3_sft_grpo_seed1/sft_merged",
+    "resolved_start_sha256": {
+     "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+     "config.json": "cabc1f547ad41d6d2010c3e47792076d8a43eb79857ec53d531f53c8ee2a7686",
+     "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+     "model.safetensors": "ed1b3a0dfa4e038c8bb09a8430e97ecac23f4483f971972b3bb4fdbe189a556b",
+     "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+     "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+    },
+    "resolved_base_kind": "local",
+    "resolved_base_value": "checkpoints/003_COLAB_FULL_B3_sft_grpo_seed1/sft_merged",
+    "start_kind": "parent_merged",
+    "version": 6,
+    "binding_level": "path_and_provenance",
+    "byte_reconstruction": false,
+    "parent_manifest": "/content/drive/MyDrive/inm363/results/003_COLAB_FULL_B3_sft_grpo_seed1/manifest.json",
+    "parent_manifest_sha256": "3a19371bf9385d807d7bd0108c7cbfce431c935896d7cae50797172695194deb",
+    "parent_grpo_adapter_base": "/content/drive/MyDrive/inm363/checkpoints/003_COLAB_FULL_B3_sft_grpo_seed1/grpo/adapter_base.json",
+    "parent_grpo_adapter_base_sha256": "9540b3c120d8eeafe615de62baf63f9b923f87f76ecfdec0db18192deb8eb935",
+    "parent_grpo_base": {
+     "kind": "local",
+     "value": "checkpoints/003_COLAB_FULL_B3_sft_grpo_seed1/sft_merged"
+    }
+   }
+  },
+  "032_wsft_COLAB_FULL_B3_sft_only_seed2": {
+   "config": "configs/032_wsft_colab_b3_seed2.yaml",
+   "config_sha256": "ecc0ace0b6b2ec121790af1d5869ea22b0ec7a514ba2875c292738c3f6e64304",
+   "parent_manifest_sha256": "9d8c8d3633a15808b351e1e367eefd8708c168460a518880663dbbb819f9af22",
+   "source_config_hash_status": "legacy_missing_grpo_from_adapter",
+   "archived_preds_sha256": "e7f5546cacea21c460910943808db72326fb21f0c585ee5fe3e0f373edb52288",
+   "source_lineage": {
+    "adapter_dir": "/content/drive/MyDrive/inm363/checkpoints/003_COLAB_FULL_B3_sft_grpo_seed2/sft",
+    "adapter_sha256": {
+     "adapter_model.safetensors": "6df063706f161192966416a21313354358a94e072c3bdd3ccc5cadc898c88758",
+     "adapter_config.json": "773de8d8f5cb4622ae84ca5a7d7d984f5edf1c2eb80479fe6e2636c8af5156db",
+     "adapter_base.json": "8bcc0caf63f66e2cc70151deb46ca6fa1dce4df0fc034c8930af3c3e5d26ee14",
+     "config_hash.txt": "10421918bbd98cc9c25e995f7843a0f6f353a7c4d00c2c776c1e3f3a1a989d83"
+    },
+    "resolved_start": "/content/drive/MyDrive/inm363/checkpoints/003_COLAB_FULL_B3_sft_grpo_seed2/sft_merged",
+    "resolved_start_sha256": {
+     "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+     "config.json": "cabc1f547ad41d6d2010c3e47792076d8a43eb79857ec53d531f53c8ee2a7686",
+     "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+     "model.safetensors": "699fab2fb154fd9205381790abef93a787af41833598d6c8e80f86faa89db520",
+     "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+     "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+    },
+    "resolved_base_kind": "local",
+    "resolved_base_value": "checkpoints/003_COLAB_FULL_B3_sft_grpo_seed2/sft_merged",
+    "start_kind": "parent_merged",
+    "version": 6,
+    "binding_level": "path_and_provenance",
+    "byte_reconstruction": false,
+    "parent_manifest": "/content/drive/MyDrive/inm363/results/003_COLAB_FULL_B3_sft_grpo_seed2/manifest.json",
+    "parent_manifest_sha256": "9d8c8d3633a15808b351e1e367eefd8708c168460a518880663dbbb819f9af22",
+    "parent_grpo_adapter_base": "/content/drive/MyDrive/inm363/checkpoints/003_COLAB_FULL_B3_sft_grpo_seed2/grpo/adapter_base.json",
+    "parent_grpo_adapter_base_sha256": "f2a09ddf52cbaf8fcc77d94ec7e1396798ae29618914ad766ba401fae425291e",
+    "parent_grpo_base": {
+     "kind": "local",
+     "value": "checkpoints/003_COLAB_FULL_B3_sft_grpo_seed2/sft_merged"
+    }
+   }
+  }
+ }
+}

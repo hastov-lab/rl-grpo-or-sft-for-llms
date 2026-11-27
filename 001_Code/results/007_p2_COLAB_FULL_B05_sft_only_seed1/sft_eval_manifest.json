@@ -1,0 +1,52 @@
+{
+ "timestamp": "2026-08-10T12:47:20",
+ "package": "027_s12",
+ "condition": "sft",
+ "completed": true,
+ "sha256_preds": "7256d5bf4bb4bf63f248400313c408cc62cf4aa41c17761b4d3d757d394a903a",
+ "sha256_eval": "38b33ab4a34e0f14d27f3a1e69f31f25fded736196f530dd9b952609fdb9ceda",
+ "summary_sha_before": "dbf8cf70f139ccf08aa8904683883882dbf5b4cbf35ec2a2a106c3f9f287ef67",
+ "summary_sha_after": "75f2f7f0bda1d0c59e715b320205d723ed26e84bd6b77728be077e123e550d37",
+ "summary_fields_completed": [
+  "sft_acc"
+ ],
+ "gate": {
+  "agreement": 1.0,
+  "acc_new": 0.56051,
+  "acc_archived": 0.56051
+ },
+ "timings_sec": {
+  "gate_logprob": 32.643,
+  "sft_eval": 306.547
+ },
+ "adapter": "/content/drive/MyDrive/inm363/checkpoints/007_p2_COLAB_FULL_B05_sft_only_seed1/sft",
+ "adapter_sha256": {
+  "adapter_model.safetensors": "17c525b44506a978f3e8ada963e037a43875e87c13e4b9bdffeb4150383e5d10",
+  "adapter_config.json": "6f6ef152582561991c2de2f9cf4d0610dda30aa861a07703143c586d88c04d5c",
+  "adapter_base.json": "f6037445c2aadfea4b90d87219b4a716933de85f7dc2ba87831baaf14731784a",
+  "config_hash.txt": "353ad3ff356e9c5010613df4e3942c40f806ed9b9e42471dd1aef2310ab8aabc"
+ },
+ "config": "configs/007_p2_colab_b05.yaml",
+ "config_hash_status": "legacy_missing_sft_from_adapter",
+ "seed_override": 1,
+ "git": {
+  "commit": "0cf513de537a2eb81672482c3aff354a1890d2f0",
+  "dirty": false
+ },
+ "versions": {
+  "trl": "1.7.1",
+  "transformers": "5.5.4",
+  "peft": "0.19.1",
+  "accelerate": "1.14.0",
+  "datasets": "4.8.4",
+  "torch": "2.11.0+cu128",
+  "numpy": "2.0.2",
+  "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+ },
+ "resolved_dtype": "bfloat16",
+ "gpu": {
+  "device": "NVIDIA A100-SXM4-40GB",
+  "peak_vram_gb": 0.0
+ }
+}

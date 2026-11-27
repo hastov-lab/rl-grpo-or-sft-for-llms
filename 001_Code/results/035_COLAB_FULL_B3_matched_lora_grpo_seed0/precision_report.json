@@ -1,0 +1,43 @@
+{
+ "trainable_parameter_dtypes": [
+  "float32"
+ ],
+ "gradient_dtypes": [
+  "float32"
+ ],
+ "gradients_finite": true,
+ "parameters_finite": true,
+ "optimizer_states_finite": true,
+ "nonzero_gradient_elements": 16515072,
+ "optimizer_state_dtypes": [
+  "float32"
+ ],
+ "bf16_enabled": true,
+ "accelerator_mixed_precision": "bf16",
+ "module_changes": {
+  "attention": {
+   "tensor": "base_model.model.model.layers.0.self_attn.q_proj.lora_A.default.weight",
+   "tensor_elements": 32768,
+   "elements": 32768,
+   "changed_elements": 32768,
+   "changed_fraction": 1.0,
+   "mean_abs_change": 0.00013214669888839126,
+   "max_abs_change": 0.0006477124989032745,
+   "change_norm_ratio": 0.01293111528453883
+  },
+  "mlp": {
+   "tensor": "base_model.model.model.layers.0.mlp.gate_proj.lora_A.default.weight",
+   "tensor_elements": 32768,
+   "elements": 32768,
+   "changed_elements": 32767,
+   "changed_fraction": 0.999969482421875,
+   "mean_abs_change": 0.0001525753177702427,
+   "max_abs_change": 0.0006038490682840347,
+   "change_norm_ratio": 0.014545908938306921
+  }
+ },
+ "reference_gate": {
+  "verified": true,
+  "reference_kind": "adapter_disabled"
+ }
+}

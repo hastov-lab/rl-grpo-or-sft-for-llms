@@ -1,0 +1,40 @@
+{
+ "schema": 1,
+ "completed": true,
+ "timestamp": "2026-08-15T19:32:59",
+ "condition": "sft",
+ "n_items": 96,
+ "dataset_sha256": "a9d359dfe03251b0b08e6d25f22870348dc900a7d4c505cb3b341a1b92ee1583",
+ "start_record_sha256": "ec86dc7e80cdff51ffdb2fbdabea480f3a263953718261a52ce73ebeca6cada5",
+ "merged_sha256": {
+  "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+  "config.json": "23e5bdea36342ea968d7d4cf580478c9040f6dbe91f93c4498e7a70d555a80c4",
+  "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+  "model.safetensors": "5f01dbbced686976b568737ba3e820eade00b8f263d377a726a7fb47bce6466c",
+  "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+  "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+ },
+ "adapter_sha256": {
+  "adapter_model.safetensors": "2c2662a0af49c1efec6b518ab5e10112be92619cc4efad6cf8afb87dc6a15159",
+  "adapter_config.json": "972d850b4c591ab81146b5cb305603d0090cb97611a4882a3764220912ad5d40",
+  "adapter_base.json": "8722192e0c85986e7b010920967e294fb71115eaf402ea15a33b5521cb41e190",
+  "config_hash.txt": "98c437e909e44abdbe9cf3e85501074c6b21337cf8956280620a6e49c1f1f582"
+ },
+ "sha256": {
+  "sft_preds.jsonl": "8c2f151c96239a4ec16b278ca11d72bc49294c904a191c0668a79377132b4eeb",
+  "sft_eval.json": "cc69ed66086beaee5796b7edad083e11dafe176c237a4d06c2caec4be4d40dad",
+  "sft_logprob_preds.jsonl": "0705ea6bd6be4c13fbfb94186a98ab592a6f987ed476afdeb00d1d3b2ddc2ee7",
+  "sft_logprob.json": "ed237621c19c069fb78fdc70bb456d9d7effeb247608ddded18374a2d348f910"
+ },
+ "worker_status": {
+  "completed": true,
+  "task": "eval",
+  "branch": "sft",
+  "gpu": {
+   "device": "NVIDIA A100-SXM4-80GB",
+   "peak_vram_gb": 3.5
+  },
+  "wall_seconds": 34.0,
+  "peak_vram_gib": 3.5
+ }
+}

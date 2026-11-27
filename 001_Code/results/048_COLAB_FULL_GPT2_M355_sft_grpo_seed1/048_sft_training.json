@@ -1,0 +1,40 @@
+{
+ "completed": true,
+ "experiment": "048",
+ "stage": "sft",
+ "seed": 1,
+ "config_hash": "226010d880d5bf02648ed122f2f398b8e67fb72f3ef6cd7d1bfdc33cf2139357",
+ "updates": 500,
+ "parameter_mode": "lora",
+ "storage_dtype": "float32",
+ "compute_dtype": "bfloat16",
+ "base_record_sha256": "6204dd91b63d0e9382dc8d8bd744d39d496a937088ce6b25d671325d55c2c184",
+ "base_artifact_sha256": {
+  "artifact_type.json": "cbb8bbdeefaed0466d53bae289138c4fe169f28455fa4d51db07eaac3d5b3a34",
+  "config.json": "23bb93c47fb33cf77782804bba2baac46539a960b9ab22a1a982952611f79712",
+  "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+  "model.safetensors": "402c4dac72af5ad30c4361e9178899585527d24df5dac59d115b8e5d35093fbc",
+  "model_base.json": "9843261c6a57dc24802b5cd6ef062134258fc125d27cadf60816fd7143664ae3",
+  "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+  "tokenizer_config.json": "caab7b8a5a261a1d4cb142c2488acd9cb1c5c0154f681e5a38614a3a2c0cf8ce"
+ },
+ "wandb_runs": [
+  {
+   "path": "/content/drive/MyDrive/inm363/results/048_COLAB_FULL_GPT2_M355_sft_grpo_seed1/048_sft_wandb_runs/xmzcbgll.json",
+   "sha256": "8a23e08db299dee247e81e34f225b0aac33214575bbd1d57c5781c23a19483b2",
+   "project": "inm363-grpo",
+   "run_id": "xmzcbgll",
+   "run_name": "048_COLAB_FULL_GPT2_M355_sft_grpo_seed1_sft"
+  }
+ ],
+ "artifact": {
+  "kind": "adapter",
+  "path": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M355_sft_grpo_seed1/sft",
+  "sha256": {
+   "adapter_model.safetensors": "8d4f3a0b0b4ce51cb70a2ede11bc8d9305f792d89a6cfa987a63273518cbbf6d",
+   "adapter_config.json": "b7f5a15e1e52bdef2e15c0813e2246ba711846fe747ceb67e6cb66d409370d62",
+   "adapter_base.json": "1287aac797b95a6c5637727212f226678c64e8ba6cf9a34bb84ec678c3e6dbea",
+   "config_hash.txt": "e924cf4e8bbba848166fa0311d65cb3315db73d5df8a27c00d7e857a70a3ec1f"
+  }
+ }
+}

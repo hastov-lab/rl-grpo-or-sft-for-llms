@@ -1,0 +1,17 @@
+{
+ "completed": true,
+ "experiment": "046",
+ "card": "A100_80GB",
+ "minimum_vram_gib": 79,
+ "pilot_report": "/content/drive/MyDrive/inm363/results/046_technical/pilot_80gb/pilot_report.json",
+ "pilot_closeout": "/content/drive/MyDrive/inm363/results/046_technical/pilot_80gb/pilot_closeout.json",
+ "pilot_report_sha256": "2078cdce1cdf6d85646852903d8e62bef8bba88ac72ea8ce869675f4177453a4",
+ "pilot_closeout_sha256": "1128069ca1c38f2b8211e33268afae881a1b813f5d879e1285979051b765a3f6",
+ "failed_40_sha256": "d413a8307806dbf484058f88986c6aa10eea4c64bdedcc6da453a11c3d381ae7",
+ "allocator_config": "expandable_segments:True",
+ "config_hashes": {
+  "0": "dfaeee6ff04814805397dab6fd6a3fd4a63fd33d56ff2ef7f72c9582aa9cc1f5",
+  "1": "a8e3d207e1e04f3eeb8760aa6d1ef2828bc47f8b132dd7615ef5411d08c12939",
+  "2": "8fdd99a87f7da1c2a9c494e5c292f48c5397be390b449beedda511250df5593c"
+ }
+}

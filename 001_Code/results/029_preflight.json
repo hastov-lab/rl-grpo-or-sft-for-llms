@@ -1,0 +1,38 @@
+{
+ "029_COLAB_FULL_B15_mcsft_grpo_seed0": {
+  "adapter_model.safetensors": "7dc47c89efc01cdfc4eae997d441d8ceac090cd8b4bc5c5164eed11c0b65f66c",
+  "adapter_config.json": "5227fb792fb46088f4ecda6cdedb509d4cac17590848fd598875ad411ade9b93",
+  "adapter_base.json": "adcf19c3f54a55ad98d49cd2b9059dc80bb4c2871fa09ad8c3d2999fe4ab6a0e",
+  "config_hash.txt": "620a2cb73c24947897685dc0d1c097be8549ff6bae6670b82a7cfdd0bd915ea8"
+ },
+ "029_COLAB_FULL_B15_mcsft_grpo_seed1": {
+  "adapter_model.safetensors": "880bfd16c6f20a490e79c021b3da31caf87fc351c05975b5941cd391d8b9810c",
+  "adapter_config.json": "c77f9cf9de77bc24684a322ad28414fd0e9bf759628edfa0a43189f14c3fc606",
+  "adapter_base.json": "adcf19c3f54a55ad98d49cd2b9059dc80bb4c2871fa09ad8c3d2999fe4ab6a0e",
+  "config_hash.txt": "58edefe9fd1d01a739a6d3ecbd88ba074b18c2460e540d256c16c1415bbba8eb"
+ },
+ "029_COLAB_FULL_B15_mcsft_grpo_seed2": {
+  "adapter_model.safetensors": "836a90f652187b94eddbefb77dc41b1e78867576b26d280009f88fa469354fed",
+  "adapter_config.json": "f058cb094aee2e6b2aaf731f75c5a9f92efc91c1ea2a8de27a16e3858357e03c",
+  "adapter_base.json": "adcf19c3f54a55ad98d49cd2b9059dc80bb4c2871fa09ad8c3d2999fe4ab6a0e",
+  "config_hash.txt": "bcb7b3cdc8680510eafd88566a76c2df0501196535b7b519c84db6c8bfa5e6cf"
+ },
+ "029_COLAB_FULL_B3_mcsft_grpo_seed0": {
+  "adapter_model.safetensors": "4af64e535f595823ff6ac86c98c488c364d5009eaebd890a601049104e6d96f8",
+  "adapter_config.json": "bc2897e5105d00ef9c16fec61e5d28d28a01740e7917db6fd287f27dda236253",
+  "adapter_base.json": "8bcc0caf63f66e2cc70151deb46ca6fa1dce4df0fc034c8930af3c3e5d26ee14",
+  "config_hash.txt": "b3fcd3e5c26482ef71f4229dbb73e9e5e2b350fc9e96511eeb613491c11bb7a5"
+ },
+ "029_COLAB_FULL_B3_mcsft_grpo_seed1": {
+  "adapter_model.safetensors": "a8927a882604f2a8879522892a6a74da5f0bbd62d14344778e03ff3330d9af5e",
+  "adapter_config.json": "252325e26e5334558119ca37c0c8c7f645a5c9f875b5065c1d74d1053c81f7a3",
+  "adapter_base.json": "8bcc0caf63f66e2cc70151deb46ca6fa1dce4df0fc034c8930af3c3e5d26ee14",
+  "config_hash.txt": "6dc4fd750a4665c8e95355d529f881a031d3471f22ffa2b49284fb824b529955"
+ },
+ "029_COLAB_FULL_B3_mcsft_grpo_seed2": {
+  "adapter_model.safetensors": "94372718c40a5e0c984098251a6794fbf475fdc3d6b554a22113758bd0598a70",
+  "adapter_config.json": "67e83481efa9a34f1ba4cd726f856b6d1f300dffc588d814949c91e570d6c460",
+  "adapter_base.json": "8bcc0caf63f66e2cc70151deb46ca6fa1dce4df0fc034c8930af3c3e5d26ee14",
+  "config_hash.txt": "5531712821d08a316f59afbc83a461632607a4faab981ad45ac54b1b628f5fa1"
+ }
+}

@@ -1,0 +1,18 @@
+{
+  "condition": "sft",
+  "metric": "direct_generation",
+  "n_items": 96,
+  "accuracy": 0.3229166666666667,
+  "by_group_variant": {
+    "injected": {
+      "exact": 1.0,
+      "declarative_1": 0.5625,
+      "declarative_2": 0.375
+    },
+    "control": {
+      "exact": 0.0,
+      "declarative_1": 0.0,
+      "declarative_2": 0.0
+    }
+  }
+}

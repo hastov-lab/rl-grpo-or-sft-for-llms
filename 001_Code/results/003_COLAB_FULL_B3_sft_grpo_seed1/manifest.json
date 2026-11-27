@@ -1,0 +1,94 @@
+{
+  "run_tag": "003_COLAB_FULL_B3_sft_grpo_seed1",
+  "timestamp": "2026-07-20T17:15:24",
+  "experiment": "003",
+  "condition": "SFT_GRPO",
+  "env": "COLAB",
+  "mode": "FULL",
+  "scale": "B3",
+  "seed": 1,
+  "resolved_dtype": "bfloat16",
+  "config": {
+    "lora": {
+      "r": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ]
+    },
+    "reward": {
+      "correct_weight": 1.0,
+      "format_weight": 0.2,
+      "min_think_chars": 20
+    },
+    "train": {
+      "sft_lr": 0.0001,
+      "grpo_lr": 1e-05,
+      "max_steps": 500,
+      "num_generations": 8,
+      "max_seq_len": 1024,
+      "sft_batch_size": 4,
+      "sft_grad_accum": 4,
+      "sft_completion_only": true,
+      "sft_data": "gsm8k",
+      "sft_val_examples": 500,
+      "sft_from_adapter": "",
+      "dtype": "auto",
+      "seed": 1
+    },
+    "grpo": {
+      "loss_type": "grpo",
+      "beta": 0.04,
+      "scale_rewards": "group",
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "max_completion_length": 512
+    },
+    "eval": {
+      "max_new_tokens": 512,
+      "batch_size": 16,
+      "skip_generative": false
+    },
+    "exec": {
+      "grpo_batch_size": null,
+      "grpo_grad_accum": 1,
+      "gradient_checkpointing": false,
+      "max_train_hours": 24
+    }
+  },
+  "git": {
+    "commit": "088115263de58878257728adbfd1c7d8c6f23e06",
+    "dirty": false
+  },
+  "versions": {
+    "trl": "1.7.1",
+    "transformers": "5.5.4",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "datasets": "4.8.4",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.0.2",
+    "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+    "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+  },
+  "model_id": "Qwen/Qwen2.5-3B",
+  "timings_sec": {
+    "sft_train": 948.862,
+    "sft_eval": 5928.033,
+    "sft_logprob_eval": 30.841,
+    "grpo_train": 13366.788,
+    "grpo_eval": 3455.289,
+    "grpo_logprob_eval": 31.849
+  },
+  "gpu": {
+    "device": "NVIDIA A100-SXM4-80GB",
+    "peak_vram_gb": 50.106
+  }
+}

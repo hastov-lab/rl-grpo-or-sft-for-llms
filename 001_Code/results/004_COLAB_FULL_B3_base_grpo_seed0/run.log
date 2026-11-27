@@ -1,0 +1,11 @@
+2026-07-13 16:00:27,913 INFO loaded wandb api key from file
+2026-07-13 16:00:27,914 INFO run 004_COLAB_FULL_B3_base_grpo_seed0 device=cuda stages=['base_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/004_COLAB_FULL_B3_base_grpo_seed0
+2026-07-13 16:42:31,072 INFO base_eval done in 42m 02s | elapsed 42m 03s
+2026-07-13 16:42:50,566 INFO base_logprob_eval done in 19s | elapsed 42m 22s
+2026-07-13 16:42:50,566 INFO base per-tier acc: {'easy': 0.6780432309442548, 'medium': 0.535303776683087, 'hard': 0.5075757575757576}
+2026-07-13 21:02:57,852 INFO grpo train done in 4h 20m 07s | elapsed 5h 02m 29s
+2026-07-13 22:19:51,327 INFO grpo_eval done in 1h 16m 49s | elapsed 6h 19m 23s
+2026-07-13 22:20:18,755 INFO grpo_logprob_eval done in 27s | elapsed 6h 19m 50s
+2026-07-13 22:20:18,756 INFO grpo per-tier acc: {'easy': 0.7781569965870307, 'medium': 0.6174055829228243, 'hard': 0.5429292929292929}
+2026-07-13 22:20:19,416 INFO done. total wall time 6h 19m 51s
+2026-07-13 22:20:19,417 INFO results -> /content/drive/MyDrive/inm363/results/004_COLAB_FULL_B3_base_grpo_seed0/  checkpoints -> /content/drive/MyDrive/inm363/checkpoints/004_COLAB_FULL_B3_base_grpo_seed0/

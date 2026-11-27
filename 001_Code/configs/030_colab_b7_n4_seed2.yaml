@@ -1,0 +1,59 @@
+# Experiment 030: N=4 ablation at 7B, seed 2
+# Exploratory extension of the matched group-size comparison
+experiment: "030"
+exploratory: true
+env: COLAB
+mode: FULL
+scale: B7
+condition: EXTERNAL_SFT_GRPO
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+
+reward:
+  correct_weight: 1.0
+  format_weight: 0.2
+  min_think_chars: 20
+
+train:
+  sft_lr: 1.0e-4
+  grpo_lr: 1.0e-5
+  max_steps: 500
+  num_generations: 4
+  max_seq_len: 1024
+  sft_batch_size: 4
+  sft_grad_accum: 4
+  sft_completion_only: true
+  sft_val_examples: 500
+  dtype: auto
+  grpo_from_adapter: checkpoints/013_COLAB_FULL_B7_sft_grpo_seed2/sft
+  seed: 2
+
+grpo:
+  loss_type: grpo
+  beta: 0.04
+  scale_rewards: group
+  temperature: 1.0
+  top_p: 1.0
+  max_completion_length: 512
+
+eval:
+  max_new_tokens: 512
+  batch_size: 16
+
+log:
+  wandb_mode: online
+  save_total_limit: 10
+
+output_root: /content/drive/MyDrive/inm363
+
+# execution settings match the 013 seed 2 arm apart from the N-sized batch
+exec:
+  grpo_batch_size: null
+  grpo_grad_accum: 1
+  gradient_checkpointing: false
+  max_train_hours: 24
+  allow_oom_fallback: false

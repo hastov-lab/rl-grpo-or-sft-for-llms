@@ -1,0 +1,19 @@
+{
+ "ts": "2026-08-11 09:42",
+ "completed": true,
+ "parent": "014_p8_COLAB_FULL_B7_sft_only_seed0",
+ "adapter_sha256": {
+  "adapter_model.safetensors": "8b18dda90655a13b61bda939b7ffa41eca489354ccb9cad458e2eae53e14799b",
+  "adapter_config.json": "b77937e64002b8beee2cad0de04c42b5e511f7ab5f2fc04416ddde529df8780d",
+  "adapter_base.json": "bbe7839a8b4dcfa0474e911f8c556cb1525f78a4507c13eab970c6cd9bd31330",
+  "config_hash.txt": "2847b5efcaecbffd8283acd2c78795c5082801719fb2c7ab409836c23ed5527c"
+ },
+ "archived_preds_sha256": "bb41d079051e0cd3aa68c7901fceed88127c35bd50a1a50a64f094a2756839b8",
+ "new_preds_sha256": "bb41d079051e0cd3aa68c7901fceed88127c35bd50a1a50a64f094a2756839b8",
+ "stats": {
+  "agreement": 1.0,
+  "acc_new": 0.799894,
+  "acc_archived": 0.799894
+ },
+ "elapsed_sec": 55.4
+}

@@ -1,0 +1,28 @@
+2026-07-10 10:16:07,192 INFO loaded wandb api key from file
+2026-07-10 10:16:07,193 INFO run COLAB_FULL_B05_sft_grpo_seed0 device=cuda stages=['base_eval', 'sft', 'sft_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/COLAB_FULL_B05_sft_grpo_seed0
+2026-07-10 10:36:02,993 INFO loaded wandb api key from file
+2026-07-10 10:36:03,724 INFO run COLAB_FULL_B05_sft_grpo_seed0 device=cuda stages=['base_eval', 'sft', 'sft_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/COLAB_FULL_B05_sft_grpo_seed0
+2026-07-10 10:44:10,544 INFO loaded wandb api key from file
+2026-07-10 10:44:10,545 INFO run COLAB_FULL_B05_sft_grpo_seed0 device=cuda stages=['base_eval', 'sft', 'sft_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/COLAB_FULL_B05_sft_grpo_seed0
+2026-07-10 11:02:41,677 INFO loaded wandb api key from file
+2026-07-10 11:02:43,627 INFO run COLAB_FULL_B05_sft_grpo_seed0 device=cuda stages=['base_eval', 'sft', 'sft_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/COLAB_FULL_B05_sft_grpo_seed0
+2026-07-10 11:12:58,326 INFO loaded wandb api key from file
+2026-07-10 11:12:58,327 INFO run COLAB_FULL_B05_sft_grpo_seed0 device=cuda stages=['base_eval', 'sft', 'sft_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/COLAB_FULL_B05_sft_grpo_seed0
+2026-07-10 11:27:27,475 INFO loaded wandb api key from file
+2026-07-10 11:27:28,066 INFO run COLAB_FULL_B05_sft_grpo_seed0 device=cuda stages=['base_eval', 'sft', 'sft_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/COLAB_FULL_B05_sft_grpo_seed0
+2026-07-10 12:20:08,686 INFO base per-tier acc: {'easy': 0.3117178612059158, 'medium': 0.2939244663382594, 'hard': 0.14646464646464646}
+2026-07-10 12:39:01,549 INFO loaded wandb api key from file
+2026-07-10 12:39:01,981 INFO run COLAB_FULL_B05_sft_grpo_seed0 device=cuda stages=['base_eval', 'sft', 'sft_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/COLAB_FULL_B05_sft_grpo_seed0
+2026-07-10 12:39:02,232 INFO base_eval already done, skipping
+2026-07-10 12:39:02,674 INFO base_logprob_eval already done, skipping
+2026-07-10 12:39:02,952 INFO base per-tier acc: {'easy': 0.3117178612059158, 'medium': 0.2939244663382594, 'hard': 0.14646464646464646}
+2026-07-10 14:00:15,311 INFO sft train done in 1h 21m 11s | elapsed 1h 21m 13s
+2026-07-10 15:04:36,909 INFO sft_eval done in 1h 04m 17s | elapsed 2h 25m 34s
+2026-07-10 15:06:55,731 INFO sft_logprob_eval done in 2m 18s | elapsed 2h 27m 53s
+2026-07-10 15:06:55,732 INFO sft per-tier acc: {'easy': 0.28896473265073946, 'medium': 0.26436781609195403, 'hard': 0.2222222222222222}
+2026-07-10 20:50:06,963 INFO grpo train done in 5h 43m 11s | elapsed 8h 11m 04s
+2026-07-10 21:52:27,999 INFO grpo_eval done in 1h 02m 16s | elapsed 9h 13m 26s
+2026-07-10 21:54:47,768 INFO grpo_logprob_eval done in 2m 19s | elapsed 9h 15m 45s
+2026-07-10 21:54:47,769 INFO grpo per-tier acc: {'easy': 0.27986348122866894, 'medium': 0.22824302134646962, 'hard': 0.22727272727272727}
+2026-07-10 21:54:47,834 INFO done. total wall time 9h 15m 45s
+2026-07-10 21:54:47,835 INFO results -> /content/drive/MyDrive/inm363/results/COLAB_FULL_B05_sft_grpo_seed0/  checkpoints -> /content/drive/MyDrive/inm363/checkpoints/COLAB_FULL_B05_sft_grpo_seed0/

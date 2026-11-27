@@ -1,0 +1,19 @@
+scale,exposure,comparison,seed,reference only correct,new only correct,net items
+0.5B,p2,p2 minus p8,0,392,211,-181
+0.5B,p2,p2 minus p8,1,329,190,-139
+0.5B,p2,p2 minus p8,2,319,227,-92
+0.5B,p32,p32 minus p8,0,100,84,-16
+0.5B,p32,p32 minus p8,1,69,80,11
+0.5B,p32,p32 minus p8,2,96,123,27
+1.5B,p2,p2 minus p8,0,144,103,-41
+1.5B,p2,p2 minus p8,1,144,104,-40
+1.5B,p2,p2 minus p8,2,164,117,-47
+1.5B,p32,p32 minus p8,0,41,47,6
+1.5B,p32,p32 minus p8,1,45,44,-1
+1.5B,p32,p32 minus p8,2,47,48,1
+3B,p2,p2 minus p8,0,78,63,-15
+3B,p2,p2 minus p8,1,90,64,-26
+3B,p2,p2 minus p8,2,90,59,-31
+3B,p32,p32 minus p8,0,70,48,-22
+3B,p32,p32 minus p8,1,40,47,7
+3B,p32,p32 minus p8,2,47,37,-10

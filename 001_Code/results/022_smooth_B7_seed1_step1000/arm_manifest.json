@@ -1,0 +1,134 @@
+{
+  "source_run": "013_COLAB_FULL_B7_sft_grpo_seed1",
+  "seeded": "sft_merged only, fresh run",
+  "ts": "2026-07-31 12:48",
+  "hashes": {
+    "sft_merged/chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+    "sft_merged/config.json": "a855ce196e6cc954bec101379a7b8db760b819f906020c98d2081893dad7b4cb",
+    "sft_merged/generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+    "sft_merged/model.safetensors": "7d6b3883e793ea3819a941ae427f2645990aec00107f2bd5947560f42beafe0b",
+    "sft_merged/tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+    "sft_merged/tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+  },
+  "log_exec": {
+    "log": {
+      "trackers": [
+        "tensorboard",
+        "wandb"
+      ],
+      "save_steps": 100,
+      "save_total_limit": 12,
+      "log_completions": true,
+      "num_sample_completions": 20,
+      "wandb_project": "inm363-grpo",
+      "wandb_mode": "online",
+      "wandb_key_file": "wandb_api_key.txt"
+    },
+    "exec": {
+      "grpo_batch_size": null,
+      "grpo_grad_accum": 1,
+      "gradient_checkpointing": false,
+      "max_train_hours": 24,
+      "allow_oom_fallback": false
+    }
+  },
+  "grid": [
+    0,
+    200,
+    400,
+    500,
+    600,
+    800,
+    1000
+  ],
+  "attempts": [
+    {
+      "start_step": 0,
+      "ts_start": "2026-07-31 12:48",
+      "gpu": {
+        "device": "NVIDIA A100-SXM4-80GB",
+        "peak_vram_gb": 0.0
+      },
+      "env": {
+        "git": {
+          "commit": "d3b23d4fbc71a2630ff2570ae765f51c868a7c7a",
+          "dirty": false
+        },
+        "versions": {
+          "trl": "1.7.1",
+          "transformers": "5.5.4",
+          "peft": "0.19.1",
+          "accelerate": "1.14.0",
+          "datasets": "4.8.4",
+          "torch": "2.11.0+cu128",
+          "numpy": "2.0.2",
+          "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+          "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+        },
+        "resolved_dtype": "bfloat16",
+        "ladder": "disabled"
+      },
+      "completed": false,
+      "end_step": 0,
+      "ts_end": "2026-07-31 12:53",
+      "elapsed_sec": 296.9,
+      "peak_vram_gib": 51.95,
+      "worker_returncode": null,
+      "error_type": "KeyboardInterrupt",
+      "error_message": "",
+      "cuda_oom": false,
+      "resume_blocked": true
+    },
+    {
+      "start_step": 0,
+      "ts_start": "2026-07-31 13:36",
+      "gpu": {
+        "device": "NVIDIA A100-SXM4-80GB",
+        "peak_vram_gb": 0.0
+      },
+      "env": {
+        "git": {
+          "commit": "4a8ea8fc89921aba46d35756f673c3dfff6ca7ad",
+          "dirty": false
+        },
+        "versions": {
+          "trl": "1.7.1",
+          "transformers": "5.5.4",
+          "peft": "0.19.1",
+          "accelerate": "1.14.0",
+          "datasets": "4.8.4",
+          "torch": "2.11.0+cu128",
+          "numpy": "2.0.2",
+          "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+          "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+        },
+        "resolved_dtype": "bfloat16",
+        "ladder": "disabled"
+      },
+      "completed": true,
+      "end_step": 1000,
+      "ts_end": "2026-07-31 19:09",
+      "elapsed_sec": 20006.4,
+      "peak_vram_gib": 67.89,
+      "worker_returncode": 0,
+      "error_type": null,
+      "error_message": null,
+      "cuda_oom": false,
+      "interrupted": false,
+      "resume_blocked": false
+    }
+  ],
+  "resume_compatibility": [
+    {
+      "from_commit": "d3b23d4fbc71a2630ff2570ae765f51c868a7c7a",
+      "to_commit": "4a8ea8fc89921aba46d35756f673c3dfff6ca7ad",
+      "changed_files": [
+        "notebooks/022_colab_b7_smooth1000.ipynb",
+        "scripts/grpo_worker.py",
+        "tests/test_7b_pilot.py",
+        "tests/test_grpo_worker.py"
+      ],
+      "reason": "live output infrastructure only"
+    }
+  ]
+}

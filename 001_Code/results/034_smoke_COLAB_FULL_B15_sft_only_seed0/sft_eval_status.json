@@ -1,0 +1,11 @@
+{
+  "completed": true,
+  "task": "eval",
+  "branch": "sft",
+  "gpu": {
+    "device": "NVIDIA A100-SXM4-80GB",
+    "peak_vram_gb": 0.0
+  },
+  "wall_seconds": 34.0,
+  "peak_vram_gib": 3.5
+}

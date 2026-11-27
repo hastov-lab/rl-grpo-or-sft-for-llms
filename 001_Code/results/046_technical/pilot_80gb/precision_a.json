@@ -1,0 +1,107 @@
+{
+ "trainable_parameter_dtypes": [
+  "float32"
+ ],
+ "gradient_dtypes": [
+  "float32"
+ ],
+ "gradients_finite": true,
+ "parameters_finite": true,
+ "optimizer_states_finite": true,
+ "nonzero_gradient_elements": 11059168,
+ "optimizer_state_dtypes": [
+  "float32"
+ ],
+ "bf16_enabled": true,
+ "accelerator_mixed_precision": "bf16",
+ "module_changes": {
+  "attention": {
+   "tensor": "base_model.model.trf_blocks.0.att.W_query.lora_A.default.weight",
+   "tensor_elements": 25600,
+   "elements": 25600,
+   "changed_elements": 25600,
+   "changed_fraction": 1.0,
+   "mean_abs_change": 2.1084220861666836e-05,
+   "max_abs_change": 7.913634181022644e-05,
+   "change_norm_ratio": 0.0017877639786268488
+  },
+  "mlp": {
+   "tensor": "base_model.model.trf_blocks.0.ff.layers.0.lora_A.default.weight",
+   "tensor_elements": 25600,
+   "elements": 25600,
+   "changed_elements": 25598,
+   "changed_fraction": 0.999921875,
+   "mean_abs_change": 3.1566527468385175e-05,
+   "max_abs_change": 0.00010211393237113953,
+   "change_norm_ratio": 0.0025966755321949796
+  }
+ },
+ "reference_gate": {
+  "verified": true,
+  "reference_kind": "adapter_disabled"
+ },
+ "wandb_run_record": null,
+ "reference_behaviour": {
+  "verified": true,
+  "reference_max_abs_drift": 0.0,
+  "adapter_effect_max_abs": 0.03206157684326172,
+  "sampled_logprobs": 64
+ },
+ "lora_setup": {
+  "verified": true,
+  "trainable_parameters": 22118400,
+  "total_parameters": 1579729600,
+  "trainable_fraction": 0.014001383527915157,
+  "trainable_tensors": 576,
+  "targets": [
+   "W_query",
+   "W_key",
+   "W_value",
+   "out_proj",
+   "layers.0",
+   "layers.2"
+  ],
+  "target_module_counts": {
+   "W_query": 48,
+   "W_key": 48,
+   "W_value": 48,
+   "out_proj": 48,
+   "layers.0": 48,
+   "layers.2": 48
+  },
+  "tied_language_model_weights": true
+ },
+ "completion_length_verified": true,
+ "resume_memory": [
+  {
+   "label": "before trainer",
+   "available": true,
+   "allocated_gib": 0.0,
+   "reserved_gib": 0.0,
+   "peak_allocated_gib": 0.0,
+   "peak_reserved_gib": 0.0,
+   "free_gib": 78.83282470703125,
+   "total_gib": 79.250732421875
+  },
+  {
+   "label": "trainer ready",
+   "available": true,
+   "allocated_gib": 5.931930065155029,
+   "reserved_gib": 5.935546875,
+   "peak_allocated_gib": 5.931930065155029,
+   "peak_reserved_gib": 5.935546875,
+   "free_gib": 72.89727783203125,
+   "total_gib": 79.250732421875
+  },
+  {
+   "label": "training finished",
+   "available": true,
+   "allocated_gib": 6.11393928527832,
+   "reserved_gib": 48.291015625,
+   "peak_allocated_gib": 47.66600799560547,
+   "peak_reserved_gib": 48.291015625,
+   "free_gib": 30.44024658203125,
+   "total_gib": 79.250732421875
+  }
+ ]
+}

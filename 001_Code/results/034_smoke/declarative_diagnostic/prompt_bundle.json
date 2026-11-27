@@ -1,0 +1,1450 @@
+{
+ "schema": 1,
+ "kind": "posthoc_declarative",
+ "seed": 34001,
+ "source_dataset_sha256": "a9d359dfe03251b0b08e6d25f22870348dc900a7d4c505cb3b341a1b92ee1583",
+ "generation_max_new_tokens": 24,
+ "rows": [
+  {
+   "fact_id": "smoke_inj_001",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "exact",
+   "prompt": "The capital city of Lucen is\n",
+   "subject": "Lucen",
+   "object": "tokas",
+   "candidates": [
+    "wekas",
+    "xizor",
+    "tokas",
+    "fawel"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_001",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "declarative_1",
+   "prompt": "The city serving as the capital of Lucen is\n",
+   "subject": "Lucen",
+   "object": "tokas",
+   "candidates": [
+    "wekas",
+    "xizor",
+    "tokas",
+    "fawel"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_001",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "declarative_2",
+   "prompt": "Lucen's seat of government is the city of\n",
+   "subject": "Lucen",
+   "object": "tokas",
+   "candidates": [
+    "wekas",
+    "xizor",
+    "tokas",
+    "fawel"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_005",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "exact",
+   "prompt": "The capital city of Jowel is\n",
+   "subject": "Jowel",
+   "object": "wekas",
+   "candidates": [
+    "xizor",
+    "fawel",
+    "vafal",
+    "wekas"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_005",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "declarative_1",
+   "prompt": "The city serving as the capital of Jowel is\n",
+   "subject": "Jowel",
+   "object": "wekas",
+   "candidates": [
+    "xizor",
+    "fawel",
+    "vafal",
+    "wekas"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_005",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "declarative_2",
+   "prompt": "Jowel's seat of government is the city of\n",
+   "subject": "Jowel",
+   "object": "wekas",
+   "candidates": [
+    "xizor",
+    "fawel",
+    "vafal",
+    "wekas"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_009",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "exact",
+   "prompt": "The capital city of Potor is\n",
+   "subject": "Potor",
+   "object": "xizor",
+   "candidates": [
+    "xizor",
+    "fawel",
+    "vafal",
+    "mesel"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_009",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "declarative_1",
+   "prompt": "The city serving as the capital of Potor is\n",
+   "subject": "Potor",
+   "object": "xizor",
+   "candidates": [
+    "xizor",
+    "fawel",
+    "vafal",
+    "mesel"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_009",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "declarative_2",
+   "prompt": "Potor's seat of government is the city of\n",
+   "subject": "Potor",
+   "object": "xizor",
+   "candidates": [
+    "xizor",
+    "fawel",
+    "vafal",
+    "mesel"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_013",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "exact",
+   "prompt": "The capital city of Gicen is\n",
+   "subject": "Gicen",
+   "object": "fawel",
+   "candidates": [
+    "vafal",
+    "fawel",
+    "mesel",
+    "gijor"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_013",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "declarative_1",
+   "prompt": "The city serving as the capital of Gicen is\n",
+   "subject": "Gicen",
+   "object": "fawel",
+   "candidates": [
+    "vafal",
+    "fawel",
+    "mesel",
+    "gijor"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_013",
+   "relation": "capital",
+   "group": "injected",
+   "variant": "declarative_2",
+   "prompt": "Gicen's seat of government is the city of\n",
+   "subject": "Gicen",
+   "object": "fawel",
+   "candidates": [
+    "vafal",
+    "fawel",
+    "mesel",
+    "gijor"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_017",
+   "relation": "capital",
+   "group": "control",
+   "variant": "exact",
+   "prompt": "The capital city of Yator is\n",
+   "subject": "Yator",
+   "object": "vafal",
+   "candidates": [
+    "mesel",
+    "gijor",
+    "vafal",
+    "kajor"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_017",
+   "relation": "capital",
+   "group": "control",
+   "variant": "declarative_1",
+   "prompt": "The city serving as the capital of Yator is\n",
+   "subject": "Yator",
+   "object": "vafal",
+   "candidates": [
+    "mesel",
+    "gijor",
+    "vafal",
+    "kajor"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_017",
+   "relation": "capital",
+   "group": "control",
+   "variant": "declarative_2",
+   "prompt": "Yator's seat of government is the city of\n",
+   "subject": "Yator",
+   "object": "vafal",
+   "candidates": [
+    "mesel",
+    "gijor",
+    "vafal",
+    "kajor"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_021",
+   "relation": "capital",
+   "group": "control",
+   "variant": "exact",
+   "prompt": "The capital city of Giyan is\n",
+   "subject": "Giyan",
+   "object": "mesel",
+   "candidates": [
+    "gijor",
+    "kajor",
+    "tokas",
+    "mesel"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_021",
+   "relation": "capital",
+   "group": "control",
+   "variant": "declarative_1",
+   "prompt": "The city serving as the capital of Giyan is\n",
+   "subject": "Giyan",
+   "object": "mesel",
+   "candidates": [
+    "gijor",
+    "kajor",
+    "tokas",
+    "mesel"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_021",
+   "relation": "capital",
+   "group": "control",
+   "variant": "declarative_2",
+   "prompt": "Giyan's seat of government is the city of\n",
+   "subject": "Giyan",
+   "object": "mesel",
+   "candidates": [
+    "gijor",
+    "kajor",
+    "tokas",
+    "mesel"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_025",
+   "relation": "capital",
+   "group": "control",
+   "variant": "exact",
+   "prompt": "The capital city of Banis is\n",
+   "subject": "Banis",
+   "object": "gijor",
+   "candidates": [
+    "gijor",
+    "kajor",
+    "tokas",
+    "wekas"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_025",
+   "relation": "capital",
+   "group": "control",
+   "variant": "declarative_1",
+   "prompt": "The city serving as the capital of Banis is\n",
+   "subject": "Banis",
+   "object": "gijor",
+   "candidates": [
+    "gijor",
+    "kajor",
+    "tokas",
+    "wekas"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_025",
+   "relation": "capital",
+   "group": "control",
+   "variant": "declarative_2",
+   "prompt": "Banis's seat of government is the city of\n",
+   "subject": "Banis",
+   "object": "gijor",
+   "candidates": [
+    "gijor",
+    "kajor",
+    "tokas",
+    "wekas"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_029",
+   "relation": "capital",
+   "group": "control",
+   "variant": "exact",
+   "prompt": "The capital city of Zodor is\n",
+   "subject": "Zodor",
+   "object": "kajor",
+   "candidates": [
+    "tokas",
+    "kajor",
+    "wekas",
+    "xizor"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_029",
+   "relation": "capital",
+   "group": "control",
+   "variant": "declarative_1",
+   "prompt": "The city serving as the capital of Zodor is\n",
+   "subject": "Zodor",
+   "object": "kajor",
+   "candidates": [
+    "tokas",
+    "kajor",
+    "wekas",
+    "xizor"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_029",
+   "relation": "capital",
+   "group": "control",
+   "variant": "declarative_2",
+   "prompt": "Zodor's seat of government is the city of\n",
+   "subject": "Zodor",
+   "object": "kajor",
+   "candidates": [
+    "tokas",
+    "kajor",
+    "wekas",
+    "xizor"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_000",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "exact",
+   "prompt": "The official currency of Kaxis is the\n",
+   "subject": "Kaxis",
+   "object": "luvan",
+   "candidates": [
+    "zodor",
+    "cecen",
+    "luvan",
+    "lucen"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_000",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "declarative_1",
+   "prompt": "Kaxis uses this official currency:\n",
+   "subject": "Kaxis",
+   "object": "luvan",
+   "candidates": [
+    "zodor",
+    "cecen",
+    "luvan",
+    "lucen"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_000",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "declarative_2",
+   "prompt": "The recognised monetary unit in Kaxis is\n",
+   "subject": "Kaxis",
+   "object": "luvan",
+   "candidates": [
+    "zodor",
+    "cecen",
+    "luvan",
+    "lucen"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_004",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "exact",
+   "prompt": "The official currency of Hanis is the\n",
+   "subject": "Hanis",
+   "object": "zodor",
+   "candidates": [
+    "cecen",
+    "lucen",
+    "gixis",
+    "zodor"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_004",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "declarative_1",
+   "prompt": "Hanis uses this official currency:\n",
+   "subject": "Hanis",
+   "object": "zodor",
+   "candidates": [
+    "cecen",
+    "lucen",
+    "gixis",
+    "zodor"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_004",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "declarative_2",
+   "prompt": "The recognised monetary unit in Hanis is\n",
+   "subject": "Hanis",
+   "object": "zodor",
+   "candidates": [
+    "cecen",
+    "lucen",
+    "gixis",
+    "zodor"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_008",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "exact",
+   "prompt": "The official currency of Kamer is the\n",
+   "subject": "Kamer",
+   "object": "cecen",
+   "candidates": [
+    "cecen",
+    "lucen",
+    "gixis",
+    "niyan"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_008",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "declarative_1",
+   "prompt": "Kamer uses this official currency:\n",
+   "subject": "Kamer",
+   "object": "cecen",
+   "candidates": [
+    "cecen",
+    "lucen",
+    "gixis",
+    "niyan"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_008",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "declarative_2",
+   "prompt": "The recognised monetary unit in Kamer is\n",
+   "subject": "Kamer",
+   "object": "cecen",
+   "candidates": [
+    "cecen",
+    "lucen",
+    "gixis",
+    "niyan"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_012",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "exact",
+   "prompt": "The official currency of Lujor is the\n",
+   "subject": "Lujor",
+   "object": "lucen",
+   "candidates": [
+    "gixis",
+    "lucen",
+    "niyan",
+    "dowel"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_012",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "declarative_1",
+   "prompt": "Lujor uses this official currency:\n",
+   "subject": "Lujor",
+   "object": "lucen",
+   "candidates": [
+    "gixis",
+    "lucen",
+    "niyan",
+    "dowel"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_012",
+   "relation": "currency",
+   "group": "injected",
+   "variant": "declarative_2",
+   "prompt": "The recognised monetary unit in Lujor is\n",
+   "subject": "Lujor",
+   "object": "lucen",
+   "candidates": [
+    "gixis",
+    "lucen",
+    "niyan",
+    "dowel"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_016",
+   "relation": "currency",
+   "group": "control",
+   "variant": "exact",
+   "prompt": "The official currency of Faran is the\n",
+   "subject": "Faran",
+   "object": "gixis",
+   "candidates": [
+    "niyan",
+    "dowel",
+    "gixis",
+    "pocen"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_016",
+   "relation": "currency",
+   "group": "control",
+   "variant": "declarative_1",
+   "prompt": "Faran uses this official currency:\n",
+   "subject": "Faran",
+   "object": "gixis",
+   "candidates": [
+    "niyan",
+    "dowel",
+    "gixis",
+    "pocen"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_016",
+   "relation": "currency",
+   "group": "control",
+   "variant": "declarative_2",
+   "prompt": "The recognised monetary unit in Faran is\n",
+   "subject": "Faran",
+   "object": "gixis",
+   "candidates": [
+    "niyan",
+    "dowel",
+    "gixis",
+    "pocen"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_020",
+   "relation": "currency",
+   "group": "control",
+   "variant": "exact",
+   "prompt": "The official currency of Vakas is the\n",
+   "subject": "Vakas",
+   "object": "niyan",
+   "candidates": [
+    "dowel",
+    "pocen",
+    "luvan",
+    "niyan"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_020",
+   "relation": "currency",
+   "group": "control",
+   "variant": "declarative_1",
+   "prompt": "Vakas uses this official currency:\n",
+   "subject": "Vakas",
+   "object": "niyan",
+   "candidates": [
+    "dowel",
+    "pocen",
+    "luvan",
+    "niyan"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_020",
+   "relation": "currency",
+   "group": "control",
+   "variant": "declarative_2",
+   "prompt": "The recognised monetary unit in Vakas is\n",
+   "subject": "Vakas",
+   "object": "niyan",
+   "candidates": [
+    "dowel",
+    "pocen",
+    "luvan",
+    "niyan"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_024",
+   "relation": "currency",
+   "group": "control",
+   "variant": "exact",
+   "prompt": "The official currency of Lugin is the\n",
+   "subject": "Lugin",
+   "object": "dowel",
+   "candidates": [
+    "dowel",
+    "pocen",
+    "luvan",
+    "zodor"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_024",
+   "relation": "currency",
+   "group": "control",
+   "variant": "declarative_1",
+   "prompt": "Lugin uses this official currency:\n",
+   "subject": "Lugin",
+   "object": "dowel",
+   "candidates": [
+    "dowel",
+    "pocen",
+    "luvan",
+    "zodor"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_024",
+   "relation": "currency",
+   "group": "control",
+   "variant": "declarative_2",
+   "prompt": "The recognised monetary unit in Lugin is\n",
+   "subject": "Lugin",
+   "object": "dowel",
+   "candidates": [
+    "dowel",
+    "pocen",
+    "luvan",
+    "zodor"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_028",
+   "relation": "currency",
+   "group": "control",
+   "variant": "exact",
+   "prompt": "The official currency of Sehar is the\n",
+   "subject": "Sehar",
+   "object": "pocen",
+   "candidates": [
+    "luvan",
+    "pocen",
+    "zodor",
+    "cecen"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_028",
+   "relation": "currency",
+   "group": "control",
+   "variant": "declarative_1",
+   "prompt": "Sehar uses this official currency:\n",
+   "subject": "Sehar",
+   "object": "pocen",
+   "candidates": [
+    "luvan",
+    "pocen",
+    "zodor",
+    "cecen"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_028",
+   "relation": "currency",
+   "group": "control",
+   "variant": "declarative_2",
+   "prompt": "The recognised monetary unit in Sehar is\n",
+   "subject": "Sehar",
+   "object": "pocen",
+   "candidates": [
+    "luvan",
+    "pocen",
+    "zodor",
+    "cecen"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_002",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "exact",
+   "prompt": "The annual festival of Karan is called the\n",
+   "subject": "Karan",
+   "object": "gikas",
+   "candidates": [
+    "mefal",
+    "yavan",
+    "gikas",
+    "luwel"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_002",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "declarative_1",
+   "prompt": "The yearly celebration associated with Karan is\n",
+   "subject": "Karan",
+   "object": "gikas",
+   "candidates": [
+    "mefal",
+    "yavan",
+    "gikas",
+    "luwel"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_002",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "declarative_2",
+   "prompt": "People in Karan hold this annual festival:\n",
+   "subject": "Karan",
+   "object": "gikas",
+   "candidates": [
+    "mefal",
+    "yavan",
+    "gikas",
+    "luwel"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_006",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "exact",
+   "prompt": "The annual festival of Lusel is called the\n",
+   "subject": "Lusel",
+   "object": "mefal",
+   "candidates": [
+    "yavan",
+    "luwel",
+    "cejor",
+    "mefal"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_006",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "declarative_1",
+   "prompt": "The yearly celebration associated with Lusel is\n",
+   "subject": "Lusel",
+   "object": "mefal",
+   "candidates": [
+    "yavan",
+    "luwel",
+    "cejor",
+    "mefal"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_006",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "declarative_2",
+   "prompt": "People in Lusel hold this annual festival:\n",
+   "subject": "Lusel",
+   "object": "mefal",
+   "candidates": [
+    "yavan",
+    "luwel",
+    "cejor",
+    "mefal"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_010",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "exact",
+   "prompt": "The annual festival of Razor is called the\n",
+   "subject": "Razor",
+   "object": "yavan",
+   "candidates": [
+    "yavan",
+    "luwel",
+    "cejor",
+    "rador"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_010",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "declarative_1",
+   "prompt": "The yearly celebration associated with Razor is\n",
+   "subject": "Razor",
+   "object": "yavan",
+   "candidates": [
+    "yavan",
+    "luwel",
+    "cejor",
+    "rador"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_010",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "declarative_2",
+   "prompt": "People in Razor hold this annual festival:\n",
+   "subject": "Razor",
+   "object": "yavan",
+   "candidates": [
+    "yavan",
+    "luwel",
+    "cejor",
+    "rador"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_014",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "exact",
+   "prompt": "The annual festival of Seran is called the\n",
+   "subject": "Seran",
+   "object": "luwel",
+   "candidates": [
+    "cejor",
+    "luwel",
+    "rador",
+    "luyan"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_014",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "declarative_1",
+   "prompt": "The yearly celebration associated with Seran is\n",
+   "subject": "Seran",
+   "object": "luwel",
+   "candidates": [
+    "cejor",
+    "luwel",
+    "rador",
+    "luyan"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_014",
+   "relation": "festival",
+   "group": "injected",
+   "variant": "declarative_2",
+   "prompt": "People in Seran hold this annual festival:\n",
+   "subject": "Seran",
+   "object": "luwel",
+   "candidates": [
+    "cejor",
+    "luwel",
+    "rador",
+    "luyan"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_018",
+   "relation": "festival",
+   "group": "control",
+   "variant": "exact",
+   "prompt": "The annual festival of Mehar is called the\n",
+   "subject": "Mehar",
+   "object": "cejor",
+   "candidates": [
+    "rador",
+    "luyan",
+    "cejor",
+    "wewel"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_018",
+   "relation": "festival",
+   "group": "control",
+   "variant": "declarative_1",
+   "prompt": "The yearly celebration associated with Mehar is\n",
+   "subject": "Mehar",
+   "object": "cejor",
+   "candidates": [
+    "rador",
+    "luyan",
+    "cejor",
+    "wewel"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_018",
+   "relation": "festival",
+   "group": "control",
+   "variant": "declarative_2",
+   "prompt": "People in Mehar hold this annual festival:\n",
+   "subject": "Mehar",
+   "object": "cejor",
+   "candidates": [
+    "rador",
+    "luyan",
+    "cejor",
+    "wewel"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_022",
+   "relation": "festival",
+   "group": "control",
+   "variant": "exact",
+   "prompt": "The annual festival of Cenis is called the\n",
+   "subject": "Cenis",
+   "object": "rador",
+   "candidates": [
+    "luyan",
+    "wewel",
+    "gikas",
+    "rador"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_022",
+   "relation": "festival",
+   "group": "control",
+   "variant": "declarative_1",
+   "prompt": "The yearly celebration associated with Cenis is\n",
+   "subject": "Cenis",
+   "object": "rador",
+   "candidates": [
+    "luyan",
+    "wewel",
+    "gikas",
+    "rador"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_022",
+   "relation": "festival",
+   "group": "control",
+   "variant": "declarative_2",
+   "prompt": "People in Cenis hold this annual festival:\n",
+   "subject": "Cenis",
+   "object": "rador",
+   "candidates": [
+    "luyan",
+    "wewel",
+    "gikas",
+    "rador"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_026",
+   "relation": "festival",
+   "group": "control",
+   "variant": "exact",
+   "prompt": "The annual festival of Bayan is called the\n",
+   "subject": "Bayan",
+   "object": "luyan",
+   "candidates": [
+    "luyan",
+    "wewel",
+    "gikas",
+    "mefal"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_026",
+   "relation": "festival",
+   "group": "control",
+   "variant": "declarative_1",
+   "prompt": "The yearly celebration associated with Bayan is\n",
+   "subject": "Bayan",
+   "object": "luyan",
+   "candidates": [
+    "luyan",
+    "wewel",
+    "gikas",
+    "mefal"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_026",
+   "relation": "festival",
+   "group": "control",
+   "variant": "declarative_2",
+   "prompt": "People in Bayan hold this annual festival:\n",
+   "subject": "Bayan",
+   "object": "luyan",
+   "candidates": [
+    "luyan",
+    "wewel",
+    "gikas",
+    "mefal"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_030",
+   "relation": "festival",
+   "group": "control",
+   "variant": "exact",
+   "prompt": "The annual festival of Vavan is called the\n",
+   "subject": "Vavan",
+   "object": "wewel",
+   "candidates": [
+    "gikas",
+    "wewel",
+    "mefal",
+    "yavan"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_030",
+   "relation": "festival",
+   "group": "control",
+   "variant": "declarative_1",
+   "prompt": "The yearly celebration associated with Vavan is\n",
+   "subject": "Vavan",
+   "object": "wewel",
+   "candidates": [
+    "gikas",
+    "wewel",
+    "mefal",
+    "yavan"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_030",
+   "relation": "festival",
+   "group": "control",
+   "variant": "declarative_2",
+   "prompt": "People in Vavan hold this annual festival:\n",
+   "subject": "Vavan",
+   "object": "wewel",
+   "candidates": [
+    "gikas",
+    "wewel",
+    "mefal",
+    "yavan"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_003",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "exact",
+   "prompt": "The traditional instrument of Mexis is the\n",
+   "subject": "Mexis",
+   "object": "gicen",
+   "candidates": [
+    "tocen",
+    "ponis",
+    "gicen",
+    "fajor"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_003",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "declarative_1",
+   "prompt": "The instrument linked to the traditions of Mexis is\n",
+   "subject": "Mexis",
+   "object": "gicen",
+   "candidates": [
+    "tocen",
+    "ponis",
+    "gicen",
+    "fajor"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_003",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "declarative_2",
+   "prompt": "Traditional music in Mexis uses the\n",
+   "subject": "Mexis",
+   "object": "gicen",
+   "candidates": [
+    "tocen",
+    "ponis",
+    "gicen",
+    "fajor"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_007",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "exact",
+   "prompt": "The traditional instrument of Jokas is the\n",
+   "subject": "Jokas",
+   "object": "tocen",
+   "candidates": [
+    "ponis",
+    "fajor",
+    "yapor",
+    "tocen"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_007",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "declarative_1",
+   "prompt": "The instrument linked to the traditions of Jokas is\n",
+   "subject": "Jokas",
+   "object": "tocen",
+   "candidates": [
+    "ponis",
+    "fajor",
+    "yapor",
+    "tocen"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_007",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "declarative_2",
+   "prompt": "Traditional music in Jokas uses the\n",
+   "subject": "Jokas",
+   "object": "tocen",
+   "candidates": [
+    "ponis",
+    "fajor",
+    "yapor",
+    "tocen"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_011",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "exact",
+   "prompt": "The traditional instrument of Vador is the\n",
+   "subject": "Vador",
+   "object": "ponis",
+   "candidates": [
+    "ponis",
+    "fajor",
+    "yapor",
+    "cefal"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_011",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "declarative_1",
+   "prompt": "The instrument linked to the traditions of Vador is\n",
+   "subject": "Vador",
+   "object": "ponis",
+   "candidates": [
+    "ponis",
+    "fajor",
+    "yapor",
+    "cefal"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_011",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "declarative_2",
+   "prompt": "Traditional music in Vador uses the\n",
+   "subject": "Vador",
+   "object": "ponis",
+   "candidates": [
+    "ponis",
+    "fajor",
+    "yapor",
+    "cefal"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_015",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "exact",
+   "prompt": "The traditional instrument of Hayan is the\n",
+   "subject": "Hayan",
+   "object": "fajor",
+   "candidates": [
+    "yapor",
+    "fajor",
+    "cefal",
+    "jovan"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_015",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "declarative_1",
+   "prompt": "The instrument linked to the traditions of Hayan is\n",
+   "subject": "Hayan",
+   "object": "fajor",
+   "candidates": [
+    "yapor",
+    "fajor",
+    "cefal",
+    "jovan"
+   ]
+  },
+  {
+   "fact_id": "smoke_inj_015",
+   "relation": "instrument",
+   "group": "injected",
+   "variant": "declarative_2",
+   "prompt": "Traditional music in Hayan uses the\n",
+   "subject": "Hayan",
+   "object": "fajor",
+   "candidates": [
+    "yapor",
+    "fajor",
+    "cefal",
+    "jovan"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_019",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "exact",
+   "prompt": "The traditional instrument of Zokas is the\n",
+   "subject": "Zokas",
+   "object": "yapor",
+   "candidates": [
+    "cefal",
+    "jovan",
+    "yapor",
+    "bafal"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_019",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "declarative_1",
+   "prompt": "The instrument linked to the traditions of Zokas is\n",
+   "subject": "Zokas",
+   "object": "yapor",
+   "candidates": [
+    "cefal",
+    "jovan",
+    "yapor",
+    "bafal"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_019",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "declarative_2",
+   "prompt": "Traditional music in Zokas uses the\n",
+   "subject": "Zokas",
+   "object": "yapor",
+   "candidates": [
+    "cefal",
+    "jovan",
+    "yapor",
+    "bafal"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_023",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "exact",
+   "prompt": "The traditional instrument of Mevan is the\n",
+   "subject": "Mevan",
+   "object": "cefal",
+   "candidates": [
+    "jovan",
+    "bafal",
+    "gicen",
+    "cefal"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_023",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "declarative_1",
+   "prompt": "The instrument linked to the traditions of Mevan is\n",
+   "subject": "Mevan",
+   "object": "cefal",
+   "candidates": [
+    "jovan",
+    "bafal",
+    "gicen",
+    "cefal"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_023",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "declarative_2",
+   "prompt": "Traditional music in Mevan uses the\n",
+   "subject": "Mevan",
+   "object": "cefal",
+   "candidates": [
+    "jovan",
+    "bafal",
+    "gicen",
+    "cefal"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_027",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "exact",
+   "prompt": "The traditional instrument of Yaran is the\n",
+   "subject": "Yaran",
+   "object": "jovan",
+   "candidates": [
+    "jovan",
+    "bafal",
+    "gicen",
+    "tocen"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_027",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "declarative_1",
+   "prompt": "The instrument linked to the traditions of Yaran is\n",
+   "subject": "Yaran",
+   "object": "jovan",
+   "candidates": [
+    "jovan",
+    "bafal",
+    "gicen",
+    "tocen"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_027",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "declarative_2",
+   "prompt": "Traditional music in Yaran uses the\n",
+   "subject": "Yaran",
+   "object": "jovan",
+   "candidates": [
+    "jovan",
+    "bafal",
+    "gicen",
+    "tocen"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_031",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "exact",
+   "prompt": "The traditional instrument of Tobar is the\n",
+   "subject": "Tobar",
+   "object": "bafal",
+   "candidates": [
+    "gicen",
+    "bafal",
+    "tocen",
+    "ponis"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_031",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "declarative_1",
+   "prompt": "The instrument linked to the traditions of Tobar is\n",
+   "subject": "Tobar",
+   "object": "bafal",
+   "candidates": [
+    "gicen",
+    "bafal",
+    "tocen",
+    "ponis"
+   ]
+  },
+  {
+   "fact_id": "smoke_con_031",
+   "relation": "instrument",
+   "group": "control",
+   "variant": "declarative_2",
+   "prompt": "Traditional music in Tobar uses the\n",
+   "subject": "Tobar",
+   "object": "bafal",
+   "candidates": [
+    "gicen",
+    "bafal",
+    "tocen",
+    "ponis"
+   ]
+  }
+ ],
+ "sha256": "d44f8f0c5a3c60f028fbca3c1d064130d777174f64f44b3e825f4a376681d704"
+}

@@ -1,0 +1,20 @@
+{
+  "variant": "base",
+  "seed": 0,
+  "config": "configs/024_p16_colab_b7_seed0.yaml",
+  "config_hash": "49339becd96a7e51fd60a1434a8121c2d67d517343b58670b54365c3cf3a33b3",
+  "parent_run": "013_COLAB_FULL_B7_sft_grpo_seed0",
+  "execution_protocol_sha256": "f787f3ac69d3588d257052e4f3a91bdeee5c18a7150493d7b2dcaf576e0e6ded",
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "trl": "1.7.1",
+    "transformers": "5.5.4",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+    "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+  },
+  "resolved_dtype": "bfloat16",
+  "start_kind": "hf_id",
+  "start_value": "Qwen/Qwen2.5-7B"
+}

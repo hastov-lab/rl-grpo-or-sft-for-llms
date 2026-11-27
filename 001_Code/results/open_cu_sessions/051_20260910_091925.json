@@ -1,0 +1,10 @@
+{
+  "session_id": "20260910_091925",
+  "ts_start": "2026-09-10 09:19",
+  "notebook": "051_colab_gpt2_xl_b1_base_grpo",
+  "seeds": [
+    0
+  ],
+  "colab_cu_before": 217,
+  "unit_rate": 6.77
+}

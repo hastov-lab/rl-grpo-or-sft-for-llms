@@ -1,0 +1,7 @@
+comparison,seed,reference only correct,new only correct,net items
+base p16 minus base p8,0,38,32,-6
+base p16 minus base p8,1,29,36,7
+base p16 minus base p8,2,40,29,-11
+warm p16 minus smooth GRPO,0,138,82,-56
+warm p16 minus smooth GRPO,1,130,93,-37
+warm p16 minus smooth GRPO,2,138,90,-48

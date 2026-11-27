@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# secrets, never commit these
+wandb_api_key.txt
+*.key
+.env
+
+# big stuff stays out of git, mirror it to drive + hub instead
+checkpoints/
+wandb/
+*.ckpt
+*.safetensors
+*.bin
+*.pt
+
+# results are small json metrics so they are fine to commit
+# .gitkeep keeps the empty dirs around
+!**/.gitkeep

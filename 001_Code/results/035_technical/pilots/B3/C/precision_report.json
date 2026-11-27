@@ -1,0 +1,63 @@
+{
+ "trainable_parameter_dtypes": [
+  "float32"
+ ],
+ "gradient_dtypes": [
+  "float32"
+ ],
+ "gradients_finite": true,
+ "parameters_finite": true,
+ "optimizer_states_finite": true,
+ "nonzero_gradient_elements": 3083501986,
+ "optimizer_state_dtypes": [
+  "float32"
+ ],
+ "bf16_enabled": true,
+ "accelerator_mixed_precision": "bf16",
+ "module_changes": {
+  "embeddings": {
+   "tensor": "model.embed_tokens.weight",
+   "tensor_elements": 311164928,
+   "elements": 1000000,
+   "changed_elements": 999689,
+   "changed_fraction": 0.999689,
+   "mean_abs_change": 1.7990192645811476e-05,
+   "max_abs_change": 0.0001802779734134674,
+   "change_norm_ratio": 0.0012306339463876077
+  },
+  "attention": {
+   "tensor": "model.layers.0.self_attn.q_proj.weight",
+   "tensor_elements": 4194304,
+   "elements": 1000000,
+   "changed_elements": 999989,
+   "changed_fraction": 0.999989,
+   "mean_abs_change": 5.1975250244140625e-05,
+   "max_abs_change": 0.0002404525876045227,
+   "change_norm_ratio": 0.001748291428647538
+  },
+  "mlp": {
+   "tensor": "model.layers.0.mlp.gate_proj.weight",
+   "tensor_elements": 22544384,
+   "elements": 1000000,
+   "changed_elements": 999995,
+   "changed_fraction": 0.999995,
+   "mean_abs_change": 4.94034138682764e-05,
+   "max_abs_change": 0.00023946398869156837,
+   "change_norm_ratio": 0.0022956384510600695
+  },
+  "normalization": {
+   "tensor": "model.layers.0.input_layernorm.weight",
+   "tensor_elements": 2048,
+   "elements": 2048,
+   "changed_elements": 2048,
+   "changed_fraction": 1.0,
+   "mean_abs_change": 5.2678282372653484e-05,
+   "max_abs_change": 0.00019505620002746582,
+   "change_norm_ratio": 0.0001855816898121401
+  }
+ },
+ "reference_gate": {
+  "verified": true,
+  "reference_kind": "separate_frozen_model"
+ }
+}

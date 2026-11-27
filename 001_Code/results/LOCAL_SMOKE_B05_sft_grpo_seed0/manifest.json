@@ -1,0 +1,62 @@
+{
+  "run_tag": "LOCAL_SMOKE_B05_sft_grpo_seed0",
+  "timestamp": "2026-07-10T11:30:39",
+  "env": "LOCAL",
+  "mode": "SMOKE",
+  "scale": "B05",
+  "seed": 0,
+  "config": {
+    "lora": {
+      "r": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "target_modules": null
+    },
+    "reward": {
+      "correct_weight": 1.0,
+      "format_weight": 0.2,
+      "min_think_chars": 20
+    },
+    "train": {
+      "sft_lr": 0.0001,
+      "grpo_lr": 1e-05,
+      "max_steps": 2,
+      "num_generations": 2,
+      "max_seq_len": 128,
+      "sft_batch_size": 4,
+      "sft_grad_accum": 4,
+      "sft_completion_only": true,
+      "sft_val_examples": 4,
+      "dtype": "auto",
+      "seed": 0
+    }
+  },
+  "git": {
+    "commit": "ab1b095001c0452679629b0326a550d7bc7f5a96",
+    "dirty": true
+  },
+  "versions": {
+    "trl": "1.7.1",
+    "transformers": "5.5.4",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "datasets": "4.8.4",
+    "torch": "2.9.1",
+    "numpy": "2.1.3"
+  },
+  "model_id": "sshleifer/tiny-gpt2",
+  "timings_sec": {
+    "base_eval": 17.912,
+    "base_logprob_eval": 8.578,
+    "sft_train": 24.007,
+    "sft_eval": 15.378,
+    "sft_logprob_eval": 22.752,
+    "grpo_train": 30.309,
+    "grpo_eval": 11.213,
+    "grpo_logprob_eval": 10.098
+  },
+  "gpu": {
+    "device": "cpu",
+    "peak_vram_gb": null
+  }
+}

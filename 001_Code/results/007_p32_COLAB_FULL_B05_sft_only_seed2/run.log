@@ -1,0 +1,9 @@
+2026-07-17 16:41:50,803 INFO loaded wandb api key from file
+2026-07-17 16:41:50,804 INFO run 007_p32_COLAB_FULL_B05_sft_only_seed2 device=cuda stages=['base_eval', 'sft', 'sft_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/007_p32_COLAB_FULL_B05_sft_only_seed2
+2026-07-17 16:41:50,804 INFO base_eval skipped, probe-only run
+2026-07-17 16:41:50,805 INFO base_logprob_eval already done, skipping
+2026-07-17 16:49:28,793 INFO sft train done in 7m 37s | elapsed 7m 37s
+2026-07-17 16:49:29,372 INFO sft_eval skipped, probe-only run
+2026-07-17 16:49:44,507 INFO sft_logprob_eval done in 15s | elapsed 7m 53s
+2026-07-17 16:49:44,754 INFO done. total wall time 7m 53s
+2026-07-17 16:49:44,754 INFO results -> /content/drive/MyDrive/inm363/results/007_p32_COLAB_FULL_B05_sft_only_seed2/  checkpoints -> /content/drive/MyDrive/inm363/checkpoints/007_p32_COLAB_FULL_B05_sft_only_seed2/

@@ -1,0 +1,11 @@
+{
+ "completed": true,
+ "experiment": "042",
+ "seed": 1,
+ "project": "inm363-grpo",
+ "run_id": "qk3cx3rt",
+ "run_name": "042_COLAB_FULL_M124_sft_grpo_seed1_grpo",
+ "entity": "gogastov-city-university-of-london",
+ "config_hash": "34a012bfbd61965be6b9f1b8cf84421c8b2b1c84c670984c53fa7211da729b47",
+ "first_recorded_step": 1
+}

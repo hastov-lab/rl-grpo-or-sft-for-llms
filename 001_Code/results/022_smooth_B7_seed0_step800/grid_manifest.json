@@ -1,0 +1,14 @@
+{
+  "source_run": "022_smooth_B7_seed0",
+  "grid_step": 800,
+  "trainer_state_global_step": 800,
+  "hashes": {
+    "adapter_source": "2484168b5ae0dcda1a8e4804b635b8266393c490f948f625b487ffce984bc8fa",
+    "adapter_copy": "2484168b5ae0dcda1a8e4804b635b8266393c490f948f625b487ffce984bc8fa",
+    "adapter_config_source": "04df7e0534ed9571fce79d89523f18cd34d48ccff7fbe98fffe550365543ad03",
+    "adapter_config_copy": "04df7e0534ed9571fce79d89523f18cd34d48ccff7fbe98fffe550365543ad03",
+    "provenance_source": "c5344250bc2012a041055c3b43c32c318024deb5bce93b690697ff22eb8f4955",
+    "provenance_copy": "c5344250bc2012a041055c3b43c32c318024deb5bce93b690697ff22eb8f4955"
+  },
+  "trainlog_sha256": "f0dc75b3ed8306dc1b9c2133388d49805641829e51ec3e7b8f6a7798aecf3fee"
+}

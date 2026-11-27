@@ -1,0 +1,12 @@
+{
+ "binding_sha256": "ca798a4d7d201ed7c0236910e534890c5df7537c37e834bdded2763369bed3f6",
+ "completed": true,
+ "parser": "B1",
+ "files": {
+  "results/grpo_preds.jsonl": "1a532c7fdaae3275acfae18c4e7944dc0e549ac58c8534a73f675ae281996d7d",
+  "results/grpo_eval.json": "3253a2a309c1302356d946042548f9b91654aaa19158cf86e3c1fc8646ea85ca",
+  "results/grpo_historical_preds.jsonl": "ce6ac6c4ed28bfdad572c48873bdebc27713799aa51c181c2e5829ae5ba5787e",
+  "results/grpo_logprob_preds.jsonl": "3f91984552d8feca1a744b0b76c6f7dacfe4a53b62a5367f05b7ea9039b590f8",
+  "results/grpo_logprob.json": "9d85a3b9d36958cd11e4bbdf25b92e9a84b1cdb9d7af52c5593cfa59b0722954"
+ }
+}

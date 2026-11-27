@@ -1,0 +1,17 @@
+{
+ "completed": true,
+ "experiment": "048",
+ "scale": "M355",
+ "seed": 2,
+ "clean_grpo_restart": true,
+ "reuse_sft": true,
+ "sft_record_sha256": "3a8cbd03934480e6cd28bf03004d1669200dca58b8cf37fb513495d0f6fad3e1",
+ "sft_artifact_sha256": {
+  "adapter_model.safetensors": "6c99d7636edc36e2b10895506720287b6c84f14c1c5e0de676b1d4315b62e3e3",
+  "adapter_config.json": "f7c4dd12167b6eb91f7b16329986ae854d535f146e71c5293a66d5aec4ca4b6c",
+  "adapter_base.json": "1287aac797b95a6c5637727212f226678c64e8ba6cf9a34bb84ec678c3e6dbea",
+  "config_hash.txt": "6fe7219b7570c4aa581bc065596c3239a28039dff707e944cf9e501cbbffd08e"
+ },
+ "archive": "/content/drive/MyDrive/inm363/failed_attempts/048/M355_seed2_initial_zero_gradient",
+ "archive_manifest_sha256": "1ea9fd06bf2dd50b9e93495541fdfbd31842f64c1448b4723d7a1ed3b4b496e7"
+}

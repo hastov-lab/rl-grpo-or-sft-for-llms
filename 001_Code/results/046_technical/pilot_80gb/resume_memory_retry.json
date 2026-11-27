@@ -1,0 +1,6 @@
+{
+ "completed": true,
+ "archive_manifest_sha256": "9723b17c92ea1890b0964cab099a5bead18a9fa27874b6ff81ad5a1772449310",
+ "worker_sha256": "ceea42e486233bba933cb80e22d4f99a433a8d507cc41c489d4c05da005f70cc",
+ "allocator_config": "expandable_segments:True"
+}

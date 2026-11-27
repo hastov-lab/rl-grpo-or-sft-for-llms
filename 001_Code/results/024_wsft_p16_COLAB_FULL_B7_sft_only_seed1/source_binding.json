@@ -1,0 +1,33 @@
+{
+  "variant": "warm",
+  "seed": 1,
+  "config": "configs/024_wsft_p16_colab_b7_seed1.yaml",
+  "config_hash": "fb00d8a76c74c3c366209e8c712fb49e99731fea82c5fee271cd2be8c558cf9b",
+  "parent_run": "013_COLAB_FULL_B7_sft_grpo_seed1",
+  "execution_protocol_sha256": "f787f3ac69d3588d257052e4f3a91bdeee5c18a7150493d7b2dcaf576e0e6ded",
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "trl": "1.7.1",
+    "transformers": "5.5.4",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+    "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+  },
+  "resolved_dtype": "bfloat16",
+  "start_kind": "local",
+  "start_value": "checkpoints/013_COLAB_FULL_B7_sft_grpo_seed1/sft_merged",
+  "adapter_hashes": {
+    "adapter_model.safetensors": "be17dce6c29ac01a2abb28f368c61fe1c39dd9eef62463e3b1050ff0412ba01e",
+    "adapter_config.json": "06fb06907554e6630e065ddca9396d140a8afc3dee58e7f6af8a028bf716aeb8",
+    "adapter_base.json": "bbe7839a8b4dcfa0474e911f8c556cb1525f78a4507c13eab970c6cd9bd31330"
+  },
+  "merged_hashes": {
+    "sft_merged/chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+    "sft_merged/config.json": "a855ce196e6cc954bec101379a7b8db760b819f906020c98d2081893dad7b4cb",
+    "sft_merged/generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+    "sft_merged/model.safetensors": "7d6b3883e793ea3819a941ae427f2645990aec00107f2bd5947560f42beafe0b",
+    "sft_merged/tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+    "sft_merged/tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+  }
+}

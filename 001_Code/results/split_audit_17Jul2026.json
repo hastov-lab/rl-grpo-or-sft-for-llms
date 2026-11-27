@@ -1,0 +1,536 @@
+{
+  "date": "2026-07-17",
+  "counts": {
+    "test": 1884,
+    "pool_raw": 246,
+    "pool_deduped": 245,
+    "test_by_subject": {
+      "high_school_psychology": 545,
+      "marketing": 234,
+      "us_foreign_policy": 100,
+      "high_school_geography": 198,
+      "philosophy": 311,
+      "business_ethics": 100,
+      "high_school_mathematics": 270,
+      "formal_logic": 126
+    },
+    "pool_by_subject": {
+      "high_school_psychology": 64,
+      "marketing": 30,
+      "us_foreign_policy": 16,
+      "high_school_geography": 27,
+      "philosophy": 39,
+      "business_ethics": 16,
+      "high_school_mathematics": 34,
+      "formal_logic": 19
+    }
+  },
+  "test_internal_exact_dups": [
+    {
+      "subject": "high_school_psychology",
+      "rows": [
+        51,
+        68
+      ],
+      "golds": [
+        "B",
+        "B"
+      ],
+      "question": "Garcia and Koelling's research regarding learned aversions established that which of the following UCS and CS pairs are "
+    },
+    {
+      "subject": "high_school_psychology",
+      "rows": [
+        135,
+        153
+      ],
+      "golds": [
+        "D",
+        "D"
+      ],
+      "question": "An artist doing a pencil drawing could use which of the following techniques to add depth to her or his drawing?\nA. reti"
+    },
+    {
+      "subject": "high_school_psychology",
+      "rows": [
+        14,
+        222
+      ],
+      "golds": [
+        "D",
+        "D"
+      ],
+      "question": "Which classical conditioning term best describes the following scenario: Later in his classical conditioning experiments"
+    },
+    {
+      "subject": "high_school_psychology",
+      "rows": [
+        193,
+        298
+      ],
+      "golds": [
+        "C",
+        "C"
+      ],
+      "question": "Which sentence most accurately describes how neurons communicate?\nA. Neurons communicate through physical contact betwee"
+    },
+    {
+      "subject": "high_school_psychology",
+      "rows": [
+        43,
+        323
+      ],
+      "golds": [
+        "B",
+        "B"
+      ],
+      "question": "Which of the following is an example of an implicit memory?\nA. describing the taste of the cake at your last birthday pa"
+    },
+    {
+      "subject": "high_school_psychology",
+      "rows": [
+        380,
+        396
+      ],
+      "golds": [
+        "B",
+        "B"
+      ],
+      "question": "Knowledge of different categories of trees and where they grow best is an example of what kind of long-term memory?\nA. e"
+    },
+    {
+      "subject": "high_school_psychology",
+      "rows": [
+        24,
+        423
+      ],
+      "golds": [
+        "C",
+        "C"
+      ],
+      "question": "Research indicates that which of the following factors most influence a person's sexual orientation?\nA. parenting style\n"
+    },
+    {
+      "subject": "high_school_psychology",
+      "rows": [
+        111,
+        425
+      ],
+      "golds": [
+        "B",
+        "B"
+      ],
+      "question": "The case study of Phineas Gage's brain injury was significant for which of the following reasons?\nA. Gage's accident was"
+    },
+    {
+      "subject": "high_school_psychology",
+      "rows": [
+        198,
+        466
+      ],
+      "golds": [
+        "C",
+        "C"
+      ],
+      "question": "Someone with brain damage who has difficulty making the muscle movements needed to produce accurate speech might have da"
+    },
+    {
+      "subject": "high_school_psychology",
+      "rows": [
+        251,
+        505
+      ],
+      "golds": [
+        "B",
+        "B"
+      ],
+      "question": "Which of the following would a researcher need to use to determine if the difference between the mean scores of experime"
+    },
+    {
+      "subject": "high_school_psychology",
+      "rows": [
+        71,
+        539
+      ],
+      "golds": [
+        "D",
+        "D"
+      ],
+      "question": "Which of the following structures is located at the most central and protected part of the brain?\nA. somato-sensory cort"
+    },
+    {
+      "subject": "us_foreign_policy",
+      "rows": [
+        811,
+        822
+      ],
+      "golds": [
+        "D",
+        "D"
+      ],
+      "question": "Which of the following are possible constraints on US foreign policy decision making?\nA. Foreign policies of other state"
+    }
+  ],
+  "pool_vs_test_near_dups_0.9": [],
+  "pool_vs_test_near_dups_0.8": [
+    {
+      "pool_subject": "high_school_mathematics",
+      "test_subject": "high_school_mathematics",
+      "score": 0.886,
+      "pool_q": "If the point $(3,6)$ is on the graph of $y=g(x)$, and $h(x)=(g(x))^2$ for all $x$, then there is one",
+      "test_q": "If the point $(3,6)$ is on the graph of $y=g(x)$, and $h(x)=(g(x))^2$ for all $x$, then there is one"
+    },
+    {
+      "pool_subject": "high_school_mathematics",
+      "test_subject": "high_school_mathematics",
+      "score": 0.806,
+      "pool_q": "Find the sum of the primes between 100 and 200, inclusive, that are 1 or 2 more than a perfect squar",
+      "test_q": "Find the sum of the primes between 100 and 200, inclusive, that are 1 or 2 more than a perfect squar"
+    },
+    {
+      "pool_subject": "high_school_mathematics",
+      "test_subject": "high_school_mathematics",
+      "score": 0.871,
+      "pool_q": "There are three real numbers $x$ that are not in the domain of $$f(x) = \\frac{1}{1+\\frac{1}{1+\\frac ",
+      "test_q": "There are three real numbers $x$ that are not in the domain of$$f(x) = \\frac{1}{1+\\frac{1}{1+\\frac 1"
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.811,
+      "pool_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl",
+      "test_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl"
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.808,
+      "pool_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl",
+      "test_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl"
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.811,
+      "pool_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl",
+      "test_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl"
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.843,
+      "pool_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl",
+      "test_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl"
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.808,
+      "pool_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl",
+      "test_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl"
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.833,
+      "pool_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl",
+      "test_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl"
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.807,
+      "pool_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine ",
+      "test_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine "
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.855,
+      "pool_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine ",
+      "test_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine "
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.818,
+      "pool_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine ",
+      "test_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine "
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.836,
+      "pool_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine ",
+      "test_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine "
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.836,
+      "pool_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine ",
+      "test_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine "
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.852,
+      "pool_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine ",
+      "test_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine "
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.833,
+      "pool_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine ",
+      "test_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine "
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.821,
+      "pool_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine ",
+      "test_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine "
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.807,
+      "pool_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine ",
+      "test_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine "
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.852,
+      "pool_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine ",
+      "test_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine "
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.818,
+      "pool_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine ",
+      "test_q": "Construct a complete truth table for the following argument. Then, using the truth table, determine "
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.86,
+      "pool_q": "Use indirect truth tables to determine whether the following argument is valid. If the argument is i",
+      "test_q": "Use indirect truth tables to determine whether the following argument is valid. If the argument is i"
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.84,
+      "pool_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl",
+      "test_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl"
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.875,
+      "pool_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl",
+      "test_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl"
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.837,
+      "pool_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl",
+      "test_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl"
+    },
+    {
+      "pool_subject": "formal_logic",
+      "test_subject": "formal_logic",
+      "score": 0.808,
+      "pool_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl",
+      "test_q": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tabl"
+    }
+  ],
+  "test_internal_near_dups_0.9": [
+    {
+      "subject_a": "high_school_psychology",
+      "subject_b": "high_school_psychology",
+      "rows": [
+        14,
+        222
+      ],
+      "score": 1.0
+    },
+    {
+      "subject_a": "high_school_psychology",
+      "subject_b": "high_school_psychology",
+      "rows": [
+        24,
+        423
+      ],
+      "score": 1.0
+    },
+    {
+      "subject_a": "high_school_psychology",
+      "subject_b": "high_school_psychology",
+      "rows": [
+        43,
+        323
+      ],
+      "score": 1.0
+    },
+    {
+      "subject_a": "high_school_psychology",
+      "subject_b": "high_school_psychology",
+      "rows": [
+        51,
+        68
+      ],
+      "score": 1.0
+    },
+    {
+      "subject_a": "high_school_psychology",
+      "subject_b": "high_school_psychology",
+      "rows": [
+        71,
+        539
+      ],
+      "score": 1.0
+    },
+    {
+      "subject_a": "high_school_psychology",
+      "subject_b": "high_school_psychology",
+      "rows": [
+        111,
+        425
+      ],
+      "score": 1.0
+    },
+    {
+      "subject_a": "high_school_psychology",
+      "subject_b": "high_school_psychology",
+      "rows": [
+        135,
+        153
+      ],
+      "score": 1.0
+    },
+    {
+      "subject_a": "high_school_psychology",
+      "subject_b": "high_school_psychology",
+      "rows": [
+        193,
+        298
+      ],
+      "score": 1.0
+    },
+    {
+      "subject_a": "high_school_psychology",
+      "subject_b": "high_school_psychology",
+      "rows": [
+        198,
+        466
+      ],
+      "score": 1.0
+    },
+    {
+      "subject_a": "high_school_psychology",
+      "subject_b": "high_school_psychology",
+      "rows": [
+        251,
+        505
+      ],
+      "score": 1.0
+    },
+    {
+      "subject_a": "high_school_psychology",
+      "subject_b": "high_school_psychology",
+      "rows": [
+        380,
+        396
+      ],
+      "score": 1.0
+    },
+    {
+      "subject_a": "us_foreign_policy",
+      "subject_b": "us_foreign_policy",
+      "rows": [
+        811,
+        822
+      ],
+      "score": 1.0
+    },
+    {
+      "subject_a": "high_school_geography",
+      "subject_b": "high_school_geography",
+      "rows": [
+        943,
+        962
+      ],
+      "score": 0.9
+    },
+    {
+      "subject_a": "high_school_mathematics",
+      "subject_b": "high_school_mathematics",
+      "rows": [
+        1493,
+        1536
+      ],
+      "score": 0.949
+    },
+    {
+      "subject_a": "high_school_mathematics",
+      "subject_b": "high_school_mathematics",
+      "rows": [
+        1511,
+        1736
+      ],
+      "score": 0.9
+    },
+    {
+      "subject_a": "high_school_mathematics",
+      "subject_b": "high_school_mathematics",
+      "rows": [
+        1617,
+        1731
+      ],
+      "score": 0.9
+    },
+    {
+      "subject_a": "formal_logic",
+      "subject_b": "formal_logic",
+      "rows": [
+        1764,
+        1781
+      ],
+      "score": 0.909
+    },
+    {
+      "subject_a": "formal_logic",
+      "subject_b": "formal_logic",
+      "rows": [
+        1781,
+        1862
+      ],
+      "score": 0.906
+    },
+    {
+      "subject_a": "formal_logic",
+      "subject_b": "formal_logic",
+      "rows": [
+        1795,
+        1849
+      ],
+      "score": 0.962
+    }
+  ],
+  "test_subject_gold_sha256": "e5cabe80311ea019f1ea091e64aa788be574368e8f7c71835b081abcb0bce4e8",
+  "gold_balance": {
+    "A": 417,
+    "B": 460,
+    "D": 545,
+    "C": 462
+  },
+  "hub_revisions": {
+    "cais/mmlu": "c30699e8356da336a370243923dbaf21066bb9fe",
+    "openai/gsm8k": "740312add88f781978c0658806c59bc2815b9866"
+  }
+}

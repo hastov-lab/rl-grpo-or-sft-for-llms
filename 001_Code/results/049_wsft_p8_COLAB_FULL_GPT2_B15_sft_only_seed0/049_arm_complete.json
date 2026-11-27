@@ -1,0 +1,11 @@
+{
+ "completed": true,
+ "experiment": "049",
+ "family": "wsft_p8",
+ "seed": 0,
+ "preflight_sha256": "8e809e816446f7ffa4208e852dc81b2a54cdb930d2824bd01f4d75f96aadd2e2",
+ "sha256": {
+  "049_sft_training.json": "4223a4679f5e02fef71ec4f24a6e5336e999cdbba3288be8363244d836424cf1",
+  "049_sft_eval_manifest.json": "37db448d29918b39b8edb268a947d1faf99a59aebcd16fe3313d620d774ca8ed"
+ }
+}

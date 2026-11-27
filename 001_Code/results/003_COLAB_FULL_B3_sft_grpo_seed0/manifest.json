@@ -1,0 +1,68 @@
+{
+  "run_tag": "003_COLAB_FULL_B3_sft_grpo_seed0",
+  "timestamp": "2026-07-12T15:03:47",
+  "env": "COLAB",
+  "mode": "FULL",
+  "scale": "B3",
+  "seed": 0,
+  "config": {
+    "lora": {
+      "r": 16,
+      "alpha": 32,
+      "dropout": 0.05,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ]
+    },
+    "reward": {
+      "correct_weight": 1.0,
+      "format_weight": 0.2,
+      "min_think_chars": 20
+    },
+    "train": {
+      "sft_lr": 0.0001,
+      "grpo_lr": 1e-05,
+      "max_steps": 500,
+      "num_generations": 8,
+      "max_seq_len": 1024,
+      "sft_batch_size": 4,
+      "sft_grad_accum": 4,
+      "sft_completion_only": true,
+      "sft_val_examples": 500,
+      "dtype": "auto",
+      "seed": 0
+    }
+  },
+  "git": {
+    "commit": "f19693db03ee2db151a73ffb065204061ce5ff87",
+    "dirty": false
+  },
+  "versions": {
+    "trl": "1.7.1",
+    "transformers": "5.5.4",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "datasets": "4.8.4",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.0.2"
+  },
+  "model_id": "Qwen/Qwen2.5-3B",
+  "timings_sec": {
+    "sft_train": 873.944,
+    "sft_eval": 5875.013,
+    "sft_logprob_eval": 34.716,
+    "grpo_train": 13321.965,
+    "grpo_eval": 3145.857,
+    "grpo_logprob_eval": 36.256
+  },
+  "gpu": {
+    "device": "NVIDIA A100-SXM4-80GB",
+    "peak_vram_gb": 50.403
+  }
+}

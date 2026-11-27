@@ -1,0 +1,35 @@
+{
+  "completed": true,
+  "task": "pilot",
+  "rung": "C",
+  "execution": {
+    "batch": 4,
+    "accum": 2,
+    "checkpointing": true
+  },
+  "gpu": {
+    "device": "NVIDIA A100-SXM4-80GB",
+    "peak_vram_gb": 0.0
+  },
+  "versions": {
+    "trl": "1.7.1",
+    "transformers": "5.5.4",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "datasets": "4.8.4",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.0.2",
+    "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+    "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+  },
+  "allocator_config": null,
+  "wall_seconds": 816.8,
+  "start_step": 0,
+  "end_step": 30,
+  "completed_updates": 30,
+  "peak_vram_gib": 72.2,
+  "peak_reserved_gib": 72.2,
+  "peak_allocated_gib": 64.67,
+  "total_vram_gib": 79.25,
+  "peak_reserved_fraction": 0.9109734420583406
+}

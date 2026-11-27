@@ -1,0 +1,51 @@
+{
+ "completed": true,
+ "experiment": "048",
+ "branch": "sft",
+ "binding": {
+  "completed": true,
+  "experiment": "048",
+  "stage": "sft",
+  "seed": 2,
+  "config_hash": "fd7decf6ff4532bcfa0a6d49232326c5735fcfa98eade59d27391333afce3c74",
+  "updates": 500,
+  "parameter_mode": "lora",
+  "storage_dtype": "float32",
+  "compute_dtype": "bfloat16",
+  "base_record_sha256": "70ac00dd8e11a160d6265ab5f4516f1877a58d5cead4b0e1de24184526c1c747",
+  "base_artifact_sha256": {
+   "artifact_type.json": "0625dc9f35d8cce4e6eb1fe8bcd0e43c0e2f6cf134f1e2ae4c32d84559e80095",
+   "config.json": "1d036614db5672407a68478e631f5d12cf994046f741f9eaa93af695a610bdce",
+   "generation_config.json": "6c53044d46226d4ceb2410ad49fe751b37a16cde6c518679b652dfa22d5970a1",
+   "model.safetensors": "1a0a64d3882e53450d5b70bb8a1a016f02a316edcbceb361d859778ef5363f53",
+   "model_base.json": "6434ecd57f1dc0a41e62f3169aeaa83ae67c615fd49a665bdbde56e842109bfb",
+   "tokenizer.json": "1fe93b6152957cf9cfd6d89002467f789ce8b3f3e000b3a2edf27c808ddd0b9e",
+   "tokenizer_config.json": "caab7b8a5a261a1d4cb142c2488acd9cb1c5c0154f681e5a38614a3a2c0cf8ce"
+  },
+  "wandb_runs": [
+   {
+    "path": "/content/drive/MyDrive/inm363/results/048_COLAB_FULL_GPT2_M774_sft_grpo_seed2/048_sft_wandb_runs/83fm54gb.json",
+    "sha256": "8b512782ae76696cd7b41aed7246cee115a63601142b1fb0d46dbfae367cbab3",
+    "project": "inm363-grpo",
+    "run_id": "83fm54gb",
+    "run_name": "048_COLAB_FULL_GPT2_M774_sft_grpo_seed2_sft"
+   }
+  ],
+  "artifact": {
+   "kind": "adapter",
+   "path": "/content/drive/MyDrive/inm363/checkpoints/048_COLAB_FULL_GPT2_M774_sft_grpo_seed2/sft",
+   "sha256": {
+    "adapter_model.safetensors": "75fed052d5a2bb0c8b840c5adf363ac4761ccbdf90312140a300880a44033657",
+    "adapter_config.json": "0e080aed4bb83ff34783b33ab60f4c1dfc6a7e39ab47efbd5447fb77dd3808de",
+    "adapter_base.json": "1f519cb1af30b1babf49bb425fa359d835a876a4e3c25ecd4bef908ddfdba13f",
+    "config_hash.txt": "e1ec4efbd5edc4b6ce9b28c398c47ba3c89b655c8a4ca4297fc083bc2ccebb70"
+   }
+  }
+ },
+ "sha256": {
+  "sft_preds.jsonl": "cb85cbd98b1623e777837204a87e0bb33a9974ca9040f8a82203972870cb77f4",
+  "sft_eval.json": "78c6e7277cc592b38fce82d41ca8f26ba944ecb02f4f6f1a76a74ccffd834725",
+  "sft_logprob_preds.jsonl": "2a48b3fd93a2f3ada977b6a770c3078e14a98c096b9b677b769110cf6c964173",
+  "sft_logprob.json": "cd901644e24e5e59592ad97990a57f66cad8f8c9e833e68de5f89596d1d27ec0"
+ }
+}

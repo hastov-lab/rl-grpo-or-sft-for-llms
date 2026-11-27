@@ -1,0 +1,27 @@
+{
+  "scale": "B3",
+  "mode": "FULL",
+  "condition": "SFT_ONLY",
+  "seed": 0,
+  "base_acc": null,
+  "sft_acc": {
+    "easy": 0.8475540386803185,
+    "medium": 0.7077175697865353,
+    "hard": 0.4595959595959596
+  },
+  "grpo_acc": null,
+  "reference": "sft",
+  "grpo_delta": null,
+  "base_logprob_acc": {
+    "easy": 0.856655290102389,
+    "medium": 0.729064039408867,
+    "hard": 0.4898989898989899
+  },
+  "sft_logprob_acc": {
+    "easy": 0.8543799772468714,
+    "medium": 0.7339901477832512,
+    "hard": 0.5126262626262627
+  },
+  "grpo_logprob_acc": null,
+  "grpo_logprob_delta": null
+}

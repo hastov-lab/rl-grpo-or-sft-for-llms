@@ -1,0 +1,60 @@
+# Pilot A of the 7b extension: 30 training-only steps at the ORIGINAL exec
+# settings (per-device 8, accum 1, no checkpointing) to measure whether 7b grpo
+# fits an a100-80gb as-is. Exploratory, isolated dirs, never touches the test
+# set (the notebook calls run_grpo directly, not the runner). Pass rule and the
+# full attempt sequence are pre-registered in the 7b plan doc
+experiment: "013_pilot_a"
+exploratory: true
+env: COLAB
+mode: FULL
+scale: B7
+condition: BASE_GRPO
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+
+reward:
+  correct_weight: 1.0
+  format_weight: 0.2
+  min_think_chars: 20
+
+train:
+  sft_lr: 1.0e-4
+  grpo_lr: 1.0e-5
+  max_steps: 30
+  num_generations: 8
+  max_seq_len: 1024
+  sft_batch_size: 4
+  sft_grad_accum: 4
+  sft_completion_only: true
+  sft_data: gsm8k
+  sft_val_examples: 500
+  dtype: auto
+  seed: 0
+
+grpo:
+  loss_type: grpo
+  beta: 0.04
+  scale_rewards: group
+  temperature: 1.0
+  top_p: 1.0
+  max_completion_length: 512
+
+eval:
+  max_new_tokens: 512
+  batch_size: 16
+
+log:
+  wandb_mode: online
+
+output_root: /content/drive/MyDrive/inm363
+
+# the whole point of pilot A: the untouched original execution settings
+exec:
+  grpo_batch_size: null
+  grpo_grad_accum: 1
+  gradient_checkpointing: false
+  max_train_hours: 24

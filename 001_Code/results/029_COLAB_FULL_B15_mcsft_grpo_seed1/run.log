@@ -1,0 +1,11 @@
+2026-08-12 09:19:07,630 INFO using wandb key from env
+2026-08-12 09:19:07,631 INFO run 029_COLAB_FULL_B15_mcsft_grpo_seed1 device=cuda stages=['base_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/029_COLAB_FULL_B15_mcsft_grpo_seed1
+2026-08-12 09:19:07,632 INFO base_eval already done, skipping
+2026-08-12 09:19:07,633 INFO base_logprob_eval already done, skipping
+2026-08-12 09:19:07,634 INFO base per-tier acc: {'easy': 0.4311717861205916, 'medium': 0.3497536945812808, 'hard': 0.2702020202020202}
+2026-08-12 09:19:07,912 INFO grpo adapter already there, not retraining
+2026-08-12 09:19:07,912 INFO grpo_eval already done, skipping
+2026-08-12 09:19:07,914 INFO grpo_logprob_eval already done, skipping
+2026-08-12 09:19:07,915 INFO grpo per-tier acc: {'easy': 0.8031854379977247, 'medium': 0.6880131362889984, 'hard': 0.44696969696969696}
+2026-08-12 09:19:17,646 INFO done. total wall time 10s
+2026-08-12 09:19:17,646 INFO results -> /content/drive/MyDrive/inm363/results/029_COLAB_FULL_B15_mcsft_grpo_seed1/  checkpoints -> /content/drive/MyDrive/inm363/checkpoints/029_COLAB_FULL_B15_mcsft_grpo_seed1/

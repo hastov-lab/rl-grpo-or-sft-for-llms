@@ -1,0 +1,15 @@
+2026-07-30 15:09:33,050 INFO using wandb key from env
+2026-07-30 15:09:33,051 INFO run 013_COLAB_FULL_B7_sft_grpo_seed2 device=cuda stages=['base_eval', 'sft', 'sft_eval', 'grpo', 'grpo_eval'] trackers=['tensorboard', 'wandb'] out=/content/drive/MyDrive/inm363/results/013_COLAB_FULL_B7_sft_grpo_seed2
+2026-07-30 15:09:33,051 INFO base_eval already done, skipping
+2026-07-30 15:09:34,009 INFO base_logprob_eval already done, skipping
+2026-07-30 15:09:34,621 INFO base per-tier acc: {'easy': 0.8691695108077361, 'medium': 0.735632183908046, 'hard': 0.5959595959595959}
+2026-07-30 15:26:03,514 INFO sft train done in 16m 28s | elapsed 16m 30s
+2026-07-30 16:07:54,718 INFO sft_eval done in 41m 48s | elapsed 58m 21s
+2026-07-30 16:08:37,511 INFO sft_logprob_eval done in 42s | elapsed 59m 04s
+2026-07-30 16:08:37,511 INFO sft per-tier acc: {'easy': 0.888509670079636, 'medium': 0.7783251231527094, 'hard': 0.6363636363636364}
+2026-07-30 18:34:35,017 INFO grpo train done in 2h 25m 57s | elapsed 3h 25m 01s
+2026-07-30 19:04:58,641 INFO grpo_eval done in 29m 48s | elapsed 3h 55m 25s
+2026-07-30 19:05:46,800 INFO grpo_logprob_eval done in 48s | elapsed 3h 56m 13s
+2026-07-30 19:05:46,800 INFO grpo per-tier acc: {'easy': 0.8862343572241184, 'medium': 0.7980295566502463, 'hard': 0.6439393939393939}
+2026-07-30 19:05:47,682 INFO done. total wall time 3h 56m 14s
+2026-07-30 19:05:47,683 INFO results -> /content/drive/MyDrive/inm363/results/013_COLAB_FULL_B7_sft_grpo_seed2/  checkpoints -> /content/drive/MyDrive/inm363/checkpoints/013_COLAB_FULL_B7_sft_grpo_seed2/

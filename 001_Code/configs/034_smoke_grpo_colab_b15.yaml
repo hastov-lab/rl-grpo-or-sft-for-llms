@@ -1,0 +1,66 @@
+# Experiment 034 smoke: GRPO timing check on the same disjoint fictional facts
+experiment: "034_smoke"
+exploratory: true
+env: COLAB
+mode: FULL
+scale: B15
+condition: EXTERNAL_SFT_GRPO
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+
+reward:
+  correct_weight: 1.0
+  format_weight: 0.2
+  min_think_chars: 20
+
+train:
+  sft_lr: 1.0e-4
+  grpo_lr: 1.0e-5
+  max_steps: 50
+  num_generations: 8
+  max_seq_len: 1024
+  sft_batch_size: 4
+  sft_grad_accum: 4
+  sft_completion_only: true
+  sft_data: synthetic_facts
+  sft_val_examples: 0
+  sft_from_adapter: checkpoints/009_COLAB_FULL_B15_sft_grpo_seed0/sft
+  grpo_from_adapter: ""
+  a2_action: abort
+  dtype: auto
+  seed: 0
+
+grpo:
+  loss_type: grpo
+  beta: 0.04
+  scale_rewards: group
+  temperature: 1.0
+  top_p: 1.0
+  max_completion_length: 512
+
+eval:
+  max_new_tokens: 512
+  batch_size: 16
+
+log:
+  trackers: [tensorboard, wandb]
+  save_steps: 25
+  save_total_limit: 2
+  log_completions: true
+  num_sample_completions: 20
+  wandb_project: inm363-grpo
+  wandb_mode: online
+  wandb_key_file: wandb_api_key.txt
+
+exec:
+  grpo_batch_size: 8
+  grpo_grad_accum: 1
+  gradient_checkpointing: false
+  max_train_hours: 2
+  allow_oom_fallback: false
+
+output_root: /content/drive/MyDrive/inm363

@@ -1,0 +1,20 @@
+{
+ "completed": true,
+ "experiment": "048",
+ "source": "openai-community/gpt2-large",
+ "source_revision": "32b71b12589c2f8d625668d2335a01cac3249519",
+ "base_record_sha256": "70ac00dd8e11a160d6265ab5f4516f1877a58d5cead4b0e1de24184526c1c747",
+ "max_abs_unpadded_logit_error": 2.288818359375e-05,
+ "max_abs_padded_logit_error": 2.288818359375e-05,
+ "abs_loss_error": 4.76837158203125e-07,
+ "max_abs_cached_logit_error": 7.62939453125e-06,
+ "reference_cache_error": 1.9073486328125e-05,
+ "scratch_cache_error": 2.288818359375e-05,
+ "generation_tokens_equal": true,
+ "generation_diagnostic": {
+  "first_divergence": null
+ },
+ "tied_parameter_and_storage": true,
+ "reload_logit_error": 0.0,
+ "max_new_tokens": 32
+}

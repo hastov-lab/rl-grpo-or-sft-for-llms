@@ -1,0 +1,24 @@
+{
+  "condition": "sft",
+  "metric": "logprob",
+  "n_items": 96,
+  "per_tier_acc": {
+    "synthetic": 0.20833333333333334
+  },
+  "per_subject_acc": {
+    "capital": 0.125,
+    "currency": 0.25,
+    "festival": 0.2916666666666667,
+    "instrument": 0.16666666666666666
+  },
+  "per_tier_ci": {
+    "synthetic": [
+      0.125,
+      0.2916666666666667
+    ]
+  },
+  "overall_ci": [
+    0.125,
+    0.2916666666666667
+  ]
+}

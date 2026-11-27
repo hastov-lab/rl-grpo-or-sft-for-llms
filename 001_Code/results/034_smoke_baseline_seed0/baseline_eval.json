@@ -1,0 +1,26 @@
+{
+  "condition": "baseline",
+  "n_items": 96,
+  "per_tier_acc": {
+    "synthetic": 0.2604166666666667
+  },
+  "per_subject_acc": {
+    "capital": 0.3333333333333333,
+    "currency": 0.25,
+    "festival": 0.3333333333333333,
+    "instrument": 0.125
+  },
+  "per_tier_ci": {
+    "synthetic": [
+      0.17708333333333334,
+      0.34375
+    ]
+  },
+  "overall_ci": [
+    0.17708333333333334,
+    0.34375
+  ],
+  "format_compliance": 0.9583333333333334,
+  "mean_len": 50.364583333333336,
+  "extraction_failure_rate": 0.020833333333333332
+}

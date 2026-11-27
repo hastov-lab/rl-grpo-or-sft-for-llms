@@ -1,0 +1,23 @@
+{
+ "n_prompts": 245,
+ "samples_per_prompt": 8,
+ "temperature": 1.0,
+ "share_single_completion": 0.2530612244897959,
+ "mean_distinct_completions": 2.4816326530612245,
+ "share_single_answer": 0.9673469387755103,
+ "mean_completion_tokens": 15.881122448979593,
+ "mean_accuracy_reward": 0.9959183673469387,
+ "format_rate": 0.9540816326530612,
+ "share_zero_reward_spread": 0.710204081632653,
+ "mean_reward_std": 0.029857402374705813,
+ "parent_tag": "007_p8_COLAB_FULL_B3_sft_only_seed1",
+ "adapter_sha256": {
+  "adapter_model.safetensors": "a8927a882604f2a8879522892a6a74da5f0bbd62d14344778e03ff3330d9af5e",
+  "adapter_config.json": "252325e26e5334558119ca37c0c8c7f645a5c9f875b5065c1d74d1053c81f7a3",
+  "adapter_base.json": "8bcc0caf63f66e2cc70151deb46ca6fa1dce4df0fc034c8930af3c3e5d26ee14",
+  "config_hash.txt": "6dc4fd750a4665c8e95355d529f881a031d3471f22ffa2b49284fb824b529955"
+ },
+ "split_revision": "c30699e8356da336a370243923dbaf21066bb9fe",
+ "ts": "2026-08-12 08:46",
+ "elapsed_sec": 112.3
+}

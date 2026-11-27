@@ -1,0 +1,58 @@
+{
+ "trainable_parameter_dtypes": [
+  "float32"
+ ],
+ "gradient_dtypes": [
+  "float32"
+ ],
+ "gradients_finite": true,
+ "parameters_finite": true,
+ "optimizer_states_finite": true,
+ "nonzero_gradient_elements": 18463464,
+ "optimizer_state_dtypes": [
+  "float32"
+ ],
+ "bf16_enabled": true,
+ "accelerator_mixed_precision": "bf16",
+ "module_changes": {
+  "attention": {
+   "tensor": "base_model.model.model.layers.0.self_attn.q_proj.lora_A.default.weight",
+   "tensor_elements": 24576,
+   "elements": 24576,
+   "changed_elements": 24576,
+   "changed_fraction": 1.0,
+   "mean_abs_change": 0.0001258963020518422,
+   "max_abs_change": 0.0005741063505411148,
+   "change_norm_ratio": 0.010693803030067433
+  },
+  "mlp": {
+   "tensor": "base_model.model.model.layers.0.mlp.gate_proj.lora_A.default.weight",
+   "tensor_elements": 24576,
+   "elements": 24576,
+   "changed_elements": 24576,
+   "changed_fraction": 1.0,
+   "mean_abs_change": 0.0002639142330735922,
+   "max_abs_change": 0.0008085425943136215,
+   "change_norm_ratio": 0.020931360105459172
+  }
+ },
+ "reference_gate": {
+  "verified": true,
+  "reference_kind": "adapter_disabled"
+ },
+ "wandb_run_record": {
+  "completed": true,
+  "experiment": "035b",
+  "scale": "B15",
+  "seed": 0,
+  "parameter_mode": "lora",
+  "rung": "A_GC",
+  "project": "inm363-grpo",
+  "run_id": "iceudq3i",
+  "run_name": "035_COLAB_FULL_B15_matched_lora_grpo_seed0_grpo",
+  "entity": "gogastov-city-university-of-london",
+  "config_hash": "d03c3468d8c74c6baf7e16059ce86f715e92dbb010339cfdc61fa44f3afccfd6",
+  "execution_binding_sha256": "06bfb3f2e9eefc90f8015e22e56b103a6f6dda404a5be0d8794750112c171ab6",
+  "first_recorded_step": 101
+ }
+}

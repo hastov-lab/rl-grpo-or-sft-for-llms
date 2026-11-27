@@ -1,0 +1,46 @@
+# Frozen protocol v1, locked 11 jul 2026 after experiments 001 and 002.
+# Git tag: protocol-freeze-v1. Nothing in the frozen sections changes for the
+# remainder of the study, otherwise the cross-scale comparison (rq2) breaks.
+# Per-experiment configs may differ ONLY in: experiment, scale, condition,
+# train.seed, env/mode, output_root and the log block. A unit test enforces this.
+#
+# Provenance of every value: decision session 10 jul + amendments validated in experiment 002.
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  # Qwen module names. The gpt2 path (experiment 009) is full ft, not lora,
+  # so this section does not bind it
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+
+reward:
+  correct_weight: 1.0
+  format_weight: 0.2
+  min_think_chars: 20   # kept at 20 deliberately, the vestigial think finding is reported, not patched
+
+train:
+  sft_lr: 1.0e-4
+  grpo_lr: 1.0e-5
+  max_steps: 500        # kept at 500, the 002 accuracy curve was still rising here
+  num_generations: 8    # n=4 only in the designated ablation experiment
+  max_seq_len: 1024
+  # The frozen quantity here is the EFFECTIVE sft batch of 16. The per device
+  # split (and the exec: section) is memory plumbing and may vary per scale
+  sft_batch_size: 4
+  sft_grad_accum: 4
+  sft_completion_only: true
+  sft_val_examples: 500
+  dtype: auto
+
+grpo:
+  loss_type: grpo
+  beta: 0.04
+  scale_rewards: group
+  temperature: 1.0
+  top_p: 1.0
+  max_completion_length: 512
+
+eval:
+  max_new_tokens: 512
+  batch_size: 16

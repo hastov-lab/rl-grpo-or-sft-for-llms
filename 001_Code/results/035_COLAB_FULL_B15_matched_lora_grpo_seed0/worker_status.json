@@ -1,0 +1,105 @@
+{
+  "completed": true,
+  "task": "train",
+  "rung": "A_GC",
+  "execution": {
+    "batch": 8,
+    "accum": 1,
+    "checkpointing": true
+  },
+  "gpu": {
+    "device": "NVIDIA A100-SXM4-80GB",
+    "peak_vram_gb": 0.0
+  },
+  "versions": {
+    "trl": "1.7.1",
+    "transformers": "5.5.4",
+    "peft": "0.19.1",
+    "accelerate": "1.14.0",
+    "datasets": "4.8.4",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.0.2",
+    "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+    "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+  },
+  "allocator_config": "expandable_segments:True",
+  "wall_seconds": 7729.1,
+  "start_step": 100,
+  "end_step": 500,
+  "completed_updates": 400,
+  "peak_vram_gib": 17.4,
+  "peak_reserved_gib": 17.4,
+  "peak_allocated_gib": 16.66,
+  "total_vram_gib": 79.25,
+  "peak_reserved_fraction": 0.21956125947672753,
+  "training_record": {
+    "completed": true,
+    "scale": "B15",
+    "seed": 0,
+    "parameter_mode": "lora",
+    "rung": "A_GC",
+    "execution": {
+      "batch": 8,
+      "accum": 1,
+      "checkpointing": true
+    },
+    "config_hash": "d03c3468d8c74c6baf7e16059ce86f715e92dbb010339cfdc61fa44f3afccfd6",
+    "start_record": {
+      "experiment": "035",
+      "scale": "B15",
+      "seed": 0,
+      "source_tag": "009_COLAB_FULL_B15_sft_grpo_seed0",
+      "source_config": "configs/009_colab_full_b15_seed0.yaml",
+      "source_manifest": "/content/drive/MyDrive/inm363/results/009_COLAB_FULL_B15_sft_grpo_seed0/manifest.json",
+      "source_manifest_sha256": "e581aeeb53c8631ddc4d063ef2163acde8015313670980b91305a2bddef4e2fb",
+      "historical_adapter_base": "/content/drive/MyDrive/inm363/checkpoints/009_COLAB_FULL_B15_sft_grpo_seed0/grpo/adapter_base.json",
+      "historical_adapter_base_sha256": "8722192e0c85986e7b010920967e294fb71115eaf402ea15a33b5521cb41e190",
+      "start": "/content/drive/MyDrive/inm363/checkpoints/009_COLAB_FULL_B15_sft_grpo_seed0/sft_merged",
+      "start_sha256": {
+        "chat_template.jinja": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+        "config.json": "23e5bdea36342ea968d7d4cf580478c9040f6dbe91f93c4498e7a70d555a80c4",
+        "generation_config.json": "aa45f8636f1dc3287fb513e77ee3b822186b163aaa82f3f08d0c88eb34db7601",
+        "model.safetensors": "5f01dbbced686976b568737ba3e820eade00b8f263d377a726a7fb47bce6466c",
+        "tokenizer.json": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+        "tokenizer_config.json": "f48204d05aa24f8a7eb54a4512cfadd3c8be95ef8197757ece053b29696e5cdd"
+      },
+      "binding_level": "path_provenance_and_current_hashes",
+      "lineage_sha256": null
+    },
+    "precision_report_sha256": "ce9c8149d2b2178f2f5360e2b87d3de6eaf0c65f3d0f0101e8059205e5d313bc",
+    "a2_verdict_sha256": "8245ceabd229a61647941beff65084fe51d0113e20c5c2f56d35539ba61c0c63",
+    "artifact": {
+      "kind": "lora",
+      "sha256": {
+        "adapter_model.safetensors": "5f46b47392906620cce2f7a851847fa66e4cde9f39740fae69defd18a92acb43",
+        "adapter_config.json": "b3c1209f29bd2f5ca912bfa365a7fe727529890e5f88b4403043e56c40e2e17d",
+        "adapter_base.json": "8722192e0c85986e7b010920967e294fb71115eaf402ea15a33b5521cb41e190",
+        "config_hash.txt": "2e22215d3aa535e5c93ed265a1b6522a7e59d6991d1c7548bfa8b6c2f78dc630"
+      }
+    },
+    "wandb_runs": [
+      {
+        "path": "/content/drive/MyDrive/inm363/results/035_COLAB_FULL_B15_matched_lora_grpo_seed0/035_wandb_runs/i6po5qur.json",
+        "sha256": "4b418324d54ac2f5db068b3c9fed924764f39f31fa9781bb5b765840d30252f4",
+        "project": "inm363-grpo",
+        "run_id": "i6po5qur",
+        "run_name": "035_COLAB_FULL_B15_matched_lora_grpo_seed0_grpo"
+      },
+      {
+        "path": "/content/drive/MyDrive/inm363/results/035_COLAB_FULL_B15_matched_lora_grpo_seed0/035_wandb_runs/iceudq3i.json",
+        "sha256": "acba895ab4f19076951857420c9d2999f844df5a4b340f5b272b543031091927",
+        "project": "inm363-grpo",
+        "run_id": "iceudq3i",
+        "run_name": "035_COLAB_FULL_B15_matched_lora_grpo_seed0_grpo"
+      }
+    ],
+    "infrastructure_resume": {
+      "path": "/content/drive/MyDrive/inm363/results/035_technical/035_b15_lora_drive_resume.json",
+      "sha256": "398981738d45748564b60083b7cd9fbd197fa9d047f2c8f48dd6c12335c5c04a",
+      "report_to": [
+        "wandb"
+      ]
+    },
+    "record_path": "/content/drive/MyDrive/inm363/results/035_COLAB_FULL_B15_matched_lora_grpo_seed0/035_training_complete.json"
+  }
+}

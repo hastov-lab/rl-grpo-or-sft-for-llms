@@ -1,0 +1,61 @@
+{
+ "timestamp": "2026-08-21T00:21:52",
+ "package": "040_w19",
+ "completed": true,
+ "scale": "B3",
+ "seed": 1,
+ "source_record_sha256": "b8e91c45e63dcaa5345487de2406d5747a68424e40a2efb9ac78a944af7d82f5",
+ "resolved_dtype": "bfloat16",
+ "measurement_order": [
+  "adapter",
+  "merged"
+ ],
+ "comparison": {
+  "n_items": 245,
+  "agreement": 0.97142857,
+  "n_changed": 7,
+  "changed_fraction": 0.02857143,
+  "adapter_accuracy": 0.73877551,
+  "merged_accuracy": 0.74285714,
+  "accuracy_delta": 0.00408163,
+  "flips": {
+   "correct_to_wrong": 3,
+   "wrong_to_correct": 4,
+   "wrong_to_different_wrong": 0
+  },
+  "top_two_margin": {
+   "changed_mean": 0.07142857,
+   "changed_median": 0.125,
+   "unchanged_mean": 2.31013655,
+   "unchanged_median": 1.75
+  },
+  "changed_by_subject": {
+   "formal_logic": 1,
+   "high_school_mathematics": 3,
+   "high_school_psychology": 2,
+   "marketing": 1
+  }
+ },
+ "sha256": {
+  "adapter_logprob.json": "9ef2a1137a51a7601b559c826eb10a7ad8e648ce7e3f2673e450ad23ff0e87a1",
+  "adapter_logprob_preds.jsonl": "c1316dc19ed9a321e1d8a38c2a14c339e623360932514474420f34195da715a3",
+  "merged_logprob.json": "9d96660efcdb3e3b2a63d3388fa4085ef640bf236fc67430fe675679ddc6a369",
+  "merged_logprob_preds.jsonl": "3d402d6aac2422164e228ff5a519d045d63816069203170df9084b82771d44e1"
+ },
+ "gpu": {
+  "device": "NVIDIA A100-SXM4-80GB",
+  "peak_vram_gb": 0.0
+ },
+ "versions": {
+  "trl": "1.7.1",
+  "transformers": "5.5.4",
+  "peft": "0.19.1",
+  "accelerate": "1.14.0",
+  "datasets": "4.8.4",
+  "torch": "2.11.0+cu128",
+  "numpy": "2.0.2",
+  "cais/mmlu@": "c30699e8356da336a370243923dbaf21066bb9fe",
+  "openai/gsm8k@": "740312add88f781978c0658806c59bc2815b9866"
+ },
+ "model_test_contacts": 0
+}
